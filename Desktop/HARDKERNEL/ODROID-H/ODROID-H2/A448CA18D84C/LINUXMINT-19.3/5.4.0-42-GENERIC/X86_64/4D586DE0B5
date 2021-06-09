@@ -1,0 +1,1221 @@
+
+Bus 002 Device 003: ID 05e3:0626 Genesys Logic, Inc. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x05e3 Genesys Logic, Inc.
+  idProduct          0x0626 
+  bcdDevice            6.54
+  iManufacturer           1 GenesysLogic
+  iProduct                2 USB3.1 Hub
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           31
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              1 GenesysLogic
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes           19
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Feedback
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval               8
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              64
+  bDescriptorType     203
+  nNbrPorts           136
+  wHubCharacteristic 0xfea4
+    Ganged power switching
+    Compound device
+    Ganged overcurrent protection
+  bPwrOn2PwrGood      127 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay          3584 nano seconds
+  DeviceRemovable    0x40 0x00 0x00
+ Hub Port Status:
+   Port 1: 0000.02a0 lowspeed
+   Port 2: 0000.02a0 lowspeed
+   Port 3: 0000.02a0 lowspeed
+   Port 4: 0000.02a0 lowspeed
+   Port 5: 0000.02a0 lowspeed
+   Port 6: 0000.02a0 lowspeed
+   Port 7: 0000.02a0 lowspeed
+   Port 8: 0000.02a0 lowspeed
+   Port 9: 0000.02a0 lowspeed
+   Port 10: 0000.02a0 lowspeed
+   Port 11: 0000.02a0 lowspeed
+   Port 12: 0000.02a0 lowspeed
+   Port 13: 0000.02a0 lowspeed
+   Port 14: 0000.02a0 lowspeed
+   Port 15: 0000.02a0 lowspeed
+   Port 16: 0000.02a0 lowspeed
+   Port 17: 0000.02a0 lowspeed
+   Port 18: 0000.02a0 lowspeed
+   Port 19: 0000.02a0 lowspeed
+   Port 20: 0000.02a0 lowspeed
+   Port 21: 0000.02a0 lowspeed
+   Port 22: 0000.02a0 lowspeed
+   Port 23: 0000.02a0 lowspeed
+   Port 24: 0000.02a0 lowspeed
+   Port 25: 0000.02a0 lowspeed
+   Port 26: 0000.02a0 lowspeed
+   Port 27: 0000.02a0 lowspeed
+   Port 28: 0000.02a0 lowspeed
+   Port 29: 0000.02a0 lowspeed
+   Port 30: 0000.02a0 lowspeed
+   Port 31: 0000.02a0 lowspeed
+   Port 32: 0000.02a0 lowspeed
+   Port 33: 0000.02a0 lowspeed
+   Port 34: 0000.02a0 lowspeed
+   Port 35: 0000.02a0 lowspeed
+   Port 36: 0000.02a0 lowspeed
+   Port 37: 0000.02a0 lowspeed
+   Port 38: 0000.02a0 lowspeed
+   Port 39: 0000.02a0 lowspeed
+   Port 40: 0000.02a0 lowspeed
+   Port 41: 0000.02a0 lowspeed
+   Port 42: 0000.02a0 lowspeed
+   Port 43: 0000.02a0 lowspeed
+   Port 44: 0000.02a0 lowspeed
+   Port 45: 0000.02a0 lowspeed
+   Port 46: 0000.02a0 lowspeed
+   Port 47: 0000.02a0 lowspeed
+   Port 48: 0000.02a0 lowspeed
+   Port 49: 0000.02a0 lowspeed
+   Port 50: 0000.02a0 lowspeed
+   Port 51: 0000.02a0 lowspeed
+   Port 52: 0000.02a0 lowspeed
+   Port 53: 0000.02a0 lowspeed
+   Port 54: 0000.02a0 lowspeed
+   Port 55: 0000.02a0 lowspeed
+   Port 56: 0000.02a0 lowspeed
+   Port 57: 0000.02a0 lowspeed
+   Port 58: 0000.02a0 lowspeed
+   Port 59: 0000.02a0 lowspeed
+   Port 60: 0000.02a0 lowspeed
+   Port 61: 0000.02a0 lowspeed
+   Port 62: 0000.02a0 lowspeed
+   Port 63: 0000.02a0 lowspeed
+   Port 64: 0000.02a0 lowspeed
+   Port 65: 0000.02a0 lowspeed
+   Port 66: 0000.02a0 lowspeed
+   Port 67: 0000.02a0 lowspeed
+   Port 68: 0000.02a0 lowspeed
+   Port 69: 0000.02a0 lowspeed
+   Port 70: 0000.02a0 lowspeed
+   Port 71: 0000.02a0 lowspeed
+   Port 72: 0000.02a0 lowspeed
+   Port 73: 0000.02a0 lowspeed
+   Port 74: 0000.02a0 lowspeed
+   Port 75: 0000.02a0 lowspeed
+   Port 76: 0000.02a0 lowspeed
+   Port 77: 0000.02a0 lowspeed
+   Port 78: 0000.02a0 lowspeed
+   Port 79: 0000.02a0 lowspeed
+   Port 80: 0000.02a0 lowspeed
+   Port 81: 0000.02a0 lowspeed
+   Port 82: 0000.02a0 lowspeed
+   Port 83: 0000.02a0 lowspeed
+   Port 84: 0000.02a0 lowspeed
+   Port 85: 0000.02a0 lowspeed
+   Port 86: 0000.02a0 lowspeed
+   Port 87: 0000.02a0 lowspeed
+   Port 88: 0000.02a0 lowspeed
+   Port 89: 0000.02a0 lowspeed
+   Port 90: 0000.02a0 lowspeed
+   Port 91: 0000.02a0 lowspeed
+   Port 92: 0000.02a0 lowspeed
+   Port 93: 0000.02a0 lowspeed
+   Port 94: 0000.02a0 lowspeed
+   Port 95: 0000.02a0 lowspeed
+   Port 96: 0000.02a0 lowspeed
+   Port 97: 0000.02a0 lowspeed
+   Port 98: 0000.02a0 lowspeed
+   Port 99: 0000.02a0 lowspeed
+   Port 100: 0000.02a0 lowspeed
+   Port 101: 0000.02a0 lowspeed
+   Port 102: 0000.02a0 lowspeed
+   Port 103: 0000.02a0 lowspeed
+   Port 104: 0000.02a0 lowspeed
+   Port 105: 0000.02a0 lowspeed
+   Port 106: 0000.02a0 lowspeed
+   Port 107: 0000.02a0 lowspeed
+   Port 108: 0000.02a0 lowspeed
+   Port 109: 0000.02a0 lowspeed
+   Port 110: 0000.02a0 lowspeed
+   Port 111: 0000.02a0 lowspeed
+   Port 112: 0000.02a0 lowspeed
+   Port 113: 0000.02a0 lowspeed
+   Port 114: 0000.02a0 lowspeed
+   Port 115: 0000.02a0 lowspeed
+   Port 116: 0000.02a0 lowspeed
+   Port 117: 0000.02a0 lowspeed
+   Port 118: 0000.02a0 lowspeed
+   Port 119: 0000.02a0 lowspeed
+   Port 120: 0000.02a0 lowspeed
+   Port 121: 0000.02a0 lowspeed
+   Port 122: 0000.02a0 lowspeed
+   Port 123: 0000.02a0 lowspeed
+   Port 124: 0000.02a0 lowspeed
+   Port 125: 0000.02a0 lowspeed
+   Port 126: 0000.02a0 lowspeed
+   Port 127: 0000.02a0 lowspeed
+   Port 128: 0000.02a0 lowspeed
+   Port 129: 0000.02a0 lowspeed
+   Port 130: 0000.02a0 lowspeed
+   Port 131: 0000.02a0 lowspeed
+   Port 132: 0000.02a0 lowspeed
+   Port 133: 0000.02a0 lowspeed
+   Port 134: 0000.02a0 lowspeed
+   Port 135: 0000.02a0 lowspeed
+   Port 136: 0000.02a0 lowspeed
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength           42
+  bNumDeviceCaps          3
+  USB 2.0 Extension Device Capability:
+    bLength                 7
+    bDescriptorType        16
+    bDevCapabilityType      2
+    bmAttributes   0x00000006
+      Link Power Management (LPM) Supported
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x00
+    wSpeedsSupported   0x000e
+      Device can operate at Full Speed (12Mbps)
+      Device can operate at High Speed (480Mbps)
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat           8 micro seconds
+    bU2DevExitLat         190 micro seconds
+  Container ID Device Capability:
+    bLength                20
+    bDescriptorType        16
+    bDevCapabilityType      4
+    bReserved               0
+    ContainerID             {FB30199B-627A-1CF9-38DC-62477F001B5F}
+Device Status:     0x000d
+  Self Powered
+  U1 Enabled
+  U2 Enabled
+
+Bus 002 Device 002: ID 05e3:0626 Genesys Logic, Inc. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x05e3 Genesys Logic, Inc.
+  idProduct          0x0626 
+  bcdDevice            6.54
+  iManufacturer           1 GenesysLogic
+  iProduct                2 USB3.1 Hub
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           31
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              1 GenesysLogic
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes           19
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Feedback
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval               8
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              64
+  bDescriptorType     203
+  nNbrPorts           136
+  wHubCharacteristic 0xfea4
+    Ganged power switching
+    Compound device
+    Ganged overcurrent protection
+  bPwrOn2PwrGood      127 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay          3584 nano seconds
+  DeviceRemovable    0x40 0x00 0x00
+ Hub Port Status:
+   Port 1: 0000.0263 lowspeed enable connect
+   Port 2: 0000.02a0 lowspeed
+   Port 3: 0000.02a0 lowspeed
+   Port 4: 0000.02a0 lowspeed
+   Port 5: 0000.02a0 lowspeed
+   Port 6: 0000.02a0 lowspeed
+   Port 7: 0000.02a0 lowspeed
+   Port 8: 0000.02a0 lowspeed
+   Port 9: 0000.02a0 lowspeed
+   Port 10: 0000.02a0 lowspeed
+   Port 11: 0000.02a0 lowspeed
+   Port 12: 0000.02a0 lowspeed
+   Port 13: 0000.02a0 lowspeed
+   Port 14: 0000.02a0 lowspeed
+   Port 15: 0000.02a0 lowspeed
+   Port 16: 0000.02a0 lowspeed
+   Port 17: 0000.02a0 lowspeed
+   Port 18: 0000.02a0 lowspeed
+   Port 19: 0000.02a0 lowspeed
+   Port 20: 0000.02a0 lowspeed
+   Port 21: 0000.02a0 lowspeed
+   Port 22: 0000.02a0 lowspeed
+   Port 23: 0000.02a0 lowspeed
+   Port 24: 0000.02a0 lowspeed
+   Port 25: 0000.02a0 lowspeed
+   Port 26: 0000.02a0 lowspeed
+   Port 27: 0000.02a0 lowspeed
+   Port 28: 0000.02a0 lowspeed
+   Port 29: 0000.02a0 lowspeed
+   Port 30: 0000.02a0 lowspeed
+   Port 31: 0000.02a0 lowspeed
+   Port 32: 0000.02a0 lowspeed
+   Port 33: 0000.02a0 lowspeed
+   Port 34: 0000.02a0 lowspeed
+   Port 35: 0000.02a0 lowspeed
+   Port 36: 0000.02a0 lowspeed
+   Port 37: 0000.02a0 lowspeed
+   Port 38: 0000.02a0 lowspeed
+   Port 39: 0000.02a0 lowspeed
+   Port 40: 0000.02a0 lowspeed
+   Port 41: 0000.02a0 lowspeed
+   Port 42: 0000.02a0 lowspeed
+   Port 43: 0000.02a0 lowspeed
+   Port 44: 0000.02a0 lowspeed
+   Port 45: 0000.02a0 lowspeed
+   Port 46: 0000.02a0 lowspeed
+   Port 47: 0000.02a0 lowspeed
+   Port 48: 0000.02a0 lowspeed
+   Port 49: 0000.02a0 lowspeed
+   Port 50: 0000.02a0 lowspeed
+   Port 51: 0000.02a0 lowspeed
+   Port 52: 0000.02a0 lowspeed
+   Port 53: 0000.02a0 lowspeed
+   Port 54: 0000.02a0 lowspeed
+   Port 55: 0000.02a0 lowspeed
+   Port 56: 0000.02a0 lowspeed
+   Port 57: 0000.02a0 lowspeed
+   Port 58: 0000.02a0 lowspeed
+   Port 59: 0000.02a0 lowspeed
+   Port 60: 0000.02a0 lowspeed
+   Port 61: 0000.02a0 lowspeed
+   Port 62: 0000.02a0 lowspeed
+   Port 63: 0000.02a0 lowspeed
+   Port 64: 0000.02a0 lowspeed
+   Port 65: 0000.02a0 lowspeed
+   Port 66: 0000.02a0 lowspeed
+   Port 67: 0000.02a0 lowspeed
+   Port 68: 0000.02a0 lowspeed
+   Port 69: 0000.02a0 lowspeed
+   Port 70: 0000.02a0 lowspeed
+   Port 71: 0000.02a0 lowspeed
+   Port 72: 0000.02a0 lowspeed
+   Port 73: 0000.02a0 lowspeed
+   Port 74: 0000.02a0 lowspeed
+   Port 75: 0000.02a0 lowspeed
+   Port 76: 0000.02a0 lowspeed
+   Port 77: 0000.02a0 lowspeed
+   Port 78: 0000.02a0 lowspeed
+   Port 79: 0000.02a0 lowspeed
+   Port 80: 0000.02a0 lowspeed
+   Port 81: 0000.02a0 lowspeed
+   Port 82: 0000.02a0 lowspeed
+   Port 83: 0000.02a0 lowspeed
+   Port 84: 0000.02a0 lowspeed
+   Port 85: 0000.02a0 lowspeed
+   Port 86: 0000.02a0 lowspeed
+   Port 87: 0000.02a0 lowspeed
+   Port 88: 0000.02a0 lowspeed
+   Port 89: 0000.02a0 lowspeed
+   Port 90: 0000.02a0 lowspeed
+   Port 91: 0000.02a0 lowspeed
+   Port 92: 0000.02a0 lowspeed
+   Port 93: 0000.02a0 lowspeed
+   Port 94: 0000.02a0 lowspeed
+   Port 95: 0000.02a0 lowspeed
+   Port 96: 0000.02a0 lowspeed
+   Port 97: 0000.02a0 lowspeed
+   Port 98: 0000.02a0 lowspeed
+   Port 99: 0000.02a0 lowspeed
+   Port 100: 0000.02a0 lowspeed
+   Port 101: 0000.02a0 lowspeed
+   Port 102: 0000.02a0 lowspeed
+   Port 103: 0000.02a0 lowspeed
+   Port 104: 0000.02a0 lowspeed
+   Port 105: 0000.02a0 lowspeed
+   Port 106: 0000.02a0 lowspeed
+   Port 107: 0000.02a0 lowspeed
+   Port 108: 0000.02a0 lowspeed
+   Port 109: 0000.02a0 lowspeed
+   Port 110: 0000.02a0 lowspeed
+   Port 111: 0000.02a0 lowspeed
+   Port 112: 0000.02a0 lowspeed
+   Port 113: 0000.02a0 lowspeed
+   Port 114: 0000.02a0 lowspeed
+   Port 115: 0000.02a0 lowspeed
+   Port 116: 0000.02a0 lowspeed
+   Port 117: 0000.02a0 lowspeed
+   Port 118: 0000.02a0 lowspeed
+   Port 119: 0000.02a0 lowspeed
+   Port 120: 0000.02a0 lowspeed
+   Port 121: 0000.02a0 lowspeed
+   Port 122: 0000.02a0 lowspeed
+   Port 123: 0000.02a0 lowspeed
+   Port 124: 0000.02a0 lowspeed
+   Port 125: 0000.02a0 lowspeed
+   Port 126: 0000.02a0 lowspeed
+   Port 127: 0000.02a0 lowspeed
+   Port 128: 0000.02a0 lowspeed
+   Port 129: 0000.02a0 lowspeed
+   Port 130: 0000.02a0 lowspeed
+   Port 131: 0000.02a0 lowspeed
+   Port 132: 0000.02a0 lowspeed
+   Port 133: 0000.02a0 lowspeed
+   Port 134: 0000.02a0 lowspeed
+   Port 135: 0000.02a0 lowspeed
+   Port 136: 0000.02a0 lowspeed
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength           42
+  bNumDeviceCaps          3
+  USB 2.0 Extension Device Capability:
+    bLength                 7
+    bDescriptorType        16
+    bDevCapabilityType      2
+    bmAttributes   0x00000006
+      Link Power Management (LPM) Supported
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x00
+    wSpeedsSupported   0x000e
+      Device can operate at Full Speed (12Mbps)
+      Device can operate at High Speed (480Mbps)
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat           8 micro seconds
+    bU2DevExitLat         190 micro seconds
+  Container ID Device Capability:
+    bLength                20
+    bDescriptorType        16
+    bDevCapabilityType      4
+    bReserved               0
+    ContainerID             {FB30199B-627A-1CF9-38DC-62477F001B5F}
+Device Status:     0x000d
+  Self Powered
+  U1 Enabled
+  U2 Enabled
+
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0003 3.0 root hub
+  bcdDevice            5.04
+  iManufacturer           3 Linux 5.4.0-42-generic xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           31
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              12
+  bDescriptorType      42
+  nNbrPorts             7
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay             0 nano seconds
+  DeviceRemovable    0x00
+ Hub Port Status:
+   Port 1: 0000.0263 5Gbps power suspend enable connect
+   Port 2: 0000.02a0 5Gbps power Rx.Detect
+   Port 3: 0000.02a0 5Gbps power Rx.Detect
+   Port 4: 0000.02a0 5Gbps power Rx.Detect
+   Port 5: 0000.02a0 5Gbps power Rx.Detect
+   Port 6: 0000.02a0 5Gbps power Rx.Detect
+   Port 7: 0000.02a0 5Gbps power Rx.Detect
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength           15
+  bNumDeviceCaps          1
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x02
+      Latency Tolerance Messages (LTM) Supported
+    wSpeedsSupported   0x0008
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   3
+      Lowest fully-functional device speed is SuperSpeed (5Gbps)
+    bU1DevExitLat          10 micro seconds
+    bU2DevExitLat         512 micro seconds
+Device Status:     0x0001
+  Self Powered
+
+Bus 001 Device 004: ID 04f2:0841 Chicony Electronics Co., Ltd HP Multimedia Keyboard
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x04f2 Chicony Electronics Co., Ltd
+  idProduct          0x0841 HP Multimedia Keyboard
+  bcdDevice            1.00
+  iManufacturer           1 CHICONY
+  iProduct                2 HP USB Multimedia Keyboard
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           59
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.11
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      65
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.11
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     127
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              10
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 001 Device 007: ID 0603:2801 Novatek Microelectronics Corp. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x0603 Novatek Microelectronics Corp.
+  idProduct          0x2801 
+  bcdDevice            1.00
+  iManufacturer           0 
+  iProduct                0 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           59
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      64
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval               8
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      2 Mouse
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     119
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval               8
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 001 Device 006: ID 05ac:055b Apple, Inc. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x055b 
+  bcdDevice            2.00
+  iManufacturer           1 Xiaoji
+  iProduct                2 Gamesir-G3w
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           41
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              500mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 No Subclass
+      bInterfaceProtocol      0 None
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     137
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0020  1x 32 bytes
+        bInterval              10
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0020  1x 32 bytes
+        bInterval              10
+Device Status:     0x0010
+  (Bus Powered)
+
+Bus 001 Device 008: ID 3938:1047  
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x3938 
+  idProduct          0x1047 
+  bcdDevice            1.06
+  iManufacturer           1 MOSART Semi.
+  iProduct                2 2.4G Wireless Mouse
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           59
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      65
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      2 Mouse
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     194
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0007  1x 7 bytes
+        bInterval               4
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 001 Device 005: ID 05e3:0610 Genesys Logic, Inc. 4-port hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x05e3 Genesys Logic, Inc.
+  idProduct          0x0610 4-port hub
+  bcdDevice            6.54
+  iManufacturer           1 GenesysLogic
+  iProduct                2 USB2.1 Hub
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0001  1x 1 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             4
+  wHubCharacteristic 0x00e0
+    Ganged power switching
+    Ganged overcurrent protection
+    TT think time 32 FS bits
+    Port indicators
+  bPwrOn2PwrGood       50 * 2 milli seconds
+  bHubContrCurrent    100 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength           42
+  bNumDeviceCaps          3
+  USB 2.0 Extension Device Capability:
+    bLength                 7
+    bDescriptorType        16
+    bDevCapabilityType      2
+    bmAttributes   0x00000006
+      Link Power Management (LPM) Supported
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x00
+    wSpeedsSupported   0x000e
+      Device can operate at Full Speed (12Mbps)
+      Device can operate at High Speed (480Mbps)
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat           8 micro seconds
+    bU2DevExitLat         190 micro seconds
+  Container ID Device Capability:
+    bLength                20
+    bDescriptorType        16
+    bDevCapabilityType      4
+    bReserved               0
+    ContainerID             {FB30199B-627A-1CF9-38DC-62477F001B5F}
+Device Status:     0x0001
+  Self Powered
+
+Bus 001 Device 003: ID 05e3:0610 Genesys Logic, Inc. 4-port hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x05e3 Genesys Logic, Inc.
+  idProduct          0x0610 4-port hub
+  bcdDevice            6.54
+  iManufacturer           1 GenesysLogic
+  iProduct                2 USB2.1 Hub
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0001  1x 1 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             4
+  wHubCharacteristic 0x00e0
+    Ganged power switching
+    Ganged overcurrent protection
+    TT think time 32 FS bits
+    Port indicators
+  bPwrOn2PwrGood       50 * 2 milli seconds
+  bHubContrCurrent    100 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0507 highspeed power suspend enable connect
+   Port 2: 0000.0103 power enable connect
+   Port 3: 0000.0103 power enable connect
+   Port 4: 0000.0303 lowspeed power enable connect
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength           42
+  bNumDeviceCaps          3
+  USB 2.0 Extension Device Capability:
+    bLength                 7
+    bDescriptorType        16
+    bDevCapabilityType      2
+    bmAttributes   0x00000006
+      Link Power Management (LPM) Supported
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x00
+    wSpeedsSupported   0x000e
+      Device can operate at Full Speed (12Mbps)
+      Device can operate at High Speed (480Mbps)
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat           8 micro seconds
+    bU2DevExitLat         190 micro seconds
+  Container ID Device Capability:
+    bLength                20
+    bDescriptorType        16
+    bDevCapabilityType      4
+    bReserved               0
+    ContainerID             {FB30199B-627A-1CF9-38DC-62477F001B5F}
+Device Status:     0x0001
+  Self Powered
+
+Bus 001 Device 002: ID 046d:c404 Logitech, Inc. TrackMan Wheel
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x046d Logitech, Inc.
+  idProduct          0xc404 TrackMan Wheel
+  bcdDevice            2.20
+  iManufacturer           1 Logitech
+  iProduct                2 Trackball
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           34
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      2 Mouse
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     103
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.04
+  iManufacturer           3 Linux 5.4.0-42-generic xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength              11
+  bDescriptorType      41
+  nNbrPorts             9
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+    TT think time 8 FS bits
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x88 0x02
+  PortPwrCtrlMask    0xff 0xff
+ Hub Port Status:
+   Port 1: 0000.0303 lowspeed power enable connect
+   Port 2: 0000.0100 power
+   Port 3: 0000.0503 highspeed power enable connect
+   Port 4: 0000.0303 lowspeed power enable connect
+   Port 5: 0000.0100 power
+   Port 6: 0000.0100 power
+   Port 7: 0000.0100 power
+   Port 8: 0000.0100 power
+   Port 9: 0000.0100 power
+Device Status:     0x0001
+  Self Powered

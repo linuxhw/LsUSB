@@ -1,0 +1,1775 @@
+
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.03
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+
+Bus 004 Device 003: ID 05ac:8215 Apple, Inc. Built-in Bluetooth 2.0+EDR HCI
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass          255 Vendor Specific Class
+  bDeviceSubClass         1 
+  bDeviceProtocol         1 
+  bMaxPacketSize0        64
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x8215 Built-in Bluetooth 2.0+EDR HCI
+  bcdDevice            2.07
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 3 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength          216
+    bNumInterfaces          4
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           3
+      bInterfaceClass       255 Vendor Specific Class
+      bInterfaceSubClass      1 
+      bInterfaceProtocol      1 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0010  1x 16 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       1
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       2
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       3
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0020  1x 32 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0020  1x 32 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       4
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       5
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        2
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass       255 Vendor Specific Class
+      bInterfaceSubClass    255 Vendor Specific Subclass
+      bInterfaceProtocol    255 Vendor Specific Protocol
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x84  EP 4 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0020  1x 32 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x04  EP 4 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0020  1x 32 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        3
+      bAlternateSetting       0
+      bNumEndpoints           0
+      bInterfaceClass       254 Application Specific Interface
+      bInterfaceSubClass      1 Device Firmware Update
+      bInterfaceProtocol      1 
+      iInterface              0 
+      Device Firmware Upgrade Interface Descriptor:
+        bLength                             7
+        bDescriptorType                    33
+        bmAttributes                        7
+          Will Not Detach
+          Manifestation Tolerant
+          Upload Supported
+          Download Supported
+        wDetachTimeout                   5000 milliseconds
+        wTransferSize                      64 bytes
+
+Bus 004 Device 002: ID 0a5c:4500 Broadcom Corp. BCM2046B1 USB 2.0 Hub (part of BCM2046 Bluetooth)
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0         8
+  idVendor           0x0a5c Broadcom Corp.
+  idProduct          0x4500 BCM2046B1 USB 2.0 Hub (part of BCM2046 Bluetooth)
+  bcdDevice            1.00
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0001  1x 1 bytes
+        bInterval             255
+
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.03
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+
+Bus 001 Device 003: ID 05ac:8502 Apple, Inc. Built-in iSight
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass          239 Miscellaneous Device
+  bDeviceSubClass         2 ?
+  bDeviceProtocol         1 Interface Association
+  bMaxPacketSize0        64
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x8502 Built-in iSight
+  bcdDevice            2.19
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 3 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength         1398
+    bNumInterfaces          3
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              500mA
+    Interface Association:
+      bLength                 8
+      bDescriptorType        11
+      bFirstInterface         0
+      bInterfaceCount         2
+      bFunctionClass         14 Video
+      bFunctionSubClass       3 Video Interface Collection
+      bFunctionProtocol       0 
+      iFunction               2 
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      1 Video Control
+      bInterfaceProtocol      0 
+      iInterface              2 
+      VideoControl Interface Descriptor:
+        bLength                13
+        bDescriptorType        36
+        bDescriptorSubtype      1 (HEADER)
+        bcdUVC               1.00
+        wTotalLength           51
+        dwClockFrequency        4.000000MHz
+        bInCollection           1
+        baInterfaceNr( 0)       1
+      VideoControl Interface Descriptor:
+        bLength                18
+        bDescriptorType        36
+        bDescriptorSubtype      2 (INPUT_TERMINAL)
+        bTerminalID             1
+        wTerminalType      0x0201 Camera Sensor
+        bAssocTerminal          0
+        iTerminal               0 
+        wObjectiveFocalLengthMin      0
+        wObjectiveFocalLengthMax      0
+        wOcularFocalLength            0
+        bControlSize                  3
+        bmControls           0x0000000a
+          Auto-Exposure Mode
+          Exposure Time (Absolute)
+      VideoControl Interface Descriptor:
+        bLength                 9
+        bDescriptorType        36
+        bDescriptorSubtype      3 (OUTPUT_TERMINAL)
+        bTerminalID             2
+        wTerminalType      0x0101 USB Streaming
+        bAssocTerminal          0
+        bSourceID               3
+        iTerminal               0 
+      VideoControl Interface Descriptor:
+        bLength                11
+        bDescriptorType        36
+        bDescriptorSubtype      5 (PROCESSING_UNIT)
+      Warning: Descriptor too short
+        bUnitID                 3
+        bSourceID               1
+        wMaxMultiplier          0
+        bControlSize            2
+        bmControls     0x0000157f
+          Brightness
+          Contrast
+          Hue
+          Saturation
+          Sharpness
+          Gamma
+          White Balance Temperature
+          Backlight Compensation
+          Power Line Frequency
+          White Balance Temperature, Auto
+        iProcessing             0 
+        bmVideoStandards     0x 0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval               6
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           0
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      VideoStreaming Interface Descriptor:
+        bLength                            15
+        bDescriptorType                    36
+        bDescriptorSubtype                  1 (INPUT_HEADER)
+        bNumFormats                         2
+        wTotalLength                     1179
+        bEndPointAddress                  130
+        bmInfo                              0
+        bTerminalLink                       2
+        bStillCaptureMethod                 2
+        bTriggerSupport                     0
+        bTriggerUsage                       0
+        bControlSize                        1
+        bmaControls( 0)                    27
+        bmaControls( 1)                    27
+      VideoStreaming Interface Descriptor:
+        bLength                            27
+        bDescriptorType                    36
+        bDescriptorSubtype                  4 (FORMAT_UNCOMPRESSED)
+        bFormatIndex                        1
+        bNumFrameDescriptors                7
+        guidFormat                            {6E201A97-DDD2-26A0-3784-14A3624F1FC1}
+        bBitsPerPixel                      16
+        bDefaultFrameIndex                  5
+        bAspectRatioX                       0
+        bAspectRatioY                       0
+        bmInterlaceFlags                 0x00
+          Interlaced stream or variable: No
+          Fields per frame: 2 fields
+          Field 1 first: No
+          Field pattern: Field 1 only
+          bCopyProtect                      0
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         1
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            160
+        wHeight                           120
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize       38400
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         2
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            176
+        wHeight                           144
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize       50688
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         3
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            320
+        wHeight                           240
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      153600
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         4
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            352
+        wHeight                           288
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      202752
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+        bFrameIndex                         5
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            640
+        wHeight                           480
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      614400
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)         102372885
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            62
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+      Warning: Descriptor too short
+        bFrameIndex                         6
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            720
+        wHeight                           480
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      691200
+        dwDefaultFrameInterval      2148073600
+        bFrameIntervalType                 26
+        dwFrameInterval( 0)            400000
+        dwFrameInterval( 1)            444444
+        dwFrameInterval( 2)            500000
+        dwFrameInterval( 3)            571428
+        dwFrameInterval( 4)            666667
+        dwFrameInterval( 5)            800000
+        dwFrameInterval( 6)           1000000
+        dwFrameInterval( 7)           1333333
+        dwFrameInterval( 8)           2000000
+        dwFrameInterval( 9)         117777470
+        dwFrameInterval(10)         1073922048
+        dwFrameInterval(11)         1996488706
+        dwFrameInterval(12)         3388997633
+        dwFrameInterval(13)         207618056
+        dwFrameInterval(14)         102400000
+        dwFrameInterval(15)         444653570
+        dwFrameInterval(16)         3357278214
+        dwFrameInterval(17)         2703228934
+        dwFrameInterval(18)         3089367047
+        dwFrameInterval(19)         741015560
+        dwFrameInterval(20)         889192458
+        dwFrameInterval(21)         1111490572
+        dwFrameInterval(22)         1481965583
+        dwFrameInterval(23)         2222981140
+        dwFrameInterval(24)         606208030
+        dwFrameInterval(25)         2684813315
+      VideoStreaming Interface Descriptor:
+        bLength                            62
+        bDescriptorType                    36
+        bDescriptorSubtype                  5 (FRAME_UNCOMPRESSED)
+      Warning: Descriptor too short
+        bFrameIndex                         7
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            704
+        wHeight                           576
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      811008
+        dwDefaultFrameInterval       33954432
+        bFrameIntervalType                224
+        dwFrameInterval( 0)            400000
+        dwFrameInterval( 1)            444444
+        dwFrameInterval( 2)            500000
+        dwFrameInterval( 3)            571428
+        dwFrameInterval( 4)            666667
+        dwFrameInterval( 5)            800000
+        dwFrameInterval( 6)           1000000
+        dwFrameInterval( 7)           1333333
+        dwFrameInterval( 8)           2000000
+        dwFrameInterval( 9)            205858
+        dwFrameInterval(10)         2013306887
+        dwFrameInterval(11)         2415964160
+        dwFrameInterval(12)         4026613760
+        dwFrameInterval(13)         536961024
+        dwFrameInterval(14)         3758260225
+        dwFrameInterval(15)         3758280705
+        dwFrameInterval(16)         1073922049
+        dwFrameInterval(17)         604372994
+        dwFrameInterval(18)          16843021
+        dwFrameInterval(19)          33956875
+        dwFrameInterval(20)             65544
+        dwFrameInterval(21)         1241513984
+        dwFrameInterval(22)             67364
+        dwFrameInterval(23)          31457920
+        dwFrameInterval(24)          24576000
+        dwFrameInterval(25)         147456000
+        dwFrameInterval(26)            614400
+        dwFrameInterval(27)            333333
+        dwFrameInterval(28)          42666764
+        dwFrameInterval(29)          85333248
+        dwFrameInterval(30)          93090816
+        dwFrameInterval(31)         102400000
+        dwFrameInterval(32)         113777664
+        dwFrameInterval(33)         128000000
+        dwFrameInterval(34)         146285568
+        dwFrameInterval(35)         170666752
+        dwFrameInterval(36)         204800000
+        dwFrameInterval(37)         256000000
+        dwFrameInterval(38)         341333248
+        dwFrameInterval(39)         512000000
+        dwFrameInterval(40)         119818752
+        dwFrameInterval(41)          47185922
+        dwFrameInterval(42)               480
+        dwFrameInterval(43)               375
+        dwFrameInterval(44)         2348812490
+        dwFrameInterval(45)         370475018
+        dwFrameInterval(46)         185335813
+        dwFrameInterval(47)         352322187
+        dwFrameInterval(48)         1946158358
+        dwFrameInterval(49)         2147485068
+        dwFrameInterval(50)         469763610
+        dwFrameInterval(51)         536872648
+        dwFrameInterval(52)         603981729
+        dwFrameInterval(53)         721422520
+        dwFrameInterval(54)              2604
+        dwFrameInterval(55)         1073744949
+        dwFrameInterval(56)         1426067266
+        dwFrameInterval(57)         2147488856
+        dwFrameInterval(58)         1174412932
+        dwFrameInterval(59)            198436
+        dwFrameInterval(60)          39322400
+        dwFrameInterval(61)          24576000
+        dwFrameInterval(62)         147456000
+        dwFrameInterval(63)             42496
+        dwFrameInterval(64)            333333
+        dwFrameInterval(65)          85333259
+        dwFrameInterval(66)          93090816
+        dwFrameInterval(67)         102400000
+        dwFrameInterval(68)         113777664
+        dwFrameInterval(69)         128000000
+        dwFrameInterval(70)         146285568
+        dwFrameInterval(71)         170666752
+        dwFrameInterval(72)         204800000
+        dwFrameInterval(73)         256000000
+        dwFrameInterval(74)         341333248
+        dwFrameInterval(75)         512000000
+        dwFrameInterval(76)         119817728
+        dwFrameInterval(77)          67108868
+        dwFrameInterval(78)               576
+        dwFrameInterval(79)               375
+        dwFrameInterval(80)              2250
+        dwFrameInterval(81)         370475026
+        dwFrameInterval(82)         353042437
+        dwFrameInterval(83)         1946158358
+        dwFrameInterval(84)         2147485068
+        dwFrameInterval(85)         469763610
+        dwFrameInterval(86)         536872648
+        dwFrameInterval(87)         603981729
+        dwFrameInterval(88)         721422520
+        dwFrameInterval(89)              2604
+        dwFrameInterval(90)         1073744949
+        dwFrameInterval(91)         1426067266
+        dwFrameInterval(92)         2147488856
+        dwFrameInterval(93)         1174412932
+        dwFrameInterval(94)            329508
+        dwFrameInterval(95)          50332672
+        dwFrameInterval(96)          24576000
+        dwFrameInterval(97)         147456000
+        dwFrameInterval(98)           1572864
+        dwFrameInterval(99)            333333
+        dwFrameInterval(100)          85333259
+        dwFrameInterval(101)          93090816
+        dwFrameInterval(102)         102400000
+        dwFrameInterval(103)         113777664
+        dwFrameInterval(104)         128000000
+        dwFrameInterval(105)         146285568
+        dwFrameInterval(106)         170666752
+        dwFrameInterval(107)         204800000
+        dwFrameInterval(108)         256000000
+        dwFrameInterval(109)         341333248
+        dwFrameInterval(110)         512000000
+        dwFrameInterval(111)         119817728
+        dwFrameInterval(112)          83886086
+        dwFrameInterval(113)               720
+        dwFrameInterval(114)               375
+        dwFrameInterval(115)         536873162
+        dwFrameInterval(116)         370475036
+        dwFrameInterval(117)         353042437
+        dwFrameInterval(118)         1946158358
+        dwFrameInterval(119)         2147485068
+        dwFrameInterval(120)         469763610
+        dwFrameInterval(121)         536872648
+        dwFrameInterval(122)         603981729
+        dwFrameInterval(123)         721422520
+        dwFrameInterval(124)              2604
+        dwFrameInterval(125)         1073744949
+        dwFrameInterval(126)         1426067266
+        dwFrameInterval(127)         2147488856
+        dwFrameInterval(128)         1174412932
+        dwFrameInterval(129)            460580
+        dwFrameInterval(130)          62915840
+        dwFrameInterval(131)          24576000
+        dwFrameInterval(132)         147456000
+        dwFrameInterval(133)           2457600
+        dwFrameInterval(134)            333333
+        dwFrameInterval(135)          85333259
+        dwFrameInterval(136)          93090816
+        dwFrameInterval(137)         102400000
+        dwFrameInterval(138)         113777664
+        dwFrameInterval(139)         128000000
+        dwFrameInterval(140)         146285568
+        dwFrameInterval(141)         170666752
+        dwFrameInterval(142)         204800000
+        dwFrameInterval(143)         256000000
+        dwFrameInterval(144)         341333248
+        dwFrameInterval(145)         512000000
+        dwFrameInterval(146)         119817728
+        dwFrameInterval(147)          83886088
+        dwFrameInterval(148)              1024
+        dwFrameInterval(149)               375
+        dwFrameInterval(150)              2250
+        dwFrameInterval(151)         370475048
+        dwFrameInterval(152)         353042437
+        dwFrameInterval(153)         1946158358
+        dwFrameInterval(154)         2147485068
+        dwFrameInterval(155)         469763610
+        dwFrameInterval(156)         536872648
+        dwFrameInterval(157)         603981729
+        dwFrameInterval(158)         721422520
+        dwFrameInterval(159)              2604
+        dwFrameInterval(160)         1073744949
+        dwFrameInterval(161)         1426067266
+        dwFrameInterval(162)         2147488856
+        dwFrameInterval(163)         637542020
+        dwFrameInterval(164)         134218532
+        dwFrameInterval(165)          31457920
+        dwFrameInterval(166)          31458000
+        dwFrameInterval(167)          39322400
+        dwFrameInterval(168)          37749760
+        dwFrameInterval(169)          50332672
+        dwFrameInterval(170)          47187200
+        dwFrameInterval(171)          62915840
+        dwFrameInterval(172)          67110144
+        dwFrameInterval(173)         220464640
+        dwFrameInterval(174)             65793
+        dwFrameInterval(175)                 0
+        dwFrameInterval(176)                 0
+        dwFrameInterval(177)                 0
+        dwFrameInterval(178)              4689
+        dwFrameInterval(179)                 0
+        dwFrameInterval(180)         3778879912
+        dwFrameInterval(181)             32697
+        dwFrameInterval(182)         3778879912
+        dwFrameInterval(183)             32697
+        dwFrameInterval(184)          19670544
+        dwFrameInterval(185)                 0
+        dwFrameInterval(186)          19670544
+        dwFrameInterval(187)                 0
+        dwFrameInterval(188)                 0
+        dwFrameInterval(189)                 0
+        dwFrameInterval(190)                 0
+        dwFrameInterval(191)                 0
+        dwFrameInterval(192)                 0
+        dwFrameInterval(193)                 0
+        dwFrameInterval(194)                 0
+        dwFrameInterval(195)                 0
+        dwFrameInterval(196)                 0
+        dwFrameInterval(197)                 0
+        dwFrameInterval(198)                 0
+        dwFrameInterval(199)                 0
+        dwFrameInterval(200)                 0
+        dwFrameInterval(201)                 0
+        dwFrameInterval(202)                 0
+        dwFrameInterval(203)                 0
+        dwFrameInterval(204)                 0
+        dwFrameInterval(205)                 0
+        dwFrameInterval(206)                 0
+        dwFrameInterval(207)                 0
+        dwFrameInterval(208)                 0
+        dwFrameInterval(209)                 0
+        dwFrameInterval(210)                 0
+        dwFrameInterval(211)                 0
+        dwFrameInterval(212)                 0
+        dwFrameInterval(213)                 0
+        dwFrameInterval(214)                 0
+        dwFrameInterval(215)                 0
+        dwFrameInterval(216)                 0
+        dwFrameInterval(217)                 0
+        dwFrameInterval(218)                 0
+        dwFrameInterval(219)                 0
+        dwFrameInterval(220)                 0
+        dwFrameInterval(221)                 0
+        dwFrameInterval(222)                 0
+        dwFrameInterval(223)                 0
+      VideoStreaming Interface Descriptor:
+        bLength                            34
+        bDescriptorType                    36
+        bDescriptorSubtype                  3 (STILL_IMAGE_FRAME)
+        bEndpointAddress                    0
+        bNumImageSizePatterns               7
+        wWidth( 0)                        160
+        wHeight( 0)                       120
+        wWidth( 1)                        176
+        wHeight( 1)                       144
+        wWidth( 2)                        320
+        wHeight( 2)                       240
+        wWidth( 3)                        352
+        wHeight( 3)                       288
+        wWidth( 4)                        640
+        wHeight( 4)                       480
+        wWidth( 5)                        720
+        wHeight( 5)                       480
+        wWidth( 6)                        704
+        wHeight( 6)                       576
+        bNumCompressionPatterns             7
+      VideoStreaming Interface Descriptor:
+        bLength                             6
+        bDescriptorType                    36
+        bDescriptorSubtype                 13 (COLORFORMAT)
+        bColorPrimaries                     1 (BT.709,sRGB)
+        bTransferCharacteristics            1 (BT.709)
+        bMatrixCoefficients                 1 (BT.709)
+      VideoStreaming Interface Descriptor:
+        bLength                            11
+        bDescriptorType                    36
+        bDescriptorSubtype                  6 (FORMAT_MJPEG)
+        bFormatIndex                        2
+        bNumFrameDescriptors                8
+        bFlags                              0
+          Fixed-size samples: No
+        bDefaultFrameIndex                  1
+        bAspectRatioX                       0
+        bAspectRatioY                       0
+        bmInterlaceFlags                 0x00
+          Interlaced stream or variable: No
+          Fields per frame: 1 fields
+          Field 1 first: No
+          Field pattern: Field 1 only
+          bCopyProtect                      0
+      VideoStreaming Interface Descriptor:
+        bLength                            74
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         1
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            640
+        wHeight                           480
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      614400
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 12
+        dwFrameInterval( 0)            166667
+        dwFrameInterval( 1)            333333
+        dwFrameInterval( 2)            363636
+        dwFrameInterval( 3)            400000
+        dwFrameInterval( 4)            444444
+        dwFrameInterval( 5)            500000
+        dwFrameInterval( 6)            571428
+        dwFrameInterval( 7)            666667
+        dwFrameInterval( 8)            800000
+        dwFrameInterval( 9)           1000000
+        dwFrameInterval(10)           1333333
+        dwFrameInterval(11)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            74
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         2
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            720
+        wHeight                           480
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize      691200
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 12
+        dwFrameInterval( 0)            166667
+        dwFrameInterval( 1)            333333
+        dwFrameInterval( 2)            363636
+        dwFrameInterval( 3)            400000
+        dwFrameInterval( 4)            444444
+        dwFrameInterval( 5)            500000
+        dwFrameInterval( 6)            571428
+        dwFrameInterval( 7)            666667
+        dwFrameInterval( 8)            800000
+        dwFrameInterval( 9)           1000000
+        dwFrameInterval(10)           1333333
+        dwFrameInterval(11)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         3
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                            800
+        wHeight                           600
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize       42496
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         4
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                           1024
+        wHeight                           576
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize     1179648
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         5
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                           1024
+        wHeight                           768
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize     1572864
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         6
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                           1280
+        wHeight                           720
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize     1843200
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         7
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                           1280
+        wHeight                           960
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize     2457600
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            70
+        bDescriptorType                    36
+        bDescriptorSubtype                  7 (FRAME_MJPEG)
+        bFrameIndex                         8
+        bmCapabilities                   0x00
+          Still image unsupported
+        wWidth                           1280
+        wHeight                          1024
+        dwMinBitRate                 24576000
+        dwMaxBitRate                147456000
+        dwMaxVideoFrameBufferSize     2621440
+        dwDefaultFrameInterval         333333
+        bFrameIntervalType                 11
+        dwFrameInterval( 0)            333333
+        dwFrameInterval( 1)            363636
+        dwFrameInterval( 2)            400000
+        dwFrameInterval( 3)            444444
+        dwFrameInterval( 4)            500000
+        dwFrameInterval( 5)            571428
+        dwFrameInterval( 6)            666667
+        dwFrameInterval( 7)            800000
+        dwFrameInterval( 8)           1000000
+        dwFrameInterval( 9)           1333333
+        dwFrameInterval(10)           2000000
+      VideoStreaming Interface Descriptor:
+        bLength                            38
+        bDescriptorType                    36
+        bDescriptorSubtype                  3 (STILL_IMAGE_FRAME)
+        bEndpointAddress                    0
+        bNumImageSizePatterns               8
+        wWidth( 0)                        640
+        wHeight( 0)                       480
+        wWidth( 1)                        720
+        wHeight( 1)                       480
+        wWidth( 2)                        800
+        wHeight( 2)                       600
+        wWidth( 3)                       1024
+        wHeight( 3)                       576
+        wWidth( 4)                       1024
+        wHeight( 4)                       768
+        wWidth( 5)                       1280
+        wHeight( 5)                       720
+        wWidth( 6)                       1280
+        wHeight( 6)                       960
+        wWidth( 7)                       1280
+        wHeight( 7)                      1024
+        bNumCompressionPatterns             8
+      VideoStreaming Interface Descriptor:
+        bLength                             6
+        bDescriptorType                    36
+        bDescriptorSubtype                 13 (COLORFORMAT)
+        bColorPrimaries                     1 (BT.709,sRGB)
+        bTransferCharacteristics            1 (BT.709)
+        bMatrixCoefficients                 1 (BT.709)
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       1
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x0080  1x 128 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       2
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       3
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x0400  1x 1024 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       4
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x0b00  2x 768 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       5
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x0c00  2x 1024 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       6
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x1380  3x 896 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       7
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x1400  3x 1024 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        2
+      bAlternateSetting       0
+      bNumEndpoints           0
+      bInterfaceClass       255 Vendor Specific Class
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 
+      iInterface              0 
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.03
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+
+Bus 003 Device 005: ID 05ac:8242 Apple, Inc. Built-in IR Receiver
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x8242 Built-in IR Receiver
+  bcdDevice            0.16
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           34
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          1 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 No Subclass
+      bInterfaceProtocol      0 None
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.11
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      42
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+
+Bus 003 Device 004: ID 05ac:020b Apple, Inc. Pro Keyboard [Mitsumi, A1048/US layout]
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x020b Pro Keyboard [Mitsumi, A1048/US layout]
+  bcdDevice            4.20
+  iManufacturer           1 
+  iProduct                3 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           59
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower               50mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      65
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 No Subclass
+      bInterfaceProtocol      0 None
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      76
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              10
+
+Bus 003 Device 003: ID 05ac:0304 Apple, Inc. Mighty Mouse [Mitsumi, M1152]
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x0304 Mighty Mouse [Mitsumi, M1152]
+  bcdDevice            1.10
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           34
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      2 Mouse
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      64
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0006  1x 6 bytes
+        bInterval              10
+
+Bus 003 Device 002: ID 05ac:1003 Apple, Inc. Hub in Pro Keyboard [Mitsumi, A1048]
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0         8
+  idVendor           0x05ac Apple, Inc.
+  idProduct          0x1003 Hub in Pro Keyboard [Mitsumi, A1048]
+  bcdDevice            4.20
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower               50mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0001  1x 1 bytes
+        bInterval             255
+
+Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.03
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
