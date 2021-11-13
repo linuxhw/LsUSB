@@ -71,7 +71,7 @@ Probe  — latest probe ID of this device.
 | 046d:c52b | Logitech   | Unifying Receiver            | 1     | usbhid     | 71480CBCC1 |
 | 04d9:1702 | Holtek ... | Keyboard LKS02               | 1     | usbhid     | D19C52B3FD |
 | 081e:bd04 | AlphaSmart | AlphaSmart                   | 1     | usbhid     | 58A73D80E8 |
-| 0b95:6801 | ASIX El... | AX68002                      | 1     | usbhid     | 678542F4FE |
+| 0b95:6801 | ASIX El... | AX68004                      | 1     | usbhid     | 678542F4FE |
 | 1a2c:0e24 | China R... | USB Keyboard                 | 1     | usbhid     | 28B902C9B7 |
 | 1d57:a5f0 | Xenta      | 2.4G Wireless ProV2.0        | 1     | usbhid     | D19C52B3FD |
 | 258a:0001 | SINO WE... | USB KEYBOARD                 | 1     | usbhid     | 678542F4FE |
