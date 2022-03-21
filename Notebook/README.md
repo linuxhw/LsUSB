@@ -57,2535 +57,1623 @@ Contents
 USB Devices
 -----------
 
-Count  — number of computers with this device installed,
-Driver — driver in use for this device,
-Probe  — latest probe ID of this device.
+Count  - number of computers with this device installed,
+Driver - driver in use for this device,
+Probe  - latest probe ID of this device.
 
 ### Audio (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0955:7002 | Nvidia     | stereo controller            | 32    |            | C97B201719 |
-| 046d:0a87 | Logitech   | G935 Gaming Headset          | 11    | snd_usb... | 36BF3DD55D |
-| 1235:8202 | Focusri... | Focusrite Scarlett 2i2 2n... | 10    | snd_usb... | 2EAC1BFC4F |
-| 041e:322c | Creativ... | SB Omni Surround 5.1         | 8     | snd_usb... | C3D1F2F1E7 |
-| 1235:8205 | Focusri... | Scarlett Solo USB            | 7     | snd_usb... | B92A5DC353 |
-| 1235:8211 | Focusri... | Scarlett Solo (3rd Gen.)     | 7     | snd_usb... | E88A377FEB |
-| 1397:0509 | BEHRING... | UMC404HD 192k                | 7     | snd_usb... | 3678E02E46 |
-| 2972:0047 | FiiO El... | FiiO K5 Pro                  | 7     | snd_usb... | B6FF026E89 |
-| 0d8c:0004 | C-Media... | CM6631A Audio Processor      | 6     | snd_usb... | 120780E701 |
-| 152a:8750 | Thesyco... | DX7 Pro                      | 6     | snd_usb... | BF89B64C2B |
-| 0bda:4c07 | Realtek... | TX-384Khz Hifi Type-C Audio  | 5     | snd_usb... | 5630D736DD |
-| 1043:857c | iCreate... | Xonar U7                     | 5     | usbhid     | 103CA8741C |
-| 1235:8016 | Focusri... | Focusrite Scarlett 2i2       | 5     | snd_usb... | 12CC462C7E |
-| 17cc:1001 | Native ... | Komplete Audio 6             | 5     | snd_usb... | D2E4A69C16 |
-| 20b1:3008 | XMOS       | iFi (by AMR) HD USB Audio    | 5     | snd_usb... | FA3F31F773 |
-| 046d:0a0b | Logitech   | ClearChat Pro USB            | 4     | snd_usb... | 1339721AC0 |
-| 074d:0002 | Micronas   | BLUE USB Audio 2.0           | 4     | snd_usb... | 2EBBA9B2B1 |
-| 0499:170f | Yamaha     | Steinberg UR22mkII           | 3     | snd_usb... | FE27DE6BBC |
-| 0582:00e6 | Roland     | EDIROL UA-25EX (Advanced ... | 3     | snd_usb... | 8859E15CB5 |
-| 0582:012f | Roland     | QUAD-CAPTURE                 | 3     | snd_usb... | 67034FC7E5 |
-| 07fd:0008 | Mark of... | M2                           | 3     | snd_usb... | BC2879C7E5 |
-| 0b05:183c | ASUSTek... | Xonar U7 MKII                | 3     | snd_usb... | 167DDB49CE |
-| 1019:0013 | Elitegr... | FOSTEX USB AUDIO HP-A4       | 3     | snd_usb... | 612DDA8FBA |
-| 1235:8200 | Focusri... | Scarlett 2i4 USB             | 3     | snd_usb... | 3E23720BD6 |
-| 1397:0507 | BEHRING... | UMC202HD 192k                | 3     | snd_usb... | 8B7B8CDF99 |
-| 1397:0508 | BEHRING... | UMC204HD 192k                | 3     | snd_usb... | 0EC748B06E |
-| 1462:1171 | Micro S... | Xtreme Audio DAC             | 3     | usbhid     | A938950688 |
-| 194f:0101 | PreSonu... | AudioBox 22 VSL              | 3     | snd_usb... | 8BDC39E3AB |
-| 19f7:0015 | RODE Mi... | RODE NT-USB Mini             | 3     | usbhid     | 2A1930C4E4 |
-| 20b1:000a | XMOS       | Khadas Tone Control          | 3     | snd_usb... | 2E4383BD79 |
-| 2972:0035 | FiiO El... | FiiO Q1                      | 3     | snd_usb... | 6A28A7C1DC |
-| 041e:323a | Creativ... | Sound Blaster X7             | 2     | snd_usb... | B95C1B013E |
-| 041e:3f02 | Creativ... | E-Mu 0202                    | 2     | snd_usb... | 877A9F179D |
-| 041e:3f19 | Creativ... | E-MU 0204 / USB              | 2     | snd_usb... | 3047B3EC7C |
-| 0499:1704 | Yamaha     | Steinberg UR44               | 2     | snd_usb... | 65EEA3E5D3 |
-| 0499:170a | Yamaha     | Steinberg UR12               | 2     | snd_usb... | 695389401A |
-| 05ac:110a | Apple      | USB-C to 3.5mm Headphone ... | 2     | apple_m... | 75C607555E |
-| 0bda:492f | Realtek... | TX 384kb Hifi Type_C Audio   | 2     | snd_usb... | 07CE366688 |
-| 0ccd:00c8 | TerraTe... | AUREON XFIRE8.0 HD           | 2     | usbhid     | 6988796CAF |
-| 0d8c:0066 | C-Media... | Schiit Modi 3                | 2     | snd_usb... | 17CDB5ADB7 |
-| 1235:800a | Focusri... | Scarlett 2i4                 | 2     | snd_usb... | A1DD9DDD31 |
-| 1235:8210 | Focusri... | Scarlett 2i2 Camera          | 2     | snd_usb... | EDEF8DFD8B |
-| 1235:8215 | Focusri... | Scarlett 18i20 3rd Gen       | 2     | snd_usb... | CAE806F49D |
-| 1395:009a | Sennhei... | GSP 370                      | 2     | cdc_acm    | ADFDB43F0B |
-| 1397:00d4 | BEHRING... | X18/XR18                     | 2     | snd_usb... | FF3BA69D3E |
-| 20b1:0008 | XMOS       | Mayfield Audio               | 2     | snd_usb... | D939F154F6 |
-| 20b1:3023 | XMOS       | X1S USB DAC                  | 2     | snd_usb... | 4335128985 |
-| 22e8:dac2 | Cambrid... | USB Audio 2.0                | 2     | snd_usb... | F60A285ED5 |
-| 22e8:dac4 | Cambrid... | Azur DacMagic 100            | 2     | snd_usb... | E956146A2F |
-| 249c:930b | M2Tech     | hiFaceTWO UAC2               | 2     | snd_usb... | 588B4F5EA9 |
-| 041e:323c | Creativ... | Sound Blaster E5             | 1     | usbhid     | 7AA5C86F85 |
-| 041e:3257 | Creativ... | Sound Blaster K3+            | 1     | snd_usb... | CEF8AA2B69 |
-| 041e:3f04 | Creativ... | E-Mu 0404                    | 1     | snd_usb... | F380930D83 |
-| 041e:3f0a | Creativ... | E-MU Tracker Pre / USB       | 1     | snd_usb... | 6B182F66D9 |
-| 045e:097e | Microsoft  | Azure Kinect Microphone A... | 1     | snd_usb... | 09AE9C9787 |
-| 047f:c055 | Plantro... |                              | 1     |            | 885207B563 |
-| 0499:1703 | Yamaha     | MG-XU                        | 1     | snd_usb... | 35589DCE0C |
-| 0499:170b | Yamaha     | Steinberg UR242              | 1     | snd_usb... | AE4C0F8B6B |
-| 0499:172f | Yamaha     | Steinberg UR22C              | 1     | snd_usb... | 850A748733 |
-| 05a7:40fa | Bose       | Revolve SoundLink            | 1     | usbhid     | 3B614F915C |
-| 05fc:0020 | Harman     | Soundcraft 2-channel Audi... | 1     | snd_usb... | 09530FA9AA |
-| 0644:8030 | TEAC       | US-1800                      | 1     |            | 5D4A91211F |
-| 0644:8043 | TEAC       | NT-503                       | 1     | usbhid     | 71D8772E62 |
-| 0644:8058 | TEAC       | TASCAM iXR                   | 1     | snd_usb... | FCF57528ED |
-| 0644:8063 | TEAC       | SERIES 208i                  | 1     | snd_usb... | C71CA98310 |
-| 0763:201a | M-Audio    | M-Audio Micro                | 1     |            | 4AFB8F7991 |
-| 0763:400b | M-Audio    | M-Track 2X2                  | 1     | snd_usb... | BE604B2A9C |
-| 07fd:000b | Mark of... | M4                           | 1     | snd_usb... | 1BB63BE9B2 |
-| 08e4:0165 | Pioneer    | USB Audio Device             | 1     | snd_usb... | 2F1A3868EA |
-| 090c:0768 | Silicon... | SMI USB Display              | 1     | snd_usb... | 754F01B23A |
-| 0a73:001b | Mackie ... | BIG KNOB STUDIO+             | 1     | snd_usb... | A253E286BF |
-| 0b05:17cd | ASUSTek... | Xonar Essence STU            | 1     | snd_usb... | 68B2D657DB |
-| 0b05:17f5 | ASUSTek... | Xonar U5 sound card          | 1     | snd_usb... | E8E7E33BB2 |
-| 0bda:498a | Realtek... | USB Audio                    | 1     | usbhid     | A712682619 |
-| 0bda:4ba6 | Realtek... | Realtek USB2.0 Audio         | 1     | snd_usb... | 516C59E9BB |
-| 0d8c:0319 | C-Media... | Schiit Modi Uber             | 1     | usbhid     | 1221B30469 |
-| 1235:8014 | Focusri... | Scarlett 18i8                | 1     | snd_usb... | 15933445A2 |
-| 152a:85d3 | Thesyco... | Audinst HUD-DX1              | 1     | snd_usb... | 1B1C811590 |
-| 152a:85dd | Thesyco... | SMSL USB AUDIO               | 1     | snd_usb... | E3F88D9448 |
-| 152a:85df | Thesyco... | SABAJ D4 v1.2                | 1     | snd_usb... | C2D4A2CFFA |
-| 152a:8807 | Thesyco... | xDuoo USB Audio 2.0          | 1     | snd_usb... | 43E3D39BF8 |
-| 154e:1003 | D&M Hol... | DA-300USB                    | 1     | usbhid     | DE9A3F49DB |
-| 1686:030f | ZOOM       | U-24                         | 1     | snd_usb... | 92CB0F7AF2 |
-| 1686:032f | ZOOM       | U-44                         | 1     | snd_usb... | C878C10E7B |
-| 1686:033f | ZOOM       | U-22                         | 1     | snd_usb... | FD3CC0AD52 |
-| 16d0:09dd | MCS        | Encore mDSD                  | 1     | snd_usb... | D7464A9BCC |
-| 17ae:0005 | NAD        | USB Audio 2.0                | 1     | snd_usb... | 498A6352CA |
-| 17cc:1011 | Native ... | Traktor Audio 6              | 1     | snd_usb... | EBBE4A088D |
-| 17cc:1130 | Native ... | Traktor Kontrol Z2           | 1     | snd_usb... | 0454FAA58E |
-| 17cc:1210 | Native ... | Traktor Kontrol Z1           | 1     | usbhid     | 862386A9B4 |
-| 17cc:1330 | Native ... | Traktor Audio 2 MK2          | 1     | usbhid     | 91BED95D04 |
-| 17cc:1600 | Native ... | Maschine MK3                 | 1     | usbhid     | AC98E7EEE9 |
-| 17ef:3099 | Lenovo     | USB-C Mini Dock              | 1     | snd_usb... | 534A4C683F |
-| 190f:5633 | Casio      | XW-DJ1                       | 1     | snd_usb... | F02591AB7A |
-| 19f7:001a | RODE Mi... | RODE VideoMic NTG            | 1     | snd_usb... | 12CC462C7E |
-| 20b1:3066 | XMOS       | D30                          | 1     | snd_usb... | D3E331E671 |
-| 20b1:30b5 | XMOS       | USB HiRes Audio F-20         | 1     | snd_usb... | 3792A88564 |
-| 20b1:30da | XMOS       | JDS Labs Element II          | 1     | snd_usb... | AA5161FAEE |
-| 22e8:dac6 | Cambrid... | DacMagicXS 2.0               | 1     | snd_usb... | 0C93611C78 |
-| 23e5:a2b4 | Antelop... | Discrete8 SC                 | 1     | snd_usb... | 8A790E04A8 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0955:7002 | Nvidia           | stereo controller                    | 37    |            | [E1D4821EC2](<Notebook/Dell/System/System XPS L702X/335C8CE6230A/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/E1D4821EC2>) |
+| 046d:0a87 | Logitech         | G935 Gaming Headset                  | 12    | snd_usb... | [6509634210](<Notebook/Lenovo/ThinkBook/ThinkBook 15 G2 ITL 20VE/D5C194C75A33/POP!_OS-21.04/5.13.0-7620-GENERIC/X86_64/6509634210>) |
+| 1235:8202 | Focusrite-Nov... | Focusrite Scarlett 2i2 2nd Gen       | 11    | snd_usb... | [D79298D8F4](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2570p/57BA6071144E/UBUNTU-20.04/5.4.0-96-GENERIC/X86_64/D79298D8F4>) |
+| 1235:8205 | Focusrite-Nov... | Scarlett Solo USB                    | 10    | snd_usb... | [311C6DA8E0](<Notebook/Hewlett-Packard/ProBook/ProBook 455 G7/656F39058145/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/311C6DA8E0>) |
+| 2972:0047 | FiiO Electron... | K3                                   | 9     | snd_usb... | [28DB094E56](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db1xxx/FDA04D667946/UBUNTU-21.10/5.13.0-23-GENERIC/X86_64/28DB094E56>) |
+| 041e:322c | Creative Tech... | SB Omni Surround 5.1                 | 8     | snd_usb... | [C3D1F2F1E7](<Notebook/Apple/MacBookPro16/MacBookPro16,1/A7BD718501FC/LINUXMINT-20.1/5.4.0-70-GENERIC/X86_64/C3D1F2F1E7>) |
+| 0bda:4c07 | Realtek Semic... | USB Condenser Microphone             | 8     | snd_usb... | [4E9E6B5C99](<Notebook/Acer/Swift/Swift SF314-41/6A375CE9CAEB/ARCO-ROLLING/5.15.7-ARCH1-1/X86_64/4E9E6B5C99>) |
+| 1235:8211 | Focusrite-Nov... | Scarlett Solo (3rd Gen.)             | 8     | snd_usb... | [E702CC7D76](<Notebook/System76/Galago/Galago Pro/E344BB4ED031/ARCH/5.15.8-ARCH1-1/X86_64/E702CC7D76>) |
+| 1397:0509 | BEHRINGER Int... | UMC404HD 192k                        | 8     | snd_usb... | [CBBE604F22](<Notebook/MSI/GE76/GE76 Raider 11UG/A5A6CDCE20C9/UBUNTU-MATE-21.10/5.13.0-20-GENERIC/X86_64/CBBE604F22>) |
+| 0d8c:0004 | C-Media Elect... | CM6631A Audio Processor              | 7     | snd_usb... | [0B0C1ACA1B](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401IV_GA401IV/459D23F4E8DD/SLACKWARE-15.0/5.16.9-JOE1/X86_64/0B0C1ACA1B>) |
+| 1235:8016 | Focusrite-Nov... | Focusrite Scarlett 2i2               | 7     | snd_usb... | [CF460C52BB](<Notebook/Lenovo/ThinkPad/ThinkPad W520 42844MG/8BC92228F8B9/XUBUNTU-20.04/5.11.0-44-GENERIC/X86_64/CF460C52BB>) |
+| 152a:8750 | Thesycon Syst... | E30                                  | 7     | snd_usb... | [B506625DC2](<Notebook/Acer/Swift/Swift SF314-54/A9446566CF69/ZORIN-16/5.11.0-38-GENERIC/X86_64/B506625DC2>) |
+| 20b1:3008 | XMOS             | iFi (by AMR) HD USB Audio            | 6     | usbhid     | [4044CF11D2](<Notebook/Dell/Inspiron/Inspiron 7591/A31DBE611786/FEDORA-35/5.15.12-200.FC35.X86_64/X86_64/4044CF11D2>) |
+| 1043:857c | iCreate Techn... | Xonar U7                             | 5     | usbhid     | [103CA8741C](<Notebook/ASUSTek Computer/E203/E203NA/C6D0EC2D15A8/UBUNTU-18.04/5.3.0-19-GENERIC/X86_64/103CA8741C>) |
+| 1397:0507 | BEHRINGER Int... | UMC202HD 192k                        | 5     | snd_usb... | [5D88EB323C](<Notebook/Lenovo/ThinkPad/ThinkPad W541 20EGS1VV00/B270A41D0D46/ELEMENTARY-6.1/5.11.0-43-GENERIC/X86_64/5D88EB323C>) |
+| 17cc:1001 | Native Instru... | Komplete Audio 6                     | 5     | snd_usb... | [D2E4A69C16](<Notebook/Acer/Aspire/Aspire A515-52/FBE4EA9F535B/FEDORA-34/5.11.18-300.FC34.X86_64/X86_64/D2E4A69C16>) |
+| 046d:0a0b | Logitech         | ClearChat Pro USB                    | 4     | snd_usb... | [1339721AC0](<Notebook/Dell/Precision/Precision 5510/D668ECA7F2F5/UBUNTU-18.04/5.4.0-81-GENERIC/X86_64/1339721AC0>) |
+| 0499:170a | Yamaha           | Steinberg UR12                       | 4     | snd_usb... | [9AB82BA1E9](<Notebook/Hewlett-Packard/EliteBook/EliteBook Folio 9470m/69FEFD546ADD/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-X86_64/X86_64/9AB82BA1E9>) |
+| 0499:170f | Yamaha           | Steinberg UR22mkII                   | 4     | snd_usb... | [49A5E6FAA8](<Notebook/Acer/Nitro/Nitro AN515-52/136667323CCC/ARCH-ROLLING/5.15.4-ARCH1-1/X86_64/49A5E6FAA8>) |
+| 0582:00e6 | Roland           | EDIROL UA-25EX (Advanced mode)       | 4     | snd_usb... | [D7F3D69923](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G8 Notebook PC/F4EB45781ACD/DEBIAN-TESTING/5.15.10-XANMOD1/X86_64/D7F3D69923>) |
+| 074d:0002 | Micronas         | BLUE USB Audio 2.0                   | 4     | snd_usb... | [2EBBA9B2B1](<Notebook/Lenovo/ThinkPad/ThinkPad T14 Gen 1 20S0CTO1WW/0066F9FAD637/ARCH/5.12.12-ARCH1-1/X86_64/2EBBA9B2B1>) |
+| 1235:8210 | Focusrite-Nov... | Scarlett 2i2 USB                     | 4     | snd_usb... | [73526F92AC](<Notebook/Dell/XPS/XPS 15 7590/77162A4B48CB/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/73526F92AC>) |
+| 19f7:0015 | RODE Microphones | RODE NT-USB Mini                     | 4     | snd_usb... | [ECCFE5B35C](<Notebook/Lenovo/ThinkPad/ThinkPad E14 Gen 3 20YDS00G00/AB2C6D7EBED9/DEBIAN-11/5.16.0-3-AMD64/X86_64/ECCFE5B35C>) |
+| 041e:3f19 | Creative Tech... | E-MU 0204 / USB                      | 3     | snd_usb... | [DC150F9FBA](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Nano Gen 1 20UN005PRT/C740D7AE4BE9/FEDORA-35/5.14.17-301.FC35.X86_64/X86_64/DC150F9FBA>) |
+| 047f:c055 | Plantronics      | Blackwire 3210 Series                | 3     | snd_usb... | [89E8399104](<Notebook/Lenovo/ThinkBook/ThinkBook 16p Gen 2 20YM/9174F91B2AB4/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/89E8399104>) |
+| 0582:012f | Roland           | QUAD-CAPTURE                         | 3     | snd_usb... | [67034FC7E5](<Notebook/Acer/Aspire/Aspire 5755G/6EC339280ABC/MANJARO-20.2/5.9.11-3-MANJARO/X86_64/67034FC7E5>) |
+| 05ac:110a | Apple            | USB-C to 3.5mm Headphone Jack Ada... | 3     | apple_m... | [811983AFDD](<Notebook/Dell/Precision/Precision 7560/AD5DD72C4D14/ARCH-ROLLING/5.16.9-ZEN1-1-ZEN/X86_64/811983AFDD>) |
+| 07fd:0008 | Mark of the U... | M Series                             | 3     | snd_usb... | [BC2879C7E5](<Notebook/Lenovo/ThinkPad/ThinkPad W541 20EF001TMS/BCD257D9C4F5/ARCO-ROLLING/5.13.12-ARCH1-1/X86_64/BC2879C7E5>) |
+| 0b05:183c | ASUSTek Computer | Xonar U7 MKII                        | 3     | snd_usb... | [167DDB49CE](<Notebook/Lenovo/Legion/Legion 5 15ARH05 82B5/AA02EFEDF66D/POP!_OS-21.04/5.11.0-051100-GENERIC/X86_64/167DDB49CE>) |
+| 0d8c:0066 | C-Media Elect... | Schiit Modi 3                        | 3     | usbhid     | [9E8EAB1073](<Notebook/Lenovo/ThinkPad/ThinkPad T490 20N2CTO1WW/12C20877F173/FEDORA-35/5.14.14-300.FC35.X86_64/X86_64/9E8EAB1073>) |
+| 1019:0013 | Elitegroup Co... | FOSTEX USB AUDIO HP-A4               | 3     | snd_usb... | [612DDA8FBA](<Notebook/ASUSTek Computer/ROG/ROG Strix G533QS_G533QS/BC3D8AB48D2A/UBUNTU-21.10/5.11.0-20-GENERIC/X86_64/612DDA8FBA>) |
+| 1235:8200 | Focusrite-Nov... | Scarlett 2i4 USB                     | 3     | snd_usb... | [3E23720BD6](<Notebook/Apple/MacBookPro6/MacBookPro6,2/379226D5311F/UBUNTU-20.04/5.4.0-77-GENERIC/X86_64/3E23720BD6>) |
+| 1397:0508 | BEHRINGER Int... | UMC204HD 192k                        | 3     | snd_usb... | [0EC748B06E](<Notebook/ASUSTek Computer/ZenBook/ZenBook UX481FAY_UX481FA/4BCD8B66FEDD/FEDORA-34/5.11.12-300.FC34.X86_64/X86_64/0EC748B06E>) |
+| 1462:1171 | Micro Star In... | Xtreme Audio DAC                     | 3     | usbhid     | [A938950688](<Notebook/MSI/GT80S/GT80S 6QE/E04B5A95F405/ENDEAVOUROS-ROLLING/5.9.10-ARCH1-1/X86_64/A938950688>) |
+| 17ef:30bb | Lenovo           | ThinkPad Thunderbolt 4 Dock USB A... | 3     | snd_usb... | [D62840031F](<Notebook/Lenovo/ThinkPad/ThinkPad X390 20Q0CTO1WW/7A705CCA417D/NIXOS-21.11/5.15.12/X86_64/D62840031F>) |
+| 194f:0101 | PreSonus Audi... | AudioBox 22 VSL                      | 3     | snd_usb... | [8BDC39E3AB](<Notebook/Dell/Inspiron/Inspiron 3542/B156DF5891B8/LINUXMINT-20.1/5.11.0-22-GENERIC/X86_64/8BDC39E3AB>) |
+| 20b1:000a | XMOS             | xCORE USB Audio 2.0                  | 3     | snd_usb... | [2E4383BD79](<Notebook/ASUSTek Computer/1215/1215N/29F98A404A3C/XUBUNTU-20.04/5.8.0-53-GENERIC/X86_64/2E4383BD79>) |
+| 2972:0035 | FiiO Electron... | Q1                                   | 3     | snd_usb... | [ECC78825F5](<Notebook/Lenovo/ThinkPad/ThinkPad E590 20NB005MUS/2155111BD19C/UBUNTU-20.04/5.4.0-91-GENERIC/X86_64/ECC78825F5>) |
+| 041e:323a | Creative Tech... | Sound Blaster X7                     | 2     | snd_usb... | [B95C1B013E](<Notebook/Lenovo/IdeaPad/IdeaPad 330-15ARR 81D2/BB9EBD23A84E/DEBIAN-11/5.13.15-XANMOD1/X86_64/B95C1B013E>) |
+| 041e:3f02 | Creative Tech... | E-Mu 0202                            | 2     | snd_usb... | [877A9F179D](<Notebook/ASUSTek Computer/X550/X550CC/643CFF4EED71/ROSA-2014.1/4.1.15-NRJ-DESKTOP-1ROSA-X86_64/X86_64/877A9F179D>) |
+| 0499:1704 | Yamaha           | Steinberg UR44                       | 2     | snd_usb... | [65EEA3E5D3](<Notebook/System76/Oryx/Oryx Pro/4885A83A7A87/POP!_OS-20.04/5.8.0-7630-GENERIC/X86_64/65EEA3E5D3>) |
+| 0bda:492f | Realtek Semic... | TX 384kb Hifi Type_C Audio           | 2     | snd_usb... | [07CE366688](<Notebook/Dell/XPS/XPS 13 9370/3C87EC3A2DE8/UBUNTU-18.04/5.4.0-42-GENERIC/X86_64/07CE366688>) |
+| 0ccd:00c8 | TerraTec Elec... | AUREON XFIRE8.0 HD                   | 2     | usbhid     | [6988796CAF](<Notebook/Lenovo/ThinkPad/ThinkPad P70 20ERS00500/E85970D1C428/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/6988796CAF>) |
+| 1235:800a | Focusrite-Nov... | Scarlett 2i4                         | 2     | snd_usb... | [A1DD9DDD31](<Notebook/Dell/XPS/XPS 15 9570/479E6BC355A8/POP!_OS-21.04/5.13.0-7614-GENERIC/X86_64/A1DD9DDD31>) |
+| 1235:8215 | Focusrite-Nov... | Scarlett 18i20 3rd Gen               | 2     | snd_usb... | [CAE806F49D](<Notebook/ASUSTek Computer/ROG/ROG Strix G533QS_G533QS/BC3D8AB48D2A/UBUNTU-21.10/5.13.0-14-GENERIC/X86_64/CAE806F49D>) |
+| 1395:009a | Sennheiser Co... | GSP 370                              | 2     | cdc_acm    | [ADFDB43F0B](<Notebook/Lenovo/ThinkPad/ThinkPad P50 20EN0007MS/86A3A3A27F4B/UBUNTU-21.04/5.11.0-16-GENERIC/X86_64/ADFDB43F0B>) |
+| 1397:00d4 | BEHRINGER Int... | X18/XR18                             | 2     | snd_usb... | [FF3BA69D3E](<Notebook/ASUSTek Computer/K72/K72Jr/ED6D8D9E43E3/LINUXMINT-20.1/5.4.0-72-LOWLATENCY/X86_64/FF3BA69D3E>) |
+| 17ef:3099 | Lenovo           | USB-C Mini Dock                      | 2     | usbhid     | [78CB2CA751](<Notebook/Lenovo/ThinkPad/ThinkPad T495 20NJ0010BM/8B539696F948/UBUNTU-20.04/5.4.0-59-GENERIC/X86_64/78CB2CA751>) |
+| 17ef:30d1 | Lenovo           | ThinkPad USB-C Dock Gen2 USB Audio   | 2     | usbhid     | [9DF089B1EF](<Notebook/Lenovo/Legion/Legion Y530-15ICH-1060 81LB/4448C58A0FCA/GENTOO-2.7/5.15.13-GENTOOMULTILIB-NVIDIA/X86_64/9DF089B1EF>) |
+| 20b1:0008 | XMOS             | Mayfield Audio                       | 2     | snd_usb... | [D939F154F6](<Notebook/Sony/VGN-FZ11/VGN-FZ11ZR/96AC9FE8C682/ROSA-2016.1/4.15.0-DESKTOP-45.1ROSA-X86_64/X86_64/D939F154F6>) |
 
 ### Bluetooth (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 8087:0a2a | Intel      | Bluetooth wireless interface | 3229  | btusb      | 9834990221 |
-| 8087:0a2b | Intel      | Bluetooth wireless interface | 2975  | btusb      | F45B082C14 |
-| 8087:0aaa | Intel      | Bluetooth 9460/9560 Jeffe... | 2920  | btusb      | D55AC505B9 |
-| 8087:07dc | Intel      | Bluetooth wireless interface | 2444  | btusb      | 36ACEDB60B |
-| 8087:0029 | Intel      | AX200 Bluetooth              | 2061  | btusb      | F581CF8319 |
-| 8087:0026 | Intel      | AX201 Bluetooth              | 1862  | btusb      | EFDB9E6636 |
-| 8087:07da | Intel      | Centrino Bluetooth Wirele... | 1046  | btusb      | 95C381CCD9 |
-| 0cf3:3005 | Qualcom... | AR3011 Bluetooth             | 1045  | btusb      | 153E9A44D1 |
-| 0cf3:3004 | Qualcom... | AR3012 Bluetooth 4.0         | 1023  | ath3k, ... | AC22E27954 |
-| 04ca:3015 | Lite-On... | Qualcomm Atheros QCA9377 ... | 980   | btusb      | CFA7B4AF8F |
-| 0cf3:e500 | Qualcom... | Qualcomm Atheros Bluetoot... | 815   | btusb      | 08D287D2E2 |
-| 0a12:0001 | Cambrid... | Bluetooth Dongle (HCI mode)  | 718   | btusb      | 5C44D1E88B |
-| 0cf3:e009 | Qualcom... | Qualcomm Atheros Bluetoot... | 601   | btusb      | 60F4AC8CC5 |
-| 8086:0189 | Intel      | Centrino Advanced-N 6230 ... | 597   | btusb      | 532A1D3D01 |
-| 0bda:b009 | Realtek... | Realtek Bluetooth 4.2 Ada... | 592   | btusb      | F4D2F1104E |
-| 0a5c:217f | Broadcom   | BCM2045B (BDC-2.1)           | 561   | btusb      | 570863FD8C |
-| 0bda:b00a | Realtek... | Realtek Bluetooth 4.2 Ada... | 536   | btusb      | 3A06ECCCAA |
-| 8087:0aa7 | Intel      | Wireless-AC 3168 Bluetooth   | 515   | btusb      | 93C1D9BD4F |
-| 04ca:300b | Lite-On... | Atheros AR3012 Bluetooth     | 506   | ath3k, ... | 11EBF2008B |
-| 8087:0025 | Intel      | Wireless-AC 9260 Bluetoot... | 465   | btusb      | FFB40F821B |
-| 03f0:231d | Hewlett... | Broadcom 2070 Bluetooth C... | 458   | btusb      | 99FB47DC2B |
-| 03f0:171d | Hewlett... | Bluetooth 2.0 Interface [... | 422   | btusb      | AF8E63842A |
-| 0cf3:e300 | Qualcom... | QCA61x4 Bluetooth 4.0        | 420   | btusb      | 4E8A3E6A15 |
-| 0cf3:0036 | Qualcom... | AR9462 Bluetooth             | 374   | ath3k, ... | 0F2394B49D |
-| 0a5c:21e6 | Broadcom   | BCM20702 Bluetooth 4.0 [T... | 365   | btusb      | C9D8EFC9B9 |
-| 413c:8187 | Dell       | DW375 Bluetooth Module       | 364   | btusb      | F442DF91A1 |
-| 0cf3:e005 | Qualcom... | Qualcomm Atheros Bluetoot... | 357   | ath3k, ... | 5900E800AA |
-| 0bda:b728 | Realtek... | RTL8723B Bluetooth           | 348   | btusb      | B76F24F640 |
-| 13d3:3362 | IMC Net... | Atheros AR3012 Bluetooth ... | 338   | ath3k, ... | 58CC91ABA3 |
-| 105b:e065 | Foxconn... | BCM43142A0 Bluetooth module  | 337   | btusb      | 0B6699ECD2 |
-| 0bda:c024 | Realtek... | Bluetooth Radio              | 331   | btusb      | 8DB63E7A74 |
-| 04ca:3016 | Lite-On... | Bluetooth Device             | 313   | btusb      | 66255CA7B5 |
-| 0a5c:219c | Broadcom   | BCM2070 Bluetooth Device     | 279   | btusb      | BBABC93B07 |
-| 0489:e04e | Foxconn... | Bluetooth Device             | 276   | ath3k, ... | 7302DC6BE1 |
-| 0cf3:e007 | Qualcom... | Qualcomm Atheros Bluetoot... | 276   | btusb      | DA5E2F59CC |
-| 0a5c:21b4 | Broadcom   | BCM2070 Bluetooth 2.1 + EDR  | 273   | btusb      | F696958F46 |
-| 13d3:3529 | IMC Net... | Bluetooth Radio              | 271   | btusb      | 67F0B45A7A |
-| 0a5c:2101 | Broadcom   | BCM2045 Bluetooth            | 260   | btusb      | 7E2DA6D3E9 |
-| 0bda:b00b | Realtek... | Realtek Bluetooth 4.2 Ada... | 250   | btusb      | 339E6CEB69 |
-| 0bda:b721 | Realtek... | Bluetooth Radio              | 250   | btusb      | 4C2453C6A2 |
-| 05ac:828f | Apple      | Bluetooth USB Host Contro... | 243   | apple_m... | 5BE083EDAB |
-| 0a5c:21e1 | Broadcom   | HP Portable SoftSailing      | 218   | btusb      | C4C890F06A |
-| 413c:8197 | Dell       | BCM20702A0 Bluetooth Module  | 218   | btusb      | FD1375D5F1 |
-| 0bda:0821 | Realtek... | RTL8821A Bluetooth           | 211   | btusb      | 2BF6813AD9 |
-| 0a5c:216d | Broadcom   | BCM43142A0 Bluetooth 4.0     | 208   | btusb      | 65C122FE69 |
-| 1358:c123 | Realtek    | Bluetooth Radio              | 208   | btusb      | 1310B8ABF4 |
-| 0bda:b00c | Realtek... | Bluetooth Radio              | 198   | btusb      | 2BA5AE42BB |
-| 13d3:3496 | IMC Net... | Bluetooth Device             | 196   | btusb      | 680FCC27C4 |
-| 0489:e00f | Foxconn... | Foxconn T77H114 BCM2070 [... | 194   | btusb      | 2D1739DC58 |
-| 0bda:b023 | Realtek... | RTL8822BE Bluetooth 4.2 A... | 193   | btusb      | 8272A05168 |
-| 0bda:b008 | Realtek... | Bluetooth Radio              | 192   | btusb      | B9D36307A5 |
-| 0bda:b001 | Realtek... | Bluetooth Radio              | 191   | btusb      | 8D5A256374 |
-| 0489:e0a2 | Foxconn... | Bluetooth Device             | 186   | btusb      | 5A56854746 |
-| 0a5c:2145 | Broadcom   | BCM2045B (BDC-2.1) [Bluet... | 179   | btusb      | 9A7BE426F5 |
-| 0cf3:e004 | Qualcom... | Bluetooth USB Host Contro... | 174   | ath3k, ... | D70E2B74D0 |
-| 0cf3:311d | Qualcom... | Bluetooth                    | 172   | ath3k, ... | 595D5385BC |
-| 13d3:3526 | IMC Net... | Bluetooth Radio              | 170   | btusb      | 985D10D314 |
-| 05ac:821a | Apple      | Bluetooth Host Controller    | 165   | btusb      | 6E17FB6EA4 |
-| 13d3:3423 | IMC Net... | Bluetooth Device             | 164   | ath3k, ... | B96D5D5FDC |
-| 0930:0508 | Toshiba    | Integrated Bluetooth HCI     | 163   | btusb      | 6A42C7BF7A |
-| 0bda:c123 | Realtek... | Bluetooth Radio              | 163   | btusb      | 497BF56CC6 |
-| 0cf3:e360 | Qualcom... | Qualcomm Atheros Bluetoot... | 158   | btusb      | 68F1525BEF |
-| 0489:e00d | Foxconn... | Broadcom Bluetooth 2.1 De... | 155   | btusb      | B2F7AB7E8A |
-| 0bda:b006 | Realtek... | Bluetooth Radio              | 152   | btusb      | 27D7E6D461 |
-| 05ac:8213 | Apple      | Bluetooth Host Controller    | 151   | btusb      | 80E0B6AF9E |
-| 0a5c:21d7 | Broadcom   | BCM43142 Bluetooth 4.0       | 149   | btusb      | 13D221E327 |
-| 0a5c:21e3 | Broadcom   | HP Portable Valentine        | 147   | btusb      | 9CE9B3750D |
-| 0b05:1712 | ASUSTek... | BT-183 Bluetooth 2.0+EDR ... | 142   | btusb      | 7A2E7C66E9 |
-| 0b05:1788 | ASUSTek... | BT-270 Bluetooth Adapter     | 139   | btusb      | EDEC5D042A |
-| 413c:8160 | Dell       | Wireless 365 Bluetooth       | 134   | btusb      | 557421F62E |
-| 0b05:1751 | ASUSTek... | BT-253 Bluetooth Adapter     | 133   | btusb      | 84F6267AD8 |
-| 0489:e036 | Foxconn... | Bluetooth USB Host Contro... | 132   | ath3k, ... | 7E20D79B1D |
-| 148f:1000 | Ralink ... | Motorola BC4 Bluetooth 3.... | 132   | btusb      | BA21DD1DD0 |
-| 05ac:821d | Apple      | Bluetooth USB Host Contro... | 130   | btusb      | 783D081B5A |
-| 0a5c:2110 | Broadcom   | BCM2045B (BDC-2) [Bluetoo... | 130   | btusb      | 87AAD99434 |
-| 05ac:8205 | Apple      | Bluetooth HCI                | 128   | btusb      | 0346BC764A |
-| 0cf3:e301 | Qualcom... | Qualcomm Atheros Bluetoot... | 121   | btusb      | BD21626122 |
-| 0bda:b002 | Realtek... | Bluetooth Radio              | 120   | btusb      | DB30D4A4D6 |
-| 413c:8126 | Dell       | Wireless 355 Bluetooth       | 117   | btusb      | A9BA9DF656 |
-| 0489:e078 | Foxconn... | Bluetooth Device             | 114   | ath3k, ... | 470C0932AE |
-| 04ca:3006 | Lite-On... | Bluetooth Device             | 114   | ath3k, ... | B953B67D06 |
-| 0930:021d | Toshiba    | RT Bluetooth Radio           | 108   | btusb      | BB9C65380C |
-| 04ca:2006 | Lite-On... | Broadcom BCM43142A0 Bluet... | 106   | btusb      | A0E3E93F48 |
-| 13d3:3394 | IMC Net... | Bluetooth                    | 103   | btusb      | 532FD196D0 |
-| 413c:8140 | Dell       | Wireless 360 Bluetooth       | 103   | btusb      | 55832DD912 |
-| 044e:3017 | Alps El... | BCM2046 Bluetooth Device     | 102   | btusb      | 87BD2C1CBF |
-| 0cf3:3121 | Qualcom... | Qualcomm Atheros Bluetoot... | 101   | ath3k, ... | E2B0881704 |
-| 0a5c:216c | Broadcom   | BCM43142A0 Bluetooth Device  | 98    | btusb      | D932AC65A5 |
-| 13d3:3402 | IMC Net... | Bluetooth USB Host Contro... | 98    | ath3k, ... | A6C41C9D3E |
-| 04ca:3010 | Lite-On... | Bluetooth Device             | 97    | ath3k, ... | EEF17EA12F |
-| 04ca:3014 | Lite-On... | Qualcomm Atheros Bluetooth   | 97    | ath3k, ... | 1BE6C8DC87 |
-| 0a5c:21f1 | Broadcom   | HP Portable Bumble Bee       | 96    | btusb      | 5A67EA75FE |
-| 13d3:3530 | IMC Net... | Bluetooth Radio              | 96    | btusb      | 456B686D28 |
-| 0bda:8723 | Realtek... | RTL8723A Bluetooth           | 94    | btusb      | 082C923AD8 |
-| 13d3:3548 | IMC Net... | Bluetooth Radio              | 93    | btusb      | 8FBAFB0D7E |
-| 05ac:8290 | Apple      | Bluetooth Host Controller    | 92    | btusb      | F69B01435F |
-| 0930:0220 | Toshiba    | Bluetooth Device             | 89    | ath3k, ... | CD55B73689 |
-| 13d3:3408 | IMC Net... | Bluetooth Device             | 89    | ath3k, ... | 9B5B69452D |
-| 04ca:3018 | Lite-On... | Bluetooth Device             | 88    | btusb      | 212240B258 |
-| 04ca:3005 | Lite-On... | Atheros Bluetooth            | 87    | ath3k, ... | E460D65395 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 8087:0a2a | Intel            | Bluetooth wireless interface         | 3672  | btusb      | [3ECBD85311](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G2/8D1B4AD5F2F1/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/3ECBD85311>) |
+| 8087:0a2b | Intel            | Bluetooth wireless interface         | 3460  | btusb      | [CBFF798F89](<Notebook/Dell/Latitude/Latitude 7480/046B50AF97D4/OPENSUSE-20220309/5.16.11-1-DEFAULT/X86_64/CBFF798F89>) |
+| 8087:0aaa | Intel            | Bluetooth 9460/9560 Jefferson Pea... | 3402  | btusb      | [37D1E90C32](<Notebook/Dell/Latitude/Latitude 5500/2ADB73247E5C/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/37D1E90C32>) |
+| 8087:07dc | Intel            | Bluetooth wireless interface         | 2777  | btusb      | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 8087:0026 | Intel            | AX201 Bluetooth                      | 2697  | btusb      | [2372B12D5C](<Notebook/Dell/Latitude/Latitude 5511/2B9275757CE0/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/2372B12D5C>) |
+| 8087:0029 | Intel            | AX200 Bluetooth                      | 2521  | btusb      | [7ADB5A975B](<Notebook/Dell/Inspiron/Inspiron 5415/A6EF8FB28A53/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/7ADB5A975B>) |
+| 8087:07da | Intel            | Centrino Bluetooth Wireless Trans... | 1174  | btusb      | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0cf3:3005 | Qualcomm Athe... | AR3011 Bluetooth                     | 1131  | btusb      | [F6068483CE](<Notebook/Toshiba/Satellite/Satellite C660/B9B75BA01934/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/F6068483CE>) |
+| 0cf3:3004 | Qualcomm Athe... | AR3012 Bluetooth 4.0                 | 1127  | ath3k, ... | [57531C7393](<Notebook/Samsung Electronics/350V5/350V5C-350V5X-350V4C-350V4X-351V5C-351V5X-351V4C-351V4X-3540VC-3540VX-3440VC-3440VX/73394EEE6C15/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/57531C7393>) |
+| 04ca:3015 | Lite-On Techn... | Qualcomm Atheros QCA9377 Bluetooth   | 1108  | btusb      | [DBC222289C](<Notebook/Acer/Aspire/Aspire A315-56/7D0CCEC5B16C/ENDLESS-4.0.3/5.11.0-35-GENERIC/X86_64/DBC222289C>) |
+| 0cf3:e500 | Qualcomm Athe... | Qualcomm Atheros Bluetooth Device    | 943   | btusb      | [B950D195CE](<Notebook/Lenovo/IdeaPad/IdeaPad 330S-15ARR 81FB/E10C1473180B/ELEMENTARY-6.1/5.13.0-30-GENERIC/X86_64/B950D195CE>) |
+| 0a12:0001 | Cambridge Sil... | Bluetooth Dongle (HCI mode)          | 809   | btusb      | [83A319F258](<Notebook/Dell/Inspiron/Inspiron 1525/E3C6D99D7C40/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/83A319F258>) |
+| 0cf3:e009 | Qualcomm Athe... | Qualcomm Atheros Bluetooth Device    | 675   | btusb      | [8248B17F01](<Notebook/Dell/Vostro/Vostro 5471/BF689F2C5926/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/8248B17F01>) |
+| 8086:0189 | Intel            | Centrino Advanced-N 6230 Bluetoot... | 661   | btusb      | [BC9AB1100F](<Notebook/Dell/System/System XPS L702X/31ACC7DF06F6/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/BC9AB1100F>) |
+| 0bda:b009 | Realtek Semic... | Realtek Bluetooth 4.2 Adapter        | 648   | btusb      | [BC59A5A32B](<Notebook/Hewlett-Packard/Laptop/Laptop 15-bs0xx/4C5B05E3EE0E/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/BC59A5A32B>) |
+| 0a5c:217f | Broadcom         | BCM2045B (BDC-2.1)                   | 623   | btusb      | [A83A1FFE1A](<Notebook/Lenovo/ThinkPad/ThinkPad T420 4180MBM/D74FF9CB9D32/ARCO-ROLLING/5.16.13-ARCH1-1/X86_64/A83A1FFE1A>) |
+| 0bda:b00a | Realtek Semic... | Bluetooth Radio                      | 623   | btusb      | [5C45B0B08A](<Notebook/Hewlett-Packard/Laptop/Laptop 15s-fq0xxx/4BB07732F905/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/5C45B0B08A>) |
+| 8087:0aa7 | Intel            | Bluetooth Device                     | 577   | btusb      | [5E63DB91A1](<Notebook/Acer/Aspire/Aspire ES1-572/E284EA08A387/DEBIAN-11/5.10.0-11-AMD64/X86_64/5E63DB91A1>) |
+| 04ca:300b | Lite-On Techn... | Atheros AR3012 Bluetooth             | 557   | ath3k, ... | [FCD769423D](<Notebook/Acer/Aspire/Aspire ES1-311/00C1CB7A91AF/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/FCD769423D>) |
+| 8087:0025 | Intel            | Wireless-AC 9260 Bluetooth Adapter   | 527   | btusb      | [3411708DDF](<Notebook/Dell/G7/G7 7590/C6267579482D/ORG.KDE.PLATFORM-5.15/5.16.8/X86_64/3411708DDF>) |
+| 03f0:231d | Hewlett-Packard  | Broadcom 2070 Bluetooth Combo        | 524   | btusb      | [7C9250A463](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8440p/322E3EEB7C57/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/7C9250A463>) |
+| 0cf3:e300 | Qualcomm Athe... | QCA61x4 Bluetooth 4.0                | 505   | btusb      | [3F8FE40793](<Notebook/Dell/XPS/XPS 15 9570/FFC4E3644992/UBUNTUSTUDIO-21.10/5.13.0-30-GENERIC/X86_64/3F8FE40793>) |
+| 03f0:171d | Hewlett-Packard  | Bluetooth 2.0 Interface [Broadcom... | 459   | btusb      | [55A6D982B3](<Notebook/Hewlett-Packard/Compaq/Compaq nw8440/341816537142/UBUNTU-21.10/5.13.0-21-GENERIC/X86_64/55A6D982B3>) |
+| 0a5c:21e6 | Broadcom         | BCM20702 Bluetooth 4.0 [ThinkPad]    | 427   | btusb      | [1A0CAB737B](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2325P38/5DD76B98FF69/SLACKWARE-15.0/5.15.19/X86_64/1A0CAB737B>) |
+| 413c:8187 | Dell             | DW375 Bluetooth Module               | 423   | btusb      | [E7BEC31798](<Notebook/Dell/Precision/Precision M4500/B8D1C7791579/LINUXMINT-19.3/5.4.0-100-GENERIC/I686/E7BEC31798>) |
+| 0cf3:e005 | Qualcomm Athe... | Qualcomm Atheros Bluetooth Device    | 410   | ath3k, ... | [490DA26167](<Notebook/Dell/Inspiron/Inspiron 15-3567/2C39383F2B1A/UBUNTU-18.04/5.4.0-100-GENERIC/X86_64/490DA26167>) |
+| 0cf3:0036 | Qualcomm Athe... | AR9462 Bluetooth                     | 402   | ath3k, ... | [9A0F2A2848](<Notebook/Dell/Inspiron/Inspiron 3537/A9A4953B82AD/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/9A0F2A2848>) |
+| 0bda:b728 | Realtek Semic... | RTL8723B Bluetooth                   | 380   | btusb      | [0B073EA407](<Notebook/Lenovo/G50-70/G50-70 20351/981DCA4EEF11/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/0B073EA407>) |
+| 0bda:c024 | Realtek Semic... | Bluetooth Radio                      | 374   | btusb      | [6E8E3F12D0](<Notebook/Lenovo/IdeaPad/IdeaPad 330-14AST 81D5/FD4E4E618880/ZORIN-16/5.13.0-30-GENERIC/X86_64/6E8E3F12D0>) |
+| 13d3:3362 | IMC Networks     | Atheros AR3012 Bluetooth 4.0 Adapter | 367   | ath3k, ... | [A1D8D94B5F](<Notebook/ASUSTek Computer/N56/N56VJ/1D425D5F0660/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/A1D8D94B5F>) |
+| 105b:e065 | Foxconn Inter... | BCM43142A0 Bluetooth module          | 366   | btusb      | [FB6977C476](<Notebook/Lenovo/G700/G700 20251/2A35DDF1CF5C/KDE-NEON-20.04/5.13.0-28-GENERIC/X86_64/FB6977C476>) |
+| 04ca:3016 | Lite-On Techn... | Bluetooth Device                     | 353   | btusb      | [952FD83515](<Notebook/Acer/Aspire/Aspire VN7-572/4987999D82D2/XUBUNTU-21.10/5.13.0-19-GENERIC/X86_64/952FD83515>) |
+| 13d3:3529 | IMC Networks     | Bluetooth Radio                      | 334   | btusb      | [F735730566](<Notebook/ASUSTek Computer/VivoBook/VivoBook 15_ASUS Laptop X540MA_X543MA/12E0D68E7183/LINUXMINT-20.3/5.4.0-104-GENERIC/X86_64/F735730566>) |
+| 0cf3:e007 | Qualcomm Athe... | Qualcomm Atheros Bluetooth Device    | 328   | btusb      | [E99C4341CA](<Notebook/Dell/Inspiron/Inspiron 5409/34EA23E7BE6D/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/E99C4341CA>) |
+| 0a5c:219c | Broadcom         | BCM2070 Bluetooth Device             | 303   | btusb      | [7E3A87A955](<Notebook/Samsung Electronics/R425/R425D-R525D/BB1EA454007A/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/7E3A87A955>) |
+| 0489:e04e | Foxconn / Hon... | Bluetooth Device                     | 290   | ath3k, ... | [40F6802B71](<Notebook/Acer/Aspire/Aspire V3-571G/DD1C23020DFA/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/40F6802B71>) |
+| 0a5c:21b4 | Broadcom         | BCM2070 Bluetooth 2.1 + EDR          | 290   | btusb      | [3FF8CF8ED0](<Notebook/Hewlett-Packard/Pavilion/Pavilion g4/181B582E2746/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/3FF8CF8ED0>) |
+| 0bda:b00b | Realtek Semic... | Bluetooth Radio                      | 286   | btusb      | [1064E67665](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/4F19AA0B254D/ELEMENTARY-6.1/5.13.0-35-GENERIC/X86_64/1064E67665>) |
+| 0bda:b00c | Realtek Semic... | Bluetooth Radio                      | 285   | btusb      | [92DB061239](<Notebook/Hewlett-Packard/Laptop/Laptop 14s-dq2xxx/995426A11705/ARTIX-ROLLING/5.16.10-ARTIX1-1/X86_64/92DB061239>) |
+| 0a5c:2101 | Broadcom         | BCM2045 Bluetooth                    | 279   | btusb      | [3104016080](<Notebook/Acer/Extensa/Extensa 5620/43D119AE7DB3/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/3104016080>) |
+| 05ac:828f | Apple            | Bluetooth USB Host Controller        | 275   | apple_m... | [92F34786B4](<Notebook/Apple/MacBookAir6/MacBookAir6,2/2BA3C5A30C3E/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/92F34786B4>) |
+| 0bda:b721 | Realtek Semic... | Bluetooth Radio                      | 272   | btusb      | [629D92121B](<Notebook/ASUSTek Computer/X541/X541UA/2830FC4B7DF8/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/629D92121B>) |
+| 1358:c123 | Realtek          | Bluetooth Radio                      | 264   | btusb      | [2B1AC5C4F4](<Notebook/HUAWEI/BOHK-WAX9/BOHK-WAX9X/F1FF0FAF7B7F/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2B1AC5C4F4>) |
+| 413c:8197 | Dell             | BCM20702A0                           | 253   | btusb      | [282F0E1F65](<Notebook/Dell/Latitude/Latitude E5430 non-vPro/5ABA8C236CC4/LINUXMINT-20.3/5.4.0-104-GENERIC/X86_64/282F0E1F65>) |
+| 0a5c:21e1 | Broadcom         | HP Portable SoftSailing              | 252   | btusb      | [7C9EEB8608](<Notebook/Hewlett-Packard/ProBook/ProBook 6570b/4D4022C50F23/KALI-2022.1/5.16.0-KALI3-AMD64/X86_64/7C9EEB8608>) |
+| 0bda:0821 | Realtek Semic... | RTL8821A Bluetooth                   | 233   | btusb      | [5AF22F3639](<Notebook/Lenovo/IdeaPad/IdeaPad 320-15ISK 80XH/7063C8B4BE67/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/5AF22F3639>) |
+| 0a5c:216d | Broadcom         | BCM43142A0 Bluetooth 4.0             | 232   | btusb      | [9C04C0776D](<Notebook/Hewlett-Packard/Notebook/Notebook/40D1513B1630/UBUNTUDDE-21.10/5.13.0-21-GENERIC/X86_64/9C04C0776D>) |
+| 0bda:b023 | Realtek Semic... | Bluetooth Radio                      | 224   | btusb      | [E6226FCE55](<Notebook/Lenovo/730S-13IWL/730S-13IWL 81JB/660EDC8C9F08/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/E6226FCE55>) |
+| 0489:e00f | Foxconn / Hon... | Foxconn T77H114 BCM2070 [Single-C... | 222   | btusb      | [47587383D1](<Notebook/Sony/VPCCW2/VPCCW2UFX/53351F0A78BD/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/47587383D1>) |
+| 13d3:3496 | IMC Networks     | Bluetooth Device                     | 222   | btusb      | [69EC87E43A](<Notebook/ASUSTek Computer/E200/E200HA/DE1CD3887106/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/69EC87E43A>) |
 
 ### Camera (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 13d3:5a11 | IMC Net... | USB2.0 VGA UVC WebCam        | 525   | uvcvideo   | 67F0B45A7A |
-| 13d3:5a01 | IMC Net... | USB2.0 VGA UVC WebCam        | 373   | uvcvideo   | 4A93747ED1 |
-| 13d3:56a2 | IMC Net... | USB2.0 HD UVC WebCam         | 371   | uvcvideo   | 3802A77D98 |
-| 064e:a103 | Suyin      | Acer/HP Integrated Webcam... | 348   | uvcvideo   | 9B324D7185 |
-| 0408:a031 | Quanta     | VGA WebCam                   | 346   | uvcvideo   | 06114B7EB7 |
-| 04e8:6860 | Samsung... | Galaxy A5 (MTP)              | 339   | usbfs      | 71F0D8F5BB |
-| 0c45:6723 | Microdia   | Integrated_Webcam_HD         | 332   | uvcvideo   | 58E43F0514 |
-| 04f2:b604 | Chicony... | Integrated Camera (1280x7... | 327   | uvcvideo   | EEB181F50B |
-| 0408:a061 | Quanta     | HD User Facing               | 313   | uvcvideo   | F581CF8319 |
-| 5986:2113 | Acer       | SunplusIT Integrated Camera  | 312   | uvcvideo   | 7555BBD3C1 |
-| 05ac:12a8 | Apple      | iPhone 5/5C/5S/6/SE          | 309   | ipheth     | 3F7A147424 |
-| 04f2:b64f | Chicony... | HD User Facing               | 293   | uvcvideo   | 7463FACB20 |
-| 05ac:8509 | Apple      | FaceTime HD Camera           | 289   | uvcvideo   | 6E17FB6EA4 |
-| 1bcf:2c18 | Sunplus... | HD WebCam                    | 281   | uvcvideo   | D2A5CA4ACA |
-| 0408:a060 | Quanta     | HD Webcam                    | 266   | uvcvideo   | 4150C71628 |
-| 5986:0295 | Acer       | Lenovo Integrated Webcam     | 266   | uvcvideo   | 779684E41D |
-| 1bcf:2883 | Sunplus... | Asus Webcam                  | 250   | uvcvideo   | 7332DA68EC |
-| 058f:5608 | Alcor M... | USB 2.0 Web Camera           | 247   | uvcvideo   | 2FBF6F153B |
-| 05ac:8507 | Apple      | Built-in iSight              | 247   | uvcvideo   | 80E0B6AF9E |
-| 0402:9665 | ALi        | Gateway Webcam               | 243   | uvcvideo   | 55BA94A26E |
-| 058f:a014 | Alcor M... | Asus Integrated Webcam       | 230   | uvcvideo   | E838F0C769 |
-| 04f2:b230 | Chicony... | Integrated HP HD Webcam      | 227   | uvcvideo   | B6AC4539D1 |
-| 04f2:b47f | Chicony... | VGA Webcam                   | 222   | uvcvideo   | B943E3347D |
-| 0408:5365 | Quanta     | HP TrueVision HD Camera      | 219   | uvcvideo   | C227DAEA26 |
-| 04f2:b52b | Chicony... | USB2.0 VGA UVC WebCam        | 219   | uvcvideo   | 9B382500C5 |
-| 13d3:5710 | IMC Net... | UVC VGA Webcam               | 218   | uvcvideo   | 011079F499 |
-| 04f2:b217 | Chicony... | Lenovo Integrated Camera ... | 214   | uvcvideo   | 90895AAB86 |
-| 04f2:b1d6 | Chicony... | CNF9055 Toshiba Webcam       | 211   | uvcvideo   | 5576D0D6C5 |
-| 0bda:57b5 | Realtek... | USB Camera                   | 206   | uvcvideo   | 4C2453C6A2 |
-| 13d3:5130 | IMC Net... | Integrated Webcam            | 204   | uvcvideo   | 0EEDFC8A67 |
-| 2232:1020 | Silicon... | WebCam SC-0311139N           | 200   | uvcvideo   | A83E302ABA |
-| 0c45:671e | Microdia   | Integrated_Webcam_HD         | 195   | uvcvideo   | 60F4AC8CC5 |
-| 04ca:7070 | Lite-On... | Integrated Camera            | 194   | uvcvideo   | F7309EF31A |
-| 13d3:56dd | IMC Net... | USB2.0 HD UVC WebCam         | 193   | uvcvideo   | 823C6074D8 |
-| 04f2:b071 | Chicony... | 2.0M UVC Webcam / CNF7129    | 190   | uvcvideo   | FFB279A366 |
-| 5986:0652 | Acer       | Lenovo EasyCamera            | 185   | uvcvideo   | 37A983C1E7 |
-| 04f2:b008 | Chicony... | USB 2.0 Camera               | 179   | uvcvideo   | 01EB2C3459 |
-| 13d3:56b2 | IMC Net... | Integrated Camera            | 171   | uvcvideo   | 8272A05168 |
-| 0bda:57de | Realtek... | USB2.0 VGA UVC WebCam        | 169   | uvcvideo   | 02BA908575 |
-| 13d3:5188 | IMC Net... | USB2.0 UVC HD Webcam         | 169   | uvcvideo   | 5369ACA258 |
-| 0bda:57b3 | Realtek... | Acer 640 x 480 laptop camera | 168   | uvcvideo   | AA7DD43B73 |
-| 13d3:56a6 | IMC Net... | Integrated Camera            | 167   | uvcvideo   | 3FC424B8C6 |
-| 2232:1008 | Silicon... | WebCam SCB-1100N             | 167   | uvcvideo   | D8167A915B |
-| 04f2:b221 | Chicony... | integrated camera            | 165   | uvcvideo   | A75FFD5203 |
-| 064e:a219 | Suyin      | 1.3M WebCam (notebook ema... | 164   | uvcvideo   | 1427EBFFB0 |
-| 0c45:62c0 | Microdia   | Sonix USB 2.0 Camera         | 163   | uvcvideo   | 24833C6A59 |
-| 04f2:b469 | Chicony... | HD WebCam                    | 161   | uvcvideo   | 98323BE6F8 |
-| 04f2:b5c5 | Chicony... | HD WebCam                    | 161   | uvcvideo   | 55A32EF8DC |
-| 04f2:b40a | Chicony... | USB2.0 HD UVC WebCam         | 158   | uvcvideo   | 3498166FA2 |
-| 04f2:b39a | Chicony... | Integrated Camera            | 157   | uvcvideo   | 5026826DBE |
-| 1210:25f4 | DigiTech   | USB 2.0 PC Camera            | 156   | uvcvideo   | CF2BC09886 |
-| 2232:1029 | Silicon... | WebCam SC-13HDL11939N        | 156   | uvcvideo   | 95C381CCD9 |
-| 04f2:b52d | Chicony... | HP Webcam                    | 155   | uvcvideo   | 5614E34F51 |
-| 064e:a101 | Suyin      | Acer CrystalEye Webcam       | 155   | uvcvideo   | 8592F1650F |
-| 1bcf:28c1 | Sunplus... | Integrated_Webcam_HD         | 155   | uvcvideo   | C01FA4B013 |
-| 04f2:b5e0 | Chicony... | VGA WebCam                   | 149   | uvcvideo   | E348A818BD |
-| 0bda:568a | Realtek... | Integrated Webcam            | 149   | uvcvideo   | 19F7BA4A63 |
-| 13d3:5a07 | IMC Net... | VGA UVC WebCam               | 148   | uvcvideo   | EED2A8B965 |
-| 04f2:b40e | Chicony... | HP Truevision HD camera      | 146   | uvcvideo   | AB5E53C9ED |
-| 13d3:5a02 | IMC Net... | EasyCamera                   | 146   | uvcvideo   | 4EB6B00CAC |
-| 04f2:b1d8 | Chicony... | 1.3M Webcam                  | 144   | uvcvideo   | BCEF8C44A6 |
-| 2232:1080 | Silicon... | Web Camera                   | 142   | uvcvideo   | F3400508FB |
-| 05c8:036e | Cheng U... | Webcam                       | 140   | uvcvideo   | 22807CB857 |
-| 0c45:64ad | Microdia   | Dell Laptop Integrated We... | 140   | uvcvideo   | 0F2394B49D |
-| 04f2:b685 | Chicony... | USB2.0 Camera                | 138   | uvcvideo   | 435743B201 |
-| 05a9:2640 | OmniVis... | OV2640 Webcam                | 138   | uvcvideo   | A9BA9DF656 |
-| 0bda:5689 | Realtek... | Integrated Webcam            | 138   | uvcvideo   | 141148EC26 |
-| 0c45:671d | Microdia   | Integrated_Webcam_HD         | 138   | uvcvideo   | 0FA8C3ED0C |
-| 5986:9102 | Acer       | BisonCam,NB Pro              | 138   | uvcvideo   | A16445083C |
-| 04f2:b044 | Chicony... | Acer CrystalEye Webcam       | 136   | uvcvideo   | 7095848F26 |
-| 04f2:b374 | Chicony... | HD WebCam                    | 135   | uvcvideo   | 167DA11BB6 |
-| 13d3:56ff | IMC Net... | Integrated Camera            | 135   | uvcvideo   | 8D45D9544E |
-| 04f2:b446 | Chicony... | TOSHIBA Web Camera - HD      | 134   | uvcvideo   | 8D16328DFD |
-| 13d3:5702 | IMC Net... | UVC VGA Webcam               | 134   | uvcvideo   | E74DC83F0A |
-| 17ef:480f | Lenovo     | Integrated Webcam [R5U877]   | 134   | uvcvideo   | 8B21B7CFFE |
-| 05c8:021e | Cheng U... | HP Webcam-101                | 133   | uvcvideo   | 9CE9B3750D |
-| 0bda:58c2 | Realtek... | Integrated Webcam HD         | 133   | uvcvideo   | B0F6309320 |
-| 13d3:5666 | IMC Net... | USB2.0 HD UVC WebCam         | 133   | uvcvideo   | 8A5F05E4C1 |
-| 04f2:b272 | Chicony... | Lenovo EasyCamera            | 131   | uvcvideo   | D1D57448C4 |
-| 04f2:b6d9 | Chicony... | Integrated Camera            | 130   | uvcvideo   | A35AAAEB6D |
-| 04f2:b5f7 | Chicony... | HD WebCam                    | 129   | uvcvideo   | E4762B54F7 |
-| 0c45:64d0 | Microdia   | Integrated Webcam            | 128   | uvcvideo   | DF9262F810 |
-| 0c45:6713 | Microdia   | Integrated_Webcam_HD         | 128   | uvcvideo   | BB6272E86B |
-| 04f2:b483 | Chicony... | USB2.0 VGA UVC WebCam        | 127   | uvcvideo   | 4A70424B2F |
-| 04f2:b61e | Chicony... | Integrated Camera            | 127   | uvcvideo   | 169DB6C9F8 |
-| 04f2:b2ea | Chicony... | Integrated Camera [ThinkPad] | 125   | uvcvideo   | EC8AF5F350 |
-| 04f2:b3f6 | Chicony... | HD WebCam (Acer)             | 125   | uvcvideo   | DC7A02C862 |
-| 0c45:648b | Microdia   | Integrated Webcam            | 124   | uvcvideo   | F3F6A0F78C |
-| 0bda:5728 | Realtek... | Lenovo EasyCamera            | 123   | uvcvideo   | 60FA5FF04C |
-| 04f2:b307 | Chicony... | TOSHIBA Web Camera - HD      | 121   | uvcvideo   | E713A7C2B9 |
-| 058f:b002 | Alcor M... | Acer Integrated Webcam       | 121   | uvcvideo   | 1217A94F61 |
-| 0bda:5801 | Realtek... | USB Camera                   | 120   | uvcvideo   | FF46DC73D4 |
-| 0c45:643f | Microdia   | Dell Integrated HD Webcam    | 120   | uvcvideo   | D040F874C9 |
-| 5986:2115 | Acer       | Integrated Camera            | 120   | uvcvideo   | 2B4A1A20D9 |
-| 174f:244c | Syntek     | Integrated Camera            | 119   | uvcvideo   | 3D42BC888B |
-| 5986:02d2 | Acer       | ThinkPad Integrated Camera   | 119   | uvcvideo   | 801C1D8AF3 |
-| 04f2:b67c | Chicony... | Integrated Camera            | 118   | uvcvideo   | 3517455DF5 |
-| 0bda:5520 | Realtek... | Integrated_Webcam_HD         | 117   | uvcvideo   | 8F25043C64 |
-| 0ac8:c33f | Z-Star ... | Webcam                       | 116   | uvcvideo   | 467812DB7D |
-| 0bda:565a | Realtek... | Integrated_Webcam_HD         | 114   | uvcvideo   | DA5E2F59CC |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 13d3:5a11 | IMC Networks     | USB2.0 VGA UVC WebCam                | 614   | uvcvideo   | [F735730566](<Notebook/ASUSTek Computer/VivoBook/VivoBook 15_ASUS Laptop X540MA_X543MA/12E0D68E7183/LINUXMINT-20.3/5.4.0-104-GENERIC/X86_64/F735730566>) |
+| 13d3:56a2 | IMC Networks     | USB2.0 HD UVC WebCam                 | 440   | uvcvideo   | [ED4DB5233E](<Notebook/ASUSTek Computer/TUF/TUF Gaming FX505DD_FX505DD/5EA1D9EED139/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/ED4DB5233E>) |
+| 0408:a031 | Quanta           | VGA WebCam                           | 401   | uvcvideo   | [DBC222289C](<Notebook/Acer/Aspire/Aspire A315-56/7D0CCEC5B16C/ENDLESS-4.0.3/5.11.0-35-GENERIC/X86_64/DBC222289C>) |
+| 13d3:5a01 | IMC Networks     | USB2.0 VGA UVC WebCam                | 401   | uvcvideo   | [629D92121B](<Notebook/ASUSTek Computer/X541/X541UA/2830FC4B7DF8/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/629D92121B>) |
+| 0408:a061 | Quanta           | HD User Facing                       | 399   | uvcvideo   | [CCA64BFD46](<Notebook/Acer/Nitro/Nitro AN515-54/7DBAAC635A99/ENDLESS-4.0.3/5.11.0-35-GENERIC/X86_64/CCA64BFD46>) |
+| 04e8:6860 | Samsung Elect... | Galaxy A5 (MTP)                      | 385   | usbfs      | [5C45B0B08A](<Notebook/Hewlett-Packard/Laptop/Laptop 15s-fq0xxx/4BB07732F905/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/5C45B0B08A>) |
+| 064e:a103 | Suyin            | Acer/HP Integrated Webcam [CN0314]   | 379   | uvcvideo   | [9F926D363E](<Notebook/Acer/Aspire/Aspire 5732Z/51D431EC5846/KALI-2022.1/5.16.0-KALI3-AMD64/X86_64/9F926D363E>) |
+| 0c45:6723 | Microdia         | Integrated_Webcam_HD                 | 368   | uvcvideo   | [69FD2B147F](<Notebook/Dell/XPS/XPS 13 9305/8DFBFD565288/LINUXMINT-20.1/5.4.0-104-GENERIC/X86_64/69FD2B147F>) |
+| 05ac:12a8 | Apple            | iPhone5/5C/5S/6                      | 366   | ipheth     | [B48A6240BF](<Notebook/Lenovo/ThinkPad/ThinkPad E15 20RD0016GE/4F4BEFFC091C/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/B48A6240BF>) |
+| 04f2:b604 | Chicony Elect... | Integrated Camera (1280x720@30)      | 360   | uvcvideo   | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 5986:2113 | Acer             | Integrated Camera                    | 354   | uvcvideo   | [2F136D5BF5](<Notebook/Lenovo/ThinkPad/ThinkPad E480 20KN002YPH/61077ED80EDE/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2F136D5BF5>) |
+| 05ac:8509 | Apple            | FaceTime HD Camera                   | 339   | uvcvideo   | [2AB16BFCEE](<Notebook/Apple/MacBookPro9/MacBookPro9,2/69963227A53F/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AB16BFCEE>) |
+| 04f2:b64f | Chicony Elect... | HD User Facing                       | 329   | uvcvideo   | [BEDF3D3105](<Notebook/Acer/Aspire/Aspire A515-56/EE1A67AE8D46/DEBIAN-11/5.15.0-0.BPO.3-AMD64/X86_64/BEDF3D3105>) |
+| 1bcf:2c18 | Sunplus Innov... | HD WebCam                            | 310   | uvcvideo   | [809073B4D7](<Notebook/Acer/TravelMate/TravelMate P253/13612FA220ED/UBUNTU-20.04/5.13.0-32-GENERIC/X86_64/809073B4D7>) |
+| 0408:a060 | Quanta           | HD Webcam                            | 296   | uvcvideo   | [8E7B1DB68F](<Notebook/Acer/Aspire/Aspire A515-51/1B666FCC2D3A/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/8E7B1DB68F>) |
+| 05ac:8507 | Apple            | Built-in iSight                      | 296   | uvcvideo   | [0F0EF0F4A0](<Notebook/Apple/MacBook5/MacBook5,1/204181EE85F0/UBUNTU-20.04/5.8.0-43-GENERIC/X86_64/0F0EF0F4A0>) |
+| 058f:5608 | Alcor Micro      | USB 2.0 Web Camera                   | 292   | uvcvideo   | [FA7F40245B](<Notebook/Positivo/CHT12/CHT12CP/D453CC3A0C14/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/FA7F40245B>) |
+| 5986:0295 | Acer             | Lenovo Integrated Webcam             | 290   | uvcvideo   | [1F84B1E42D](<Notebook/Lenovo/G580/G580 20150/8AADC209F667/CENTOS-9/5.14.0-66.EL9.X86_64/X86_64/1F84B1E42D>) |
+| 1bcf:2883 | Sunplus Innov... | Asus Webcam                          | 276   | uvcvideo   | [41F11E9487](<Notebook/ASUSTek Computer/X45/X45U/1C5D5B5B5ED2/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/41F11E9487>) |
+| 0408:5365 | Quanta           | HP TrueVision HD Camera              | 275   | uvcvideo   | [60A1D94845](<Notebook/Hewlett-Packard/Laptop/Laptop 15-dw1xxx/34FFE39D867E/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/60A1D94845>) |
+| 0402:9665 | ALi              | Gateway Webcam                       | 264   | uvcvideo   | [CD3380A8B4](<Notebook/Acer/Aspire/Aspire 5349/800E1822B08D/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/CD3380A8B4>) |
+| 058f:a014 | Alcor Micro      | Asus Integrated Webcam               | 250   | uvcvideo   | [117876C3AA](<Notebook/ASUSTek Computer/K53/K53SC/87A3FEDFF767/XUBUNTU-20.04/5.4.0-100-LOWLATENCY/X86_64/117876C3AA>) |
+| 04f2:b230 | Chicony Elect... | Integrated HP HD Webcam              | 249   | uvcvideo   | [FBC726A0B8](<Notebook/Hewlett-Packard/ProBook/ProBook 6470b/32A30A3A3068/KALI-2022.1/5.16.0-KALI3-AMD64/X86_64/FBC726A0B8>) |
+| 04f2:b52b | Chicony Elect... | USB2.0 VGA UVC WebCam                | 247   | uvcvideo   | [AEF8901D13](<Notebook/ASUSTek Computer/X541/X541UV/6D894B1F1576/POP!_OS-20.04/5.15.15-76051515-GENERIC/X86_64/AEF8901D13>) |
+| 0c45:671e | Microdia         | Integrated_Webcam_HD                 | 247   | uvcvideo   | [F094B510C8](<Notebook/Dell/Inspiron/Inspiron 3793/FF8F84C8407D/DEBIAN-11/5.15.6.1-MARCH/X86_64/F094B510C8>) |
+| 04f2:b47f | Chicony Elect... | VGA Webcam                           | 244   | uvcvideo   | [A885962E63](<Notebook/Acer/Aspire/Aspire ES1-520/62CFB2DBE91A/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/A885962E63>) |
+| 04f2:b1d6 | Chicony Elect... | CNF9055 Toshiba Webcam               | 241   | uvcvideo   | [F6068483CE](<Notebook/Toshiba/Satellite/Satellite C660/B9B75BA01934/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/F6068483CE>) |
+| 04f2:b217 | Chicony Elect... | Lenovo Integrated Camera (0.3MP)     | 236   | uvcvideo   | [508A68F09E](<Notebook/Lenovo/ThinkPad/ThinkPad X220 4290EC5/45C5B8282921/KUBUNTU-18.04/4.15.0-169-GENERIC/X86_64/508A68F09E>) |
+| 13d3:5710 | IMC Networks     | UVC VGA Webcam                       | 235   | uvcvideo   | [B7944A1493](<Notebook/ASUSTek Computer/U32/U32U/EEB44DF601E7/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B7944A1493>) |
+| 2232:1020 | Silicon Motion   | WebCam SC-0311139N                   | 227   | uvcvideo   | [0456C09970](<Notebook/Samsung Electronics/300E4/300E4A-300E5A-300E7A/6017E3E6CDEB/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/0456C09970>) |
+| 0bda:57b5 | Realtek Semic... | USB Camera                           | 224   | uvcvideo   | [4F9B339DD5](<Notebook/ASUSTek Computer/X555/X555LAB/F640F8067BC1/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/4F9B339DD5>) |
+| 13d3:5130 | IMC Networks     | Integrated Webcam                    | 220   | uvcvideo   | [D8A321AAE3](<Notebook/ASUSTek Computer/K52/K52JT/18EC50970937/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/D8A321AAE3>) |
+| 04ca:7070 | Lite-On Techn... | Integrated Camera                    | 217   | uvcvideo   | [4F65353F3E](<Notebook/Lenovo/ThinkPad/ThinkPad T14s Gen 1 20T1S8E400/DFC9BE7636A6/XUBUNTU-20.04/5.13.0-35-GENERIC/X86_64/4F65353F3E>) |
+| 13d3:56dd | IMC Networks     | USB2.0 HD UVC WebCam                 | 216   | uvcvideo   | [95296F29BB](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X512UB/975FDC0F3724/ENDLESS-4.0.2/5.11.0-35-GENERIC/X86_64/95296F29BB>) |
+| 04f2:b071 | Chicony Elect... | 2.0M UVC Webcam / CNF7129            | 211   | uvcvideo   | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 5986:0652 | Acer             | Lenovo EasyCamera                    | 205   | uvcvideo   | [0F4E501D1F](<Notebook/Lenovo/G50-70/G50-70 20351/988EAF32234E/LINUXMINT-20.3/5.13.0-30-GENERIC/X86_64/0F4E501D1F>) |
+| 13d3:56b2 | IMC Networks     | Integrated Camera                    | 200   | uvcvideo   | [A630A0C13C](<Notebook/Lenovo/IdeaPad/IdeaPad 330S-15ARR 81FB/344181E49F93/DEBIAN-11/5.10.0-11-AMD64/X86_64/A630A0C13C>) |
+| 13d3:56a6 | IMC Networks     | Integrated Camera                    | 195   | uvcvideo   | [3F58A0F2A4](<Notebook/Lenovo/Legion/Legion Y530-15ICH 81FV/A4B769895625/GENTOO-2.6/5.15.23-GENTOO/X86_64/3F58A0F2A4>) |
+| 04f2:b008 | Chicony Elect... | USB 2.0 Camera                       | 194   | uvcvideo   | [E21B12CA9F](<Notebook/Toshiba/Satellite/Satellite U400/30AE94CDAF54/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/E21B12CA9F>) |
+| 04f2:b221 | Chicony Elect... | integrated camera                    | 189   | uvcvideo   | [A83A1FFE1A](<Notebook/Lenovo/ThinkPad/ThinkPad T420 4180MBM/D74FF9CB9D32/ARCO-ROLLING/5.16.13-ARCH1-1/X86_64/A83A1FFE1A>) |
+| 0bda:57de | Realtek Semic... | USB2.0 VGA UVC WebCam                | 188   | uvcvideo   | [B73A01EBCA](<Notebook/ASUSTek Computer/X540/X540SA/0C25CD68A309/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B73A01EBCA>) |
+| 13d3:56ff | IMC Networks     | Integrated Camera                    | 187   | uvcvideo   | [05B4CCEAB2](<Notebook/Lenovo/Legion/Legion 5 15ARH05H 82B1/E751204B0E38/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/05B4CCEAB2>) |
+| 04f2:b5c5 | Chicony Elect... | HD WebCam                            | 185   | uvcvideo   | [23C2A93047](<Notebook/HONOR/BMH-WCX/BMH-WCX9/19886291EEA7/DEBIAN-11/5.15.0-2-AMD64/X86_64/23C2A93047>) |
+| 04f2:b39a | Chicony Elect... | Integrated Camera                    | 183   | uvcvideo   | [10655C6E60](<Notebook/Lenovo/ThinkPad/ThinkPad T440s 20ARS08Q00/C58673A1A81B/DEBIAN-11/5.10.0-12-AMD64/X86_64/10655C6E60>) |
+| 064e:a219 | Suyin            | 1.3M WebCam (notebook emachines E... | 183   | uvcvideo   | [B7E82C9025](<Notebook/Acer/Aspire/Aspire 8943G/D311E289CC71/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/B7E82C9025>) |
+| 13d3:5188 | IMC Networks     | USB2.0 UVC HD Webcam                 | 183   | uvcvideo   | [0D64CBAB8E](<Notebook/ASUSTek Computer/N550/N550JV/F88770F9156F/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/0D64CBAB8E>) |
+| 04f2:b469 | Chicony Elect... | HD WebCam                            | 178   | uvcvideo   | [FCD769423D](<Notebook/Acer/Aspire/Aspire ES1-311/00C1CB7A91AF/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/FCD769423D>) |
+| 0bda:57b3 | Realtek Semic... | Acer 640 x 480 laptop camera         | 178   | uvcvideo   | [5879C41CF0](<Notebook/Acer/Aspire/Aspire ES1-512/5872458326D7/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/5879C41CF0>) |
+| 0c45:62c0 | Microdia         | Sonix USB 2.0 Camera                 | 178   | uvcvideo   | [A2763BECF2](<Notebook/Intel/HuronRiver/HuronRiver Platform/7ED2167DA366/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-I586/I686/A2763BECF2>) |
+| 04f2:b40a | Chicony Elect... | USB2.0 HD UVC WebCam                 | 177   | uvcvideo   | [A7394D72A0](<Notebook/ASUSTek Computer/X450/X450EA/054E485ECA98/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/A7394D72A0>) |
 
 ### Card reader (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0bda:0129 | Realtek... | RTS5129 Card Reader Contr... | 7089  | rtsx_usb   | 4A93747ED1 |
-| 0bda:0139 | Realtek... | RTS5139 Card Reader Contr... | 791   | rtsx_usb   | 16EBDC4388 |
-| 17ef:a38f | Lenovo     | Billboard Device             | 34    | usbhid     | 3FC424B8C6 |
-| 17ef:3075 | Lenovo     | USB Billboard Device         | 28    |            | E9A8FB1275 |
-| 04b4:521a | Cypress... | USB-I2C Bridge               | 20    |            | 2D80988DDC |
-| 04b4:5218 | Cypress... | USB-Serial Bridge            | 16    |            | E16A18BC8B |
-| 0cf2:6250 | ENE Tec... | SD card reader (UB6250)      | 11    | ums_ene... | 2B59C324E6 |
-| 0c4b:0500 | Reiner ... | cyberJack RFID standard d... | 7     | usbfs      | 66A1F3F644 |
-| 072f:9000 | Advance... | ACR38 AC1038-based Smart ... | 5     | usbfs      | 46855C6116 |
-| 17ef:3078 | Lenovo     | USB Billboard                | 4     |            | 13078A648E |
-| 174f:1105 | Syntek     | SM-MS/Pro-MMC-XD Card Reader | 3     | uvcvideo   | B0B1659E5A |
-| 2ce3:9563 |            | EMV Smartcard Reader         | 3     |            | 60D38664EE |
-| 04e6:e003 | SCM Mic... | SPR532 PinPad SmartCard R... | 2     | usbfs      | 842C53B8E2 |
-| 0b97:7732 | O2 Micro   | Smart Card Reader            | 2     |            | 386777B221 |
-| 0c4b:0501 | Reiner ... | cyberJack RFID comfort du... | 2     |            | 2ABB1FA74D |
-| 04e6:512b | SCM Mic... | SDI011 Contactless Reader    | 1     |            | 3810E77092 |
-| 04e6:5151 | SCM Mic... | SCR338 Keyboard Smart Car... | 1     | usbhid     | BD73A86E1F |
-| 0ca6:0010 | Castles... | EZUSB PC/SC Smart Card Re... | 1     |            | E783786489 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0bda:0129 | Realtek Semic... | RTS5129 Card Reader Controller       | 7985  | rtsx_usb   | [F735730566](<Notebook/ASUSTek Computer/VivoBook/VivoBook 15_ASUS Laptop X540MA_X543MA/12E0D68E7183/LINUXMINT-20.3/5.4.0-104-GENERIC/X86_64/F735730566>) |
+| 0bda:0139 | Realtek Semic... | RTS5139 Card Reader Controller       | 877   | rtsx_usb   | [BF2F9B2C1D](<Notebook/ASUSTek Computer/Q501/Q501LA/E3FF080C61AE/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/BF2F9B2C1D>) |
+| 17ef:a38f | Lenovo           | Billboard Device                     | 42    | usbhid     | [F86D99B8A1](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U5S01S00/2B880CC2B844/KUBUNTU-21.10/5.16.5/X86_64/F86D99B8A1>) |
+| 17ef:3075 | Lenovo           | USB Billboard Device                 | 33    |            | [ABED4A5863](<Notebook/Lenovo/ThinkPad/ThinkPad T14 Gen 2i 20W0000FRT/03B6D51ED61F/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/ABED4A5863>) |
+| 04b4:521a | Cypress Semic... | USB-I2C Bridge                       | 27    |            | [B48A6240BF](<Notebook/Lenovo/ThinkPad/ThinkPad E15 20RD0016GE/4F4BEFFC091C/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/B48A6240BF>) |
+| 04b4:5218 | Cypress Semic... | USB-Serial Bridge                    | 24    |            | [33CE116B8A](<Notebook/Lenovo/ThinkBook/ThinkBook 16p Gen 2 20YM/4DAF13AEA8CC/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/33CE116B8A>) |
+| 0cf2:6250 | ENE Technology   | SD card reader (UB6250)              | 11    | ums_ene... | [2B59C324E6](<Notebook/Acer/AOHAPPY/AOHAPPY/60C87E0F9C88/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/2B59C324E6>) |
+| 0c4b:0500 | Reiner SCT Ka... | cyberJack RFID standard dual inte... | 7     | usbfs      | [66A1F3F644](<Notebook/Toshiba/Satellite/Satellite U920T/46AF83B3A009/KDE-NEON-20.04/5.11.0-34-GENERIC/X86_64/66A1F3F644>) |
+| 2ce3:9563 |                  | EMV Smartcard Reader                 | 7     |            | [2C27A1EED4](<Notebook/Dynabook/PORTEGE/PORTEGE X30L-J/34424342D908/UBUNTU-21.10/5.16.9-051609-GENERIC/X86_64/2C27A1EED4>) |
+| 072f:9000 | Advanced Card... | ACR38 AC1038-based Smart Card Reader | 5     | usbfs      | [46855C6116](<Notebook/Dell/Latitude/Latitude E6330/70432BCBFC5B/DEBIAN-11/5.11.0-11.1-LIQUORIX-AMD64/X86_64/46855C6116>) |
+| 17ef:3078 | Lenovo           | USB Billboard                        | 4     |            | [13078A648E](<Notebook/Lenovo/ThinkPad/ThinkPad X390 20Q1S04L00/52518B703A6C/UBUNTU-20.04/5.4.0-48-GENERIC/X86_64/13078A648E>) |
+| 0ca6:0010 | Castles Techn... | EZUSB PC/SC Smart Card Reader        | 3     |            | [DB6F479FDD](<Notebook/Acer/Aspire/Aspire 5935/3514F6E0E6BF/UBUNTU-18.04/5.4.0-99-GENERIC/I686/DB6F479FDD>) |
+| 174f:1105 | Syntek           | SM-MS/Pro-MMC-XD Card Reader         | 3     | uvcvideo   | [B0B1659E5A](<Notebook/Hewlett-Packard/Mini/Mini 110-1000/D41F7AC4A974/ZORIN-15/5.4.0-45-GENERIC/I686/B0B1659E5A>) |
+| 04e6:e003 | SCM Microsystems | SPR532 PinPad SmartCard Reader       | 2     | usbfs      | [842C53B8E2](<Notebook/Lenovo/ThinkPad/ThinkPad X270 W10DG 20K5S41E00/14889CC0A2CC/DEBIAN-11/5.10.0-6-RT-AMD64/X86_64/842C53B8E2>) |
+| 0b97:7732 | O2 Micro         | Smart Card Reader                    | 2     |            | [386777B221](<Notebook/Lenovo/G/G780/9086DA149BA8/XUBUNTU-20.04/5.4.0-46-LOWLATENCY/X86_64/386777B221>) |
+| 0c4b:0501 | Reiner SCT Ka... | cyberJack RFID comfort dual inter... | 2     |            | [2ABB1FA74D](<Notebook/MSI/GL72/GL72 6QF/7A327C2CE27B/KUBUNTU-19.10/5.3.0-29-GENERIC/X86_64/2ABB1FA74D>) |
+| 04e6:512b | SCM Microsystems | SDI011 Contactless Reader            | 1     |            | [3810E77092](<Notebook/Hewlett-Packard/EliteBook/EliteBook 850 G4/430F0E003372/UBUNTU-20.04/5.4.0-26-GENERIC/X86_64/3810E77092>) |
+| 04e6:5151 | SCM Microsystems | SCR338 Keyboard Smart Card Reader    | 1     | usbhid     | [BD73A86E1F](<Notebook/Dell/Latitude/Latitude E7440/E5F9C0AE9C43/POP!_OS-20.10/5.8.0-7642-GENERIC/X86_64/BD73A86E1F>) |
+| 0bda:0150 | Realtek Semic... | Realtek USB 2.0 Card Reader          | 1     |            | [6FB3466F59](<Notebook/Lenovo/Legion/Legion 5 15ARH05H 82B1/3C58F4D0006A/ARCO-ROLLING/5.15.3-ZEN1-1-ZEN/X86_64/6FB3466F59>) |
+| 0d8c:5200 | C-Media Elect... | Mass Storage Controller(0D8C,5200)   | 1     |            | [7F95A3373C](<Notebook/Acer/Aspire/Aspire A515-44G/90521D8710C9/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/7F95A3373C>) |
 
 ### Cdc data (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0547:2001 | Anchor ... | MTouchR2P3                   | 1     |            | 7C4D5C3CE8 |
-| 0e8d:0023 | MediaTek   | S103                         | 1     | option     | 457F8BF8F7 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0547:2001 | Anchor Chips     | MTouchR2P3                           | 1     |            | [7C4D5C3CE8](<Notebook/Others/Others/Others/588547542E72/KDE-NEON-20.04/5.4.0-65-GENERIC/X86_64/7C4D5C3CE8>) |
+| 0e8d:0023 | MediaTek         | S103                                 | 1     | option     | [457F8BF8F7](<Notebook/Sony/VGN-SZ1/VGN-SZ1HRP_B/DC544921499F/ROSA-2016.1/4.9.20-NRJ-DESKTOP-1ROSA-I586/I686/457F8BF8F7>) |
 
 ### Cdrom (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0e8d:1887 | MediaTek   | Slim Portable DVD Writer     | 78    | usb_sto... | 35B5FCB787 |
-| 174c:1153 | ASMedia... | ASM1153 SATA 3Gb/s bridge    | 65    | uas, us... | E58D33DF6B |
-| 174c:1351 | ASMedia... | DVDRW DA8AESH                | 40    | uas, us... | 2E3861AEF3 |
-| 1c6b:a223 | Philips... | DVD Writer Slimtype eUAU108  | 39    | usb_sto... | 85CCF0AFC5 |
-| 0e8d:1806 | MediaTek   | Samsung SE-208 Slim Porta... | 38    | usb_sto... | 6988796CAF |
-| 0928:0010 | PLX Tec... | Virtual CDRom                | 18    | uas, us... | 7132BCC66D |
-| 0e8d:1836 | MediaTek   | Samsung SE-S084 Super Wri... | 18    | usb_sto... | 638F2B35AF |
-| 13fd:3940 | Initio     | external DVD burner ECD81... | 18    | uas, us... | 8FB386FBE6 |
-| 19d2:1403 | ZTE WCD... | USB SCSI CD-ROM              | 18    | uas, us... | DFE4D656BA |
-| 0b05:7774 | ASUSTek... | Zenfone GO (ZB500KL) (RND... | 17    | rndis_host | 0B6699ECD2 |
-| 2e04:c025 | HMD Global | Nokia 8 (MTP mode)           | 17    | uas, us... | CCC49B1CD4 |
-| 054c:02d5 | Sony       | DVD-RAM UJ-852S              | 16    | uas, us... | 972677CEAB |
-| 14cd:6600 | Super Top  | M110E PATA bridge            | 16    | usb_sto... | CE0DCC0424 |
-| 12d1:1082 | Huawei ... | File-CD Gadget               | 13    | usb_sto... | 1345E7109D |
-| 2a70:f003 | OnePlus... | Device Driver                | 13    | uas, us... | 514642D183 |
-| 0930:0c05 | Toshiba    | DVD-RAM UJ-844S              | 11    | usb_sto... | B7B8ADEDEE |
-| 054c:0377 | Sony       | BD-MLT UJ-220S               | 10    | uas, us... | 76C6658153 |
-| 13fd:0842 | Initio     | CDDVDW SE-S084C              | 10    | usb_sto... | EF16468238 |
-| 13fd:0940 | Initio     | ASUS SBW-06D2X-U             | 10    | uas, us... | 18591F972C |
-| 534d:6021 | MacroSi... | VGA Display Adapter          | 9     | snd_usb... | 394501AB2E |
-| 08e4:017a | Pioneer    | BD-RW BDR-XD05               | 8     | usb_sto... | 94E0E3F047 |
-| 12d1:107d | Huawei ... | File-CD Gadget               | 7     | rndis_host | F16233E3E4 |
-| 152e:2507 | LG (HLDS)  | PL-2507 IDE Controller       | 7     | uas, us... | 790AECB1F9 |
-| 05c6:f000 | Qualcomm   | Device Driver                | 6     | uas, us... | C797030409 |
-| 12d1:107f | Huawei ... | File-CD Gadget               | 6     | uas, us... | 9AD7B323C7 |
-| 13fd:2040 | Initio     | Samsung Writemaster exter... | 6     | usb_sto... | 71A5232043 |
-| 152e:1640 | LG (HLDS)  | INIC-1605 SATA Bridge        | 6     | usb_sto... | 83B56DB4C1 |
-| 05c6:9039 | Qualcomm   | Android                      | 5     | usbfs      | 954005CA3D |
-| 04e8:685b | Samsung... | GT-I9100 Phone [Galaxy S ... | 4     | uas, us... | C8821B395F |
-| 054c:03dc | Sony       | DVD RW DRX-S70U              | 4     | uas, us... | 8E54A49F9F |
-| 17ef:730a | Lenovo     | Ultraslim DVD                | 4     | usb_sto... | 6E2B20FD64 |
-| 19d2:0504 | ZTE WCD... | File-CD Gadget               | 4     | uas, us... | 9F6FBAF237 |
-| 19d2:1410 | ZTE WCD... | USB SCSI CD-ROM              | 4     | uas, us... | 27CC77A565 |
-| 413c:9016 | Dell       | DVD+/-RW DW316               | 4     | usb_sto... | D385BB7617 |
-| 0bb4:0f25 | HTC (Hi... | One M8                       | 3     | uas, us... | AC8EEC8267 |
-| 0e8d:1807 | MediaTek   | DVDRAM GP40NB40              | 3     | usb_sto... | 08AC103C8E |
-| 0fe6:9702 | ICS Advent | Supereal VR DISK             | 3     | uas, us... | 34D2F87751 |
-| 12d1:1052 | Huawei ... | MT7-L09 / P7-L10 / Y330-U01  | 3     | uas, us... | 2ABA1A12DD |
-| 1c6b:d002 | Philips... | ES1                          | 3     | usb_sto... | 1A2D14DED4 |
-| 2e04:c026 | HMD Global | Nokia Smartphone             | 3     | uas, us... | 7B2E2DC41D |
-| 0409:0056 | NEC Com... | CD/DVDW SH-S162L             | 2     | usb_sto... | 1BBDE8C84F |
-| 0411:01dc | BUFFALO    | Ultra-Slim Portable DVD W... | 2     | usb_sto... | 0609E0680E |
-| 0411:02af | BUFFALO    | BD-RW BDR-209M               | 2     | usb_sto... | 226EA64896 |
-| 0451:9261 | Texas I... | DVD+-RW GU90N                | 2     | uas, us... | 362307C0B1 |
-| 0476:059b | AESP       | CDDVDW SN-S083C              | 2     | uas, us... | D8383576CC |
-| 059f:0663 | LaCie      | CD/DVDW SH-S182M             | 2     | uas, us... | E824FDE3F1 |
-| 05c6:92fe | Qualcomm   | Disk                         | 2     | uas, us... | D06E1D8C5B |
-| 05e3:0701 | Genesys... | USB 2.0 IDE Adapter          | 2     | usb_sto... | 5FB06C5B71 |
-| 05e3:0719 | Genesys... | SATA adapter                 | 2     | uas, us... | 8B32C068DC |
-| 067b:2571 | Prolifi... | LG Electronics GE24LU21      | 2     | uas, us... | 7202A06970 |
-| 067b:2771 | Prolifi... | BD-RE BE14NU40               | 2     | uas, us... | 6B1C47D1B5 |
-| 0789:0197 | Logitec    | DVDRAM GP67N                 | 2     | usb_sto... | 266D78E723 |
-| 0b05:1797 | ASUSTek... | DVDRAM GU60N                 | 2     | usb_sto... | E2A6782664 |
-| 0e8d:1956 | MediaTek   | Samsung SE-506 Portable B... | 2     | usb_sto... | DF6E0A3FF3 |
-| 0ecd:a100 | Lite-On IT | LDW-411SX DVD/CD Rewritab... | 2     | usb_sto... | 664332711F |
-| 13fd:0841 | Initio     | Samsung SE-T084M DVD-RW      | 2     | usb_sto... | 7153CCA02A |
-| 1410:6000 | Novatel... | Mass Storage                 | 2     | option,... | 45AEF7A11F |
-| 17ef:7302 | Lenovo     | USB_DVD_Burner5              | 2     | usb_sto... | A6DCDFAB33 |
-| 1c6b:d005 | Philips... | EB1                          | 2     | usb_sto... | 49272ED382 |
-| 413c:9001 | Dell       | ATA Bridge                   | 2     | uas, us... | 8CEA54AABF |
-| 03f0:4907 | Hewlett... | DVD Writer 556s              | 1     | uas, us... | 0504CC20A9 |
-| 03f0:5907 | Hewlett... | DVD Writer 557s              | 1     | usb_sto... | B91A0B2CB2 |
-| 03f0:f907 | Hewlett... | DVD Writer 600y              | 1     | usb_sto... | ED7FB8CBB9 |
-| 0408:ea42 | Quanta     | modem CD-ROM                 | 1     | option,... | 8EC72CB3E0 |
-| 0409:0840 | NEC Com... | CD/DVDW SE-T084L             | 1     | usb_sto... | A67AF78289 |
-| 0411:0094 | BUFFALO    | DVD-RAM GH22NP20             | 1     | usb_sto... | FAD3CD1AA5 |
-| 0411:01ec | BUFFALO    | BD-RW BDR-TD04               | 1     | usb_sto... | B8DBA9C83D |
-| 0489:c001 | Foxconn... | File-CD Gadget               | 1     | usb_sto... | 2DCD0E4E69 |
-| 049f:0081 | Compaq ... | DVD-RAM UJ-844S              | 1     | uas, us... | B87F4916B6 |
-| 04b3:4487 | IBM        | RW/DVD GCC-4247N             | 1     | uas, us... | 1501370AB2 |
-| 04da:250a | Panason... | DVD-RAM UJ-833S              | 1     | usb_sto... | 497FA7F67C |
-| 054c:023b | Sony       | DVD+RW External Drive DRU... | 1     | uas, us... | EAEBC5DFF1 |
-| 059b:005c | Iomega     | CDRW64892EXT3-B              | 1     | uas, us... | E70AE3B8A9 |
-| 059b:0252 | Iomega     | Optical                      | 1     | uas, us... | 2ED92032E0 |
-| 059f:0643 | LaCie      | CDDVDW SN-S082N              | 1     | usb_sto... | D5B6ED9E9F |
-| 060f:1027 | Joinsoo... | DVDRAM GT80N                 | 1     | usb_sto... | 19B60F0DFD |
-| 067b:2506 | Prolifi... | Kaser 8gB micro hard drive   | 1     | uas, us... | C15A92913B |
-| 07ab:fc84 | Freecom... | CD/DVDW SDR5372V             | 1     | usb_sto... | 173C832AAC |
-| 08e4:0193 | Pioneer    | DVD-RW DVR-XT11              | 1     | uas, us... | 46250D420A |
-| 08f2:6811 | Gotop I... | SZ)                          | 1     | usb_sto... | 11EBF2008B |
-| 0930:0c06 | Toshiba    | SuperMultiPA3761             | 1     | usb_sto... | 174467AEFE |
-| 093b:002f | PLEXTOR    | BD-ROM PX-B120U              | 1     | usb_sto... | 909E2CDC93 |
-| 0b05:5601 | ASUSTek... | Device CD-ROM                | 1     | uas, us... | 286A4000F8 |
-| 0b05:5f03 | ASUSTek... | File-CD Gadget               | 1     | usb_sto... | 92D18FD140 |
-| 0b05:5f05 | ASUSTek... | Device CD-ROM                | 1     | uas, us... | AA0E38B197 |
-| 0b05:7780 | ASUSTek... | Device CD-ROM                | 1     |            | 1362BCA03D |
-| 0bb4:0ccb | HTC (Hi... | Android Phone                | 1     | uas, us... | 12494330BD |
-| 0bb4:0edb | HTC (Hi... | File-CD Gadget               | 1     | uas, us... | CAF51C474E |
-| 0ecd:40c0 | Lite-On IT | DVDRW SSM-85H5S              | 1     | uas, us... | C08B7EBB15 |
-| 12d1:1078 | Huawei ... | File-CD Gadget               | 1     | uas, us... | 0CA59D916B |
-| 12d1:1083 | Huawei ... | File-CD Gadget               | 1     | usb_sto... | CF1F5F9E74 |
-| 12d1:2608 | Huawei ... | File-CD Gadget               | 1     | uas, us... | 96188348AE |
-| 13fd:084c | Initio     | DVDWBD SE-406AB              | 1     | usb_sto... | 0C15DF9936 |
-| 161c:f010 | Digitec... | Hotspot                      | 1     | uas, us... | 4D0BBF965B |
-| 1782:5d03 | Spreadt... | File-CD Gadget               | 1     | uas, us... | 0D165C08F9 |
-| 17ef:7883 | Lenovo     | File-Stor Gadget             | 1     | uas, us... | 7E72BCC706 |
-| 17ef:7a30 | Lenovo     | File-CD Gadget               | 1     | uas, us... | 01CE356619 |
-| 17ef:7b30 | Lenovo     | File-Stor Gadget             | 1     | uas, us... | 55F906BA66 |
-| 18a5:0414 | Verbatim   | BD-RW BDR-UD03               | 1     | usb_sto... | F41C784317 |
-| 19d2:1081 | ZTE WCD... | CD-Rom                       | 1     | usb_sto... | CF3199C253 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 152d:2329 | JMicron Techn... | JM20329 SATA Bridge                  | 169   | usb_sto... | [F20C485A7B](<Notebook/ASUSTek Computer/K50/K50IJ/07838AFCF23B/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/F20C485A7B>) |
+| 13fd:0840 | Initio           | INIC-1618L SATA                      | 99    | uas, us... | [FDAC76C228](<Notebook/Gigabyte Technology/P64/P64V7/0B59E131C1D6/ZORIN-16/5.13.0-30-GENERIC/X86_64/FDAC76C228>) |
+| 0e8d:1887 | MediaTek         | Slim Portable DVD Writer             | 96    | usb_sto... | [93C8BFF33B](<Notebook/Lenovo/IdeaPad/IdeaPad 100-15IBY 80MJ/1C5B87A81853/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/93C8BFF33B>) |
+| 12d1:107e | Huawei Techno... | P10 smartphone                       | 92    | uas, us... | [5FF1A9A4B3](<Notebook/Lenovo/G50-70/G50-70 20351/981DCA4EEF11/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/5FF1A9A4B3>) |
+| 04c5:2028 | Fujitsu          | Virtual CD-Rom                       | 52    | uas, us... | [5AC4AED9D9](<Notebook/Shuttle/DS68/DS68U/1E76FE5AABE1/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/5AC4AED9D9>) |
+| 0e8d:1806 | MediaTek         | Samsung SE-208 Slim Portable DVD ... | 46    | usb_sto... | [FB281E6C00](<Notebook/Packard Bell/EasyNote/EasyNote ENLG81BA/35289DA085B9/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/FB281E6C00>) |
+| 174c:1351 | ASMedia Techn... | DVDRW DA8AESH                        | 46    | uas, us... | [8443B3C441](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/37F739C18F0A/LINUXMINT-20.2/5.4.0-80-GENERIC/X86_64/8443B3C441>) |
+| 1c6b:a223 | Philips & Lit... | eBAU108 6 L                          | 43    | usb_sto... | [97BEEDB37F](<Notebook/Toshiba/Satellite/Satellite M50D-A/3F048D10AB55/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/97BEEDB37F>) |
+| 13fd:1040 | Initio           | INIC-1511L PATA Bridge               | 28    | usb_sto... | [FEF25611FB](<Notebook/ASUSTek Computer/K52/K52Dr/D1F23186AB22/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/FEF25611FB>) |
+| 152d:2339 | JMicron Techn... | JM20339 SATA Bridge                  | 27    | uas, us... | [30D2DEEB07](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2740p/3F4217EAE010/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/30D2DEEB07>) |
+| 13fd:3940 | Initio           | external DVD burner ECD819-SU3       | 23    | uas, us... | [0171FA003C](<Notebook/Hewlett-Packard/255/255 G7 Notebook PC/1045F9222C2A/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/0171FA003C>) |
+| 0e8d:1836 | MediaTek         | Samsung SE-S084 Super WriteMaster... | 22    | usb_sto... | [6D601B5260](<Notebook/Hewlett-Packard/Others/Others/42AD3AA10B3B/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/6D601B5260>) |
+| 0928:0010 | PLX Technology   | Virtual CDRom                        | 18    | uas, us... | [7132BCC66D](<Notebook/Samsung Electronics/350V5/350V5C-351V5C-3540VC-3440VC/8AA326D861A9/ELEMENTARY-5.1.7/5.4.0-42-GENERIC/X86_64/7132BCC66D>) |
+| 0b05:7774 | ASUSTek Computer | Zenfone GO (ZB500KL) (RNDIS mode)    | 18    | rndis_host | [BCC46E9FCB](<Notebook/ASUSTek Computer/VivoBook/VivoBook 15_ASUS Laptop X540UAR/F7E37F165880/ENDLESS-4.0.0/5.11.0-35-GENERIC/X86_64/BCC46E9FCB>) |
+| 0bda:1a2b | Realtek Semic... | RTL8188GU 802.11n WLAN Adapter (D... | 18    | uas, us... | [5837EADC8B](<Notebook/Lenovo/ThinkPad/ThinkPad Edge E530 32597CU/68A8C3EE92A2/POP!_OS-21.04/5.13.0-7614-GENERIC/X86_64/5837EADC8B>) |
+| 2e04:c025 | HMD Global       | Nokia 8 (MTP mode)                   | 18    | uas, us... | [93957DDAC1](<Notebook/Lenovo/IdeaPad/IdeaPad 3 15ALC6 82KU/1B9155B752DC/ENDEAVOUROS-ROLLING/5.15.7-ARCH1-1/X86_64/93957DDAC1>) |
+| 054c:02d5 | Sony             | DVD-RAM UJ-852S                      | 16    | uas, us... | [972677CEAB](<Notebook/Sony/VGN-TZ21/VGN-TZ21WN_B/8007887B1C37/LINUXMINT-20.2/5.4.0-80-GENERIC/X86_64/972677CEAB>) |
+| 152e:2571 | LG (HLDS)        | GP08NU6W DVD-RW                      | 16    | uas, us... | [AE56CD459A](<Notebook/ASUSTek Computer/M70/M70Vn/2D6D244275C6/DEBIAN-11/5.10.0-11-AMD64/X86_64/AE56CD459A>) |
+| 12d1:1082 | Huawei Techno... | File-CD Gadget                       | 15    | usb_sto... | [C4651BDBC6](<Notebook/Samsung Electronics/RC530/RC530-RC730/AE11140B6A56/GENTOO-2.7/5.10.61-GENTOO/X86_64/C4651BDBC6>) |
+| 2a70:f003 | OnePlus          | IN2017                               | 14    | uas, us... | [D65C6F6AB1](<Notebook/Dell/Precision/Precision M6400/59903F98A6D7/LINUXMINT-19.3/4.15.0-162-GENERIC/X86_64/D65C6F6AB1>) |
+| 0930:0c05 | Toshiba          | DVD-RAM UJ-844S                      | 12    | usb_sto... | [B4DBC4297F](<Notebook/Toshiba/PORTEGE/PORTEGE R600/710934C3584F/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/B4DBC4297F>) |
+| 04b7:0100 | Compal Electr... | DVDRW DA8AESH                        | 11    | uas, us... | [F3EE6F9DBB](<Notebook/Hewlett-Packard/Laptop/Laptop 17-ca0xxx/B10B91A6708A/POP!_OS-21.04/5.15.11-76051511-GENERIC/X86_64/F3EE6F9DBB>) |
+| 054c:0377 | Sony             | BD-CMB UJ-120                        | 11    | uas, us... | [EDEAD40B0D](<Notebook/Sony/VGN-FW170/VGN-FW170J/221E48B294E0/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/EDEAD40B0D>) |
+| 13fd:0940 | Initio           | ASUS SBW-06D2X-U                     | 11    | uas, us... | [7AE6513197](<Notebook/Lenovo/Flex/Flex 2-15 20405/D99689BA00ED/ZORIN-16/5.11.0-41-GENERIC/X86_64/7AE6513197>) |
+| 13fd:0842 | Initio           | CDDVDW SE-S084C                      | 10    | usb_sto... | [EF16468238](<Notebook/Acer/Aspire/Aspire A514-53/6A4D70157F51/UBUNTU-20.04/5.11.0-37-GENERIC/X86_64/EF16468238>) |
+| 08e4:017a | Pioneer          | BD-RW BDR-XS07U                      | 9     | usb_sto... | [42921AEBFD](<Notebook/Hewlett-Packard/ZBook/ZBook 15u G6/A8B5AAF45EC2/UBUNTU-BUDGIE-21.10/5.13.0-35-GENERIC/X86_64/42921AEBFD>) |
+| 12d1:107f | Huawei Techno... | File-CD Gadget                       | 9     | uas, us... | [0372C4E606](<Notebook/Dell/Inspiron/Inspiron 3543/34C24A4E6D1B/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/0372C4E606>) |
+| 13fd:3e40 | Initio           | ZALMAN ZM-VE350                      | 9     | uas, us... | [2E162C78FB](<Notebook/Samsung Electronics/300V3/300V3A-300V4A-300V5A-200A4B-200A5B/82304B48A08D/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-I586/I686/2E162C78FB>) |
+| 152e:1640 | LG (HLDS)        | INIC-1605 SATA Bridge                | 8     | usb_sto... | [A2FC96B3DC](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8530p/B361BA85D1AA/XUBUNTU-20.04/5.4.0-97-GENERIC/X86_64/A2FC96B3DC>) |
+| 05c6:f000 | Qualcomm         | Device Driver                        | 7     | uas, us... | [C62460798A](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X509DA_M509DA/FD1964527BD4/GENTOO-2.6/5.15.5-GENTOO/X86_64/C62460798A>) |
+| 12d1:107d | Huawei Techno... | File-CD Gadget                       | 7     | rndis_host | [F16233E3E4](<Notebook/Dell/Inspiron/Inspiron 3543/6C13B5B95ED9/POP!_OS-20.04/5.13.0-7614-GENERIC/X86_64/F16233E3E4>) |
+| 152e:2507 | LG (HLDS)        | PL-2507 IDE Controller               | 7     | uas, us... | [BEA01DC778](<Notebook/Acer/Swift/Swift SF315-41/C70598BE2A86/UBUNTU-20.04/5.4.0-90-GENERIC/X86_64/BEA01DC778>) |
+| 05c6:9039 | Qualcomm         | Android                              | 6     | usbfs      | [5496B24A51](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 6th 20KHS1L200/4F0EA27BB90B/ELEMENTARY-6.1/5.11.0-43-GENERIC/X86_64/5496B24A51>) |
+| 13fd:2040 | Initio           | Samsung Writemaster external DVD ... | 6     | usb_sto... | [87BD7D315F](<Notebook/Lenovo/IdeaPad/IdeaPad 320-15IAP 80XR/3B9F2B4ADC4D/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/87BD7D315F>) |
+| 17ef:730a | Lenovo           | Ultraslim DVD                        | 5     | usb_sto... | [38BB8E64F6](<Notebook/Dell/XPS/XPS 15 9570/D85A3536A7C1/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/38BB8E64F6>) |
+| 1c6b:d002 | Philips & Lit... | ES1 1                                | 5     | usb_sto... | [F86D99B8A1](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U5S01S00/2B880CC2B844/KUBUNTU-21.10/5.16.5/X86_64/F86D99B8A1>) |
+| 8564:8000 | Transcend        | TRANSCEND                            | 5     | usb_sto... | [6AA4AE0DA5](<Notebook/Hewlett-Packard/Pavilion/Pavilion Gaming Laptop 15-ec2xxx/48F478E20956/UBUNTU-20.04/5.11.0-38-GENERIC/X86_64/6AA4AE0DA5>) |
+| 04e8:685b | Samsung Elect... | GT-I9100 Phone [Galaxy S II] (mas... | 4     | uas, us... | [C8821B395F](<Notebook/Hewlett-Packard/Laptop/Laptop 15-bw0xx/5BB5B5D64356/FEDORA-34/5.12.17-300.FC34.X86_64/X86_64/C8821B395F>) |
+| 054c:03dc | Sony             | DVD RW DRX-S70U                      | 4     | uas, us... | [8E54A49F9F](<Notebook/Others/0/0A/A67FC3096603/UBUNTU-18.04/4.15.0-115-GENERIC/X86_64/8E54A49F9F>) |
+| 0bb4:0f25 | HTC (High Tec... | One M8                               | 4     | usbfs      | [CC23C422E3](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv7/A1B10FA3AF67/UBUNTU-20.04/5.11.0-43-GENERIC/X86_64/CC23C422E3>) |
+| 0e8d:1956 | MediaTek         | Samsung SE-506 Portable BluRay Di... | 4     | usb_sto... | [6E5A2E29F4](<Notebook/Packard Bell/EasyNote/EasyNote TE11HC/FFDFCA409720/UBUNTU-20.04/5.11.0-46-GENERIC/X86_64/6E5A2E29F4>) |
+| 19d2:0504 | ZTE WCDMA Tec... | File-CD Gadget                       | 4     | uas, us... | [9F6FBAF237](<Notebook/Dell/Inspiron/Inspiron MP061/16B4E942B6B5/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/9F6FBAF237>) |
+| 19d2:1410 | ZTE WCDMA Tec... | USB SCSI CD-ROM                      | 4     | uas, us... | [27CC77A565](<Notebook/Apple/MacBookPro16/MacBookPro16,2/78BB42B0745C/KALI-2020.3/5.7.0-KALI1-AMD64/X86_64/27CC77A565>) |
+| 413c:9016 | Dell             | DVD+/-RW DW316                       | 4     | usb_sto... | [D385BB7617](<Notebook/Dell/Inspiron/Inspiron N4010/CE05C89CA387/ZORIN-15/5.4.0-74-GENERIC/X86_64/D385BB7617>) |
+| 0451:9261 | Texas Instrum... | TUSB9261 SerialATA-Bridge            | 3     | uas, us... | [64EF1D30C3](<Notebook/Dell/Latitude/Latitude 7424 Rugged Extreme/8E222DD36428/DEBIAN-TESTING/5.15.0-3-AMD64/X86_64/64EF1D30C3>) |
+| 0789:0197 | Logitec          | DVDRAM GP68N                         | 3     | usb_sto... | [0D0A2BAB7A](<Notebook/Toshiba/dynabook/dynabook RX3 SN240Y-3HD/847CDC962157/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/0D0A2BAB7A>) |
+| 0e8d:1807 | MediaTek         | DVDRAM GP40NB40                      | 3     | usb_sto... | [08AC103C8E](<Notebook/ASUSTek Computer/K72/K72Jr/1E0DB06BB971/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/08AC103C8E>) |
+| 12d1:1052 | Huawei Techno... | MT7-L09 / P7-L10 / Y330-U01          | 3     | uas, us... | [2ABA1A12DD](<Notebook/Hewlett-Packard/Pavilion/Pavilion g7/AF0450DFCC50/KAISEN-1.6/5.10.0-KAISEN3-AMD64/X86_64/2ABA1A12DD>) |
+| 152d:2519 | JMicron Techn... | Transcend                            | 3     | uas, us... | [62D62E7D32](<Notebook/Dell/Latitude/Latitude 3550/0D72DEED29BB/ENDLESS-3.6.2/5.0.0-20-GENERIC/X86_64/62D62E7D32>) |
+| 2e04:c026 | HMD Global       | Nokia Smartphone                     | 3     | uas, us... | [7B2E2DC41D](<Notebook/Lenovo/ThinkBook/ThinkBook 13s-IML 20RR/490F6CDA6AFB/CLEAR-LINUX-OS-32600/5.5.9-918.NATIVE/X86_64/7B2E2DC41D>) |
 
 ### Chipcard (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 058f:9540 | Alcor M... | AU9540 Smartcard Reader      | 1035  | usbfs      | 11CD74E647 |
-| 0a5c:5800 | Broadcom   | BCM5880 Secure Applicatio... | 889   | usbfs      | F442DF91A1 |
-| 0a5c:5801 | Broadcom   | BCM5880 Secure Applicatio... | 358   | usbfs      | BA51FC9216 |
-| 0b97:7772 | O2 Micro   | OZ776 CCID Smartcard Reader  | 330   | usbfs      | 4639F065C8 |
-| 147e:2020 | Upek       | TouchChip Fingerprint Cop... | 293   | usbfs      | 69A252CCD6 |
-| 17ef:1003 | Lenovo     | Integrated Smart Card Reader | 292   | usbfs      | C9D8EFC9B9 |
-| 0a5c:5832 | Broadcom   | 5880                         | 216   | usbfs      | 3D0FD285B6 |
-| 0a5c:5834 | Broadcom   | 5880                         | 194   | usbfs      | D926705B17 |
-| 0a5c:5843 | Broadcom   | 58200                        | 188   | usbfs      | 20266B5994 |
-| 0a5c:5804 | Broadcom   | BCM5880 Secure Applicatio... | 71    | usbfs      | 9834990221 |
-| 0a5c:5842 | Broadcom   | 58200                        | 67    | usbfs      | F4B1EFA60F |
-| 0b97:7762 | O2 Micro   | Oz776 SmartCard Reader       | 64    |            | ED344B9346 |
-| 08e6:34ec | Gemalto... | Compact Smart Card Reader... | 26    | usbfs      | 04F114FB0F |
-| 0a5c:5802 | Broadcom   | BCM5880 Secure Applicatio... | 21    | usbfs      | 18591F972C |
-| 08e6:3437 | Gemalto... | GemPC Twin SmartCard Reader  | 12    | usbfs      | F8509314E3 |
-| 04e6:5119 | SCM Mic... | SCR3340 - ExpressCard54 S... | 11    | usbfs      | ABCF2EEE75 |
-| 1050:0406 | Yubico.com | Yubikey 4/5 U2F+CCID         | 10    | usbfs      | 711F2B9E6D |
-| 0529:0620 | Aladdin... | Token JC                     | 9     | usbfs      | 754CD1A0C0 |
-| 076b:4321 | OmniKey    | CardMan 4321                 | 9     | usbfs      | 6C14033E55 |
-| 1050:0111 | Yubico.com | Yubikey NEO(-N) OTP+CCID     | 7     | usbhid     | 2E706CD74A |
-| 0a5c:5805 | Broadcom   | 5880                         | 6     |            | E306044D0C |
-| 058f:9520 | Alcor M... | Watchdata W 1981             | 5     | usbfs      | 1F91E82C9F |
-| 072f:90cc | Advance... | ACR38 SmartCard Reader       | 5     | usbfs      | 768755D03D |
-| 0a5c:5833 | Broadcom   | 5880                         | 5     |            | 0CBB50CF63 |
-| 0bda:0165 | Realtek... | Smart Card Reader Interface  | 5     | usbfs      | A1A1AC98DC |
-| 1059:0017 | Gieseck... | StarSign CUT                 | 5     | usbfs      | D4931747CA |
-| 03f0:164a | Hewlett... | SC Keyboard - Apollo (Lit... | 4     | usbhid     | E975DC486C |
-| 04e6:5410 | SCM Mic... | SCR35xx Smart Card Reader    | 4     | usbfs      | 09CFE58582 |
-| 25dd:3111 | BIT4ID     | miniLector EVO               | 4     | usbfs      | BD51F8A0AE |
-| 046a:0070 | Cherry     | SmartTerminal XX1X           | 3     | usbfs      | D6668FF825 |
-| 046a:00a1 | Cherry     | SmartCard Reader Keyboard... | 3     | usbhid     | 49272ED382 |
-| 04e6:5116 | SCM Mic... | SCR331-LC1 / SCR3310 Smar... | 3     |            | 8ADA6C01E7 |
-| 076b:1021 | OmniKey    | CardMan 1021                 | 3     | usbfs      | 5BD6CA5ABA |
-| 08e6:3438 | Gemalto... | GemPC Key SmartCard Reader   | 3     | usbfs      | 10434415D8 |
-| 163c:0407 | Watchdata  | USB Key                      | 3     | uas, us... | 7E1580D21A |
-| 20a0:4108 | Clay Logic | Nitrokey Pro                 | 3     | usbfs      | 60B4C707AD |
-| 316d:4c4b | Purism,... | Librem Key                   | 3     | usbfs      | F3E5EBA0C2 |
-| 058c:9590 | In Focu... | EMV Smartcard Reader         | 2     |            | 1ABD844344 |
-| 072f:2200 | Advance... | ACR122U                      | 2     | pn533_usb  | 3B93E825DE |
-| 076b:3031 | OmniKey    | 3x21 Smart Card Reader       | 2     | usbfs      | AFDDE3E9B5 |
-| 08e6:5504 | Gemalto... | Prox SU USB PC Link Reader   | 2     | usbhid     | 5DBA4D3BCE |
-| 1059:0019 | Gieseck... | StarSign CUT S               | 2     | usbfs      | 25C060DD59 |
-| 1fc9:010b | NXP Sem... | PR533                        | 2     |            | 08514D3FB0 |
-| 20a0:4211 | Clay Logic | Nitrokey Start               | 2     | usbfs      | FF64809DC3 |
-| 048d:1365 | Integra... | SmartCard Reader             | 1     |            | DB4B891E15 |
-| 04e6:511d | SCM Mic... | SCR3311 Smart Card Reader    | 1     |            | 8A42AD40CC |
-| 04e6:5811 | SCM Mic... | CLOUD 2900 R Smart Card R... | 1     | usbfs      | 31A6F21CCD |
-| 04e6:581d | SCM Mic... | SCR3500 C Contact Reader     | 1     | usbfs      | AF129BFCD6 |
-| 04e6:e001 | SCM Mic... | SCR331 SmartCard Reader      | 1     | usbfs      | 5937F48C97 |
-| 04f2:1469 | Chicony... | HP Skylab USB Smartcard K... | 1     | usbhid     | 05F84C951F |
-| 058f:9522 | Alcor M... | EMV Smartcard Reader         | 1     |            | 713028C9F2 |
-| 072f:b100 | Advance... | ACR39U                       | 1     | usbfs      | A9A218F5DD |
-| 076b:3021 | OmniKey    | CardMan 3021 / 3121          | 1     | usbfs      | 22858CD970 |
-| 0783:0006 | C3PO       | LTC31v2                      | 1     |            | AC8A218E93 |
-| 0783:0036 | C3PO       | USB SMART CARD READER        | 1     | usbfs      | 86286FAD9C |
-| 0c4b:0551 | Reiner ... | tanJack USB                  | 1     |            | 22858CD970 |
-| 0d46:3014 | Kobil S... | Smart Token                  | 1     |            | 115B66445B |
-| 0dc3:1004 | Athena ... | ASEDrive CCID                | 1     |            | C34161A66D |
-| 1a44:0870 | VASCO D... | DIGIPASS 870                 | 1     |            | 1ED6532125 |
-| 1c34:91b1 | SpringCard | Two                          | 1     |            | F93D4537CB |
-| 20a0:42d4 | Clay Logic | CanoKey                      | 1     | usbhid     | 5F02658195 |
-| 24dc:0101 | ARDS       | JaCarta                      | 1     |            | 92A6009CC0 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 058f:9540 | Alcor Micro      | AU9540 Smartcard Reader              | 1229  | usbfs      | [4766FE6362](<Notebook/Lenovo/ThinkPad/ThinkPad T490 20N2000KRT/974FF46B3D36/ARCH-ROLLING/5.16.13-ARCH1-1/X86_64/4766FE6362>) |
+| 0a5c:5800 | Broadcom         | BCM5880 Secure Applications Proce... | 1016  | usbfs      | [E7BEC31798](<Notebook/Dell/Precision/Precision M4500/B8D1C7791579/LINUXMINT-19.3/5.4.0-100-GENERIC/I686/E7BEC31798>) |
+| 0a5c:5801 | Broadcom         | BCM5880 Secure Applications Proce... | 417   | usbfs      | [2AF2BBA8DA](<Notebook/Dell/Latitude/Latitude E6430s/A8788E2EED17/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AF2BBA8DA>) |
+| 0b97:7772 | O2 Micro         | OZ776 CCID Smartcard Reader          | 388   | usbfs      | [CC5F0F79DD](<Notebook/Toshiba/TECRA/TECRA Z50-A/FF500FE27A3A/LINUXMINT-20.3/5.4.0-104-GENERIC/X86_64/CC5F0F79DD>) |
+| 147e:2020 | Upek             | TouchChip Fingerprint Coprocessor... | 336   | usbfs      | [CEEC77F198](<Notebook/Lenovo/ThinkPad/ThinkPad T530 2359CTO/2A7FFCF59535/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/CEEC77F198>) |
+| 17ef:1003 | Lenovo           | Integrated Smart Card Reader         | 332   | usbfs      | [4601C3AA77](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2537VGY/60E94FBE6817/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/4601C3AA77>) |
+| 0a5c:5832 | Broadcom         | 5880                                 | 260   | usbfs      | [9E9710E890](<Notebook/Dell/Precision/Precision 7730/2A131BBCEBD8/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/9E9710E890>) |
+| 0a5c:5843 | Broadcom         | 58200                                | 242   | usbfs      | [B56BB115A0](<Notebook/Dell/Latitude/Latitude 5411/33F2D924CBA3/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B56BB115A0>) |
+| 0a5c:5834 | Broadcom         | 5880                                 | 231   | usbfs      | [CBFF798F89](<Notebook/Dell/Latitude/Latitude 7480/046B50AF97D4/OPENSUSE-20220309/5.16.11-1-DEFAULT/X86_64/CBFF798F89>) |
+| 0a5c:5842 | Broadcom         | 58200                                | 81    | usbfs      | [3D87BC42C6](<Notebook/Dell/Latitude/Latitude 5500/0ABE26200F3D/ROCKY-8.5/4.18.0-348.12.2.EL8_5.X86_64/X86_64/3D87BC42C6>) |
+| 0a5c:5804 | Broadcom         | BCM5880 Secure Applications Proce... | 77    | usbfs      | [7EB0675554](<Notebook/Dell/Latitude/Latitude E5550/FE67D8CE4D4C/LINUXMINT-19.3/5.4.0-100-GENERIC/X86_64/7EB0675554>) |
+| 0b97:7762 | O2 Micro         | Oz776 SmartCard Reader               | 72    |            | [D4E50F40F3](<Notebook/Dell/Latitude/Latitude D620/BFE0941CFFA9/LMDE-4/4.19.0-8-686/I686/D4E50F40F3>) |
+| 08e6:34ec | Gemalto (was ... | Compact Smart Card Reader Writer     | 27    | usbfs      | [02818352E0](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2325ND9/AC1E7BFBB0B0/ELEMENTARY-6.1/5.13.0-30-GENERIC/X86_64/02818352E0>) |
+| 0a5c:5802 | Broadcom         | BCM5880 Secure Applications Proce... | 22    | usbfs      | [5569C72650](<Notebook/Dell/Latitude/Latitude E6500/A3037319A9E9/LINUXMINT-20.2/5.4.0-90-GENERIC/X86_64/5569C72650>) |
+| 04e6:5119 | SCM Microsystems | SCR3340 - ExpressCard54 Smart Car... | 15    | usbfs      | [0BA38C6605](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK E780/E68F3F32BD0E/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/0BA38C6605>) |
+| 0529:0620 | Aladdin Knowl... | Token JC                             | 15    | usbfs      | [5D73B6F2F7](<Notebook/Hewlett-Packard/ProBook/ProBook 450 G7/77EC59780235/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/5D73B6F2F7>) |
+| 08e6:3437 | Gemalto (was ... | GemPC Twin SmartCard Reader          | 13    | usbfs      | [D782BEA38A](<Notebook/Getac/B300/B300G5/D37A392C328B/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/D782BEA38A>) |
+| 1050:0406 | Yubico.com       | Yubikey 4 U2F+CCID                   | 11    | usbfs      | [A0D13572A5](<Notebook/TUXEDO/InfinityBook/InfinityBook Pro 14 Gen6/CF00A18B4833/ZORIN-16/5.11.0-38-GENERIC/X86_64/A0D13572A5>) |
+| 076b:4321 | OmniKey          | CardMan 4321                         | 9     | usbfs      | [6C14033E55](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv7/A4347166A656/LINUXMINT-20.2/5.4.0-88-GENERIC/X86_64/6C14033E55>) |
+| 0bda:0165 | Realtek Semic... | Smart Card Reader Interface          | 9     | usbfs      | [F7B7D4D2DB](<Notebook/ASUSTek Computer/U32/U32U/79A07A28D70D/LINUXMINT-20.3/5.13.0-30-GENERIC/X86_64/F7B7D4D2DB>) |
+| 058f:9520 | Alcor Micro      | Watchdata W 1981                     | 8     | usbfs      | [396C65C24C](<Notebook/Getac/V100/V100-X/3FABEFD5B35A/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/396C65C24C>) |
+| 0a5c:5833 | Broadcom         | 5880                                 | 8     |            | [817E973E9D](<Notebook/Dell/Latitude/Latitude 5480/B95B01FCFA31/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/817E973E9D>) |
+| 0a5c:5805 | Broadcom         | 5880                                 | 7     |            | [B462D15A6B](<Notebook/Dell/Latitude/Latitude E7270/B35AEC6069FE/UBUNTU-21.10/5.13.0-21-GENERIC/X86_64/B462D15A6B>) |
+| 1050:0111 | Yubico.com       | Yubikey NEO(-N) OTP+CCID             | 7     | usbhid     | [2E706CD74A](<Notebook/Lenovo/Legion/Legion 5 82B5/2444370EAE5C/MANJARO-21.1.0/5.14.0-1-MANJARO/X86_64/2E706CD74A>) |
+| 072f:90cc | Advanced Card... | ACR38 SmartCard Reader               | 6     | usbfs      | [567A2D4073](<Notebook/Samsung Electronics/RF511/RF511-RF411-RF711/C4AB2C2CD176/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/567A2D4073>) |
+| 03f0:164a | Hewlett-Packard  | SC Keyboard - Apollo (Liteon)        | 5     | usbhid     | [CA82257FF8](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8530w/7D482559C6A5/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/CA82257FF8>) |
+| 04e6:5410 | SCM Microsystems | SCR35xx Smart Card Reader            | 5     | usbfs      | [EFAC7F4D90](<Notebook/Panasonic/CF-192/CF-192VYFX1M/2E1AB60D3F3E/LINUXMINT-20.2/5.4.0-90-GENERIC/X86_64/EFAC7F4D90>) |
+| 1059:0017 | Giesecke & De... | StarSign CUT                         | 5     | usbfs      | [CA5C253749](<Notebook/Dell/Inspiron/Inspiron 7520/8A69AB823E92/POP!_OS-21.04/5.13.0-7620-GENERIC/X86_64/CA5C253749>) |
+| 04e6:5116 | SCM Microsystems | SCR331-LC1 / SCR3310 SmartCard Re... | 4     | usbfs      | [44E1189857](<Notebook/Lenovo/ThinkPad/ThinkPad E480 20KN003WUS/1857B32A610F/FEDORA-34/5.15.8-100.FC34.X86_64/X86_64/44E1189857>) |
+| 20a0:4108 | Clay Logic       | Nitrokey Pro                         | 4     | usbfs      | [7697915441](<Notebook/Schenker/VISION/VISION 15/0307C26A2A5F/MANJARO-21.2.2/5.16.2-1-MANJARO/X86_64/7697915441>) |
+| 25dd:3111 | BIT4ID           | miniLector EVO                       | 4     | usbfs      | [BD51F8A0AE](<Notebook/ASUSTek Computer/K52/K52N/40EEEE113F3D/UBUNTU-20.04/5.4.0-41-GENERIC/X86_64/BD51F8A0AE>) |
+| 046a:0070 | Cherry           | SmartTerminal XX1X                   | 3     | usbfs      | [D6668FF825](<Notebook/MSI/Modern/Modern 14 A10M/51000CEA8C97/UBUNTU-21.04/5.11.0-25-GENERIC/X86_64/D6668FF825>) |
+| 046a:00a1 | Cherry           | SmartCard Reader Keyboard KC 1000 SC | 3     | usbhid     | [49272ED382](<Notebook/Dell/Latitude/Latitude 7480/F7136AF86471/DEBIAN-11/5.10.0-8-AMD64/X86_64/49272ED382>) |
+| 072f:2200 | Advanced Card... | ACR122U                              | 3     | pn533_usb  | [2FD17C77B0](<Notebook/Acer/Swift/Swift SF514-52T/B03ADD0B3D03/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/2FD17C77B0>) |
+| 076b:1021 | OmniKey          | CardMan 1021                         | 3     | usbfs      | [5BD6CA5ABA](<Notebook/Samsung Electronics/300E5/300E5EV-300E4EV-270E5EV-270E4EV-2470EV-2470EE/BA941C4AE943/LINUXMINT-20/5.4.0-47-GENERIC/X86_64/5BD6CA5ABA>) |
+| 076b:3031 | OmniKey          | 3x21 Smart Card Reader               | 3     | usbfs      | [408821B06E](<Notebook/Lenovo/IdeaPad/IdeaPad 530S-14ARR 81H1/4A3DB20005A9/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/408821B06E>) |
+| 08e6:3438 | Gemalto (was ... | GemPC Key SmartCard Reader           | 3     | usbfs      | [10434415D8](<Notebook/Dell/Latitude/Latitude 5511/50F53384CAF3/UBUNTU-21.04/5.11.0-22-GENERIC/X86_64/10434415D8>) |
+| 1059:0019 | Giesecke & De... | StarSign CUT S                       | 3     | usbfs      | [F1D9692C18](<Notebook/Dell/XPS/XPS 13 7390/57D551536163/UBUNTU-20.04/5.11.0-44-GENERIC/X86_64/F1D9692C18>) |
+| 163c:0407 | Watchdata        | USB Key                              | 3     | uas, us... | [7E1580D21A](<Notebook/Lenovo/ThinkPad/ThinkPad T460 20FN002VUS/FAFC73F2B713/KUBUNTU-21.04/5.11.0-25-GENERIC/X86_64/7E1580D21A>) |
+| 1a44:0870 | VASCO Data Se... | DIGIPASS 870                         | 3     | usbfs      | [5E7B7A63A9](<Notebook/ASUSTek Computer/GL552/GL552VW/138484BF59CB/ZORIN-16/5.13.0-27-GENERIC/X86_64/5E7B7A63A9>) |
+| 316d:4c4b | Purism, SPC      | Librem Key                           | 3     | usbfs      | [F3E5EBA0C2](<Notebook/Purism/librem_15/librem_15v4/8F8A70727862/GENTOO-2.7/5.10.76-GENTOO-R1-X86_64-USIR/X86_64/F3E5EBA0C2>) |
+| 0424:1104 | Microchip Tec... | SMSC USX101x Reader                  | 2     |            | [A0E1EF3935](<Notebook/SIEMENS/SIMATIC/SIMATIC Field PG M6/DC5041480263/GENTOO-2.7/4.19.214-GENTOO/X86_64/A0E1EF3935>) |
+| 04e6:e001 | SCM Microsystems | SCR331 SmartCard Reader              | 2     | usbfs      | [F7DCF4AD9C](<Notebook/Apple/MacBookPro16/MacBookPro16,1/AC19FB1992A0/FEDORA-32/5.11.22-100.FC32.X86_64/X86_64/F7DCF4AD9C>) |
+| 04f2:1469 | Chicony Elect... | HP Skylab USB Smartcard Keyboard     | 2     | usbhid     | [EBB68892DC](<Notebook/Acer/Swift/Swift SF314-42/094ABAA189DB/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/EBB68892DC>) |
+| 058c:9590 | In Focus Systems | EMV Smartcard Reader                 | 2     |            | [1ABD844344](<Notebook/Packard Bell/SJV50/SJV50MV/276CC5C8C9AA/LINUXMINT-20.2/5.4.0-84-GENERIC/X86_64/1ABD844344>) |
+| 076b:3021 | OmniKey          | CardMan 3021 / 3121                  | 2     | usbfs      | [5E7B7A63A9](<Notebook/ASUSTek Computer/GL552/GL552VW/138484BF59CB/ZORIN-16/5.13.0-27-GENERIC/X86_64/5E7B7A63A9>) |
+| 076b:a022 | OmniKey          | CardMan Smart@Link                   | 2     |            | [FF6A48346F](<Notebook/Dell/Latitude/Latitude XT2/876C72737DC9/PARROT-5.0/5.15.0-15PARROT1-AMD64/X86_64/FF6A48346F>) |
+| 08e6:5504 | Gemalto (was ... | Prox SU USB PC Link Reader           | 2     | usbhid     | [5DBA4D3BCE](<Notebook/Dell/Precision/Precision M3800/B6A3D4F46BEE/OPENSUSE-TUMBLEWEED-20210904/5.14.0-1-DEFAULT/X86_64/5DBA4D3BCE>) |
+| 1fc9:010b | NXP Semicondu... | PR533                                | 2     |            | [1C4E15E3FD](<Notebook/Panasonic/CF53/CF53-4/10098084F482/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/1C4E15E3FD>) |
+| 20a0:4211 | Clay Logic       | Nitrokey Start                       | 2     | usbfs      | [FF64809DC3](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 7th 20QD0039FR/E696939A4E87/DEBIAN-TESTING/5.10.0-3-AMD64/X86_64/FF64809DC3>) |
 
 ### Converter (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0403:1237 | Future ... | Z397 GUARD Converter         | 1     |            | 5F015278B6 |
-| 0403:7a58 | Future ... | USB <-> Serial Cable         | 1     |            | E625FD220D |
-| 110a:1110 | Moxa Te... | UPort 1110                   | 1     | ti_usb_... | F815AEE35E |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0403:1237 | Future Techno... | Z397 GUARD Converter                 | 1     |            | [5F015278B6](<Notebook/Acer/Aspire/Aspire ES1-512/DA2B53159FDC/UBUNTU-18.04/4.15.0-64-GENERIC/X86_64/5F015278B6>) |
+| 0403:7a58 | Future Techno... | USB <-> Serial Cable                 | 1     |            | [E625FD220D](<Notebook/MSI/GS40/GS40 6QE Phantom/09CBE10DD5F4/ARCH-ROLLING/5.8.7-ARCH1-1/X86_64/E625FD220D>) |
+| 110a:1110 | Moxa Technolo... | UPort 1110                           | 1     | ti_usb_... | [F815AEE35E](<Notebook/Lenovo/ThinkPad/ThinkPad T60 1951BY8/5D9A1B55704D/ROSA-2016.1/4.9.124-NRJ-DESKTOP-1ROSA-I586/I686/F815AEE35E>) |
 
 ### Disk (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0bda:0138 | Realtek... | RTS5138 Card Reader Contr... | 1334  | ums_rea... | E9FAA1A00B |
-| 058f:6366 | Alcor M... | Multi Flash Reader           | 999   | uas, us... | F3E5EBA0C2 |
-| 058f:6387 | Alcor M... | Transcend                    | 977   | uas, us... | 1C91BC1DEB |
-| 090c:1000 | Silicon... | Silicon-Power8G              | 949   | uas, us... | 0F2394B49D |
-| 0bda:0158 | Realtek... | USB 2.0 multicard reader     | 910   | ums_rea... | C0FAA178A2 |
-| 0951:1666 | Kingsto... | DataTraveler 100 G3/G4/SE... | 773   | uas, us... | 75C78480D2 |
-| 0781:5567 | SanDisk    | Cruzer Blade                 | 692   | uas, us... | EABB3946AD |
-| 8564:1000 | Transcend  | JetFlash                     | 584   | uas, us... | 4EB6B00CAC |
-| 0bda:0316 | Realtek... | SD/MMC                       | 458   | uas, us... | EEB181F50B |
-| 174c:55aa | ASMedia... | ASM1051E SATA 6Gb/s bridg... | 384   | usb_sto... | E8781DB5AB |
-| 0781:5581 | SanDisk    | Ultra                        | 372   | uas, us... | 65C122FE69 |
-| 0930:6545 | Toshiba    | Kingston DataTraveler 102... | 359   | uas, us... | C25DF06E57 |
-| 0781:5583 | SanDisk    | Ultra Fit                    | 310   | uas, us... | 5FBDC9F939 |
-| 05ac:8406 | Apple      | SD Card Reader               | 297   | apple_m... | 0C24CAF245 |
-| 152d:0578 | JMicron... | JMS578 SATA 6Gb/s            | 281   | uas, us... | B2F7AB7E8A |
-| 13fe:4200 | Kingsto... | USB DISK 2.0                 | 259   | uas, us... | 3405536413 |
-| 0930:6544 | Toshiba    | TransMemory-Mini / Kingst... | 258   | uas, us... | 779684E41D |
-| 0bda:0177 | Realtek... | USB2.0-CRW                   | 214   | ums_rea... | 4EB6B00CAC |
-| 0951:1665 | Kingsto... | Digital DataTraveler SE9     | 201   | uas, us... | 8264430178 |
-| 05e3:0749 | Genesys... | MassStorageClass             | 194   | uas, us... | 32F01CCAAB |
-| 0781:5591 | SanDisk    | Ultra Flair                  | 190   | uas, us... | 0585DD7016 |
-| 0781:5575 | SanDisk    | Cruzer Glide                 | 182   | uas, us... | 355F4FC9F1 |
-| 0781:5571 | SanDisk    | Cruzer Fit                   | 176   | uas, us... | 35BCBD121B |
-| 13fe:4100 | Kingsto... | Silicon-Power16G             | 176   | uas, us... | B2FC30D77F |
-| 1005:b113 | Apacer ... | Handy Steno 2.0/HT203        | 167   | uas, us... | 77895F2A3B |
-| 0bda:0328 | Realtek... | SD/MMC CRW                   | 163   | uas, us... | 2B4A1A20D9 |
-| 13fe:6300 | Kingsto... | SP Mobile C31                | 161   | uas, us... | F442DF91A1 |
-| 152d:2329 | JMicron... | JM20329 SATA Bridge          | 161   | usb_sto... | 872CFFF7DA |
-| ffff:5678 | VendorCo   | Disk 2.0                     | 151   | uas, us... | 497BF56CC6 |
-| 05ac:8403 | Apple      | Internal Memory Card Reader  | 148   | uas, us... | 80E0B6AF9E |
-| abcd:1234 | General    | UDisk                        | 145   | uas, us... | A9BA9DF656 |
-| 18a5:0302 | Verbatim   | STORE N GO                   | 136   | uas, us... | C4C890F06A |
-| 13fe:4300 | Kingsto... | USB DISK                     | 135   | uas, us... | A83E302ABA |
-| 14cd:6116 | Super Top  | M6116 SATA Bridge            | 128   | uas, us... | 7046D52A8D |
-| 0bc2:231a | Seagate    | Expansion                    | 120   | uas        | F0A8FA5E7A |
-| 152d:2338 | JMicron... | JM20337 Hi-Speed USB to S... | 114   | uas, us... | 280EEEC77F |
-| 05e3:0751 | Genesys... | microSD Card Reader          | 106   | uas, us... | 9CFC0BB300 |
-| 0bda:0116 | Realtek... | RTS5116 Card Reader Contr... | 104   | uas, us... | 7A2E7C66E9 |
-| 13fe:5500 | Kingsto... | Patriot Memory               | 103   | uas, us... | 8A52B831D7 |
-| 0bda:0159 | Realtek... | RTS5159 Card Reader Contr... | 102   | ums_rea... | 3AE7A19459 |
-| 1058:25a2 | Western... | Elements 25A2                | 95    | uas, us... | 59AB566702 |
-| 14cd:1212 | Super Top  | microSD card reader (SY-T18) | 89    | uas, us... | 55832DD912 |
-| 13fd:0840 | Initio     | INIC-1618L SATA              | 86    | usb_sto... | 1C49EBEE5F |
-| 12d1:107e | Huawei ... | P10 smartphone               | 84    | uas, us... | 1DB80A4DB5 |
-| 0781:556b | SanDisk    | Cruzer Edge                  | 82    | uas, us... | 36ACEDB60B |
-| 12d1:14dc | Huawei ... | E3372 LTE/UMTS/GSM HiLink... | 78    | uas, us... | 8CDB34DBC8 |
-| 1908:0226 | GEMBIRD    | Mass-Storage                 | 78    | uas, us... | 3233E1293C |
-| 0781:558a | SanDisk    | Ultra                        | 77    | uas, us... | 767EB7C6D3 |
-| 0951:1643 | Kingsto... | DataTraveler G3              | 77    | uas, us... | 4AA0BD8B9F |
-| 152d:1561 | JMicron... | JMS561U two ports SATA 6G... | 77    | uas        | 55DCB690C5 |
-| 0951:1642 | Kingsto... | DT101 G2                     | 73    | uas, us... | 61E272A119 |
-| 0bc2:ab24 | Seagate    | Backup Plus Portable Drive   | 72    | uas        | 9834990221 |
-| 048d:1234 | Integra... | Mass storage                 | 71    | uas, us... | 15E808F714 |
-| 13fe:3e00 | Kingsto... | USB DISK 2.0                 | 69    | uas, us... | 621AA75BF6 |
-| 174c:5106 | ASMedia... | Transcend StoreJet 25M3      | 66    | uas, us... | 5A86DAC3C6 |
-| 1bcf:0c31 | Sunplus... | SPIF30x Serial-ATA bridge    | 64    | uas, us... | 02BA908575 |
-| 0781:5530 | SanDisk    | Cruzer                       | 63    | uas, us... | F5112DBF47 |
-| 0781:5597 | SanDisk    | Cruzer Glide 3.0             | 63    | uas, us... | 1069B24865 |
-| 0781:557d | SanDisk    | Cruzer Force                 | 61    | uas, us... | E81F21F44C |
-| 0781:5595 | SanDisk    | Infinitive                   | 58    | uas, us... | BC0BFCD534 |
-| 1f75:0621 | Innosto... | IS621 SATA Storage Contro... | 57    | uas, us... | 85A514F622 |
-| 2109:0711 | VIA Labs   | VL711 SATA 6Gb/s bridge      | 57    | uas, us... | AC37B3FD23 |
-| 05e3:0723 | Genesys... | GL827L SD/MMC/MS Flash Ca... | 55    | usb_sto... | 780CA9B317 |
-| 13fe:3600 | Kingsto... | flash drive (4GB, EMTEC)     | 55    | usb_sto... | 2D1739DC58 |
-| 0480:a202 | Toshiba... | Canvio Basics HDD            | 54    | uas, us... | CE1FD9A03E |
-| 090c:2000 | Silicon... | USB DISK                     | 54    | uas, us... | 8A52B831D7 |
-| 0bc2:2322 | Seagate    | SRD0NF1 Expansion Portabl... | 54    | uas        | 95595DF5C1 |
-| 0781:5590 | SanDisk    | Ultra                        | 53    | uas, us... | 738A1F8A11 |
-| 1f75:0917 | Innosto... | NAND Flash                   | 53    | uas, us... | 82B0964B6D |
-| 0781:5406 | SanDisk    | Cruzer Micro U3              | 52    | uas, us... | 5909BE5C82 |
-| 058f:8468 | Alcor M... | SD/MMC                       | 51    | uas, us... | 9276790A36 |
-| 05dc:a81d | Lexar M... | LJDTT16G [JumpDrive 16GB]    | 51    | uas, us... | 68A5BDC18A |
-| 04c5:2028 | Fujitsu    | Virtual CD-Rom               | 50    | uas, us... | 610AAC8C66 |
-| 0080:a001 | Assmann... | Digitus DA-71114 SATA        | 49    | uas        | D1CDBD537E |
-| 2109:0715 | VIA Labs   | VL817 SATA Adaptor           | 49    | uas        | BC0BFCD534 |
-| 04e8:61f5 | Samsung... | Portable SSD T5              | 48    | uas        | 0396EAC317 |
-| 1307:0165 | Transcend  | 2GB/4GB/8GB Flash Drive      | 48    | uas, us... | 64AC10F6B5 |
-| 23a9:ef18 | AI         | Mass Storage                 | 48    | uas, us... | AF980DC491 |
-| 0951:1607 | Kingsto... | DataTraveler 100             | 47    | uas, us... | 8465636993 |
-| 1058:10b8 | Western... | Elements Portable (WDBU6Y... | 47    | uas, us... | 2C57F8FA2F |
-| 152d:0562 | JMicron... | JMS567 SATA 6Gb/s bridge     | 47    | uas        | 319D0DD2FF |
-| 0781:5572 | SanDisk    | Cruzer Switch                | 43    | uas, us... | 1221048E12 |
-| 1058:25e2 | Western... | My Passport (WD40NMZW)       | 43    | uas, us... | D9923E15E0 |
-| 18a5:0243 | Verbatim   | Flash Drive (Store'n'Go)     | 43    | uas, us... | 68EBC1AF79 |
-| 8644:8003 | Intenso... | Micro Line                   | 43    | uas, us... | 101371762B |
-| 05e3:0745 | Genesys... | Logilink CR0012              | 42    | uas, us... | 80A124F9CD |
-| 0951:1653 | Kingsto... | Data Traveler 100 G2 8 GiB   | 41    | uas, us... | DAD06F3E70 |
-| 125f:c08a | A-DATA ... | C008 Flash Drive             | 41    | uas, us... | 6518CC22CF |
-| 125f:c96a | A-DATA ... | C906 Flash Drive             | 40    | uas, us... | BE0E0FC39C |
-| 04e8:61b6 | Samsung... | M3 Portable Hard Drive       | 39    | uas, us... | 1DF662506B |
-| aaaa:8816 | MXT        | Storage Device               | 39    | uas, us... | 10A67C9E23 |
-| 05e3:0727 | Genesys... | microSD Reader/Writer        | 38    | uas, us... | 8E04250418 |
-| 0bda:0186 | Realtek... | Card Reader                  | 38    | uas, us... | AD1D9D6D8E |
-| 1058:0820 | Western... | My Passport Ultra (WDBMWV... | 38    | usb_sto... | 1D79ED8874 |
-| 0480:0900 | Toshiba... | MQ04UBF100                   | 37    | uas, us... | FF8965B9E5 |
-| 05ac:8404 | Apple      | Internal Memory Card Reader  | 37    | uas, us... | F092832B93 |
-| 1058:25a1 | Western... | Elements / My Passport       | 37    | uas, us... | 1BB63BE9B2 |
-| 0951:1603 | Kingsto... | DataTraveler 1GB/2GB Pen ... | 36    | uas, us... | 237AD3B201 |
-| 1058:25e1 | Western... | My Passport 25E1             | 36    | uas, us... | BA8F31C45F |
-| 1058:0748 | Western... | My Passport (WDBKXH, WDBY8L) | 35    | usb_sto... | 751FFEEFA0 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0bda:0138 | Realtek Semic... | RTS5138 Card Reader Controller       | 1561  | ums_rea... | [F6068483CE](<Notebook/Toshiba/Satellite/Satellite C660/B9B75BA01934/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/F6068483CE>) |
+| 058f:6387 | Alcor Micro      | Transcend                            | 1158  | uas, us... | [93C8BFF33B](<Notebook/Lenovo/IdeaPad/IdeaPad 100-15IBY 80MJ/1C5B87A81853/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/93C8BFF33B>) |
+| 058f:6366 | Alcor Micro      | Multi Flash Reader                   | 1125  | uas, us... | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 090c:1000 | Silicon Motion   | USB                                  | 1088  | uas, us... | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0bda:0158 | Realtek Semic... | USB 2.0 multicard reader             | 1033  | ums_rea... | [8762E9C632](<Notebook/Fujitsu Siemens/AMILO/AMILO Li3910/1045062C78EF/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/8762E9C632>) |
+| 0951:1666 | Kingston Tech... | DataTraveler 100 G3/G4/SE9 G2        | 934   | uas, us... | [F4A2CBF25A](<Notebook/Hewlett-Packard/Stream/Stream Laptop 14-ax0XX/C8DA453C47A8/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/F4A2CBF25A>) |
+| 0781:5567 | SanDisk          | Cruzer Blade                         | 810   | uas, us... | [674A4FBEDE](<Notebook/Chuwi/HeroBook/HeroBook Air/96A0EC35E00A/ZORIN-16/5.11.0-38-GENERIC/X86_64/674A4FBEDE>) |
+| 8564:1000 | Transcend        | JetFlash                             | 644   | uas, us... | [629D92121B](<Notebook/ASUSTek Computer/X541/X541UA/2830FC4B7DF8/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/629D92121B>) |
+| 0bda:0316 | Realtek Semic... | SD/MMC                               | 550   | uas, us... | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 0781:5581 | SanDisk          | Ultra                                | 454   | uas, us... | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 174c:55aa | ASMedia Techn... | ASM1051E SATA 6Gb/s bridge, ASM10... | 442   | usb_sto... | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0930:6545 | Toshiba          | Kingston DataTraveler 102/2.0 / H... | 416   | uas, us... | [5AF22F3639](<Notebook/Lenovo/IdeaPad/IdeaPad 320-15ISK 80XH/7063C8B4BE67/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/5AF22F3639>) |
+| 0781:5583 | SanDisk          | Ultra Fit                            | 373   | uas, us... | [86DC3583CA](<Notebook/ASUSTek Computer/UX430/UX430UNR/F0783EEF957D/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/86DC3583CA>) |
+| 05ac:8406 | Apple            | SD Card Reader                       | 354   | apple_m... | [B27D8C8724](<Notebook/Apple/MacBookPro11/MacBookPro11,4/67C61AAA3F88/PARROT-5.0/5.14.0-9PARROT1-AMD64/X86_64/B27D8C8724>) |
+| 152d:0578 | JMicron Techn... | JMS578 SATA 6Gb/s                    | 332   | uas, us... | [9A92C2571B](<Notebook/ASUSTek Computer/X451/X451CAP/2FDD68A7BB53/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/9A92C2571B>) |
+| 0930:6544 | Toshiba          | TransMemory-Mini / Kingston DataT... | 299   | uas, us... | [83A319F258](<Notebook/Dell/Inspiron/Inspiron 1525/E3C6D99D7C40/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/83A319F258>) |
+| 13fe:4200 | Kingston Tech... | USB DISK 2.0                         | 286   | uas, us... | [73D930BE97](<Notebook/Toshiba/Satellite/Satellite C650/7BC552597A23/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/73D930BE97>) |
+| 05e3:0749 | Genesys Logic    | USB3.0 Card Reader                   | 255   | uas, us... | [8714D12640](<Notebook/Hewlett-Packard/15/15 Notebook PC/108862FA723D/ZORIN-16/5.13.0-30-GENERIC/X86_64/8714D12640>) |
+| 0781:5591 | SanDisk          | Ultra Flair                          | 242   | uas, us... | [87F27D2503](<Notebook/Dell/Latitude/Latitude 3180/C0348D4BB7AB/UBUNTU-20.04/5.8.0-50-GENERIC/X86_64/87F27D2503>) |
+| 0bda:0177 | Realtek Semic... | USB2.0-CRW                           | 242   | ums_rea... | [35F0EF9CB6](<Notebook/Lenovo/IdeaPad/IdeaPad 1 11IGL05 81VT/3AC02233A23D/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/35F0EF9CB6>) |
+| 0951:1665 | Kingston Tech... | Digital DataTraveler SE9             | 221   | uas, us... | [4601C3AA77](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2537VGY/60E94FBE6817/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/4601C3AA77>) |
+| 0781:5575 | SanDisk          | Cruzer Glide                         | 205   | uas, us... | [4E9D83F1DB](<Notebook/ASUSTek Computer/Q552/Q552UB/6A4C95A0FA13/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/4E9D83F1DB>) |
+| 0781:5571 | SanDisk          | Cruzer Fit                           | 204   | uas, us... | [D52BA5F273](<Notebook/Toshiba/Satellite/Satellite A660/7B4E41608F26/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/D52BA5F273>) |
+| 13fe:6300 | Kingston Tech... | SP Mobile C31                        | 204   | uas, us... | [62F3B41D12](<Notebook/ASUSTek Computer/UX31/UX31E/22CCF8FF6593/OPENMANDRIVA-4.50/5.14.7-DESKTOP-1OMV4050/X86_64/62F3B41D12>) |
+| 0bda:0328 | Realtek Semic... | SD/MMC CRW                           | 194   | uas, us... | [561F82ADC5](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Extreme 20MF000DUS/C54DC3957D60/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/561F82ADC5>) |
+| 13fe:4100 | Kingston Tech... | Silicon-Power16G                     | 192   | uas, us... | [57CE8D33B8](<Notebook/Hewlett-Packard/Notebook/Notebook/D8E63FF4C50D/ROSA-2016.1/5.4.32-GENERIC-2ROSA-X86_64/X86_64/57CE8D33B8>) |
+| ffff:5678 | VendorCo         | Disk 2.0                             | 187   | uas, us... | [86F68B585B](<Notebook/Toshiba/QOSMIO/QOSMIO X770/CF65132134C6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/86F68B585B>) |
+| 05ac:8403 | Apple            | Internal Memory Card Reader          | 183   | uas, us... | [A2F1D82D9C](<Notebook/Apple/MacBookPro6/MacBookPro6,2/62B00D8F6215/ELEMENTARY-6.1/5.13.0-30-GENERIC/X86_64/A2F1D82D9C>) |
+| 1005:b113 | Apacer Techno... | Handy Steno 2.0/HT203                | 177   | uas, us... | [B00A6A15B2](<Notebook/Sony/VPCEB1/VPCEB1J8E/97CBFF05B383/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B00A6A15B2>) |
+| 13fe:4300 | Kingston Tech... | USB DISK                             | 177   | uas, us... | [99286EFD08](<Notebook/Hewlett-Packard/Compaq/Compaq CQ45/A8CA8688125C/LINUX-LITE-5.8/5.4.0-104-GENERIC/X86_64/99286EFD08>) |
+| abcd:1234 | LogiLink         | UDisk                                | 175   | uas, us... | [E5E17E5138](<Notebook/Dell/Inspiron/Inspiron N4030/9F1F976E8029/UBUNTUDDE-21.10/5.13.0-30-GENERIC/X86_64/E5E17E5138>) |
+| 18a5:0302 | Verbatim         | STORE N GO                           | 168   | uas, us... | [76AFE39F5E](<Notebook/Sony/SVS1311/SVS13118GBB/F65894F76BAC/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/76AFE39F5E>) |
+| 05e3:0751 | Genesys Logic    | microSD Card Reader                  | 145   | uas, us... | [1804E5EB77](<Notebook/MSI/Creator/Creator Z16 A11UET/E3FECBFB1971/UBUNTU-22.04/5.15.0-22-GENERIC/X86_64/1804E5EB77>) |
+| 14cd:6116 | Super Top        | M6116 SATA Bridge                    | 143   | uas, us... | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0bc2:231a | Seagate          | Expansion                            | 133   | uas        | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 152d:2338 | JMicron Techn... | JM20337 Hi-Speed USB to SATA & PA... | 128   | uas, us... | [40F6802B71](<Notebook/Acer/Aspire/Aspire V3-571G/DD1C23020DFA/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/40F6802B71>) |
+| 14cd:1212 | Super Top        | microSD card reader (SY-T18)         | 118   | uas, us... | [B27D8C8724](<Notebook/Apple/MacBookPro11/MacBookPro11,4/67C61AAA3F88/PARROT-5.0/5.14.0-9PARROT1-AMD64/X86_64/B27D8C8724>) |
+| 13fe:5500 | Kingston Tech... | Patriot Memory                       | 116   | uas, us... | [023E60CF6E](<Notebook/MAXDATA/PRO6100/PRO6100IW/FEAF6013D02A/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/023E60CF6E>) |
+| 0bda:0159 | Realtek Semic... | RTS5159 Card Reader Controller       | 111   | ums_rea... | [8CC610D205](<Notebook/Toshiba/Satellite/Satellite Pro L650/EDF50366F58C/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/8CC610D205>) |
+| 0bda:0116 | Realtek Semic... | RTS5116 Card Reader Controller       | 110   | uas, us... | [F9F7087CDF](<Notebook/ASUSTek Computer/F5/F5SL/49239DEE6E4E/ROSA-12.2/5.10.101-DESKTOP-2ROSA2021-X86_64/X86_64/F9F7087CDF>) |
+| 1058:25a2 | Western Digit... | Elements 25A2                        | 109   | uas, us... | [1B8D8FFA33](<Notebook/Dell/Latitude/Latitude E5500/E30AE104EDB0/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/1B8D8FFA33>) |
+| 048d:1234 | Integrated Te... | Mass storage                         | 94    | uas, us... | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0781:556b | SanDisk          | Cruzer Edge                          | 91    | uas, us... | [2AB16BFCEE](<Notebook/Apple/MacBookPro9/MacBookPro9,2/69963227A53F/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AB16BFCEE>) |
+| 12d1:14dc | Huawei Techno... | E3372 LTE/UMTS/GSM HiLink Modem/N... | 88    | uas, us... | [05B4CCEAB2](<Notebook/Lenovo/Legion/Legion 5 15ARH05H 82B1/E751204B0E38/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/05B4CCEAB2>) |
+| 1908:0226 | GEMBIRD          | Mass-Storage                         | 88    | uas, us... | [0A92C063A1](<Notebook/Lenovo/IdeaPad/IdeaPad 3 14IML05 81WA/51D07796C787/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/0A92C063A1>) |
+| 090c:2000 | Silicon Motion   | USB DISK                             | 87    | uas, us... | [E8DD84A845](<Notebook/Lenovo/ThinkPad/ThinkPad X220 Tablet 4298R65/7C15AE583D2A/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/E8DD84A845>) |
+| 152d:1561 | JMicron Techn... | JMS561U two ports SATA 6Gb/s bridge  | 85    | uas        | [862A31FA80](<Notebook/Dell/Inspiron/Inspiron 5548/B32A4E77F99D/MANJARO/5.15.21-1-MANJARO/X86_64/862A31FA80>) |
+| 0781:558a | SanDisk          | Ultra                                | 84    | uas, us... | [4CF4344D75](<Notebook/Hewlett-Packard/245/245 G6 Notebook PC/F2858C2A7C2B/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/4CF4344D75>) |
+| 0951:1643 | Kingston Tech... | DataTraveler G3                      | 83    | uas, us... | [55773FEEEE](<Notebook/Lenovo/IdeaPad/IdeaPad Y700-17ISK 80Q0/4A76B33F46B6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/55773FEEEE>) |
+| 174c:1153 | ASMedia Techn... | ASM1153 SATA 3Gb/s bridge            | 83    | uas, us... | [B7944A1493](<Notebook/ASUSTek Computer/U32/U32U/EEB44DF601E7/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B7944A1493>) |
 
 ### Dvb card (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0bda:2838 | Realtek... | RTL2838 DVB-T                | 63    | dvb_usb... | 0071FAABAC |
-| 07ca:a309 | AVerMed... | AVerTV DVB-T (A309)          | 33    | dvb_usb... | 6C14033E55 |
-| 1164:1f08 | YUAN Hi... | STK7700D                     | 12    | dvb_usb... | 7904B934A4 |
-| 07ca:a310 | AVerMed... | A310                         | 10    | dvb_usb... | 85137E0EB5 |
-| 048d:9135 | Integra... | Zolid Mini DVB-T Stick       | 5     | dvb_usb... | 18FE596FBA |
-| 1164:0871 | YUAN Hi... | STK7700D                     | 4     | dvb_usb... | EE2674AD2E |
-| 07ca:1871 | AVerMed... | TD310 DVB-T/T2/C dongle      | 3     | dvb_usb... | 757746E097 |
-| 15f4:0131 | HanfTek    | Astrometa DVB-T/T2/C FM &... | 3     | dvb_usb... | 44D0412DD3 |
-| 187f:0202 | Siano M... | Nice                         | 3     | smsusb     | D85DFF1AA1 |
-| 04ca:f000 | Lite-On... | DVB Card                     | 2     | dvb_usb... | 7225AECEFF |
-| 04ca:f01c | Lite-On... | TT1280DA DVB-T TV Tuner      | 2     |            | 24FF3CF596 |
-| 0572:c688 | Conexan... | Geniatech T230 DVB-T2 TV ... | 2     | dvb_usb... | 1CBA3FC4FC |
-| 07ca:0810 | AVerMed... | H810 USB Hybrid DVB-T        | 2     |            | B46F2FEE35 |
-| 07ca:a835 | AVerMed... | A835                         | 2     | dvb_usb... | 0414F513CA |
-| 0bda:2832 | Realtek... | RTL2832U DVB-T               | 2     | dvb_usb... | CCC4E248DB |
-| 1d19:1101 | Dexatek... | DK DVB-T Dongle              | 2     | dvb_usb... | E06DA1A78D |
-| 2040:1801 | Hauppauge  | Okemo B                      | 2     | smsusb     | FE0ED9DA05 |
-| 2040:5200 | Hauppauge  | NovaT 500Stick               | 2     | dvb_usb... | 9D4DD03E4E |
-| 2040:7050 | Hauppauge  | Nova-T Stick                 | 2     | dvb_usb... | EC5B3905FB |
-| 2040:7070 | Hauppauge  | Nova-T Stick 3               | 2     | dvb_usb... | FAC36A561A |
-| 2040:9580 | Hauppauge  | NovaT 500Stick               | 2     | dvb_usb... | B4AFED8FAD |
-| 2304:0237 | Pinnacl... | PCTV 73e [DiBcom DiB7000PC]  | 2     | dvb_usb... | C2B45A181C |
-| 048d:9005 | Integra... | DVB-T TV Stick               | 1     | dvb_usb... | AE491DB991 |
-| 0572:0320 | Conexan... | DVBSky T330 DVB-T2/C tuner   | 1     | dvb_usb... | 757746E097 |
-| 07ca:3867 | AVerMed... | A867                         | 1     |            | 159AB17857 |
-| 07ca:8150 | AVerMed... | A815O                        | 1     | dvb_usb... | 69CC9D8136 |
-| 07ca:850a | AVerMed... | AverTV Volar Black HD (A850) | 1     | dvb_usb... | 7537E7CB35 |
-| 07ca:a867 | AVerMed... | AVerTV DVB-T (A867)          | 1     | dvb_usb... | 2065A34613 |
-| 07ca:a868 | AVerMed... | A868                         | 1     | dvb_usb... | 141E382738 |
-| 0b05:173f | ASUSTek... | My Cinema U3100 Mini         | 1     | dvb_usb... | 34891AD0E7 |
-| 1164:3edc | YUAN Hi... | STK7700D                     | 1     |            | 9FEC6C5DE7 |
-| 14aa:0221 | WideVie... | WT-220U DVB-T dongle         | 1     | dvb_usb... | 7FA8E3A5E5 |
-| 14aa:0226 | WideVie... | Digital TV Receiver          | 1     | dvb_usb... | 7B994D2EC2 |
-| 14aa:0301 | WideVie... | AVermedia/Yakumo/Hama/Typ... | 1     | dvb_usb... | 65E73516B5 |
-| 15a4:9016 | Afatech    | AF9015 DVB-T USB2.0 stick    | 1     | dvb_usb... | 850853FE91 |
-| 1b80:e402 | Afatech    | DVB-T 2                      | 1     | dvb_usb... | 1EC9575FA4 |
-| 1d19:1102 | Dexatek... | DK mini DVB-T Dongle         | 1     | dvb_usb... | 25564EE13D |
-| 2040:b210 | Hauppauge  | Dell Digital tv              | 1     | dvb_usb... | EE05EBEF50 |
-| 2304:022e | Pinnacl... | PCTV 320cx                   | 1     | dvb_usb... | 9DA08CE4A5 |
-| 2304:0236 | Pinnacl... | PCTV 72e [DiBcom DiB7000PC]  | 1     | dvb_usb... | 5728BD3F53 |
-| 2304:023a | Pinnacl... | PCTV 801e                    | 1     | dvb_usb... | DC0159ECF4 |
-| eb1a:5013 | eMPIA T... | USB 2883 Device              | 1     |            | 5DD14F9164 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0bda:2838 | Realtek Semic... | RTL2838 DVB-T                        | 70    | dvb_usb... | [0A0E3FEFF6](<Notebook/ASUSTek Computer/X555/X555LAB/66C1142F2B90/MANJARO/5.15.25-1-MANJARO/X86_64/0A0E3FEFF6>) |
+| 07ca:a309 | AVerMedia Tec... | AVerTV DVB-T (A309)                  | 37    | dvb_usb... | [38D3A28768](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv5/A91AD53AE9F4/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/38D3A28768>) |
+| 1164:1f08 | YUAN High-Tec... | STK7700D                             | 12    | dvb_usb... | [7904B934A4](<Notebook/ASUSTek Computer/G71/G71V/E38FEEE17954/FEDORA-35/5.14.0-60.FC35.X86_64/X86_64/7904B934A4>) |
+| 07ca:a310 | AVerMedia Tec... | A310                                 | 10    | dvb_usb... | [61E120F622](<Notebook/Acer/Aspire/Aspire 7720G/C94DFFBAE145/DEBIAN-11/5.10.0-6-AMD64/X86_64/61E120F622>) |
+| 048d:9135 | Integrated Te... | Zolid Mini DVB-T Stick               | 5     | dvb_usb... | [18FE596FBA](<Notebook/Lenovo/ThinkBook/ThinkBook 15-IML 20RW/DB9936050446/DEBIAN-11/5.10.0-8-AMD64/X86_64/18FE596FBA>) |
+| 07ca:1871 | AVerMedia Tec... | TD310 DVB-T/T2/C dongle              | 4     | dvb_usb... | [1F9694D47D](<Notebook/Lenovo/ThinkPad/ThinkPad Edge 0301FAG/9A32EE6F60AB/LUBUNTU-21.10/5.13.0-28-GENERIC/X86_64/1F9694D47D>) |
+| 1164:0871 | YUAN High-Tec... | STK7700D                             | 4     | dvb_usb... | [EE2674AD2E](<Notebook/Toshiba/Satellite/Satellite P750/66BEBE8FFED1/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/EE2674AD2E>) |
+| 0572:c688 | Conexant Systems | Geniatech T230 DVB-T2 TV Stick       | 3     | dvb_usb... | [C0180C17D9](<Notebook/Lenovo/ThinkPad/ThinkPad SL410 2842RN9/F88FF56C32AC/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/C0180C17D9>) |
+| 15f4:0131 | HanfTek          | Astrometa DVB-T/T2/C FM & DAB rec... | 3     | dvb_usb... | [44D0412DD3](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 4th 20FB002UMC/6725CFE2E6E5/OPENSUSE-LEAP-15.3/5.14.0-RC7-LP153.3.G61596F4-VANILLA/X86_64/44D0412DD3>) |
+| 187f:0202 | Siano Mobile ... | Nice                                 | 3     | smsusb     | [D85DFF1AA1](<Notebook/Samsung Electronics/340/340XAA-350XAA-550XAA/E81E5D3E9C7F/MANJARO-20.2.1/5.9.16-1-MANJARO/X86_64/D85DFF1AA1>) |
+| 04ca:f000 | Lite-On Techn... | DVB Card                             | 2     | dvb_usb... | [7225AECEFF](<Notebook/Toshiba/Satellite/Satellite P850/F79358A2F822/UBUNTU-20.04/5.4.0-52-GENERIC/X86_64/7225AECEFF>) |
+| 04ca:f01c | Lite-On Techn... | TT1280DA DVB-T TV Tuner              | 2     |            | [24FF3CF596](<Notebook/Acer/Aspire/Aspire 8940G/3EB6F0C4396B/ZORIN-16/5.11.0-25-GENERIC/X86_64/24FF3CF596>) |
+| 07ca:0810 | AVerMedia Tec... | H810 USB Hybrid DVB-T                | 2     |            | [B46F2FEE35](<Notebook/ASUSTek Computer/E403/E403NA/E3A7CFB90011/FEDORA-29/4.18.3-300.FC29.X86_64/X86_64/B46F2FEE35>) |
+| 07ca:a835 | AVerMedia Tec... | A835                                 | 2     | dvb_usb... | [0414F513CA](<Notebook/Packard Bell/DOTS/DOTS E2/C0A466551D55/XUBUNTU-18.04/4.18.0-15-GENERIC/I686/0414F513CA>) |
+| 0bda:2832 | Realtek Semic... | RTL2832U DVB-T                       | 2     | dvb_usb... | [CCC4E248DB](<Notebook/Apple/MacBook7/MacBook7,1/9064D0D30048/DEBIAN-10/5.2.0-2-AMD64/X86_64/CCC4E248DB>) |
+| 15a4:9016 | Afatech          | AF9015 DVB-T USB2.0 stick            | 2     | dvb_usb... | [CA26AE6FF8](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8460p/97924DD3D7BF/LINUXMINT-19.3/4.15.0-159-GENERIC/X86_64/CA26AE6FF8>) |
+| 1d19:1101 | Dexatek Techn... | DK DVB-T Dongle                      | 2     | dvb_usb... | [E06DA1A78D](<Notebook/Lenovo/G500/G500 20236/5E819EC44345/UBUNTU-20.04/5.4.0-54-GENERIC/X86_64/E06DA1A78D>) |
+| 2040:1801 | Hauppauge        | Okemo B                              | 2     | smsusb     | [FE0ED9DA05](<Notebook/Dell/Studio/Studio XPS 1640/DA7A1088BD63/UBUNTU-18.04/4.15.0-101-GENERIC/X86_64/FE0ED9DA05>) |
+| 2040:5200 | Hauppauge        | NovaT 500Stick                       | 2     | dvb_usb... | [9D4DD03E4E](<Notebook/MSI/GT83VR/GT83VR 7RF/30F26EBCD86E/FEDORA-31/5.5.10-200.FC31.X86_64/X86_64/9D4DD03E4E>) |
+| 2040:7050 | Hauppauge        | Nova-T Stick                         | 2     | dvb_usb... | [EC5B3905FB](<Notebook/Dell/Vostro/Vostro 3560/78AA264803BB/LINUXMINT-19.1/4.15.0-132-GENERIC/X86_64/EC5B3905FB>) |
+| 2040:7070 | Hauppauge        | Nova-T Stick 3                       | 2     | dvb_usb... | [FAC36A561A](<Notebook/Hewlett-Packard/Pavilion/Pavilion HDX9000/990563610113/UBUNTU-16.04/4.15.0-66-GENERIC/I686/FAC36A561A>) |
+| 2040:9580 | Hauppauge        | NovaT 500Stick                       | 2     | dvb_usb... | [B4AFED8FAD](<Notebook/Fujitsu Siemens/LIFEBOOK/LIFEBOOK S7110/B52C50640543/XUBUNTU-19.04/5.0.0-32-LOWLATENCY/X86_64/B4AFED8FAD>) |
+| 2304:0237 | Pinnacle Systems | PCTV 73e [DiBcom DiB7000PC]          | 2     | dvb_usb... | [C2B45A181C](<Notebook/Medion/P/P7624/187E6F4AF416/ROSA-2016.1/4.15.0-DESKTOP-68.5ROSA-X86_64/X86_64/C2B45A181C>) |
+| 048d:9005 | Integrated Te... | DVB-T TV Stick                       | 1     | dvb_usb... | [AE491DB991](<Notebook/IBM/ThinkPad/ThinkPad T42 2373ZXW/FA91896E5550/UBUNTU-18.04/4.18.0-21-GENERIC/I686/AE491DB991>) |
+| 0572:0320 | Conexant Systems | DVBSky T330 DVB-T2/C tuner           | 1     | dvb_usb... | [757746E097](<Notebook/Dell/Latitude/Latitude E5440/B5B590620A95/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/757746E097>) |
+| 07ca:0831 | AVerMedia Tec... | H831 USB Hybrid DVB-T/T2             | 1     |            | [9257745E1C](<Notebook/Acer/Aspire/Aspire V5-572G/8F3208F4A590/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/9257745E1C>) |
+| 07ca:3867 | AVerMedia Tec... | A867                                 | 1     |            | [159AB17857](<Notebook/Dell/XPS/XPS 13 9350/6ECB8D10AC97/UBUNTU-18.04/4.15.0-51-GENERIC/X86_64/159AB17857>) |
+| 07ca:8150 | AVerMedia Tec... | A815O                                | 1     | dvb_usb... | [69CC9D8136](<Notebook/Dell/Latitude/Latitude D630/439B9537930E/ROSA-2016.1/4.9.95-NRJ-DESKTOP-2ROSA-X86_64/X86_64/69CC9D8136>) |
+| 07ca:850a | AVerMedia Tec... | AverTV Volar Black HD (A850)         | 1     | dvb_usb... | [7537E7CB35](<Notebook/Acer/Aspire/Aspire V5-572P/85C0EB5B9C32/FEDORA-31/5.3.15-300.FC31.X86_64/X86_64/7537E7CB35>) |
+| 07ca:a867 | AVerMedia Tec... | AVerTV DVB-T (A867)                  | 1     | dvb_usb... | [2065A34613](<Notebook/Packard Bell/EasyNote/EasyNote MH35/26FE36E803D8/UBUNTU-20.04/5.4.0-29-GENERIC/X86_64/2065A34613>) |
+| 07ca:a868 | AVerMedia Tec... | A868                                 | 1     | dvb_usb... | [141E382738](<Notebook/Dell/Latitude/Latitude E6530/3D1627DD1ACE/XUBUNTU-20.04/5.4.0-42-LOWLATENCY/X86_64/141E382738>) |
+| 0b05:173f | ASUSTek Computer | My Cinema U3100 Mini                 | 1     | dvb_usb... | [34891AD0E7](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv6000/9163DF8AC96D/UBUNTU-20.04/5.4.0-37-GENERIC/X86_64/34891AD0E7>) |
+| 1164:3edc | YUAN High-Tec... | STK7700D                             | 1     |            | [9FEC6C5DE7](<Notebook/MSI/MS/MS-1727/2F56FE69DD13/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-X86_64/X86_64/9FEC6C5DE7>) |
+| 14aa:0221 | WideView Tech... | WT-220U DVB-T dongle                 | 1     | dvb_usb... | [7FA8E3A5E5](<Notebook/Acer/Aspire/Aspire 5830TG/6136AA22C467/OPENSUSE-TUMBLEWEED-20181029/4.18.15-1-DEFAULT/X86_64/7FA8E3A5E5>) |
+| 14aa:0226 | WideView Tech... | Digital TV Receiver                  | 1     | dvb_usb... | [7B994D2EC2](<Notebook/Lenovo/ThinkPad/ThinkPad L450 20DTS01R00/C3083CA78434/GENTOO-2.6/4.19.57-GENTOO-LENOVO_L450/X86_64/7B994D2EC2>) |
+| 14aa:0301 | WideView Tech... | AVermedia/Yakumo/Hama/Typhoon DVB... | 1     | dvb_usb... | [65E73516B5](<Notebook/Lenovo/ThinkPad/ThinkPad L450 20DTS01R00/C3083CA78434/GENTOO-2.6/4.19.57-GENTOO-LENOVO_L450/X86_64/65E73516B5>) |
+| 1b80:d393 | Afatech          | DVB-T receiver [RTL2832U]            | 1     | dvb_usb... | [DE8EB0C2DE](<Notebook/Dell/Vostro/Vostro 3560/07C198B5C782/LINUXMINT-20.2/5.4.0-91-GENERIC/X86_64/DE8EB0C2DE>) |
+| 1b80:e402 | Afatech          | DVB-T 2                              | 1     | dvb_usb... | [1EC9575FA4](<Notebook/Toshiba/Satellite/Satellite L500/9CB5852DD9E0/UBUNTU-18.04/5.3.0-40-GENERIC/X86_64/1EC9575FA4>) |
+| 1d19:1102 | Dexatek Techn... | DK mini DVB-T Dongle                 | 1     | dvb_usb... | [25564EE13D](<Notebook/Acer/Chapala/Chapala/7595BE3C8381/LINUXMINT-19.3/5.3.0-46-GENERIC/I686/25564EE13D>) |
+| 1f4d:c803 | G-Tek Electro... | NotOnlyTV (Lifeview) LV5TDLX DVB-... | 1     | dvb_usb... | [89FF5AF60E](<Notebook/HUAWEI/BOHB-WAX/BOHB-WAX9/C90742BFA2D9/UBUNTU-20.04/5.13.0-1008-INTEL/X86_64/89FF5AF60E>) |
+| 2040:b210 | Hauppauge        | Dell Digital tv                      | 1     | dvb_usb... | [EE05EBEF50](<Notebook/Dell/Inspiron/Inspiron 1010/88EE71FD69ED/ZORIN-15/5.4.0-81-GENERIC/I686/EE05EBEF50>) |
+| 2304:022e | Pinnacle Systems | PCTV 320cx                           | 1     | dvb_usb... | [9DA08CE4A5](<Notebook/ASUSTek Computer/S6/S6F/57E32236AF25/ROSA-2016.1/4.9.124-NRJ-DESKTOP-1ROSA-I586/I686/9DA08CE4A5>) |
+| 2304:0236 | Pinnacle Systems | PCTV 72e [DiBcom DiB7000PC]          | 1     | dvb_usb... | [5728BD3F53](<Notebook/Hewlett-Packard/250/250 G7 Notebook PC/52F053C23F3D/FEDORA-32/5.6.3-300.FC32.X86_64/X86_64/5728BD3F53>) |
+| 2304:023a | Pinnacle Systems | PCTV 801e                            | 1     | dvb_usb... | [DC0159ECF4](<Notebook/ASUSTek Computer/X551/X551CA/D9F5A0A61B33/UBUNTU-18.04/4.15.0-47-GENERIC/X86_64/DC0159ECF4>) |
+| eb1a:5013 | eMPIA Technology | USB 2883 Device                      | 1     |            | [5DD14F9164](<Notebook/MSI/PR/PR210/A46478A70090/ROSA-2014.1/3.14.44-NRJ-DESKTOP-2ROSA-I586/I686/5DD14F9164>) |
 
 ### Fingerprint reader (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 138a:003f | Validit... | VFS495 Fingerprint Reader    | 862   | usbfs      | 1069B24865 |
-| 06cb:00bd | Synaptics  | Prometheus MIS Touch Fing... | 708   | usbfs      | 11CD74E647 |
-| 138a:0011 | Validit... | VFS5011 Fingerprint Reader   | 492   | usbfs      | 5D323AF087 |
-| 138a:0017 | Validit... | VFS 5011 fingerprint sensor  | 452   | usbfs      | EB89BBEBFE |
-| 147e:2016 | Upek       | Biometric Touchchip/Touch... | 446   | usbfs      | 8B21B7CFFE |
-| 06cb:009a | Synaptics  | Metallica MIS Touch Finge... | 383   | usbfs      | EEB181F50B |
-| 138a:0018 | Validit... | Fingerprint scanner          | 342   |            | 2E9D378E76 |
-| 08ff:2810 | AuthenTec  | AES2810                      | 309   | usbfs      | 8C2D9E608C |
-| 138a:003c | Validit... | VFS471 Fingerprint Reader    | 303   | usbfs      | 99FB47DC2B |
-| 138a:003d | Validit... | VFS491                       | 298   | usbfs      | E12D7E47E6 |
-| 08ff:2580 | AuthenTec  | AES2501 Fingerprint Sensor   | 275   |            | 51AB06C26F |
-| 1c7a:0570 | LighTun... | EgisTec Touch Fingerprint... | 271   |            | 05087F89C1 |
-| 0483:2016 | STMicro... | Fingerprint Reader           | 251   | usbfs      | 1B17B5C927 |
-| 27c6:533c | Shenzhe... | FingerPrint                  | 238   | usbfs      | 5E25D50915 |
-| 138a:0007 | Validit... | VFS451 Fingerprint Reader    | 226   | usbfs      | F31AC36B11 |
-| 04f3:0903 | Elan Mi... | ELAN:Fingerprint             | 211   | usbfs      | C4FFE3D08B |
-| 27c6:55a4 | Shenzhe... | Goodix FingerPrint Device    | 194   |            | A35AAAEB6D |
-| 147e:1002 | Upek       | Biometric Touchchip/Touch... | 189   |            | 779684E41D |
-| 138a:0097 | Validit... | Synaptics WBDI               | 185   | usbfs      | F45B082C14 |
-| 06cb:00b7 | Synaptics  | Synaptics VFS7552 Touch F... | 184   |            | D0307FD66E |
-| 08ff:1600 | AuthenTec  | AES1600                      | 175   |            | A1F9398A77 |
-| 138a:0050 | Validit... | Swipe Fingerprint Sensor     | 174   |            | 4B949C1A1B |
-| 06cb:00a2 | Synaptics  | Metallica MOH Touch Finge... | 171   |            | 3FC424B8C6 |
-| 138a:0090 | Validit... | VFS7500 Touch Fingerprint... | 156   | usbfs      | 623506F87F |
-| 27c6:5110 | Shenzhe... | Goodix Fingerprint Device    | 154   |            | 1310B8ABF4 |
-| 1c7a:0603 | LighTun... | ES603 Swipe Fingerprint S... | 152   | usbfs      | 34A5253469 |
-| 138a:00ab | Validit... | Synaptics VFS7552 Touch F... | 151   |            | 005D186DC0 |
-| 06cb:00df | Synaptics  | Synaptics FS7604 Touch Fi... | 133   | usbfs      | 1719B2DC9D |
-| 06cb:0081 | Synaptics  | Synaptics WBDI               | 130   |            | 08D287D2E2 |
-| 138a:0005 | Validit... | VFS301 Fingerprint Reader    | 125   |            | DBFA388218 |
-| 138a:0001 | Validit... | VFS101 Fingerprint Reader    | 115   |            | 93E47A1AB3 |
-| 27c6:55b4 | Shenzhe... | Fingerprint Reader           | 112   | usbfs      | 7555BBD3C1 |
-| 147e:1000 | Upek       | Biometric Touchchip/Touch... | 97    |            | 00EEDD879B |
-| 06cb:009b | Synaptics  |                              | 95    |            | 4BF23FF82D |
-| 1c7a:0801 | LighTun... | Fingerprint Reader           | 95    |            | F91E822A29 |
-| 27c6:55a2 | Shenzhe... | Goodix FingerPrint Device    | 75    |            | 0C865DDF24 |
-| 04f3:0c1a | Elan Mi... | ELAN:Fingerprint             | 73    | usbfs      | 6EE47924BD |
-| 04f3:0c03 | Elan Mi... | ELAN:Fingerprint             | 71    |            | 3D54291DE2 |
-| 138a:0010 | Validit... | VFS Fingerprint sensor       | 70    |            | F108C8522F |
-| 138a:0091 | Validit... | VFS7552 Touch Fingerprint... | 64    |            | 69938C221E |
-| 06cb:0078 | Synaptics  | WBDI Device                  | 63    |            | 5C62EC0CE3 |
-| 27c6:530c | Shenzhe... | Fingerprint Reader           | 62    |            | 1FDA01A947 |
-| 06cb:00be | Synaptics  |                              | 60    |            | E9A8FB1275 |
-| 06cb:00c7 | Synaptics  |                              | 58    |            | 3CD05D02A8 |
-| 27c6:5117 | Shenzhe... | Fingerprint Reader           | 56    |            | C62BB4ADC9 |
-| 08ff:168f | AuthenTec  | AES1660 Fingerprint Sensor   | 55    | usbfs      | 2D0B219A36 |
-| 147e:1001 | Upek       | TCS5B Fingerprint sensor     | 55    |            | 55C2FA54AE |
-| 08ff:2550 | AuthenTec  | AES2550 Fingerprint Sensor   | 51    | usbfs      | 78B2FAB1E0 |
-| 06cb:00a8 | Synaptics  |                              | 49    | usbfs      | 2054D0DEE6 |
-| 08ff:2683 | AuthenTec  | Fingerprint Sensor           | 43    |            | 7FAB4F85E2 |
-| 08ff:168b | AuthenTec  | Fingerprint Sensor           | 40    |            | 6378D53C40 |
-| 27c6:538c | Shenzhe... | Fingerprint Reader           | 36    |            | 2ECF794B47 |
-| 27c6:5584 | Shenzhe... | Fingerprint Reader           | 32    |            | E68DFE0824 |
-| 06cb:00c9 | Synaptics  |                              | 29    | usbfs      | 4453E2C056 |
-| 138a:0008 | Validit... | VFS300 Fingerprint Reader    | 28    |            | CFA7A66840 |
-| 138a:00a6 | Validit... | Synaptics VFS7552 Touch F... | 24    |            | F2CA8E8D38 |
-| 2808:9338 | Focal-s... | FT9201Fingerprint.           | 19    |            | 06300B96A7 |
-| 27c6:5201 | Shenzhe... | Fingerprint Reader           | 14    | cdc_acm    | 4A5F986165 |
-| 04e8:730a | Samsung... | Fingerprint Device           | 13    |            | 641AA732DA |
-| 08ff:2665 | AuthenTec  | Fingerprint Sensor           | 13    |            | 4E6E58BBBA |
-| 27c6:5335 | Shenzhe... | Goodix Fingerprint Device    | 13    | cdc_acm    | D13426531E |
-| 06cb:0082 | Synaptics  | Synaptics WBDI Fingerprin... | 10    |            | 32F01CCAAB |
-| 06cb:00e7 | Synaptics  |                              | 8     |            | AB4E6ED1FB |
-| 04e8:730b | Samsung... | Fingerprint Sensor Device... | 7     |            | BA8F31C45F |
-| 04f3:0c01 | Elan Mi... | ELAN:Fingerprint             | 7     |            | B702F17A07 |
-| 04f3:0c28 | Elan Mi... | fingerprint sensor [FeinT... | 7     |            | D3377BFF14 |
-| 08ff:1660 | AuthenTec  | AES1660 Fingerprint Sensor   | 7     |            | FFFFAF4799 |
-| 138a:0094 | Validit... | Synaptics WBDI               | 7     |            | 4A91C75662 |
-| 08ff:168a | AuthenTec  | Fingerprint Sensor           | 6     |            | AF785987C5 |
-| 27c6:5503 | Shenzhe... | Goodix FingerPrint Device    | 6     |            | 8D45D9544E |
-| 08ff:1686 | AuthenTec  | Fingerprint Sensor           | 5     |            | 393852D904 |
-| 08ff:168c | AuthenTec  | Fingerprint Sensor           | 5     |            | ED52345849 |
-| 138a:0092 | Validit... | Synaptics VFS7552 Touch F... | 5     |            | 693137B6B8 |
-| 04e8:7301 | Samsung... | Fingerprint Device           | 4     |            | 4F39E11826 |
-| 1c7a:0577 | LighTun... | EgisTec EH577                | 4     |            | 18B5757039 |
-| 05ba:000a | Digital... | Fingerprint Reader           | 3     | mod_usb... | B554972D40 |
-| 08ff:2691 | AuthenTec  | Fingerprint Sensor           | 3     |            | 8395F7AEF5 |
-| 045e:00bb | Microsoft  | Fingerprint Reader           | 2     | usbhid     | 4B34114E72 |
-| 04f3:0c10 | Elan Mi... | ELAN:Fingerprint             | 2     |            | 74C0BDD4EB |
-| 2808:6652 | HOLTEK     | FocalTech Fingerprint Device | 2     |            | A93FE624C9 |
-| 04f3:0c3a | Elan Mi... | Elan Security-WBF Fingerp... | 1     |            | F3F60A5C06 |
-| 08ff:1680 | AuthenTec  | AES1660 Fingerprint Sensor   | 1     |            | 6C4DA274F4 |
-| 08ff:2500 | AuthenTec  | AES2501                      | 1     |            | 4DCFB332DF |
-| 08ff:2660 | AuthenTec  | AES2660 Fingerprint Sensor   | 1     |            | 0985E32752 |
-| 08ff:5731 | AuthenTec  | AES3500 TruePrint Sensor     | 1     | usbfs      | CF0E73081E |
-| 147e:5002 | Upek       | TouchStrip Fingerprint Se... | 1     |            | 335EF1CCCD |
-| 1491:0088 | Futroni... | Fingerprint Scanner Model... | 1     |            | F844FFFF09 |
-| 16d1:0401 | Suprema    | SUP-SFR400(A) BioMini Fin... | 1     |            | 1499D1854D |
-| 1c7a:0571 | LighTun... | EgisTec Touch Fingerprint... | 1     |            | A7E79F067E |
-| 27c6:5130 | Shenzhe... | Goodix Fingerprint Device    | 1     |            | A8F90B8625 |
-| 413c:3021 | Dell       | MS819 Wired Mouse With Fi... | 1     | usbhid     | 591A0F29B2 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 138a:003f | Validity Sensors | VFS495 Fingerprint Reader            | 998   | usbfs      | [3ECBD85311](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G2/8D1B4AD5F2F1/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/3ECBD85311>) |
+| 06cb:00bd | Synaptics        | Prometheus MIS Touch Fingerprint ... | 865   | usbfs      | [1F4FADBE2E](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Nano Gen 1 20UN002PCK/C35BF89AA0CF/ARCO-ROLLING/5.16.13-ZEN1-1-ZEN/X86_64/1F4FADBE2E>) |
+| 138a:0011 | Validity Sensors | VFS5011 Fingerprint Reader           | 548   | usbfs      | [25951F4351](<Notebook/Dell/Vostro/Vostro 3550/864BFB5EE573/ZORIN-16/5.13.0-30-GENERIC/X86_64/25951F4351>) |
+| 138a:0017 | Validity Sensors | VFS 5011 fingerprint sensor          | 518   | usbfs      | [841857DD45](<Notebook/Lenovo/ThinkPad/ThinkPad T460 20FN002SUS/5BCAE155A7D7/LINUXMINT-20.2/5.13.0-27-GENERIC/X86_64/841857DD45>) |
+| 147e:2016 | Upek             | Biometric Touchchip/Touchstrip Fi... | 490   | usbfs      | [B1A7B4593A](<Notebook/Lenovo/ThinkPad/ThinkPad X201 3680DQ1/C51F9D078D98/UBUNTU-20.04/5.16.12-051612-GENERIC/X86_64/B1A7B4593A>) |
+| 06cb:009a | Synaptics        | Metallica MIS Touch Fingerprint R... | 428   | usbfs      | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 138a:0018 | Validity Sensors | Fingerprint scanner                  | 367   |            | [708BC5F491](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv7/DEA8D34C9EEA/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/708BC5F491>) |
+| 08ff:2810 | AuthenTec        | AES2810                              | 346   | usbfs      | [AC28CDA346](<Notebook/Lenovo/ThinkPad/ThinkPad X200 7459N40/B1C498DEDE05/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/AC28CDA346>) |
+| 138a:003c | Validity Sensors | VFS471 Fingerprint Reader            | 339   | usbfs      | [42020405AB](<Notebook/Hewlett-Packard/ProBook/ProBook 6560b/F155064A9FED/LINUXMINT-20/5.4.0-100-GENERIC/X86_64/42020405AB>) |
+| 138a:003d | Validity Sensors | VFS491                               | 331   | usbfs      | [354C365696](<Notebook/Hewlett-Packard/EliteBook/EliteBook Folio 9480m/E002B40E424E/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/354C365696>) |
+| 1c7a:0570 | LighTuning Te... | EgisTec Touch Fingerprint Sensor     | 314   |            | [23C2A93047](<Notebook/HONOR/BMH-WCX/BMH-WCX9/19886291EEA7/DEBIAN-11/5.15.0-2-AMD64/X86_64/23C2A93047>) |
+| 27c6:533c | Shenzhen Good... | FingerPrint                          | 302   | usbfs      | [7D27557EBE](<Notebook/Dell/XPS/XPS 15 9500/3F35783A65E6/UBUNTU-21.10/5.13.0-27-GENERIC/X86_64/7D27557EBE>) |
+| 08ff:2580 | AuthenTec        | AES2501 Fingerprint Sensor           | 297   |            | [55A6D982B3](<Notebook/Hewlett-Packard/Compaq/Compaq nw8440/341816537142/UBUNTU-21.10/5.13.0-21-GENERIC/X86_64/55A6D982B3>) |
+| 0483:2016 | STMicroelectr... | Fingerprint Reader                   | 272   | usbfs      | [B00D789D5D](<Notebook/Lenovo/ThinkPad/ThinkPad T61 64659TU/A51B35E96C9E/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B00D789D5D>) |
+| 138a:0007 | Validity Sensors | VFS451 Fingerprint Reader            | 255   | usbfs      | [CAF1F719F4](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8440p/725B6221FBB1/BUNSENLABS-10.5/4.19.0-18-AMD64/X86_64/CAF1F719F4>) |
+| 04f3:0903 | Elan Microele... | ELAN:Fingerprint                     | 240   | usbfs      | [86DC3583CA](<Notebook/ASUSTek Computer/UX430/UX430UNR/F0783EEF957D/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/86DC3583CA>) |
+| 27c6:55a4 | Shenzhen Good... | Goodix FingerPrint Device            | 236   |            | [B48A6240BF](<Notebook/Lenovo/ThinkPad/ThinkPad E15 20RD0016GE/4F4BEFFC091C/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/B48A6240BF>) |
+| 138a:0097 | Validity Sensors | Synaptics WBDI                       | 222   | usbfs      | [C781FC668F](<Notebook/Lenovo/ThinkPad/ThinkPad X270 20HNS0LW00/E03394933E2B/XUBUNTU-18.04/5.4.0-99-GENERIC/X86_64/C781FC668F>) |
+| 27c6:5110 | Shenzhen Good... | Goodix Fingerprint Device            | 211   |            | [2B1AC5C4F4](<Notebook/HUAWEI/BOHK-WAX9/BOHK-WAX9X/F1FF0FAF7B7F/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2B1AC5C4F4>) |
+| 06cb:00b7 | Synaptics        | Synaptics VFS7552 Touch Fingerpri... | 207   |            | [42921AEBFD](<Notebook/Hewlett-Packard/ZBook/ZBook 15u G6/A8B5AAF45EC2/UBUNTU-BUDGIE-21.10/5.13.0-35-GENERIC/X86_64/42921AEBFD>) |
+| 147e:1002 | Upek             | Biometric Touchchip/Touchstrip Fi... | 204   |            | [08E970FD6C](<Notebook/Clevo/P15/P15xEMx/EF53301D5ED0/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/08E970FD6C>) |
+| 138a:0050 | Validity Sensors | Swipe Fingerprint Sensor             | 200   | usbfs      | [C2305ED449](<Notebook/Hewlett-Packard/ENVY/ENVY TS 15/007DD8904C2D/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/C2305ED449>) |
+| 06cb:00a2 | Synaptics        | Metallica MOH Touch Fingerprint R... | 199   |            | [2F136D5BF5](<Notebook/Lenovo/ThinkPad/ThinkPad E480 20KN002YPH/61077ED80EDE/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2F136D5BF5>) |
+| 08ff:1600 | AuthenTec        | AES1600                              | 193   |            | [CE6005769A](<Notebook/Medion/WIM/WIM2140/EDECB8B33C5A/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/CE6005769A>) |
+| 138a:0090 | Validity Sensors | VFS7500 Touch Fingerprint Sensor     | 178   | usbfs      | [D5E5A6FD60](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 4th 20FCS12V06/02C322415C07/UBUNTU-20.04/5.0.0-27-GENERIC/X86_64/D5E5A6FD60>) |
+| 138a:00ab | Validity Sensors | Synaptics VFS7552 Touch Fingerpri... | 173   |            | [AB88A095AC](<Notebook/Hewlett-Packard/EliteBook/EliteBook 850 G5/0EF543DE53BD/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/AB88A095AC>) |
+| 1c7a:0603 | LighTuning Te... | EgisTec_ES603                        | 166   | usbfs      | [D782BEA38A](<Notebook/Getac/B300/B300G5/D37A392C328B/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/D782BEA38A>) |
+| 06cb:00df | Synaptics        | Synaptics FS7604 Touch Fingerprin... | 155   | usbfs      | [917A6B65A8](<Notebook/Hewlett-Packard/ZBook/ZBook Fury 15 G7 Mobile Workstation/37F95CCCBE32/FEDORA-36/5.17.0-0.RC5.102.FC36.X86_64/X86_64/917A6B65A8>) |
+| 06cb:0081 | Synaptics        | Synaptics WBDI                       | 142   |            | [3BC582AD91](<Notebook/Lenovo/V330-15IKB/V330-15IKB 81AX/FAA914D05210/MANJARO-21.2.3/5.10.98-1-MANJARO/X86_64/3BC582AD91>) |
+| 138a:0005 | Validity Sensors | VFS301 Fingerprint Reader            | 136   |            | [D04802B99E](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv6/E7F94FDB9327/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/D04802B99E>) |
+| 27c6:55b4 | Shenzhen Good... | Fingerprint Reader                   | 126   | usbfs      | [61EBAB5E1F](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U1S04N00/893673A0F33E/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/61EBAB5E1F>) |
+| 138a:0001 | Validity Sensors | VFS101 Fingerprint Reader            | 125   |            | [A6788BFE93](<Notebook/Hewlett-Packard/HDX/HDX18/B6E6008E29E1/DEBIAN-11/5.15.0-0.BPO.3-AMD64/X86_64/A6788BFE93>) |
+| 06cb:009b | Synaptics        |                                      | 114   |            | [20757CC7E0](<Notebook/MSI/Prestige/Prestige 15 A11SCS/C4124BB337A8/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/20757CC7E0>) |
+| 147e:1000 | Upek             | Biometric Touchchip/Touchstrip Fi... | 108   |            | [D3465ABE44](<Notebook/Sony/VGN-Z690/VGN-Z690N/C7EACBA309C4/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/D3465ABE44>) |
+| 1c7a:0801 | LighTuning Te... | Fingerprint Reader                   | 106   |            | [B7E82C9025](<Notebook/Acer/Aspire/Aspire 8943G/D311E289CC71/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/B7E82C9025>) |
+| 27c6:55a2 | Shenzhen Good... | Goodix FingerPrint Device            | 100   |            | [1EAA06BF11](<Notebook/Lenovo/Yoga/Yoga Slim 7 15IIL05 82AA/F9B567DBF8D7/OPENSUSE-20220304/5.16.8-1-DEFAULT/X86_64/1EAA06BF11>) |
+| 04f3:0c03 | Elan Microele... | ELAN:Fingerprint                     | 83    |            | [5765E1B103](<Notebook/Acer/Aspire/Aspire A514-53/3D99719304A6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/5765E1B103>) |
+| 04f3:0c1a | Elan Microele... | ELAN:Fingerprint                     | 82    | usbfs      | [F9A954EEA3](<Notebook/Timi/TM/TM1703/017E7F3CEDFF/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/F9A954EEA3>) |
+| 138a:0010 | Validity Sensors | VFS Fingerprint sensor               | 81    |            | [2DF54EF02E](<Notebook/ASUSTek Computer/BU401/BU401LA/8150F1E3711A/DEBIAN-11/5.10.0-10-AMD64/X86_64/2DF54EF02E>) |
+| 06cb:00be | Synaptics        |                                      | 73    |            | [7FF30FC453](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U1002EMB/E14423EA45B8/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/7FF30FC453>) |
+| 27c6:530c | Shenzhen Good... | Fingerprint Reader                   | 71    |            | [9001CCACBC](<Notebook/Dell/G3/G3 3500/FC55ABC42E02/ARCH-ROLLING/5.16.7-ARCH1-1/X86_64/9001CCACBC>) |
+| 138a:0091 | Validity Sensors | VFS7552 Touch Fingerprint Sensor     | 70    |            | [4C72EBCB41](<Notebook/Dell/XPS/XPS 15 9560/F843245F97BA/KUBUNTU-20.04/5.13.0-30-GENERIC/X86_64/4C72EBCB41>) |
+| 06cb:0078 | Synaptics        | WBDI Device                          | 69    |            | [7C9F5C83CF](<Notebook/System76/Oryx/Oryx Pro/DE0C4B888206/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/7C9F5C83CF>) |
+| 27c6:5117 | Shenzhen Good... | Fingerprint Reader                   | 67    |            | [C2DE0E3F1C](<Notebook/HONOR/HLYL-WXX/HLYL-WXX9/76B6CD26EF9D/LINUXMINT-20.3/5.16.6-051606-GENERIC/X86_64/C2DE0E3F1C>) |
+| 06cb:00c7 | Synaptics        |                                      | 64    |            | [D36E30FA5B](<Notebook/System76/Oryx/Oryx Pro/2E17FD71D927/ARCO-ROLLING/5.16.12-ARCH1-1/X86_64/D36E30FA5B>) |
+| 08ff:168f | AuthenTec        | AES1660 Fingerprint Sensor           | 64    | usbfs      | [64DC07D0AF](<Notebook/Sony/SVS1311/SVS13118GBB/F65894F76BAC/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/64DC07D0AF>) |
+| 147e:1001 | Upek             | TCS5B Fingerprint sensor             | 62    |            | [1F9694D47D](<Notebook/Lenovo/ThinkPad/ThinkPad Edge 0301FAG/9A32EE6F60AB/LUBUNTU-21.10/5.13.0-28-GENERIC/X86_64/1F9694D47D>) |
+| 06cb:00a8 | Synaptics        |                                      | 61    | usbfs      | [00B59D57B7](<Notebook/Notebook/PCx0/PCx0Dx/F6BE0CE248E0/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/00B59D57B7>) |
+| 08ff:2550 | AuthenTec        | AES2550 Fingerprint Sensor           | 57    | usbfs      | [80008EBC38](<Notebook/Fujitsu/CELSIUS/CELSIUS H700/DDF18A3DE240/ROSA-2016.1/5.4.83-GENERIC-2ROSA-X86_64/X86_64/80008EBC38>) |
+| 08ff:168b | AuthenTec        | Fingerprint Sensor                   | 51    |            | [07C8FB9565](<Notebook/Toshiba/Satellite/Satellite Pro S500/074FACEC3878/UBUNTU-20.04/5.13.0-32-GENERIC/X86_64/07C8FB9565>) |
 
 ### Floppy (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 059b:0030 | Iomega     | Zip 250 (Ver 1)              | 1     | uas, us... | AC1D057113 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 059b:0030 | Iomega           | Zip 250 (Ver 1)                      | 1     | uas, us... | [BFE2966C97](<Notebook/Hewlett-Packard/Laptop/Laptop 15-da0xxx/CF4825367441/UBUNTU-20.04/5.4.0-73-GENERIC/X86_64/BFE2966C97>) |
 
 ### Gamepad (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 045e:028e | Microsoft  | Xbox360 Controller           | 71    | xpad       | 90FD9F38FC |
-| 046d:c21f | Logitech   | F710 Wireless Gamepad [XI... | 21    | xpad       | 39921C4F34 |
-| 046d:c21d | Logitech   | F310 Gamepad [XInput Mode]   | 16    | xpad       | BA467258AA |
-| 0079:0011 | DragonRise | Gamepad                      | 11    | usbhid     | 729CBF17A4 |
-| 2563:0575 | ShenZhe... | ZD-V+ Wired Gaming Contro... | 9     | usbhid     | 5B9A273ADF |
-| 0e8f:0003 | GreenAsia  | MaxFire Blaze2               | 8     | usbhid     | A92028F13A |
-| 045e:0291 | Microsoft  | Xbox 360 Wireless Receive... | 4     | usbfs      | 6995133402 |
-| 0e6f:011f | Logic3     | Rock Candy Wired Controll... | 4     | xpad       | FE508C141E |
-| 0079:181c | DragonRise | TGZ Controller               | 3     | usbhid     | E2DB581D0B |
-| 0e8f:0012 | GreenAsia  | Joystick/Gamepad             | 3     | usbhid     | DC6EDAF97D |
-| 0e8f:310d | GreenAsia  | USB Joystick                 | 3     | usbhid     | 4D127F6426 |
-| 0810:e501 | Persona... | SNES Gamepad                 | 2     | usbhid     | 608C919347 |
-| 146b:5500 | BigBen ... | Usb Gamepad                  | 2     | usbhid     | C9E270C528 |
-| 045e:0026 | Microsoft  | SideWinder GamePad Pro       | 1     | usbhid     | F8BFAA2C3D |
-| 046d:c242 | Logitech   | XUSB Gamepad                 | 1     | xpad       | 5214A557CB |
-| 0583:a000 | Padix (... | MaxFire G-08XU Gamepad       | 1     | usbhid     | 35D08ABB65 |
-| 07b5:0213 | Mega Wo... | Thrustmaster Firestorm Di... | 1     | usbhid     | A26C94316C |
-| 0e6f:011e | Logic3     | Rock Candy Gamepad for PS3   | 1     | usbhid     | 82ABA65015 |
-| 0e6f:0213 | Logic3     | Afterglow Gamepad for Xbo... | 1     | xpad       | E789EA6881 |
-| 0e6f:0401 | Logic3     | Gamepad for Xbox 360         | 1     | xpad       | 8772B2BD66 |
-| 0e6f:f501 | Logic3     | Inno GamePad..               | 1     | xpad       | 2248D1A3C8 |
-| 0f30:0107 | Jess Te... | USB 4-Axis 12-Button Gamepad | 1     | usbhid     | 42D3155F59 |
-| 145f:01c5 | Trust      | Gamepad                      | 1     | usbhid     | F6F47DDD48 |
-| 1bad:fa01 | Harmoni... | Gamepad                      | 1     | xpad       | 4AA6A34C0C |
-| 1c10:1c17 | Lanterr... | uRage Gamepad                | 1     | usbhid     | BEB08D2968 |
-| 2563:058d | ShenZhe... | Cloud Gamepad                | 1     |            | BC2C7BA0CA |
-| 7545:1122 | SZ-MYPOWER | PC Gamepad                   | 1     | usbhid     | 5B3BBC4A24 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 045e:028e | Microsoft        | Xbox360 Controller                   | 82    | xpad       | [E7D5945F3D](<Notebook/Hewlett-Packard/Pavilion/Pavilion Gaming Laptop 15-dk1064TX/F184A27DF574/ARCH/5.16.12-ARCH1-1/X86_64/E7D5945F3D>) |
+| 046d:c21f | Logitech         | F710 Wireless Gamepad [XInput Mode]  | 23    | xpad       | [26964D4C51](<Notebook/ASUSTek Computer/ZenBook/ZenBook Pro Duo UX582LR_UX582LR/DBF52FA62837/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/26964D4C51>) |
+| 046d:c21d | Logitech         | F310 Gamepad [XInput Mode]           | 19    | xpad       | [61707E5A4B](<Notebook/Monster/ABRA/ABRA A5 V16.6/841D49641464/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/61707E5A4B>) |
+| 0079:0011 | DragonRise       | Gamepad                              | 13    | usbhid     | [5597750B89](<Notebook/Acer/Aspire/Aspire E5-553G/38F72A113349/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/5597750B89>) |
+| 2563:0575 | ShenZhen Shan... | ZD-V+ Wired Gaming Controller        | 9     | usbhid     | [5B9A273ADF](<Notebook/Samsung Electronics/270E5/270E5G-270E5U/3E0F60339FD7/POP!_OS-21.04/5.13.0-7614-GENERIC/X86_64/5B9A273ADF>) |
+| 0e8f:0003 | GreenAsia        | MaxFire Blaze2                       | 8     | usbhid     | [A92028F13A](<Notebook/Samsung Electronics/340/340XAA-350XAA-550XAA/4336CD8B27C5/ENDEAVOUROS-ROLLING/5.12.13-ARCH1-2/X86_64/A92028F13A>) |
+| 0079:181c | DragonRise       | TGZ Controller                       | 6     | usbhid     | [42CBFE4EE6](<Notebook/Lenovo/IdeaPad/IdeaPad 5 15IIL05 81YK/EEF79161C8E1/MANJARO-21.2.3/5.15.21-1-MANJARO/X86_64/42CBFE4EE6>) |
+| 045e:0291 | Microsoft        | Xbox 360 Wireless Receiver for Wi... | 4     | usbfs      | [6995133402](<Notebook/Lenovo/Legion/Legion 5 17IMH05H 81Y8/5E93490D2544/MANJARO-21.0.7/5.10.42-1-MANJARO/X86_64/6995133402>) |
+| 0e6f:011f | Logic3           | Rock Candy Wired Controller for X... | 4     | xpad       | [FE508C141E](<Notebook/Hewlett-Packard/15/15 Notebook PC/FD61E5E0F179/UBUNTU-20.04/5.4.0-31-GENERIC/X86_64/FE508C141E>) |
+| 0e8f:0012 | GreenAsia        | Joystick/Gamepad                     | 3     | usbhid     | [DC6EDAF97D](<Notebook/Dell/Inspiron/Inspiron 3541/2A552D4B5512/XUBUNTU-20.04/5.4.0-58-LOWLATENCY/X86_64/DC6EDAF97D>) |
+| 0e8f:310d | GreenAsia        | USB Controller                       | 3     | usbhid     | [4D127F6426](<Notebook/Acer/Aspire/Aspire 5336/A87E664C39C9/UBUNTU-20.04/5.4.0-65-GENERIC/X86_64/4D127F6426>) |
+| 0810:e501 | Personal Comm... | SNES Gamepad                         | 2     | usbhid     | [608C919347](<Notebook/Sony/SVF1532/SVF1532C5E/C6A049F44718/UBUNTU-20.10/5.8.0-29-GENERIC/X86_64/608C919347>) |
+| 146b:5500 | BigBen Intera... | Usb Gamepad                          | 2     | usbhid     | [C9E270C528](<Notebook/Hewlett-Packard/250/250 G1/0DF583685378/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/C9E270C528>) |
+| 2563:058d | ShenZhen Shan... | Cloud Gamepad                        | 2     | xpad       | [B127C7B5E0](<Notebook/ONE-NETBOOK TECHNOLOGY/ONE/ONE XPLAYER/CEAAC50AC7AB/BUILDROOT-2021.08.1/5.14.12/X86_64/B127C7B5E0>) |
+| 045e:0026 | Microsoft        | SideWinder GamePad Pro               | 1     | usbhid     | [F8BFAA2C3D](<Notebook/Acer/Aspire/Aspire ES1-531/DEA928C93DC0/UBUNTU-19.04/5.0.0-34-GENERIC/X86_64/F8BFAA2C3D>) |
+| 046d:c242 | Logitech         | XUSB Gamepad                         | 1     | xpad       | [5214A557CB](<Notebook/Toshiba/Satellite/Satellite L40/FD59BF85C325/ENDLESS-3.7.8/5.3.0-28-GENERIC/X86_64/5214A557CB>) |
+| 0583:a000 | Padix (Rockfire) | MaxFire G-08XU Gamepad               | 1     | usbhid     | [35D08ABB65](<Notebook/Dell/Vostro/Vostro A860/40413BF1CCF1/XUBUNTU-18.04/5.3.0-51-GENERIC/I686/35D08ABB65>) |
+| 07b5:0213 | Mega World In... | Thrustmaster Firestorm Digital 3 ... | 1     | usbhid     | [A26C94316C](<Notebook/ASUSTek Computer/K52/K52Dr/4DE8151713C3/LINUXMINT-20.2/5.4.0-88-GENERIC/X86_64/A26C94316C>) |
+| 0e6f:011e | Logic3           | Rock Candy Gamepad for PS3           | 1     | usbhid     | [82ABA65015](<Notebook/Dell/Inspiron/Inspiron 3593/BFE606D4F6F4/MANJARO/5.10.0-1-MANJARO/X86_64/82ABA65015>) |
+| 0e6f:0213 | Logic3           | Afterglow Gamepad for Xbox 360       | 1     | xpad       | [E789EA6881](<Notebook/Google/Banjo/Banjo/A084A2FC7EA1/GALLIUMOS-3.1/4.16.18-GALLIUMOS/X86_64/E789EA6881>) |
+| 0e6f:0246 | Logic3           | Rock Candy Gamepad for Xbox One      | 1     | xpad       | [1EE5471D24](<Notebook/Toshiba/PORTEGE/PORTEGE R930/1732B54BF987/UBUNTU-21.10/5.13.0-25-GENERIC/X86_64/1EE5471D24>) |
+| 0e6f:0401 | Logic3           | Gamepad for Xbox 360                 | 1     | xpad       | [8772B2BD66](<Notebook/Lenovo/ThinkPad/ThinkPad T420 4177R3U/ADD0554F3FC6/FEDORA-31/5.3.8-300.FC31.X86_64/X86_64/8772B2BD66>) |
+| 0e6f:f501 | Logic3           | Hi-TEC Essentials Wired Gamepad      | 1     | xpad       | [2248D1A3C8](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv6/CABE53B61276/UBUNTU-20.04/5.4.0-31-GENERIC/X86_64/2248D1A3C8>) |
+| 0f30:0107 | Jess Technology  | USB 4-Axis 12-Button Gamepad         | 1     | usbhid     | [42D3155F59](<Notebook/Dell/Inspiron/Inspiron 1420/482E590D36B3/UBUNTU-19.10/5.3.0-26-GENERIC/X86_64/42D3155F59>) |
+| 145f:01c5 | Trust            | Gamepad                              | 1     | usbhid     | [F6F47DDD48](<Notebook/Toshiba/Satellite/Satellite Pro A300/7AAD85EF15D7/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/F6F47DDD48>) |
+| 1a34:0802 | ACRUX            | Gamepad                              | 1     | usbhid     | [609FFD75B7](<Notebook/Lenovo/B560/B560 43308VG/B3CA7A2AD047/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/609FFD75B7>) |
+| 1bad:fa01 | Harmonix Music   | Gamepad                              | 1     | xpad       | [4AA6A34C0C](<Notebook/Samsung Electronics/RC530/RC530-RC730/AE11140B6A56/GENTOO-2.6/5.4.80-GENTOO-R1/X86_64/4AA6A34C0C>) |
+| 1c10:1c17 | Lanterra Indu... | uRage Gamepad                        | 1     | usbhid     | [BEB08D2968](<Notebook/MSI/GV62/GV62 7RD/E0C80464D4DF/UBUNTU-19.10/5.3.0-18-GENERIC/X86_64/BEB08D2968>) |
+| 7545:1122 | SZ-MYPOWER       | PC Gamepad                           | 1     | usbhid     | [5B3BBC4A24](<Notebook/ASUSTek Computer/G53/G53SX/0C8A1755A3A1/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-X86_64/X86_64/5B3BBC4A24>) |
 
 ### Hardware key (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0471:485d | Philips... | Senselock SenseIV v2.x       | 3     |            | E4A6E39276 |
-| 0a89:0020 | Aktiv      | Rutoken S                    | 2     | usbfs      | 35FB98B552 |
-| 0a89:0003 | Aktiv      | Guardant Stealth 2           | 1     |            | 9BF4CABAF0 |
-| 14a8:0001 | Soft pr... | Soft protection device: U... | 1     |            | 2CF2098617 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0471:485d | Philips (or NXP) | Senselock SenseIV v2.x               | 3     |            | [E4A6E39276](<Notebook/Acer/Aspire/Aspire V5-572PG/C80E4F9F46FC/ROSA-2016.1/4.9.20-NRJ-DESKTOP-1ROSA-X86_64/X86_64/E4A6E39276>) |
+| 0a89:0003 | Aktiv            | Guardant Stealth 2                   | 2     |            | [EA6139E86C](<Notebook/Lenovo/IdeaPad/IdeaPad 3 17IIL05 81WF/F3EDA25D3B15/FEDORA-35/5.14.16-301.FC35.X86_64/X86_64/EA6139E86C>) |
+| 0a89:0020 | Aktiv            | Rutoken S                            | 2     | usbfs      | [35FB98B552](<Notebook/Dell/Inspiron/Inspiron 7720/04EB74B9633B/UBUNTU-18.04/4.15.0-54-GENERIC/X86_64/35FB98B552>) |
+| 14a8:0001 | Soft protecti... | Soft protection device: USB Prote... | 1     |            | [2CF2098617](<Notebook/Acer/Aspire/Aspire 8942G/8BCBC38C4091/ROSA-2016.1/4.15.0-DESKTOP-94.1ROSA-X86_64/X86_64/2CF2098617>) |
 
 ### Hasp (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0529:0001 | Aladdin... | HASP copy protection dongle  | 9     |            | 011928039E |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0529:0001 | Aladdin Knowl... | HASP copy protection dongle          | 10    |            | [22A451EBEB](<Notebook/Lenovo/ThinkPad/ThinkPad T430 2344C4U/03B78613A0CB/LINUXMINT-20.3/5.4.0-96-GENERIC/X86_64/22A451EBEB>) |
 
 ### Hub (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 1d6b:0002 | Linux F... | 2.0 root hub                 | 63476 | hub        | F581CF8319 |
-| 1d6b:0003 | Linux F... | 3.0 root hub                 | 44325 | hub        | F581CF8319 |
-| 1d6b:0001 | Linux F... | 1.1 root hub                 | 13845 | hub        | ECC4515014 |
-| 8087:0024 | Intel      | Integrated Rate Matching Hub | 11798 | hub        | A960753588 |
-| 8087:8000 | Intel      | Integrated Rate Matching Hub | 4509  | hub        | 36ACEDB60B |
-| 8087:0020 | Intel      | Integrated Rate Matching Hub | 3608  | hub        | C319EC4A5F |
-| 05e3:0608 | Genesys... | Hub                          | 2849  | hub        | F3E5EBA0C2 |
-| 0438:7900 | AMD        | Root Hub                     | 1967  | hub        | 3A06ECCCAA |
-| 8087:8008 | Intel      | Integrated Rate Matching Hub | 1835  | hub        | 36ACEDB60B |
-| 05e3:0610 | Genesys... | Hub                          | 1801  | hub        | 36ACEDB60B |
-| 1a40:0101 | Terminu... | Hub                          | 1793  | hub        | ECC4515014 |
-| 0a5c:4500 | Broadcom   | BCM2046B1 USB 2.0 Hub (pa... | 1519  | hub        | ECC4515014 |
-| 8087:8001 | Intel      | Integrated Hub               | 1509  | hub        | 9834990221 |
-| 0bda:5411 | Realtek... | RTS5411 Hub                  | 574   | hub        | 0F2394B49D |
-| 0bda:0411 | Realtek... | Hub                          | 447   | hub        | 0F2394B49D |
-| 0424:2134 | Microch... | Hub                          | 395   | hub        | FFB40F821B |
-| 0b97:7761 | O2 Micro   | Oz776 1.1 Hub                | 394   | hub        | 4639F065C8 |
-| 0424:5534 | Microch... | Hub                          | 384   | hub        | FFB40F821B |
-| 2109:2817 | VIA Labs   | USB2.0 Hub                   | 350   | hub        | 497BF56CC6 |
-| 2109:2813 | VIA Labs   | VL813 Hub                    | 349   | hub        | 141148EC26 |
-| 0424:2514 | Microch... | USB 2.0 Hub                  | 342   | hub        | 8A52B831D7 |
-| 0424:2513 | Microch... | 2.0 Hub                      | 338   | hub        | ECC4515014 |
-| 05e3:0626 | Genesys... | USB3.1 Hub                   | 320   | hub        | 0F6D7BCF66 |
-| 2109:0817 | VIA Labs   | USB3.0 Hub                   | 316   | hub        | 497BF56CC6 |
-| 05e3:0612 | Genesys... | Hub                          | 304   | hub        | 6AE3033841 |
-| 05e3:0620 | Genesys... | USB3.2 Hub                   | 292   | hub        | 97B2732F29 |
-| 2109:0813 | VIA Labs   | VL813 Hub                    | 280   | hub        | 141148EC26 |
-| 2109:2812 | VIA Labs   | VL812 Hub                    | 257   | hub        | F8024B89D4 |
-| 058f:6254 | Alcor M... | USB Hub                      | 252   | hub        | 31B241368B |
-| 214b:7250 | Huashen... | USB2.0 HUB                   | 225   | hub        | 7EAEAE034C |
-| 413c:2513 | Dell       | internal USB Hub of E-Por... | 218   | hub        | 9834990221 |
-| 2109:0812 | VIA Labs   | VL812 Hub                    | 201   | hub        | F8024B89D4 |
-| 8087:07e6 | Intel      | Hub                          | 196   | hub        | 1387FAB9FE |
-| 05e3:0606 | Genesys... | USB 2.0 Hub / D-Link DUB-... | 179   | hub        | D4F86565B3 |
-| 05e3:0616 | Genesys... | hub                          | 166   | hub        | 71F0D8F5BB |
-| 0409:005a | NEC Com... | HighSpeed Hub                | 141   | hub        | E7E870C6CC |
-| 14cd:8601 | Super Top  | 4-Port hub                   | 139   | hub        | D926705B17 |
-| 1a40:0801 | Terminu... | USB 2.0 Hub                  | 129   | hub        | 32F01CCAAB |
-| 0424:2807 | Microch... | Hub                          | 125   | hub        | C61BB65266 |
-| 0424:5807 | Microch... | Hub                          | 124   | hub        | C61BB65266 |
-| 0a05:7211 | Unknown... | hub                          | 122   | hub        | 5A86DAC3C6 |
-| 17ef:100a | Lenovo     | ThinkPad Mini Dock Plus S... | 121   | hub        | 8B21B7CFFE |
-| 0bda:5413 | Realtek... | Dell dock                    | 116   | hub        | 8A880E6565 |
-| 0bda:5487 | Realtek... | Dell dock                    | 116   | hub        | 8A880E6565 |
-| 0bda:0413 | Realtek... | Dell dock                    | 114   | hub        | 8A880E6565 |
-| 0bda:0487 | Realtek... | Dell dock                    | 114   | hub        | 8A880E6565 |
-| 413c:5534 | Dell       | Hub of E-Port Replicator     | 104   | hub        | 9834990221 |
-| 1a40:0201 | Terminu... | FE 2.1 7-port Hub            | 99    | hub        | 2AD271E81F |
-| 413c:a005 | Dell       | Internal 2.0 Hub             | 96    | hub        | ED344B9346 |
-| 2109:2811 | VIA Labs   | Hub                          | 95    | hub        | 4BB4415DAE |
-| 058f:9254 | Alcor M... | Hub                          | 91    | hub        | 9B5832381A |
-| 214b:7000 | Huashen... | 4-port hub [Maxxter ACT-H... | 83    | hub        | EEF17EA12F |
-| 413c:2134 | Dell       | Hub of E-Port Replicator     | 83    | hub        | 9834990221 |
-| 17ef:100f | Lenovo     | ThinkPad Ultra Dock Hub      | 82    | hub        | FE4AA7E54D |
-| 17ef:1010 | Lenovo     | ThinkPad Ultra Dock Hub      | 82    | hub        | FE4AA7E54D |
-| 05ac:1006 | Apple      | Hub in Aluminum Keyboard     | 80    | hub        | 7F5E602975 |
-| 0bda:5401 | Realtek... | RTL 8153 USB 3.0 hub with... | 78    | hub        | 38872D1422 |
-| 0451:8142 | Texas I... | TUSB8041 4-Port Hub          | 77    | hub        | A5072CEC8C |
-| 2109:2815 | VIA Labs   | USB2.0 Hub                   | 77    | hub        | 32F01CCAAB |
-| 0451:8442 | Texas I... | Hub                          | 72    | hub        | A814284F0B |
-| 0424:2744 | Microch... | Hub                          | 65    | hub        | D58F229004 |
-| 2109:8110 | VIA Labs   | Hub                          | 65    | hub        | 136B1D3804 |
-| 0bda:0401 | Realtek... | USB3.0 Hub                   | 64    | hub        | 38872D1422 |
-| 2109:0815 | VIA Labs   | USB3.0 Hub                   | 63    | hub        | 32F01CCAAB |
-| 0424:2512 | Microch... | USB 2.0 Hub                  | 61    | hub        | 90CBD6D0A7 |
-| 05e3:0617 | Genesys... | USB3.0 Hub                   | 60    | hub        | 95616813E6 |
-| 17ef:3080 | Lenovo     | USB2.0 Hub                   | 56    | hub        | C625F457A9 |
-| 17ef:3081 | Lenovo     | USB2.0 HUB                   | 56    | hub        | C625F457A9 |
-| 0424:5744 | Microch... | Hub                          | 55    | hub        | 362307C0B1 |
-| 2109:8817 | VIA Labs   | USB Billboard Device         | 55    |            | 32F01CCAAB |
-| 0424:5434 | Microch... | Hub                          | 54    | hub        | 98BD384A42 |
-| 17ef:307f | Lenovo     | USB3.1 Hub                   | 54    | hub        | C625F457A9 |
-| 17ef:a391 | Lenovo     | USB3.1 Hub                   | 54    | hub        | 3FC424B8C6 |
-| 17ef:a392 | Lenovo     | USB2.0 Hub                   | 54    | hub        | 3FC424B8C6 |
-| 17ef:a395 | Lenovo     | USB2.0 Hub                   | 54    | hub        | 3FC424B8C6 |
-| 2109:2820 | VIA Labs   | VL820 Hub                    | 52    | hub        | E68FF3079C |
-| 0424:2137 | Microch... | USB2137                      | 51    | hub        | 8A52B831D7 |
-| 17ef:a393 | Lenovo     | USB3.1 Hub                   | 51    | hub        | 3FC424B8C6 |
-| 17ef:a394 | Lenovo     | USB2.0 Hub                   | 51    | hub        | 3FC424B8C6 |
-| 2109:0820 | VIA Labs   | VL820 Hub                    | 49    | hub        | E68FF3079C |
-| 0424:5537 | Microch... | USB5537                      | 48    | hub        | 8A52B831D7 |
-| 044e:3011 | Alps El... | BCM2045B2                    | 46    | hub        | EF87C7EE7B |
-| 045b:0209 | Hitachi    | Hub                          | 46    | hub        | 0071FAABAC |
-| 0451:8140 | Texas I... | TUSB8041 4-Port Hub          | 44    | hub        | E86F1D275C |
-| 0424:2734 | Microch... | USB2734                      | 40    | hub        | 2DB520A45A |
-| 0451:8440 | Texas I... | Hub                          | 40    | hub        | A814284F0B |
-| 2109:2211 | VIA Labs   | USB2.0 Hub                   | 40    | hub        | 27F4B2412F |
-| 04b4:6560 | Cypress... | CY7C65640 USB-2.0 "TetraHub" | 39    | hub        | 940CCEBF1E |
-| 17ef:1012 | Lenovo     | ThinkPad Dock                | 39    | hub        | DA345E8DE3 |
-| 2109:0211 | VIA Labs   | USB3.0 Hub                   | 39    | hub        | 27F4B2412F |
-| 17ef:1011 | Lenovo     | ThinkPad Dock                | 38    | hub        | DA345E8DE3 |
-| 05e3:0605 | Genesys... | Hub                          | 37    | hub        | DA345E8DE3 |
-| 2109:0811 | VIA Labs   | Hub                          | 37    | hub        | 393852D904 |
-| 0bda:5409 | Realtek... | 3-Port USB 2.1 Hub           | 35    | hub        | 2D80988DDC |
-| 045b:0210 | Hitachi    | Hub                          | 34    | hub        | 2E8639BADA |
-| 0bda:5412 | Realtek... | 4-Port USB 2.0 Hub           | 34    | hub        | 14B08AB14D |
-| 03f0:036b | Hewlett... | USB-C Dock G5                | 33    | hub        | F8024B89D4 |
-| 03f0:086b | Hewlett... | USB2734                      | 33    | hub        | F8024B89D4 |
-| 0424:5734 | Microch... | USB5734                      | 32    | hub        | 2DB520A45A |
-| 0bda:0412 | Realtek... | 4-Port USB 3.0 Hub           | 31    | hub        | ADEB7E2546 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 1d6b:0002 | Linux Foundation | 2.0 root hub                         | 72619 | hub        | [2372B12D5C](<Notebook/Dell/Latitude/Latitude 5511/2B9275757CE0/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/2372B12D5C>) |
+| 1d6b:0003 | Linux Foundation | 3.0 root hub                         | 51597 | hub        | [2372B12D5C](<Notebook/Dell/Latitude/Latitude 5511/2B9275757CE0/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/2372B12D5C>) |
+| 1d6b:0001 | Linux Foundation | 1.1 root hub                         | 15082 | hub        | [9E9C1B741B](<Notebook/Toshiba/Satellite/Satellite L350D/430E5424D73B/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/9E9C1B741B>) |
+| 8087:0024 | Intel            | Integrated Rate Matching Hub         | 13110 | hub        | [F6068483CE](<Notebook/Toshiba/Satellite/Satellite C660/B9B75BA01934/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/F6068483CE>) |
+| 8087:8000 | Intel            | Integrated Rate Matching Hub         | 5067  | hub        | [10655C6E60](<Notebook/Lenovo/ThinkPad/ThinkPad T440s 20ARS08Q00/C58673A1A81B/DEBIAN-11/5.10.0-12-AMD64/X86_64/10655C6E60>) |
+| 8087:0020 | Intel            | Integrated Rate Matching Hub         | 4032  | hub        | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 05e3:0608 | Genesys Logic    | Hub                                  | 3314  | hub        | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0438:7900 | AMD              | Root Hub                             | 2223  | hub        | [DE3091D5D4](<Notebook/Hewlett-Packard/Notebook/Notebook/2290168F381B/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/DE3091D5D4>) |
+| 05e3:0610 | Genesys Logic    | Hub                                  | 2209  | hub        | [2B1AC5C4F4](<Notebook/HUAWEI/BOHK-WAX9/BOHK-WAX9X/F1FF0FAF7B7F/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2B1AC5C4F4>) |
+| 1a40:0101 | Terminus Tech... | Hub                                  | 2117  | hub        | [83A319F258](<Notebook/Dell/Inspiron/Inspiron 1525/E3C6D99D7C40/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/83A319F258>) |
+| 8087:8008 | Intel            | Integrated Rate Matching Hub         | 2037  | hub        | [B15D6EB8FB](<Notebook/Dell/Latitude/Latitude E6440/0BD8AF587DDC/LINUXMINT-20.3/5.4.0-91-GENERIC/X86_64/B15D6EB8FB>) |
+| 0a5c:4500 | Broadcom         | BCM2046B1 USB 2.0 Hub (part of BC... | 1758  | hub        | [2A4E580BD6](<Notebook/Apple/MacBookPro10/MacBookPro10,1/60A7DE71C92F/FEDORA-35/5.16.12-200.FC35.X86_64/X86_64/2A4E580BD6>) |
+| 8087:8001 | Intel            | Integrated Hub                       | 1702  | hub        | [3ECBD85311](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G2/8D1B4AD5F2F1/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/3ECBD85311>) |
+| 0bda:5411 | Realtek Semic... | 4-Port USB 2.0 Hub                   | 691   | hub        | [86DC3583CA](<Notebook/ASUSTek Computer/UX430/UX430UNR/F0783EEF957D/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/86DC3583CA>) |
+| 0bda:0411 | Realtek Semic... | 2-Port USB 3.0 Hub                   | 536   | hub        | [86DC3583CA](<Notebook/ASUSTek Computer/UX430/UX430UNR/F0783EEF957D/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/86DC3583CA>) |
+| 2109:2817 | VIA Labs         | USB2.0 Hub                           | 491   | hub        | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 0b97:7761 | O2 Micro         | Oz776 1.1 Hub                        | 460   | hub        | [CC5F0F79DD](<Notebook/Toshiba/TECRA/TECRA Z50-A/FF500FE27A3A/LINUXMINT-20.3/5.4.0-104-GENERIC/X86_64/CC5F0F79DD>) |
+| 0424:2134 | Microchip Tec... | Hub                                  | 459   | hub        | [3ECBD85311](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G2/8D1B4AD5F2F1/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/3ECBD85311>) |
+| 0424:5534 | Microchip Tec... | Hub                                  | 446   | hub        | [3ECBD85311](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G2/8D1B4AD5F2F1/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/3ECBD85311>) |
+| 2109:0817 | VIA Labs         | USB3.0 Hub                           | 441   | hub        | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 05e3:0626 | Genesys Logic    | USB3.1 Hub                           | 424   | hub        | [7D27557EBE](<Notebook/Dell/XPS/XPS 15 9500/3F35783A65E6/UBUNTU-21.10/5.13.0-27-GENERIC/X86_64/7D27557EBE>) |
+| 2109:2813 | VIA Labs         | VL813 Hub                            | 424   | hub        | [5E7B7A63A9](<Notebook/ASUSTek Computer/GL552/GL552VW/138484BF59CB/ZORIN-16/5.13.0-27-GENERIC/X86_64/5E7B7A63A9>) |
+| 0424:2514 | Microchip Tec... | USB 2.0 Hub                          | 404   | hub        | [B227E92B83](<Notebook/Apple/MacBookPro6/MacBookPro6,1/6A931DB62602/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/B227E92B83>) |
+| 0424:2513 | Microchip Tec... | 2.0 Hub                              | 390   | hub        | [2AB16BFCEE](<Notebook/Apple/MacBookPro9/MacBookPro9,2/69963227A53F/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AB16BFCEE>) |
+| 05e3:0620 | Genesys Logic    | USB3.1 Hub                           | 388   | hub        | [8469A31D58](<Notebook/Lenovo/Legion/Legion 5 15ARH05H 82B1/00B051D5E747/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/8469A31D58>) |
+| 05e3:0612 | Genesys Logic    | Hub                                  | 351   | hub        | [3F58A0F2A4](<Notebook/Lenovo/Legion/Legion Y530-15ICH 81FV/A4B769895625/GENTOO-2.6/5.15.23-GENTOO/X86_64/3F58A0F2A4>) |
+| 2109:0813 | VIA Labs         | VL813 Hub                            | 343   | hub        | [DC09F11788](<Notebook/Lenovo/ThinkPad/ThinkPad T14s Gen 2a 20XF006XCK/276A61FCAE2D/ROCKY-8.5/4.18.0-348.12.2.EL8_5.X86_64/X86_64/DC09F11788>) |
+| 2109:2812 | VIA Labs         | VL812 Hub                            | 303   | hub        | [E7A3D16CC0](<Notebook/Dell/XPS/XPS 13 9310/ABE3F73FC2AC/KUBUNTU-21.04/5.10.0-1038-OEM/X86_64/E7A3D16CC0>) |
+| 214b:7250 | Huasheng Elec... | USB2.0 HUB                           | 280   | hub        | [6AE9C3B307](<Notebook/Acer/Aspire/Aspire S3/832667F90E01/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/6AE9C3B307>) |
+| 058f:6254 | Alcor Micro      | USB Hub                              | 267   | hub        | [5939B86F71](<Notebook/ASUSTek Computer/VivoBook_ASUS/VivoBook_ASUS Laptop X505ZA_A505ZA/94B093502A4D/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/5939B86F71>) |
+| 413c:2513 | Dell             | internal USB Hub of E-Port Replic... | 246   | hub        | [BFA3FA7218](<Notebook/Dell/Latitude/Latitude E4300/9B0B27A28A67/DEBIAN-11/5.10.0-11-AMD64/X86_64/BFA3FA7218>) |
+| 2109:0812 | VIA Labs         | VL812 Hub                            | 239   | hub        | [E7A3D16CC0](<Notebook/Dell/XPS/XPS 13 9310/ABE3F73FC2AC/KUBUNTU-21.04/5.10.0-1038-OEM/X86_64/E7A3D16CC0>) |
+| 8087:07e6 | Intel            | Hub                                  | 210   | hub        | [5879C41CF0](<Notebook/Acer/Aspire/Aspire ES1-512/5872458326D7/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/5879C41CF0>) |
+| 05e3:0606 | Genesys Logic    | USB 2.0 Hub / D-Link DUB-H4 USB 2... | 200   | hub        | [DDDF04AA69](<Notebook/Elife/series/series/A60DF5705ADE/DEBIAN-11/5.10.0-11-686-PAE/I686/DDDF04AA69>) |
+| 05e3:0616 | Genesys Logic    | hub                                  | 191   | hub        | [1804E5EB77](<Notebook/MSI/Creator/Creator Z16 A11UET/E3FECBFB1971/UBUNTU-22.04/5.15.0-22-GENERIC/X86_64/1804E5EB77>) |
+| 1a40:0801 | Terminus Tech... | USB 2.0 Hub                          | 180   | hub        | [08E970FD6C](<Notebook/Clevo/P15/P15xEMx/EF53301D5ED0/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/08E970FD6C>) |
+| 14cd:8601 | Super Top        | 4-Port hub                           | 171   | hub        | [311C6DA8E0](<Notebook/Hewlett-Packard/ProBook/ProBook 455 G7/656F39058145/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/311C6DA8E0>) |
+| 0409:005a | NEC Computers    | HighSpeed Hub                        | 167   | hub        | [2EC2B8BF53](<Notebook/Acer/Aspire/Aspire E1-532G/994988BAB7F5/FEDORA-35/5.16.7-200.FC35.X86_64/X86_64/2EC2B8BF53>) |
+| 0bda:5413 | Realtek Semic... | Dell dock                            | 166   | hub        | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0bda:5487 | Realtek Semic... | Dell dock                            | 166   | hub        | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0bda:0413 | Realtek Semic... | Dell dock                            | 164   | hub        | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0bda:0487 | Realtek Semic... | Dell dock                            | 164   | hub        | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0424:2807 | Microchip Tec... | Hub                                  | 147   | hub        | [41AC7EFFBE](<Notebook/Hewlett-Packard/ZBook/ZBook 15 G6/10E50F1DF495/UBUNTU-18.04/5.4.0-104-GENERIC/X86_64/41AC7EFFBE>) |
+| 0424:5807 | Microchip Tec... | Hub                                  | 145   | hub        | [41AC7EFFBE](<Notebook/Hewlett-Packard/ZBook/ZBook 15 G6/10E50F1DF495/UBUNTU-18.04/5.4.0-104-GENERIC/X86_64/41AC7EFFBE>) |
+| 0a05:7211 | Unknown Manuf... | hub                                  | 144   | hub        | [F38FB6BF3F](<Notebook/Acer/Aspire/Aspire E5-553G/2A4B2AAA7E0D/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/F38FB6BF3F>) |
+| 17ef:100a | Lenovo           | ThinkPad Mini Dock Plus Series 3     | 137   | hub        | [F247D6C3CA](<Notebook/Lenovo/ThinkPad/ThinkPad T430 2350B58/050ED4BBA68F/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/F247D6C3CA>) |
+| 2109:2811 | VIA Labs         | Hub                                  | 114   | hub        | [5E7B7A63A9](<Notebook/ASUSTek Computer/GL552/GL552VW/138484BF59CB/ZORIN-16/5.13.0-27-GENERIC/X86_64/5E7B7A63A9>) |
+| 413c:5534 | Dell             | Hub of E-Port Replicator             | 111   | hub        | [192250957C](<Notebook/Dell/Precision/Precision M4700/C0744C956351/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/192250957C>) |
+| 413c:a005 | Dell             | Internal 2.0 Hub                     | 108   | hub        | [D4E50F40F3](<Notebook/Dell/Latitude/Latitude D620/BFE0941CFFA9/LMDE-4/4.19.0-8-686/I686/D4E50F40F3>) |
+| 1a40:0201 | Terminus Tech... | FE 2.1 7-port Hub                    | 107   | hub        | [55DA3AB4E0](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK S792/AA9902ADCF71/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/55DA3AB4E0>) |
 
 ### Human interface (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 05ac:8242 | Apple      | Built-in IR Receiver         | 633   | usbhid     | 6E17FB6EA4 |
-| 1770:ff00 | MSI        | steel series rgb keyboard    | 335   | usbhid     | 4E8A3E6A15 |
-| 0483:91d1 | STMicro... | Sensor Hub                   | 242   | usbhid     | 5900E800AA |
-| 1038:1122 | SteelSe... | SteelSeries KLC              | 154   | usbhid     | EDD545A455 |
-| 413c:b06e | Dell       | dock                         | 116   | usbhid     | 8A880E6565 |
-| 413c:b06f | Dell       | dock                         | 116   | usbhid     | 8A880E6565 |
-| 0451:82ff | Texas I... |                              | 88    | usbhid     | A814284F0B |
-| 187c:0550 | Alienware  | LED controller               | 79    | usbhid     | 5C569C3982 |
-| 0765:5010 | X-Rite     | X-Rite Pantone Color Sensor  | 77    | usbhid     | 69A252CCD6 |
-| 056a:00e6 | Wacom      | TPCE6                        | 56    | usbhid     | 93090177CD |
-| 048d:8350 | Integra... | ITE Device(8350)             | 51    | usbhid     | 8D16328DFD |
-| 06c4:c411 | Bizlink... | D6000 Controller             | 51    | usbhid     | BC0BFCD534 |
-| 2047:0855 | Texas I... | Invensense Embedded Motio... | 48    | usbhid     | F5565DFB2A |
-| 05ac:8240 | Apple      | Built-in IR Receiver         | 47    | usbhid     | 0346BC764A |
-| 0079:0006 | DragonRise | PC TWIN SHOCK Gamepad        | 42    | usbhid     | 062FA178C0 |
-| 0424:274c | Microch... | Hub Controller               | 38    | usbhid     | 2DB520A45A |
-| 048d:8386 | Integra... | ITE Device(8386)             | 35    | usbhid     | A87E581C64 |
-| 054c:0268 | Sony       | Batoh Device / PlayStatio... | 26    | usbhid     | 900B0CE643 |
-| 17ef:3066 | Lenovo     | ThinkPad Thunderbolt 3 Do... | 26    | usbhid     | AA67AEB304 |
-| 056a:5193 | Wacom      | Pen and multitouch sensor    | 23    | usbhid     | BC3DF872B2 |
-| 187c:0520 | Alienware  | M17x                         | 22    | usbhid     | 98464FE67B |
-| 187c:0530 | Alienware  | AW1517                       | 21    | usbhid     | 564DD05308 |
-| 8087:0a04 | Intel      | Sensor Solution              | 20    | usbhid     | 5D8E12212A |
-| 03eb:8417 | Atmel      | maXTouch Digitizer           | 19    | usbhid     | CEB0DF45DC |
-| 043e:9a39 | LG Elec... | USB Controls                 | 18    | usbhid     | A5072CEC8C |
-| 05ac:1392 | Apple      | Apple Watch charger          | 17    | usbhid     | B6FF026E89 |
-| 187c:0524 | Alienware  | M17x                         | 17    | usbhid     | 595987AFA9 |
-| 1b96:0006 | N-Trig     | DuoSense                     | 17    | usbhid     | 4AD73429AF |
-| 0451:ca01 | Texas I... | USBtoI2C Solution            | 16    | usbhid     | 27D628B154 |
-| 06c4:c412 | Bizlink... | DELL DA300                   | 16    | usbhid     | E68FF3079C |
-| 05ac:8102 | Apple      | Touch Bar Backlight          | 15    | usbhid     | 7B3CDDA6E2 |
-| 05ac:8103 | Apple      | Headset                      | 15    | usbhid     | 7B3CDDA6E2 |
-| 05ac:8262 | Apple      | Ambient Light Sensor         | 15    | usbhid     | 7B3CDDA6E2 |
-| 0765:5001 | X-Rite     | Huey PRO Colorimeter         | 15    | usbhid     | 9F00795579 |
-| 04b5:0680 | ROHM LS... | Kionix Sensor Hub F:0004 ... | 14    | usbhid     | 8A52B831D7 |
-| 1038:1132 | SteelSe... | SteelSeries ALC              | 14    | usbhid     | CBF3C67BE2 |
-| 187c:0528 | Alienware  | AW1517                       | 14    | usbhid     | 5A84B0E8E8 |
-| 1050:0120 | Yubico.com | Yubikey Touch U2F Securit... | 13    | usbhid     | 6D94D45CF0 |
-| 2386:0403 | Raydium    | Touch System                 | 13    | usbhid     | 53AC57FBEA |
-| 03eb:8a41 | Atmel      | Generic USB Mouse            | 12    | usbhid     | 68FB5BB4E8 |
-| 0810:0001 | Persona... | Dual PSX Adaptor             | 12    | usbhid     | B7FDCC1FB7 |
-| 187c:0521 | Alienware  | M14x                         | 12    | usbhid     | BF1BAF508F |
-| 1b1c:1b65 | Corsair    | Harpoon Wireless Dongle      | 12    | usbhid     | C627D4FE6D |
-| 0457:10c1 | Silicon... | SiS HID Touch Controller     | 11    | usbhid     | 5E377590C7 |
-| 04d8:0b28 | Microch... | Composite HID + CDC, APP-... | 11    | cdc_acm    | FE6EA72185 |
-| 2386:310e | Raydium    | Touch System                 | 11    | usbhid     | CA50FA4AC4 |
-| 03eb:8206 | Atmel      | maXTouch Digitizer           | 10    | usbhid     | F075B61CD6 |
-| 03eb:8a96 | Atmel      | maXTouch Digitizer           | 10    | usbhid     | D3265C616B |
-| 046d:c216 | Logitech   | F310 Gamepad [DirectInput... | 10    | usbhid     | AB0F931A48 |
-| 1038:1124 | SteelSe... | SteelSeries ALC              | 10    | usbhid     | 168F21CC93 |
-| 187c:0514 | Alienware  | Phantom                      | 10    | usbhid     | E45FCC146D |
-| 187c:0525 | Alienware  | M14x                         | 10    | usbhid     | 670A69567E |
-| 03eb:8a06 | Atmel      | maXTouch Digitizer           | 9     | usbhid     | 0AD916110D |
-| 03eb:8a1b | Atmel      | maXTouch Digitizer           | 9     | usbhid     | B28D0C3AF4 |
-| 03eb:8a1d | Atmel      | maXTouch Digitizer           | 9     | usbhid     | 2519EFDF20 |
-| 0416:5020 | Winbond... | HID Transfer                 | 9     | usbhid     | 73ED42CE55 |
-| 10d5:55a4 | Uni Cla... | 4 Port KVMSwicther           | 9     | usbhid     | 3724755EEA |
-| 03eb:8807 | Atmel      | maXTouch Digitizer           | 8     | usbhid     | 30F4447442 |
-| 03eb:880f | Atmel      | maXTouch Digitizer           | 8     | usbhid     | 025AE9003B |
-| 03eb:8819 | Atmel      | maXTouch Digitizer           | 8     | usbhid     | C3D21619BB |
-| 0457:102b | Silicon... | SiS HID Touch Controller     | 8     | usbhid     | 5B648FCC6B |
-| 05a7:40fe | Bose       | SoundLink Color II speaker   | 8     | usbhid     | 886C6B0848 |
-| 05ac:8104 | Apple      |                              | 8     | usbhid     | C8CC288F90 |
-| 06cb:1d10 | Synaptics  | Large Touch Screen           | 8     | usbhid     | 75A01751C3 |
-| 0bda:48f0 | Realtek... | USB Audio                    | 8     | usbhid     | 0151EADF78 |
-| 1949:0417 | Lab126     | FIDO Dongle                  | 8     | usbhid     | 26494B1D27 |
-| 1fd2:5007 | Melfas     | LGD AIT Touch Controller     | 8     | usbhid     | 6CCC3403F8 |
-| 03eb:8434 | Atmel      | maXTouch Digitizer           | 7     | usbhid     | 77619B573F |
-| 03eb:8814 | Atmel      | maXTouch Digitizer           | 7     | usbhid     | 71CE37EAE0 |
-| 03eb:8b03 | Atmel      | USB Mouse                    | 7     | usbhid     | FDE9328624 |
-| 03eb:8c1d | Atmel      | maXTouch Digitizer           | 7     | usbhid     | F1D5CC33BA |
-| 0457:10c0 | Silicon... | SiS HID Touch Controller     | 7     | usbhid     | 5B139F71EE |
-| 0483:a2ca | STMicro... | Solo 4.0.0                   | 7     | usbhid     | C5A7069C64 |
-| 054c:05c4 | Sony       | DualShock 4 [CUH-ZCT1x]      | 7     | usbhid     | 4A458EDCF6 |
-| 05ac:1393 | Apple      | AirPods case                 | 7     | usbhid     | 31FF7DD229 |
-| 06cb:7406 | Synaptics  | Synaptics                    | 7     | usbhid     | 264E09233B |
-| 0b05:1726 | ASUSTek... | Laptop OLED Display          | 7     | usbhid     | 171CB63396 |
-| 0e8d:20ff | MediaTek   | ZTE Blade V10                | 7     | usbhid     | D31646221C |
-| 187c:0523 | Alienware  | M18x                         | 7     | usbhid     | 263620E884 |
-| 03eb:8810 | Atmel      | maXTouch Digitizer           | 6     | usbhid     | C8C4934145 |
-| 03eb:8a0b | Atmel      | maXTouch Digitizer           | 6     | usbhid     | A1E7EFD7C1 |
-| 046d:c215 | Logitech   | Extreme 3D Pro               | 6     | usbhid     | D1E0B6EE58 |
-| 046d:c251 | Logitech   | GamePanel LCD                | 6     | usbhid     | 5006AA0F75 |
-| 04d8:0b2a | Microch... | U2717D_0B2A_15091601         | 6     | usbhid     | A2AB510560 |
-| 05c6:f006 | Qualcomm   | Android                      | 6     | usbhid     | 4C600416F9 |
-| 0835:2a06 | Action ... | HID to SPI Device            | 6     | usbhid     | 50385DDE8B |
-| 10c4:f407 | Silicon... | EFM8 HID ISP                 | 6     | usbhid     | B1E4AC0A68 |
-| 10d5:55a2 | Uni Cla... | 2Port KVMSwitcher            | 6     | usbhid     | DDCD85BBE5 |
-| 187c:0527 | Alienware  | AW13                         | 6     | usbhid     | 47544527B7 |
-| 187c:0529 | Alienware  | AW13                         | 6     | usbhid     | E744108BC3 |
-| 03eb:8803 | Atmel      | maXTouch Digitizer           | 5     | usbhid     | 1629D4D04F |
-| 03eb:880c | Atmel      | maXTouch Digitizer           | 5     | usbhid     | 5AC3E9DE20 |
-| 03eb:881a | Atmel      | maXTouch Digitizer           | 5     | usbhid     | 598845D6DA |
-| 03eb:8a19 | Atmel      | maXTouch Digitizer           | 5     | usbhid     | 07C8FFF8C3 |
-| 03eb:8a83 | Atmel      |                              | 5     | usbhid     | 848763A502 |
-| 03eb:8b0d | Atmel      |                              | 5     | usbhid     | 0898A9109D |
-| 044f:b10a | ThrustM... | T.16000M Joystick            | 5     | usbhid     | E134BAE415 |
-| 0457:10cc | Silicon... | SiS HID Touch Controller     | 5     | usbhid     | 0E37D3409D |
-| 047f:0127 | Plantro... | Voyager Focus UC             | 5     | usbhid     | 77D6B5680D |
-| 057e:2009 | Nintendo   | Switch Pro Controller        | 5     | usbhid     | E4F59C3C54 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 05ac:8242 | Apple            | Built-in IR Receiver                 | 755   | usbhid     | [2AB16BFCEE](<Notebook/Apple/MacBookPro9/MacBookPro9,2/69963227A53F/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AB16BFCEE>) |
+| 1770:ff00 | MSI              | steel series rgb keyboard            | 381   | usbhid     | [3E80EF6096](<Notebook/MSI/GT70/GT70 2OC-2OD/2329E9C32128/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/3E80EF6096>) |
+| 0483:91d1 | STMicroelectr... | Sensor Hub                           | 271   | usbhid     | [4C83283B70](<Notebook/Lenovo/ThinkPad/ThinkPad S1 Yoga 20CD00B1US/3385F6195582/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/4C83283B70>) |
+| 1038:1122 | SteelSeries ApS  | SteelSeries KLC                      | 189   | usbhid     | [CCBD207EBD](<Notebook/MSI/GP66/GP66 Leopard 11UG/45801156845B/ARCH-ROLLING/5.16.7-ZEN1-1-ZEN/X86_64/CCBD207EBD>) |
+| 413c:b06e | Dell             | dock                                 | 166   | usbhid     | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 413c:b06f | Dell             | dock                                 | 166   | usbhid     | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0451:82ff | Texas Instrum... |                                      | 110   | usbhid     | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 187c:0550 | Alienware        | LED controller                       | 107   | usbhid     | [65A1979BB3](<Notebook/Alienware/Area-51m/Area-51m R2/7E7E22AAAED2/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/65A1979BB3>) |
+| 0765:5010 | X-Rite           | X-Rite Pantone Color Sensor          | 83    | usbhid     | [742AF9249B](<Notebook/Lenovo/ThinkPad/ThinkPad P51 20HHCTO1WW/0C27487A8E95/MANJARO/5.10.96-1-MANJARO/X86_64/742AF9249B>) |
+| 06c4:c411 | Bizlink Inter... | D6000 Controller                     | 63    | usbhid     | [9BB17A1C87](<Notebook/Lenovo/ThinkPad/ThinkPad T15 Gen 2i 20W4000NRT/A8DFB379DA21/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/9BB17A1C87>) |
+| 056a:00e6 | Wacom            | TPCE6                                | 61    | usbhid     | [E8DD84A845](<Notebook/Lenovo/ThinkPad/ThinkPad X220 Tablet 4298R65/7C15AE583D2A/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/E8DD84A845>) |
+| 048d:8350 | Integrated Te... | ITE Device(8350)                     | 58    | usbhid     | [4425801F5C](<Notebook/Toshiba/Satellite/Satellite L10W-B-101/D8FCAC83307E/MANJARO/5.15.25-1-MANJARO/X86_64/4425801F5C>) |
+| 2047:0855 | Texas Instrum... | Invensense Embedded MotionApp HID... | 57    | usbhid     | [DDA75E3BA9](<Notebook/Lenovo/Yoga/Yoga 2 Pro 20266/26A04B698FE7/ZORIN-16/5.11.0-38-GENERIC/X86_64/DDA75E3BA9>) |
+| 05ac:8240 | Apple            | Built-in IR Receiver                 | 50    | usbhid     | [6563E94C95](<Notebook/Apple/MacBookPro1/MacBookPro1,1/FA34E0181F6E/UBUNTU-16.04/4.4.0-210-GENERIC/I686/6563E94C95>) |
+| 0079:0006 | DragonRise       | PC TWIN SHOCK Gamepad                | 42    | usbhid     | [70CFFC5595](<Notebook/Sony/VPCF236/VPCF236FM/9EECE438A2C4/KUBUNTU-20.04/5.11.0-40-GENERIC/X86_64/70CFFC5595>) |
+| 0424:274c | Microchip Tec... | Hub Controller                       | 42    | usbhid     | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 048d:8386 | Integrated Te... | ITE Device(8386)                     | 39    | usbhid     | [8544ED95E5](<Notebook/Lenovo/Yoga/Yoga 2 11 20332/C8865E57953D/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/8544ED95E5>) |
+| 17ef:3066 | Lenovo           | ThinkPad Thunderbolt 3 Dock MCU      | 31    | usbhid     | [FDA7557AA0](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L60033MX/18E95B12F364/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/FDA7557AA0>) |
+| 056a:5193 | Wacom            | Pen and multitouch sensor            | 27    | usbhid     | [561F82ADC5](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Extreme 20MF000DUS/C54DC3957D60/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/561F82ADC5>) |
+| 054c:0268 | Sony             | Batoh Device / PlayStation 3 Cont... | 26    | usbhid     | [900B0CE643](<Notebook/Lenovo/ThinkPad/ThinkPad T470s 20HF0047UK/81F9A33DFF0C/FEDORA-34/5.13.12-200.FC34.X86_64/X86_64/900B0CE643>) |
+| 187c:0520 | Alienware        | M17x                                 | 24    | usbhid     | [BE8FD9059B](<Notebook/Alienware/M17/M17xR3/30A73E8277D6/MANJARO-21.2.0/5.15.7-1-MANJARO/X86_64/BE8FD9059B>) |
+| 187c:0530 | Alienware        | AW1517                               | 24    | usbhid     | [D82171F734](<Notebook/Alienware/17/17 R4/90594168D33F/UBUNTU-21.10/5.13.0-27-GENERIC/X86_64/D82171F734>) |
+| 8087:0a04 | Intel            | Sensor Solution                      | 23    | usbhid     | [61D5D1483D](<Notebook/Acer/TP-W700/TP-W700-53334G12/D20E91978941/ZORIN-16/5.13.0-30-GENERIC/X86_64/61D5D1483D>) |
+| 043e:9a39 | LG Electronics   | LG Monitor Controls                  | 22    | usbhid     | [3F09A29186](<Notebook/Wortmann AG/1220663/1220663_1470189/185447910D36/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/3F09A29186>) |
+| 1b96:0006 | N-Trig           | DuoSense                             | 21    | usbhid     | [BC9AB1100F](<Notebook/Dell/System/System XPS L702X/31ACC7DF06F6/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/BC9AB1100F>) |
+| 03eb:8417 | Atmel            | maXTouch Digitizer                   | 20    | usbhid     | [A8CEEEFA2D](<Notebook/ASUSTek Computer/X202/X202E/753168C647EC/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/A8CEEEFA2D>) |
+| 05ac:8102 | Apple            | Touch Bar Backlight                  | 20    | usbhid     | [3E35C49D6C](<Notebook/Apple/MacBookPro16/MacBookPro16,1/C0EB43C4249B/UBUNTU-20.04/5.4.0-99-GENERIC/X86_64/3E35C49D6C>) |
+| 05ac:8103 | Apple            | Headset                              | 20    | usbhid     | [3E35C49D6C](<Notebook/Apple/MacBookPro16/MacBookPro16,1/C0EB43C4249B/UBUNTU-20.04/5.4.0-99-GENERIC/X86_64/3E35C49D6C>) |
+| 05ac:8262 | Apple            | Ambient Light Sensor                 | 20    | usbhid     | [3E35C49D6C](<Notebook/Apple/MacBookPro16/MacBookPro16,1/C0EB43C4249B/UBUNTU-20.04/5.4.0-99-GENERIC/X86_64/3E35C49D6C>) |
+| 1038:1132 | SteelSeries ApS  | SteelSeries ALC                      | 20    | usbhid     | [AFB3D72F66](<Notebook/MSI/GE66/GE66 Raider 11UH/C77388104342/UBUNTU-20.04/5.15.13-051513-GENERIC/X86_64/AFB3D72F66>) |
+| 05ac:1392 | Apple            | Apple Watch charger                  | 19    | usbhid     | [F69FADFB4B](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus M16 GU603HM_GU603HM/89BB5FCE2323/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/F69FADFB4B>) |
+| 0765:5001 | X-Rite           | Huey PRO Colorimeter                 | 19    | usbhid     | [06B01BA136](<Notebook/Lenovo/ThinkPad/ThinkPad W700 27526LG/467C61A9616D/OPENMANDRIVA-4.2/5.11.12-DESKTOP-1OMV4002/X86_64/06B01BA136>) |
+| 0451:ca01 | Texas Instrum... | USBtoI2C Solution                    | 18    | usbhid     | [E7A3D16CC0](<Notebook/Dell/XPS/XPS 13 9310/ABE3F73FC2AC/KUBUNTU-21.04/5.10.0-1038-OEM/X86_64/E7A3D16CC0>) |
+| 06c4:c412 | Bizlink Inter... | DELL DA300                           | 17    | usbhid     | [187CE36374](<Notebook/Dell/Latitude/Latitude 7490/A4D19CB74FC8/DEBIAN-11/5.10.0-9-AMD64/X86_64/187CE36374>) |
+| 187c:0524 | Alienware        | M17x                                 | 17    | usbhid     | [D3460BDFD1](<Notebook/Alienware/17/17/48643B742A29/ELEMENTARY-6/5.11.0-38-GENERIC/X86_64/D3460BDFD1>) |
+| 187c:0528 | Alienware        | AW1517                               | 16    | usbhid     | [032772AD42](<Notebook/Alienware/17/17 R3/42C64ED22093/DEBIAN-11/5.10.0-10-AMD64/X86_64/032772AD42>) |
+| 2386:0403 | Raydium          | Touch System                         | 16    | usbhid     | [C4ED40F38F](<Notebook/Dell/Inspiron/Inspiron 11-3168/0DB4CDE67E64/LUBUNTU-20.04/5.13.0-28-GENERIC/X86_64/C4ED40F38F>) |
+| 04b5:0680 | ROHM LSI Syst... | HID Sensor Board DFUP2183ZA          | 15    | usbhid     | [D684CB0EF2](<Notebook/Panasonic/CF-C2/CF-C2CHAZLDM/DEDF544490B6/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/D684CB0EF2>) |
+| 04d8:0b28 | Microchip Tec... | Composite HID + CDC, APP-ESS14-1     | 15    | cdc_acm    | [DE6A197771](<Notebook/Google/Kefka/Kefka/791D182519EE/LINUXFX-11/5.13.0-27-GENERIC/X86_64/DE6A197771>) |
+| 1050:0120 | Yubico.com       | Yubikey Touch U2F Security Key       | 15    | usbhid     | [5E0B855DBF](<Notebook/PC Specialist/NH5/NH5xAx/9EFB14F55E36/FEDORA-35/5.16.7-200.FC35.X86_64/X86_64/5E0B855DBF>) |
+| 0bda:1100 | Realtek Semic... | HID Device                           | 14    | usbhid     | [DA9F6479F1](<Notebook/Dell/Inspiron/Inspiron 16 7610/C655D1CCE3AF/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/DA9F6479F1>) |
+| 2386:310e | Raydium          | Touch System                         | 14    | usbhid     | [64D768D709](<Notebook/Lenovo/ThinkPad/ThinkPad T470 20HES18R2C/99EBCCD20ECF/KALI-2022.1/5.15.0-KALI3-AMD64/X86_64/64D768D709>) |
+| 0810:0001 | Personal Comm... | Dual PSX Adaptor                     | 13    | usbhid     | [CD386145B8](<Notebook/Dell/Inspiron/Inspiron 15 7000 Gaming/21469B64E84B/LINUXMINT-20.1/5.4.0-58-GENERIC/X86_64/CD386145B8>) |
+| 187c:0521 | Alienware        | M14x                                 | 13    | usbhid     | [CAD4426E11](<Notebook/Alienware/M14/M14xR1/E2D5DEE4D9B1/POP!_OS-21.10/5.15.8-76051508-GENERIC/X86_64/CAD4426E11>) |
+| 03eb:8a1b | Atmel            | maXTouch Digitizer                   | 12    | usbhid     | [3E4AC3A045](<Notebook/Lenovo/Flex/Flex 2-15 20405/F9AAF769770A/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/3E4AC3A045>) |
+| 03eb:8a41 | Atmel            | USB Mouse                            | 12    | usbhid     | [FEE7EE50C6](<Notebook/ASUSTek Computer/Q302/Q302LA/89C4465E0571/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/FEE7EE50C6>) |
+| 05ac:1393 | Apple            | AirPods case                         | 12    | usbhid     | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 05ac:8104 | Apple            |                                      | 12    | usbhid     | [3E35C49D6C](<Notebook/Apple/MacBookPro16/MacBookPro16,1/C0EB43C4249B/UBUNTU-20.04/5.4.0-99-GENERIC/X86_64/3E35C49D6C>) |
+| 1038:1124 | SteelSeries ApS  | SteelSeries ALC                      | 12    | usbhid     | [A5A825A072](<Notebook/MSI/GE73/GE73 Raider RGB 8RF/80AC4C905CFC/GENTOO-2.8/5.16.2-GENTOO-X86_64/X86_64/A5A825A072>) |
+| 1b1c:1b65 | Corsair          | Harpoon Wireless Dongle              | 12    | usbhid     | [C627D4FE6D](<Notebook/Lenovo/ThinkPad/ThinkPad E14 Gen 2 20T7S00W00/65C96D1ED9C8/MANJARO-21.1.0/5.12.16-1-MANJARO/X86_64/C627D4FE6D>) |
 
 ### Imaging (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0421:051a | Nokia M... | Nokia N9                     | 1     | cdc_pho... | B9B81226FB |
-| 04a7:04d0 | Visioneer  | Xerox DocuMate 5460          | 1     |            | 4ABAC242CC |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0421:051a | Nokia Mobile ... | Nokia N9                             | 1     | cdc_pho... | [B9B81226FB](<Notebook/Notebook/WA50/WA50SRQ/9AFE4D396281/ROSA-2014.1/4.1.16-NRJ-DESKTOP-1ROSA-X86_64/X86_64/B9B81226FB>) |
+| 04a7:04d0 | Visioneer        | Xerox DocuMate 5460                  | 1     |            | [4ABAC242CC](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/4ABAC242CC>) |
+| 04a7:04ee | Visioneer        | Duplex Combo Scanner                 | 1     | usbfs      | [F74ABC0174](<Notebook/Dell/Latitude/Latitude 5490/670358BD455E/MANJARO-21.1.6/5.13.19-2-MANJARO/X86_64/F74ABC0174>) |
 
 ### Infrared (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 147a:e017 | Formosa... | eHome Infrared Receiver      | 3     | mceusb     | D78CA9AB47 |
-| 1509:9242 | FIC        | eHome Infrared Transceiver   | 2     | mceusb     | 00863FCEA8 |
-| 0609:031d | SMK Man... | eHome Infrared Receiver      | 1     | mceusb     | 35691B5DA9 |
-| 066f:4200 | SigmaTel   | STIr4200 IrDA Bridge         | 1     |            | 6682A76496 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 147a:e017 | Formosa Indus... | eHome Infrared Receiver              | 3     | mceusb     | [D78CA9AB47](<Notebook/MSI/GX/GX710/9EE784107BF4/UBUNTU-20.04/5.4.0-29-GENERIC/X86_64/D78CA9AB47>) |
+| 1509:9242 | FIC              | eHome Infrared Transceiver           | 2     | mceusb     | [00863FCEA8](<Notebook/Fujitsu Siemens/AMILO/AMILO Xa 1526/9D91F3CA3AAA/MX-19/5.13.0-12.3-LIQUORIX-AMD64/X86_64/00863FCEA8>) |
+| 0609:031d | SMK Manufactu... | eHome Infrared Receiver              | 1     | mceusb     | [35691B5DA9](<Notebook/Toshiba/QOSMIO/QOSMIO G30/5F2076AB5252/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-I586/I686/35691B5DA9>) |
+| 066f:4200 | SigmaTel         | STIr4200 IrDA Bridge                 | 1     |            | [6682A76496](<Notebook/Dell/Inspiron/Inspiron 7566/C85D00682724/ARCH-ROLLING/4.17.10-1-ARCH/X86_64/6682A76496>) |
 
 ### Input/keyboard (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 046d:c52b | Logitech   | Unifying Receiver            | 4195  | usbhid     | 4E8A3E6A15 |
-| 046d:c534 | Logitech   | Unifying Receiver            | 2816  | usbhid     | 84B1C46F3C |
-| 062a:4101 | MosArt ... | Wireless Keyboard/Mouse      | 969   | usbhid     | 55BA94A26E |
-| 045e:0745 | Microsoft  | Nano Transceiver v1.0 for... | 588   | usbhid     | FA750DAFE2 |
-| 09da:054f | A4Tech     | USB Device                   | 491   | usbhid     | AA4E0FDCD6 |
-| 046d:c31c | Logitech   | Keyboard K120                | 437   | usbhid     | 1069B24865 |
-| 1c4f:0002 | SiGma M... | Keyboard TRACER Gamma Ivory  | 418   | usbhid     | E75DC5DCFB |
-| 045e:07b2 | Microsoft  | 2.4GHz Transceiver v8.0 u... | 281   | usbhid     | 9A7BE426F5 |
-| 045e:07fd | Microsoft  | Nano Transceiver 1.1         | 227   | usbhid     | EC8AF5F350 |
-| 413c:8161 | Dell       | Integrated Keyboard          | 227   | usbhid     | 5A8280A663 |
-| 0b05:1866 | ASUSTek... | N-KEY Device                 | 223   | usbhid     | 32F01CCAAB |
-| 09da:9090 | A4Tech     | XL-730K / XL-750BK / XL-7... | 207   | usbhid     | FD1375D5F1 |
-| 048d:c100 | Integra... | ITE Device(8910)             | 188   | usbhid     | 3CDC08297E |
-| 1a2c:2d23 | China R... | Keyboard                     | 180   | usbhid     | 88286C36E9 |
-| 046d:c52e | Logitech   | MK260 Wireless Combo Rece... | 174   | usbhid     | 33D071CBEC |
-| 413c:2113 | Dell       | KB216 Wired Keyboard         | 171   | usbhid     | D932AC65A5 |
-| 062a:5918 | MosArt ... | 2.4G Keyboard Mouse          | 167   | usbhid     | 497BF56CC6 |
-| 0458:6001 | KYE Sys... | GF3000F Ethernet Adapter     | 165   | usbhid     | 2DB4EBB6EF |
-| 1ea7:0066 | SHARKOO... | [Mediatrack Edge Mini Key... | 157   | usbhid     | D408DE645F |
-| 062a:4c01 | MosArt ... | 2,4Ghz Wireless Transceiv... | 155   | usbhid     | 2E8639BADA |
-| 0a5c:4502 | Broadcom   | Keyboard (Boot Interface ... | 150   | usbhid     | C319EC4A5F |
-| 046d:c539 | Logitech   | USB Receiver                 | 147   | usbhid     | ECC4515014 |
-| 05ac:0291 | Apple      | Internal Keyboard / Trackpad | 145   | usbhid     | 5BE083EDAB |
-| 1050:0407 | Yubico.com | Yubikey 4/5 OTP+U2F+CCID     | 143   | usbhid     | BEE34D8394 |
-| 1a2c:2124 | China R... | Keyboard                     | 136   | usbhid     | D1D57448C4 |
-| 05ac:0236 | Apple      | Internal Keyboard/Trackpa... | 131   | bcm5974    | 80E0B6AF9E |
-| 04d9:1702 | Holtek ... | Keyboard LKS02               | 125   | usbhid     | C9D463149F |
-| 05ac:0252 | Apple      | Internal Keyboard/Trackpa... | 125   | bcm5974    | 966B07A428 |
-| 413c:8157 | Dell       | Integrated Keyboard          | 122   | usbhid     | 69DC8FEFA7 |
-| 25a7:fa61 | Areson ... | Elecom Co., Ltd MR-K013 M... | 117   | usbhid     | 0071FAABAC |
-| 05ac:0237 | Apple      | Internal Keyboard/Trackpa... | 116   | bcm5974    | B69EA5AF99 |
-| 05ac:0253 | Apple      | Internal Keyboard/Trackpa... | 115   | bcm5974    | 6E17FB6EA4 |
-| 1d57:fa20 | Xenta      | 2.4GHz Wireless Reciever ... | 108   | usbhid     | 8B21B7CFFE |
-| 2717:ff40 | Xiaomi     | Mi/Redmi series (MTP)        | 108   | usbfs      | 71DF253AE7 |
-| 24ae:2000 | Shenzhe... | 2.4G Wireless Device Serial  | 106   | usbhid     | 42DFECD0FB |
-| 413c:2107 | Dell       | KB212-B Quiet Key Keyboard   | 103   | usbhid     | 6074680FBA |
-| 04f3:0103 | Elan Mi... | ActiveJet K-2024 Multimed... | 100   | usbhid     | 421C375338 |
-| 2109:8888 | VIA Labs   | USB Billboard Device         | 97    | usbhid     | 6B45028E3E |
-| 03f0:a407 | Hewlett... | Wireless Optical Comfort ... | 96    | usbhid     | E37216CFA8 |
-| 05ac:0290 | Apple      | Internal Keyboard / Trackpad | 95    | usbhid     | 22A831DB3D |
-| 1a2c:2c27 | China R... | USB Keyboard                 | 94    | usbhid     | CF2BC09886 |
-| 0e8f:00a7 | GreenAsia  | 2.4G RX                      | 92    | usbhid     | 989A6F27BE |
-| 413c:2003 | Dell       | Keyboard SK-8115             | 92    | usbhid     | 2EAC1BFC4F |
-| 24ae:2001 | Shenzhe... | 5 GHz Wireless Receiver      | 90    | usbhid     | 20BE8BD8E7 |
-| 045e:07a5 | Microsoft  | Wireless Receiver 1461C      | 85    | usbhid     | 2932112DCA |
-| 1d57:fa60 | Xenta      | 2.4G Wireless Mouse          | 84    | usbhid     | 8735C1E718 |
-| 1a2c:0e24 | China R... | USB Keyboard                 | 79    | usbhid     | 85C8487CA5 |
-| 0603:0002 | Novatek... | Sino Wealth keyboard/mous... | 78    | usbhid     | 3C9FE4ACB8 |
-| 6080:8060 | SINO WE... | USB KEYBOARD                 | 77    | usbhid     | F620B10FF0 |
-| 1c4f:0026 | SiGma M... | Keyboard                     | 75    | usbhid     | 25C0517A63 |
-| 05ac:024f | Apple      | Aluminium Keyboard (ANSI)    | 72    | usbhid     | FD3AEFD54A |
-| 062a:3286 | MosArt ... | Nano Receiver [Sandstrom ... | 71    | usbhid     | 07C4424A4E |
-| 248a:8566 | Maxxter    | Wireless Receiver            | 71    | usbhid     | AC95ECC04E |
-| 0b05:1854 | ASUSTek... | ITE Device(8910)             | 69    | usbhid     | 8A5F05E4C1 |
-| 045e:07f8 | Microsoft  | Wired Keyboard 600 (model... | 67    | usbhid     | 2DBA12AE97 |
-| 048d:ce00 | Integra... | ITE Device(8291)             | 67    | usbhid     | 6B45028E3E |
-| 04d9:1503 | Holtek ... | Keyboard                     | 64    | usbhid     | D43C3CB973 |
-| 1a2c:4c5e | China R... | USB Keyboard                 | 64    | usbhid     | 2D1739DC58 |
-| 1a81:1004 | Holtek ... | Wireless Dongle 2.4 GHZ H... | 64    | usbhid     | 60D72BDCE7 |
-| 3938:1032 | MOSART ... | 2.4G RF Keyboard & Mouse     | 64    | usbhid     | 97B9F51735 |
-| 062a:4182 | MosArt ... | 2.4G Keyboard Mouse          | 63    | usbhid     | B84EF4472B |
-| 04d9:1603 | Holtek ... | Keyboard                     | 61    | usbhid     | B08AC328D1 |
-| 0c45:7603 | Microdia   | USB Keyboard                 | 61    | usbhid     | 32F01CCAAB |
-| 413c:8505 | Dell       | Universal Receiver           | 61    | usbhid     | FEB7F2A285 |
-| 24ae:2010 | Shenzhe... | Rapoo 2.4G Wireless Device   | 60    | usbhid     | 2FFCCC532E |
-| 046d:c328 | Logitech   | Corded Keyboard K280e        | 57    | usbhid     | 278EC34902 |
-| 258a:0001 | SINO WE... | USB KEYBOARD                 | 57    | usbhid     | 2CE3B8F43C |
-| 05ac:0273 | Apple      | Internal Keyboard/Trackpa... | 56    | usbhid     | F69B01435F |
-| 0e8f:00a8 | GreenAsia  | 2.4G RX                      | 56    | usbhid     | 95DF1A4E45 |
-| 258a:1006 | SINO WE... | USB KEYBOARD                 | 56    | usbhid     | 2C2443341F |
-| 0b05:1869 | ASUSTek... | ITE Device(8910)             | 54    | usbhid     | 085EF9E58D |
-| 03f0:0024 | Hewlett... | KU-0316 Keyboard             | 51    | usbhid     | AE113C0DF0 |
-| 05ac:022a | Apple      | Internal Keyboard/Trackpa... | 51    | appletouch | 157AD8CCE8 |
-| 13ba:0018 | PCPlay     | Barcode PCP-BCG4209          | 51    | usbhid     | EC41EEB7C0 |
-| 258a:6a88 | GD-3735... | USB KEYBOARD                 | 51    | usbhid     | 7555392D34 |
-| 045e:00db | Microsoft  | Natural Ergonomic Keyboar... | 50    | usbhid     | DA345E8DE3 |
-| 05ac:0229 | Apple      | Internal Keyboard/Trackpa... | 50    | appletouch | 59E95FDDFC |
-| 0461:0010 | Primax ... | HP PR1101U / Primax PMX-K... | 49    | usbhid     | 0BA26CCC72 |
-| 046d:c517 | Logitech   | LX710 Cordless Desktop Laser | 48    | usbhid     | 50B1B1A6C5 |
-| 04b3:3025 | IBM        | NetVista Full Width Keyboard | 47    | usbhid     | BBE8E793B8 |
-| 044e:3013 | Alps El... | Electric Keyboard            | 46    | usbhid     | EF87C7EE7B |
-| 248a:ff0f | Maxxter    | Wireless Receiver            | 46    | usbhid     | D5B663B461 |
-| 046a:0023 | Cherry     | Keyboard                     | 45    | usbhid     | 68CDD95811 |
-| 258a:0016 | BY Tech    | Usb Gaming Keyboard          | 44    | usbhid     | 5070A2BDC7 |
-| 09da:9066 | A4Tech     | F3 V-Track Gaming Mouse      | 43    | usbhid     | A96E4CC1A5 |
-| 258a:000c | HAILUCK    | USB KEYBOARD                 | 43    | usbhid     | 2FBF6F153B |
-| 05ac:0262 | Apple      | Internal Keyboard / Trackpad | 42    | bcm5974    | 355F4FC9F1 |
-| 09da:f613 | A4Tech     | Bloody V7M Mouse             | 42    | usbhid     | 8BF96CD534 |
-| 0b05:19b6 | ASUSTek... | N-KEY Device                 | 42    | usbhid     | 3F7A2585FE |
-| 1a2c:0c23 | China R... | USB Keyboard                 | 41    | usbhid     | A8D66E3BE1 |
-| 2571:4101 | BESCO      | KSL81P304                    | 41    | usbhid     | A18FB33A6F |
-| 03f0:034a | Hewlett... | Elite Keyboard               | 40    | usbhid     | 3F5DD495D5 |
-| 1a2c:0c21 | China R... | USB Keyboard                 | 40    | usbhid     | CBE2882D3D |
-| 2a7a:9a18 | CASUE      | USB Keyboard                 | 40    | usbhid     | EBB2079624 |
-| 258a:002a | SINO WE... | Gaming KB                    | 39    | usbhid     | 235FA5CACD |
-| 25a7:fa67 | Areson ... | 2.4G Receiver                | 39    | usbhid     | 111B26A250 |
-| 413c:2501 | Dell       | Keyboard and mouse dongle    | 39    | usbhid     | 85A514F622 |
-| 1997:2433 | Shenzhe... | wireless mini keyboard wi... | 37    | usbhid     | 1DD1C022A2 |
-| 045e:0800 | Microsoft  | Wireless keyboard (All-in... | 36    | usbhid     | 0151EADF78 |
-| 046d:c31d | Logitech   | Media Keyboard K200          | 36    | usbhid     | 4808FF3A68 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 046d:c52b | Logitech         | Unifying Receiver                    | 4924  | usbhid     | [4F1CAE64B4](<Notebook/ASUSTek Computer/G73/G73Jh/A82E379AD538/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/4F1CAE64B4>) |
+| 046d:c534 | Logitech         | Unifying Receiver                    | 3266  | usbhid     | [8248B17F01](<Notebook/Dell/Vostro/Vostro 5471/BF689F2C5926/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/8248B17F01>) |
+| 062a:4101 | MosArt Semico... | Wireless Keyboard/Mouse              | 1056  | usbhid     | [C68CEC2207](<Notebook/Hewlett-Packard/Victus/Victus by Laptop 16-d1xxx/C277E60CB4EA/UBUNTU-20.04/5.8.0-43-GENERIC/X86_64/C68CEC2207>) |
+| 045e:0745 | Microsoft        | Nano Transceiver v1.0 for Bluetooth  | 654   | usbhid     | [1575F2F0BE](<Notebook/Sony/SVE14/SVE14A2V2ES/F3A92336CE08/PARDUS-19.5/4.19.0-19-AMD64/X86_64/1575F2F0BE>) |
+| 09da:054f | A4Tech           | USB Device                           | 508   | usbhid     | [7FE0316ACF](<Notebook/GTZS/Others/Others/50E1392351E1/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/7FE0316ACF>) |
+| 046d:c31c | Logitech         | Keyboard K120                        | 499   | usbhid     | [7AD342E02E](<Notebook/Hewlett-Packard/ProBook/ProBook 455 G3/D04333D2BFAB/DEBIAN-11/5.10.0-11-AMD64/X86_64/7AD342E02E>) |
+| 1c4f:0002 | SiGma Micro      | Keyboard TRACER Gamma Ivory          | 463   | usbhid     | [23C7CD9C12](<Notebook/Others/Others/Others/E673D6D9B1B0/ENDEAVOUROS/5.16.13-ARCH1-1/X86_64/23C7CD9C12>) |
+| 045e:07b2 | Microsoft        | 2.4GHz Transceiver v8.0 used by m... | 316   | usbhid     | [AC4C492FCF](<Notebook/Dell/Inspiron/Inspiron N4030/9F1F976E8029/UBUNTUDDE-21.10/5.13.0-30-GENERIC/X86_64/AC4C492FCF>) |
+| 0b05:1866 | ASUSTek Computer | N-KEY Device                         | 277   | usbhid     | [4B2B4E7F5A](<Notebook/ASUSTek Computer/ROG/ROG Strix G713QE_G713QE/41E684CE14EB/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/4B2B4E7F5A>) |
+| 045e:07fd | Microsoft        | Nano Transceiver 1.1                 | 267   | usbhid     | [2E4BDB96FA](<Notebook/Dell/Inspiron/Inspiron 7520/D9F7258E8353/XUBUNTU-21.10/5.13.0-35-GENERIC/X86_64/2E4BDB96FA>) |
+| 413c:8161 | Dell             | Integrated Keyboard                  | 256   | usbhid     | [AC4C492FCF](<Notebook/Dell/Inspiron/Inspiron N4030/9F1F976E8029/UBUNTUDDE-21.10/5.13.0-30-GENERIC/X86_64/AC4C492FCF>) |
+| 048d:c100 | Integrated Te... | ITE Device(8910)                     | 229   | usbhid     | [8469A31D58](<Notebook/Lenovo/Legion/Legion 5 15ARH05H 82B1/00B051D5E747/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/8469A31D58>) |
+| 09da:9090 | A4Tech           | XL-730K / XL-750BK / XL-755BK Mice   | 225   | usbhid     | [A1D8D94B5F](<Notebook/ASUSTek Computer/N56/N56VJ/1D425D5F0660/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/A1D8D94B5F>) |
+| 413c:2113 | Dell             | KB216 Wired Keyboard                 | 210   | usbhid     | [EE3693D6A7](<Notebook/Lenovo/ThinkPad/ThinkPad P14s Gen 1 20S4004AMH/73CBF6B61598/ELEMENTARY-6.1/5.13.0-35-GENERIC/X86_64/EE3693D6A7>) |
+| 062a:5918 | MosArt Semico... | 2.4G Keyboard Mouse                  | 201   | usbhid     | [CEB8D030E2](<Notebook/Toshiba/Satellite/Satellite P755/7E251E73A571/UBUNTU-MATE-20.04/5.13.0-30-GENERIC/X86_64/CEB8D030E2>) |
+| 1a2c:2d23 | China Resourc... | Keyboard                             | 199   | usbhid     | [77E4345AFE](<Notebook/Acer/Aspire/Aspire A515-51/E33366C7DDDC/ENDLESS-4.0.2/5.11.0-35-GENERIC/X86_64/77E4345AFE>) |
+| 1050:0407 | Yubico.com       | Yubikey 4/5 OTP+U2F+CCID             | 190   | usbhid     | [3F58A0F2A4](<Notebook/Lenovo/Legion/Legion Y530-15ICH 81FV/A4B769895625/GENTOO-2.6/5.15.23-GENTOO/X86_64/3F58A0F2A4>) |
+| 0458:6001 | KYE Systems (... | GF3000F Ethernet Adapter             | 189   | usbhid     | [E6D7592AF0](<Notebook/Dell/Inspiron/Inspiron 3543/209FEBF36AAD/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/E6D7592AF0>) |
+| 1ea7:0066 | SHARKOON Tech... | [Mediatrack Edge Mini Keyboard]      | 189   | usbhid     | [F5FF2A8A14](<Notebook/Hewlett-Packard/Pavilion/Pavilion 17/AAB8112FC091/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/F5FF2A8A14>) |
+| 046d:c539 | Logitech         | USB Receiver                         | 187   | usbhid     | [299209635A](<Notebook/ASUSTek Computer/ASUS/ASUS TUF Gaming A15 FA506IU_FX506IU/6B924A41BEF7/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/299209635A>) |
+| 046d:c52e | Logitech         | MK260 Wireless Combo Receiver        | 184   | usbhid     | [8A6F28FC9D](<Notebook/ASUSTek Computer/TUF/TUF Gaming FX505DD_FX505DD/4BC93C851167/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/8A6F28FC9D>) |
+| 05ac:0291 | Apple            | Internal Keyboard / Trackpad         | 174   | usbhid     | [92F34786B4](<Notebook/Apple/MacBookAir6/MacBookAir6,2/2BA3C5A30C3E/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/92F34786B4>) |
+| 062a:4c01 | MosArt Semico... | 2,4Ghz Wireless Transceiver [for ... | 169   | usbhid     | [47099A8C6C](<Notebook/Medion/E/E6228/11ECFFA666E6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/47099A8C6C>) |
+| 0a5c:4502 | Broadcom         | Keyboard (Boot Interface Subclass)   | 161   | usbhid     | [62A45DB2EB](<Notebook/Dell/MXG/MXG071/94559C543DD9/DEBIAN-10/4.19.0-18-AMD64/X86_64/62A45DB2EB>) |
+| 1a2c:2124 | China Resourc... | Keyboard                             | 156   | usbhid     | [8286F26E6E](<Notebook/Lenovo/IdeaPad/IdeaPad 100-15IBD 80QQ/D87395D473CF/GENTOO-2.7/5.10.27-GENTOO/X86_64/8286F26E6E>) |
+| 05ac:0252 | Apple            | Internal Keyboard/Trackpad (ANSI)    | 152   | bcm5974    | [DB53A0FD9B](<Notebook/Apple/MacBookPro9/MacBookPro9,1/17D5CC735ABA/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/DB53A0FD9B>) |
+| 05ac:0236 | Apple            | Internal Keyboard/Trackpad (ANSI)    | 149   | bcm5974    | [B227E92B83](<Notebook/Apple/MacBookPro6/MacBookPro6,1/6A931DB62602/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/B227E92B83>) |
+| 05ac:0237 | Apple            | Internal Keyboard/Trackpad (ISO)     | 149   | bcm5974    | [0F0EF0F4A0](<Notebook/Apple/MacBook5/MacBook5,1/204181EE85F0/UBUNTU-20.04/5.8.0-43-GENERIC/X86_64/0F0EF0F4A0>) |
+| 413c:8157 | Dell             | Integrated Keyboard                  | 145   | usbhid     | [0086493104](<Notebook/Dell/Latitude/Latitude E5500/BD70697521B4/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/0086493104>) |
+| 04d9:1702 | Holtek Semico... | Keyboard LKS02                       | 138   | usbhid     | [BEB58A9384](<Notebook/Lenovo/ThinkPad/ThinkPad L420 7829W8S/98BE45047BCF/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/BEB58A9384>) |
+| 25a7:fa61 | Areson Techno... | Elecom Co., Ltd MR-K013 Multicard... | 138   | usbhid     | [9A92C2571B](<Notebook/ASUSTek Computer/X451/X451CAP/2FDD68A7BB53/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/9A92C2571B>) |
+| 05ac:0253 | Apple            | Internal Keyboard/Trackpad (ISO)     | 130   | bcm5974    | [2AB16BFCEE](<Notebook/Apple/MacBookPro9/MacBookPro9,2/69963227A53F/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AB16BFCEE>) |
+| 24ae:2000 | RAPOO            | 2.4G Wireless Device                 | 121   | usbhid     | [6CF2CC07ED](<Notebook/AXDIA International/WINBOOK/WINBOOK 13/FF2A20577967/ZORIN-16/5.13.0-30-GENERIC/X86_64/6CF2CC07ED>) |
+| 2717:ff40 | Xiaomi           | Mi/Redmi series (MTP)                | 121   | usbfs      | [0BDEEA54A6](<Notebook/Fujitsu Siemens/AMILO/AMILO Li 2732/72DEA04CA4E4/KDE-NEON-20.04/5.11.0-41-GENERIC/X86_64/0BDEEA54A6>) |
+| 2109:8888 | VIA Labs         | USB Billboard Device                 | 119   | usbhid     | [1804E5EB77](<Notebook/MSI/Creator/Creator Z16 A11UET/E3FECBFB1971/UBUNTU-22.04/5.15.0-22-GENERIC/X86_64/1804E5EB77>) |
+| 413c:2107 | Dell             | KB212-B Quiet Key Keyboard           | 118   | usbhid     | [851E340C24](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8570w/681B604E8A4A/WINDOWSFX-11/5.13.0-27-GENERIC/X86_64/851E340C24>) |
+| 1d57:fa20 | Xenta            | 2.4G Receiver                        | 112   | usbhid     | [ECCFA3A972](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2325AJG/5B4225ACD99F/UBUNTUSTUDIO-20.04/5.13.0-28-LOWLATENCY/X86_64/ECCFA3A972>) |
+| 04f3:0103 | Elan Microele... | ActiveJet K-2024 Multimedia Keyboard | 109   | usbhid     | [A1F9F76ED0](<Notebook/Hewlett-Packard/Notebook/Notebook/2E58B5FD772A/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/A1F9F76ED0>) |
+| 1a2c:2c27 | China Resourc... | USB Keyboard                         | 108   | usbhid     | [7813A47A19](<Notebook/Lenovo/G505/G505 20240/0C6CA485595E/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/7813A47A19>) |
+| 413c:2003 | Dell             | Keyboard SK-8115                     | 107   | usbhid     | [B2B28D822C](<Notebook/Dell/Latitude/Latitude E6510/15397C43ABED/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B2B28D822C>) |
+| 0e8f:00a7 | GreenAsia        | 2.4G RX                              | 103   | usbhid     | [4CCCE94591](<Notebook/Lenovo/ThinkPad/ThinkPad E580 20KS001RGE/EF6FDED05043/OPENSUSE-LEAP-15.3/5.3.18-150300.59.49-DEFAULT/X86_64/4CCCE94591>) |
+| 03f0:a407 | Hewlett-Packard  | Wireless Optical Comfort Mouse       | 101   | usbhid     | [7F9793A709](<Notebook/Hewlett-Packard/EliteBook/EliteBook 855 G7 Notebook PC/893A82A1143C/ARCH/5.15.16-HARDENED1-1-HARDENED/X86_64/7F9793A709>) |
+| 045e:07a5 | Microsoft        | Wireless Receiver 1461C              | 101   | usbhid     | [A6FA73EC8D](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G6/7359B0EE6E8C/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/A6FA73EC8D>) |
+| 05ac:0290 | Apple            | Internal Keyboard / Trackpad         | 98    | usbhid     | [48B7E73A88](<Notebook/Apple/MacBookAir7/MacBookAir7,1/3B303A9F0A25/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/48B7E73A88>) |
+| 05ac:024f | Apple            | Keyboard                             | 97    | usbhid     | [73526F92AC](<Notebook/Dell/XPS/XPS 15 7590/77162A4B48CB/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/73526F92AC>) |
+| 24ae:2001 | Shenzhen Rapo... | 5 GHz Wireless Receiver              | 97    | usbhid     | [0A349A2A70](<Notebook/Lenovo/G70-80/G70-80 80FF/FDBEC0137EC4/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/0A349A2A70>) |
+| 0603:0002 | Novatek Micro... | Sino Wealth keyboard/mouse 2.4 GH... | 91    | usbhid     | [A6DD43DFB4](<Notebook/Insyde/N/N116/053CFA5A60D9/LUBUNTU-21.04/5.11.0-16-GENERIC/X86_64/A6DD43DFB4>) |
+| 1d57:fa60 | Xenta            | 2.4G Wireless Mouse                  | 91    | usbhid     | [50E3FF9809](<Notebook/Hewlett-Packard/ProBook/ProBook 450 G2/26A6DDFA70E9/UBUNTU-18.04/4.15.0-169-GENERIC/X86_64/50E3FF9809>) |
+| 1a2c:0e24 | China Resourc... | USB Keyboard                         | 87    | usbhid     | [E9B1F4C1EC](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/31734F5FBF65/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/E9B1F4C1EC>) |
+| 1c4f:0026 | SiGma Micro      | Keyboard                             | 84    | usbhid     | [E60367127E](<Notebook/Lenovo/ThinkPad/ThinkPad E15 Gen 2 20TD0047TX/57ECBA36E9D1/PARDUS-21.1/5.10.0-11-AMD64/X86_64/E60367127E>) |
 
 ### Input/mouse (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 046d:c52f | Logitech   | Unifying Receiver            | 2126  | usbhid     | F442DF91A1 |
-| 093a:2510 | Pixart ... | Optical Mouse                | 1645  | usbhid     | 9145964032 |
-| 1ea7:0064 | SHARKOO... | 2.4GHz Wireless rechargea... | 1201  | usbhid     | BE8229729B |
-| 046d:c077 | Logitech   | M105 Optical Mouse           | 1200  | usbhid     | 9834990221 |
-| 275d:0ba6 |            | USB OPTICAL MOUSE            | 720   | usbhid     | 7095848F26 |
-| 0458:003a | KYE Sys... | NetScroll+ Mini Traveler ... | 648   | usbhid     | 7A2E7C66E9 |
-| 1c4f:0034 | SiGma M... | XM102K Optical Wheel Mouse   | 534   | usbhid     | C319EC4A5F |
-| 1bcf:0005 | Sunplus... | Optical Mouse                | 487   | usbhid     | 93C1D9BD4F |
-| 0000:0538 |            | USB OPTICAL MOUSE            | 476   | usbhid     | 2BA5AE42BB |
-| 248a:8514 | Maxxter    | Wireless Receiver            | 473   | usbhid     | AC22E27954 |
-| 046d:c05a | Logitech   | M90/M100 Optical Mouse       | 459   | usbhid     | CC07EBF9B6 |
-| 25a7:fa23 | Areson ... | 2.4G Receiver                | 430   | usbhid     | D31C8B483C |
-| 248a:8367 | Maxxter    | Telink Wireless Receiver     | 415   | usbhid     | 66255CA7B5 |
-| 3938:1031 | MOSART ... | 2.4G Wireless Mouse          | 370   | usbhid     | D954A6BA33 |
-| 0000:3825 |            | USB OPTICAL MOUSE            | 358   | usbhid     | 8948989999 |
-| 062a:4102 | MosArt ... | Wireless Mouse               | 348   | usbhid     | 3377403E20 |
-| 18f8:0f97 | [Maxxter]  | Optical Gaming Mouse [Xtrem] | 292   | usbhid     | 7463FACB20 |
-| 09da:000a | A4Tech     | Optical Mouse Opto 510D /... | 279   | usbhid     | 5D4BCE82BD |
-| 413c:301a | Dell       | Dell MS116 Optical Mouse     | 269   | usbhid     | 3405536413 |
-| 248a:8366 | Maxxter    | Wireless Optical Mouse AC... | 262   | usbhid     | 1310B8ABF4 |
-| 093a:2521 | Pixart ... | Optical Mouse                | 245   | usbhid     | 74E2681797 |
-| 413c:8162 | Dell       | Integrated Touchpad [Syna... | 227   | usbhid     | 5A8280A663 |
-| 046d:c016 | Logitech   | Optical Wheel Mouse          | 222   | usbhid     | 2CE3B8F43C |
-| 10c4:8105 | Silicon... | USB OPTICAL MOUSE            | 222   | usbhid     | 6FB87337C0 |
-| 10c4:8108 | Silicon... | USB OPTICAL MOUSE            | 212   | usbhid     | F696958F46 |
-| 09da:c10a | A4Tech     | USB Mouse                    | 187   | usbhid     | 9347A8D008 |
-| 045e:00cb | Microsoft  | Basic Optical Mouse v2.0     | 182   | usbhid     | 370DDA1922 |
-| 1bcf:0007 | Sunplus... | Optical Mouse                | 182   | usbhid     | 88286C36E9 |
-| 0458:0186 | KYE Sys... | Genius DX-120 Mouse          | 170   | usbhid     | B92CD04EE7 |
-| 1a2c:0042 | China R... | Usb Mouse                    | 169   | usbhid     | 538C03B235 |
-| 046d:c542 | Logitech   | Wireless Receiver            | 155   | usbhid     | 8CDB34DBC8 |
-| 046d:c050 | Logitech   | RX 250 Optical Mouse         | 152   | usbhid     | 99FB47DC2B |
-| 0a5c:4503 | Broadcom   | Mouse (Boot Interface Sub... | 150   | usbhid     | C319EC4A5F |
-| 18f8:0f99 | [Maxxter]  | Optical gaming mouse         | 140   | usbhid     | B9D36307A5 |
-| 046d:c018 | Logitech   | Optical Wheel Mouse          | 129   | usbhid     | 2054D0DEE6 |
-| 046d:c069 | Logitech   | M-U0007 [Corded Mouse M500]  | 128   | usbhid     | 2AF79BA873 |
-| 046d:c53f | Logitech   | USB Receiver                 | 125   | usbhid     | 1069B24865 |
-| 15d9:0a4f | Trust I... | Optical Mouse                | 125   | usbhid     | 783D081B5A |
-| 046d:c05b | Logitech   | M-U0004 810-001317 [B110 ... | 122   | usbhid     | F3E5EBA0C2 |
-| 413c:8158 | Dell       | Integrated Touchpad / Tra... | 122   | usbhid     | 69DC8FEFA7 |
-| 045e:0040 | Microsoft  | Wheel Mouse Optical          | 117   | usbhid     | EF87C7EE7B |
-| 046d:c084 | Logitech   | G203 Gaming Mouse            | 116   | usbhid     | AA747D41F1 |
-| 0101:0007 |            | USB OPTICAL MOUSE            | 115   | usbhid     | 5C44D1E88B |
-| 04f3:0235 | Elan Mi... | Optical Mouse                | 115   | usbhid     | 997A879973 |
-| 062a:4106 | MosArt ... | Wireless Mouse 2.4G          | 115   | usbhid     | 9B324D7185 |
-| 276d:1160 | YSTEK      | G Mouse                      | 112   | usbhid     | 045B2CD511 |
-| 0e8f:00fb | GreenAsia  | USB Mouse                    | 111   | usbhid     | 3E85C5D96F |
-| 04b4:0060 | Cypress... | Wireless optical mouse       | 109   | usbhid     | A92566EE89 |
-| 17ef:6019 | Lenovo     | M-U0025-O Mouse              | 109   | usbhid     | 4BAEB2CAFC |
-| 2188:0ae1 | No brand   | USB OPTICAL MOUSE            | 99    | usbhid     | F564D05797 |
-| 24ae:1100 | Shenzhe... | 2.4G Wireless Device         | 93    | usbhid     | B76608B8C2 |
-| 413c:301d | Dell       | Universal Receiver           | 93    | usbhid     | 217767CB69 |
-| 0461:4d0f | Primax ... | HP Optical Mouse             | 92    | usbhid     | 7218DB94A0 |
-| 192f:0916 | Avago T... | ADNS-2710 Optical Mouse C... | 90    | usbhid     | 931664ED89 |
-| 1d57:0008 | Xenta      | 2.4G Wireless Optical Mouse  | 88    | usbhid     | 9F298535A5 |
-| 03f0:094a | Hewlett... | Optical Mouse [672662-001]   | 87    | usbhid     | D0307FD66E |
-| 046d:c019 | Logitech   | Optical Tilt Wheel Mouse     | 86    | usbhid     | CB166FF02B |
-| 046d:c03e | Logitech   | Premium Optical Wheel Mou... | 86    | usbhid     | 562C0D7D01 |
-| 046d:c062 | Logitech   | M-UAS144 [LS1 Laser Mouse]   | 85    | usbhid     | 56C7260E38 |
-| 13ee:0001 | MosArt     | Optical Mouse                | 85    | usbhid     | 4768B805FF |
-| 1c4f:0003 | SiGma M... | HID controller               | 85    | usbhid     | 44A79E6330 |
-| 15d9:0a4d | Trust I... | Optical Mouse                | 81    | usbhid     | BCA5866F5E |
-| 046d:c526 | Logitech   | Nano Receiver                | 80    | usbhid     | BC0BFCD534 |
-| 03f0:134a | Hewlett... | Optical Mouse                | 79    | usbhid     | 5D579F23DF |
-| 17ef:608d | Lenovo     | Optical Mouse                | 77    | usbhid     | A2D09BEB8D |
-| 09da:2403 | A4Tech     | 2.4G Device                  | 76    | usbhid     | A35AAAEB6D |
-| 046d:c537 | Logitech   | Cordless Mouse Receiver      | 75    | usbhid     | FBE1D68B82 |
-| 046d:c08b | Logitech   | G502 SE HERO Gaming Mouse    | 74    | usbhid     | 11CD74E647 |
-| 046d:c00e | Logitech   | M-BJ58/M-BJ69 Optical Whe... | 72    | usbhid     | DD3C7EF3E7 |
-| 258a:1007 | SINOWEALTH | Wired Gaming Mouse           | 72    | usbhid     | AEAFCD85D2 |
-| 15d9:0a4c | Trust I... | USB+PS/2 Optical Mouse       | 71    | usbhid     | 77065A0CD8 |
-| 3938:1080 | YK         | 2.4G Wireless Device         | 70    | usbhid     | BDBFF8ABC8 |
-| 045e:0737 | Microsoft  | Compact Optical Mouse 500    | 68    | usbhid     | 4A70424B2F |
-| 04b3:310c | IBM        | Wheel Mouse                  | 67    | usbhid     | 730641B494 |
-| 046d:c06c | Logitech   | Optical Mouse                | 65    | usbhid     | D27BB0D31E |
-| 0eef:c04d | D-WAV S... | eGalaxTouch EXC3000-0367-... | 64    | usbhid     | F8A1A59318 |
-| 192f:0416 | Avago T... | ADNS-5700 Optical Mouse C... | 63    | usbhid     | 83DF635945 |
-| 046d:c332 | Logitech   | G502 Proteus Spectrum Opt... | 62    | usbhid     | 9403539ACC |
-| 046d:c521 | Logitech   | Cordless Mouse Receiver      | 61    | usbhid     | E179A0974D |
-| 0581:0105 | Racal D... | Racal USB Mouse              | 61    | usbhid     | 21379AAD70 |
-| 1bcf:08a0 | Sunplus... | Gaming mouse [Philips SPK... | 59    | usbhid     | 0F6D7BCF66 |
-| 046d:c246 | Logitech   | Gaming Mouse G300            | 58    | usbhid     | 7B09436340 |
-| 048d:8910 | Integra... | ITE Device(829x)             | 58    | usbhid     | 4A518A759F |
-| 04d9:0499 | Holtek ... | Optical Mouse                | 58    | usbhid     | 2839EB3D12 |
-| 04d9:a09f | Holtek ... | E-Signal LUOM G10 Mechani... | 57    | usbhid     | D4F86565B3 |
-| 04f2:0939 | Chicony... | Amazon Basics mouse          | 56    | usbhid     | B4171E377E |
-| 1d57:0001 | Xenta      | 2.4G Mouse                   | 55    | usbhid     | CE99148B7C |
-| 413c:301b | Dell       | Universal Bluetooth Receiver | 55    | usbhid     | A67B5D6BAD |
-| 145f:01c8 | Trust      | Wireless Mouse               | 54    | usbhid     | 82E0C7193F |
-| 1c4f:0048 | SiGma M... | Usb Mouse                    | 54    | usbhid     | 3BFB2E5E7B |
-| 0461:4d22 | Primax ... | USB Optical Mouse            | 53    | usbhid     | 59B7BEF8C0 |
-| 046d:c51b | Logitech   | V220 Cordless Optical Mou... | 52    | usbhid     | 00EEDD879B |
-| 062a:0000 | MosArt ... | Optical mouse                | 51    | usbhid     | 8039F18909 |
-| 093a:2516 | Pixart ... | USB OPTICAL MOUSE            | 51    | usbhid     | E5391D41E0 |
-| 1a2c:0044 | China R... | Usb Mouse                    | 51    | usbhid     | 5CCCF30DD4 |
-| 046d:c408 | Logitech   | Marble Mouse (4-button)      | 50    | usbhid     | B42465DDF3 |
-| 045e:0797 | Microsoft  | Optical Mouse 200            | 49    | usbhid     | E1AF88F5B9 |
-| 046d:c07e | Logitech   | G402 Gaming Mouse            | 49    | usbhid     | FE216A064A |
-| 045e:00e1 | Microsoft  | Wireless Laser Mouse 6000... | 48    | usbhid     | BCC786CFB9 |
-| 1532:005c | Razer USA  | DeathAdder Elite             | 48    | usbhid     | 9199D4A103 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 046d:c52f | Logitech         | Unifying Receiver                    | 2381  | usbhid     | [85C103C654](<Notebook/ASUSTek Computer/X200/X200CA/89F2F57CB178/ELEMENTARY-6.1/5.13.0-35-GENERIC/X86_64/85C103C654>) |
+| 093a:2510 | Pixart Imaging   | Optical Mouse                        | 1852  | usbhid     | [1526117B64](<Notebook/Acer/Aspire/Aspire V3-772G/844AB5204DA3/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/1526117B64>) |
+| 1ea7:0064 | SHARKOON Tech... | 2.4GHz Wireless rechargeable vert... | 1400  | usbhid     | [70FEBDD28F](<Notebook/Acer/AO/AO725/4E51373C1D7C/FEDORA-33/5.14.18-100.FC33.X86_64/X86_64/70FEBDD28F>) |
+| 046d:c077 | Logitech         | M105 Optical Mouse                   | 1383  | usbhid     | [7280C9C630](<Notebook/Dell/Inspiron/Inspiron 3583/1A2FDF4BA7DD/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/7280C9C630>) |
+| 275d:0ba6 |                  | USB OPTICAL MOUSE                    | 800   | usbhid     | [674A4FBEDE](<Notebook/Chuwi/HeroBook/HeroBook Air/96A0EC35E00A/ZORIN-16/5.11.0-38-GENERIC/X86_64/674A4FBEDE>) |
+| 0458:003a | KYE Systems (... | NetScroll+ Mini Traveler / Genius... | 677   | usbhid     | [66BFF1BCFD](<Notebook/Packard Bell/EasyNote/EasyNote MH35/76A6249F639A/UBUNTU-MATE-18.04/5.4.0-100-GENERIC/I686/66BFF1BCFD>) |
+| 1c4f:0034 | SiGma Micro      | XM102K Optical Wheel Mouse           | 589   | usbhid     | [CD3380A8B4](<Notebook/Acer/Aspire/Aspire 5349/800E1822B08D/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/CD3380A8B4>) |
+| 1bcf:0005 | Sunplus Innov... | Optical Mouse                        | 539   | usbhid     | [2A1C30169A](<Notebook/Lenovo/IdeaPad/IdeaPad 500-15ISK 80NT/3969186D8D33/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2A1C30169A>) |
+| 248a:8514 | Maxxter          | Wireless Receiver                    | 539   | usbhid     | [817E973E9D](<Notebook/Dell/Latitude/Latitude 5480/B95B01FCFA31/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/817E973E9D>) |
+| 0000:0538 |                  | USB OPTICAL MOUSE                    | 516   | usbhid     | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 25a7:fa23 | Compx            | 2.4G Receiver                        | 515   | usbhid     | [2F136D5BF5](<Notebook/Lenovo/ThinkPad/ThinkPad E480 20KN002YPH/61077ED80EDE/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2F136D5BF5>) |
+| 046d:c05a | Logitech         | M90/M100 Optical Mouse               | 498   | usbhid     | [85BFDC09DB](<Notebook/Hewlett-Packard/Laptop/Laptop 15s-fq1xxx/A14B39BE939B/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/85BFDC09DB>) |
+| 248a:8367 | Maxxter          | Telink Wireless Receiver             | 492   | usbhid     | [9A92C2571B](<Notebook/ASUSTek Computer/X451/X451CAP/2FDD68A7BB53/KDE-NEON-20.04/5.13.0-35-GENERIC/X86_64/9A92C2571B>) |
+| 0000:3825 |                  | USB OPTICAL MOUSE                    | 426   | usbhid     | [14747D7263](<Notebook/MSI/GF65/GF65 Thin 9SEXR/BF90DCCF31DE/MANJARO/5.15.25-1-MANJARO/X86_64/14747D7263>) |
+| 3938:1031 | MOSART Semi.     | 2.4G Wireless Mouse                  | 424   | usbhid     | [B9824D8702](<Notebook/Lenovo/G/G580/7FEA1CA13915/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/B9824D8702>) |
+| 062a:4102 | MosArt Semico... | 2.4G Wireless Mouse                  | 383   | usbhid     | [BB234C5FD0](<Notebook/Dell/Latitude/Latitude 5520/68E7A5BBE393/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/BB234C5FD0>) |
+| 18f8:0f97 | [Maxxter]        | Optical Gaming Mouse [Xtrem]         | 330   | usbhid     | [4425801F5C](<Notebook/Toshiba/Satellite/Satellite L10W-B-101/D8FCAC83307E/MANJARO/5.15.25-1-MANJARO/X86_64/4425801F5C>) |
+| 413c:301a | Dell             | Dell MS116 Optical Mouse             | 322   | usbhid     | [FF6A48346F](<Notebook/Dell/Latitude/Latitude XT2/876C72737DC9/PARROT-5.0/5.15.0-15PARROT1-AMD64/X86_64/FF6A48346F>) |
+| 248a:8366 | Maxxter          | Wireless Optical Mouse ACT-MUSW-002  | 296   | usbhid     | [E909E31559](<Notebook/Acer/Aspire/Aspire V5-571G/1E1289439524/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/E909E31559>) |
+| 09da:000a | A4Tech           | Optical Mouse Opto 510D / OP-620D    | 286   | usbhid     | [949D0886A1](<Notebook/MSI/Katana/Katana GF76 11UC/43668B262903/KUBUNTU-20.04/5.16.12-051612-GENERIC/X86_64/949D0886A1>) |
+| 093a:2521 | Pixart Imaging   | Optical Mouse                        | 272   | usbhid     | [6A4971B810](<Notebook/Notebook/W517/W517GU1/FD1193B1C6DF/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/6A4971B810>) |
+| 10c4:8108 | Silicon Labs     | USB OPTICAL MOUSE                    | 259   | usbhid     | [22452F39C2](<Notebook/Lenovo/IdeaPad/IdeaPad 330-15IKB 81FE/190C3342E131/UBUNTU-BUDGIE-21.10/5.13.0-35-GENERIC/X86_64/22452F39C2>) |
+| 413c:8162 | Dell             | Integrated Touchpad [Synaptics]      | 256   | usbhid     | [AC4C492FCF](<Notebook/Dell/Inspiron/Inspiron N4030/9F1F976E8029/UBUNTUDDE-21.10/5.13.0-30-GENERIC/X86_64/AC4C492FCF>) |
+| 046d:c016 | Logitech         | Optical Wheel Mouse                  | 251   | usbhid     | [E194D9993D](<Notebook/Toshiba/Satellite/Satellite S55-C/282FD950D35E/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/E194D9993D>) |
+| 10c4:8105 | Silicon Labs     | USB OPTICAL MOUSE                    | 242   | usbhid     | [E32F5B40A1](<Notebook/Dell/Latitude/Latitude E6430/CF0301C655CD/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/E32F5B40A1>) |
+| 046d:c542 | Logitech         | Wireless Receiver                    | 220   | usbhid     | [96B36779E0](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK AH544/016D5650067E/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/96B36779E0>) |
+| 045e:00cb | Microsoft        | Basic Optical Mouse v2.0             | 209   | usbhid     | [7B1B6A2873](<Notebook/Lenovo/ThinkPad/ThinkPad T490 20N2CTO1WW/51DCFDF37E45/UBUNTU-20.04/5.11.0-43-GENERIC/X86_64/7B1B6A2873>) |
+| 1bcf:0007 | Sunplus Innov... | Optical Mouse                        | 204   | usbhid     | [D40EC33F5E](<Notebook/Positivo Bahia - VAIO/VJFE52/VJFE52F11X-XXXXXX/9D61DAFD2429/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/D40EC33F5E>) |
+| 09da:c10a | A4Tech           | USB Mouse                            | 201   | usbhid     | [8BCA9F27C4](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2570p/00A310807387/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/8BCA9F27C4>) |
+| 0458:0186 | KYE Systems (... | Genius DX-120 Mouse                  | 196   | usbhid     | [28A9D8D6A4](<Notebook/Acer/Aspire/Aspire A515-51G/655826F45866/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/28A9D8D6A4>) |
+| 1a2c:0042 | China Resourc... | Usb Mouse                            | 179   | usbhid     | [0A502FD230](<Notebook/Medion/P/P6624/E08CEEFE77A6/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/0A502FD230>) |
+| 046d:c53f | Logitech         | USB Receiver                         | 175   | usbhid     | [C7025AC75E](<Notebook/Lenovo/IdeaPad/IdeaPad S145-15IIL 82DJ/78365AF6FE7D/KUBUNTU-11/5.13.0-30-GENERIC/X86_64/C7025AC75E>) |
+| 0a5c:4503 | Broadcom         | Mouse (Boot Interface Subclass)      | 161   | usbhid     | [62A45DB2EB](<Notebook/Dell/MXG/MXG071/94559C543DD9/DEBIAN-10/4.19.0-18-AMD64/X86_64/62A45DB2EB>) |
+| 18f8:0f99 | [Maxxter]        | Optical gaming mouse                 | 161   | usbhid     | [57CE8D33B8](<Notebook/Hewlett-Packard/Notebook/Notebook/D8E63FF4C50D/ROSA-2016.1/5.4.32-GENERIC-2ROSA-X86_64/X86_64/57CE8D33B8>) |
+| 046d:c050 | Logitech         | RX 250 Optical Mouse                 | 160   | usbhid     | [14AC6C1F51](<Notebook/Toshiba/Satellite/Satellite C870-1F3/576838609E8D/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/14AC6C1F51>) |
+| 046d:c069 | Logitech         | M-U0007 [Corded Mouse M500]          | 147   | usbhid     | [8E7B1DB68F](<Notebook/Acer/Aspire/Aspire A515-51/1B666FCC2D3A/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/8E7B1DB68F>) |
+| 046d:c018 | Logitech         | Optical Wheel Mouse                  | 145   | usbhid     | [2DD27496C9](<Notebook/Acer/Aspire/Aspire A315-55G/ADB16AEB43CE/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/2DD27496C9>) |
+| 413c:8158 | Dell             | Integrated Touchpad / Trackstick     | 145   | usbhid     | [0086493104](<Notebook/Dell/Latitude/Latitude E5500/BD70697521B4/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/0086493104>) |
+| 046d:c05b | Logitech         | M-U0004 810-001317 [B110 Optical ... | 137   | usbhid     | [DE34294599](<Notebook/Hewlett-Packard/Presario/Presario CQ42/0F7402BC6299/UBUNTU-22.04/5.15.0-18-GENERIC/X86_64/DE34294599>) |
+| 045e:0040 | Microsoft        | Wheel Mouse Optical                  | 135   | usbhid     | [CD13B1CD77](<Notebook/Toshiba/Satellite/Satellite Radius L10W-C/A697BB18C3B6/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/CD13B1CD77>) |
+| 062a:4106 | MosArt Semico... | 2.4G Wireless Mouse                  | 134   | usbhid     | [0F4E501D1F](<Notebook/Lenovo/G50-70/G50-70 20351/988EAF32234E/LINUXMINT-20.3/5.13.0-30-GENERIC/X86_64/0F4E501D1F>) |
+| 046d:c084 | Logitech         | G203 Gaming Mouse                    | 132   | usbhid     | [A90D26BC2D](<Notebook/ASUSTek Computer/X541/X541UV/6D894B1F1576/UBUNTU-21.10/5.13.0-19-GENERIC/X86_64/A90D26BC2D>) |
+| 15d9:0a4f | Trust Interna... | Optical Mouse                        | 131   | usbhid     | [050E7B02E7](<Notebook/Hewlett-Packard/255/255 G5/0364BE10CD9A/ZORIN-15/5.4.0-100-GENERIC/X86_64/050E7B02E7>) |
+| 04f3:0235 | Elan Microele... | OM                                   | 123   | usbhid     | [F88AC2DD3E](<Notebook/ASUSTek Computer/1000/1000H/37D90776FCF9/LUBUNTU-18.04/4.15.0-166-GENERIC/I686/F88AC2DD3E>) |
+| 0101:0007 |                  | USB OPTICAL MOUSE                    | 120   | usbhid     | [231B6D4413](<Notebook/ASUSTek Computer/X751/X751LK/44F103865C67/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/231B6D4413>) |
+| 17ef:6019 | Lenovo           | M-U0025-O Mouse                      | 119   | usbhid     | [AB91A058C0](<Notebook/Hewlett-Packard/Compaq/Compaq 6530b/DF8441A96F35/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/AB91A058C0>) |
+| 276d:1160 | YSTEK            | G Mouse                              | 119   | usbhid     | [A93CB7C85E](<Notebook/Samsung Electronics/300E4/300E4C-300E5C-300E7C/6A95EA2167D8/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/A93CB7C85E>) |
+| 0e8f:00fb | GreenAsia        | USB Mouse                            | 115   | usbhid     | [1582806778](<Notebook/Lenovo/IdeaPad/IdeaPad 710S-13ISK 80SW/2AA4ACFDEDA3/ENDLESS-4.0.2/5.11.0-35-GENERIC/X86_64/1582806778>) |
+| 04b4:0060 | Cypress Semic... | Wireless optical mouse               | 114   | usbhid     | [677D24E366](<Notebook/Sony/VGN-SZ71/VGN-SZ71WN_C/A4EFD7ED109F/LUBUNTU-21.10/5.13.0-28-GENERIC/X86_64/677D24E366>) |
+| 17ef:608d | Lenovo           | Optical Mouse                        | 110   | usbhid     | [E99C4341CA](<Notebook/Dell/Inspiron/Inspiron 5409/34EA23E7BE6D/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/E99C4341CA>) |
 
 ### Isdn adapter (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| ffff:ffff | RAPOO      | AVM A1 PCMCIA                | 5     | usbhid     | FCD5C85A91 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| ffff:ffff | C-Media Elect... | USB Headset                          | 6     | usbhid     | [AA49529B6C](<Notebook/Lenovo/ThinkPad/ThinkPad E15 Gen 3 20YG006CSC/3AC4CC484403/UBUNTU-20.04/5.11.0-38-GENERIC/X86_64/AA49529B6C>) |
 
 ### Joystick (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 045e:02ea | Microsoft  | Xbox One S Controller        | 18    | xpad       | E348A818BD |
-| 045e:02d1 | Microsoft  | Xbox One Controller          | 6     | xpad       | AD0495C9D1 |
-| 24c6:581a | ThrustM... | XB1 Classic controller       | 6     | xpad       | E88A377FEB |
-| 06a3:0109 | Saitek     | P880 Pad                     | 2     | usbhid     | 40210AAF34 |
-| 24c6:530a | ThrustM... | ProEX Controller for Xbox... | 2     | xpad       | 2D3CCCC2D0 |
-| 0428:4001 | Advance... | GamePad Pro                  | 1     | usbhid     | B33486C990 |
-| 044f:b687 | ThrustM... | TWCS Throttle                | 1     | usbhid     | 7A92310417 |
-| 044f:d007 | ThrustM... | T Mini Wireless              | 1     | usbhid     | 276BA45744 |
-| 045e:000e | Microsoft  | SideWinder?� Freestyle Pro   | 1     | usbhid     | 29CD216C62 |
-| 046d:c262 | Logitech   | G920 Driving Force Racing... | 1     | usbhid     | 502CFA6428 |
-| 07b5:0317 | Mega Wo... | USB Game Controllers         | 1     | usbhid     | E03A8C0C89 |
-| 0866:0100 | WWW.TUA... | VENOM-X_MOUSE                | 1     | usbhid     | 7A2466E991 |
-| 099a:7010 | Zippy T... | Gaming Keyboard              | 1     | usbhid     | 8D3183F3B8 |
-| 0e6f:0119 | Logic3     | wireless controller for PS3  | 1     | usbhid     | 2933DDC278 |
-| 0e6f:02a4 | Logic3     | PDP Wired Controller for ... | 1     | xpad       | DA5BC73D38 |
-| 0e6f:02b8 | Logic3     | Afterglow Wired Controlle... | 1     |            | F5C89C2B75 |
-| 11ff:001b |            | LS PC Controller             | 1     | usbhid     | B52E5BED36 |
-| 145f:01bb | Trust      | Gamepad                      | 1     | usbhid     | 708CD13E0A |
-| 1532:0705 | Razer USA  | Raiju Mobile Wired           | 1     | usbhid     | 21184F9BA8 |
-| 231d:0121 | www.vkb... | VKBsim Gladiator             | 1     | usbhid     | 0E3F208B3C |
-| 24c6:542a | ThrustM... | Spectra for Xbox One         | 1     | xpad       | 34A482168B |
-| 28de:1102 | Valve S... | Wired Controller             | 1     | usbhid     | 1769F91F11 |
-| 2f24:0053 |            | Canyon controller GPW3       | 1     |            | C35CACB0A2 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 045e:02ea | Microsoft        | Xbox One S Controller                | 19    | xpad       | [92FCD1AE43](<Notebook/Timi/TM/TM1613/724DE73383AA/UBUNTU-20.04/5.11.0-38-GENERIC/X86_64/92FCD1AE43>) |
+| 045e:02d1 | Microsoft        | Xbox One Controller                  | 6     | xpad       | [AD0495C9D1](<Notebook/Notebook/NH5/NH5xAx/AD774385FE3D/MANJARO/5.13.5-1-MANJARO/X86_64/AD0495C9D1>) |
+| 24c6:581a | ThrustMaster     | XB1 Classic Controller               | 6     | xpad       | [E88A377FEB](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X512JA_F512JA/7A37AE7F014B/UBUNTU-21.04/5.11.0-25-GENERIC/X86_64/E88A377FEB>) |
+| 06a3:0109 | Saitek           | P880 Pad                             | 2     | usbhid     | [40210AAF34](<Notebook/Lenovo/ThinkPad/ThinkPad T440p 20AWS0DS0S/EBCD8B846A52/UBUNTU-20.10/5.8.0-44-GENERIC/X86_64/40210AAF34>) |
+| 24c6:530a | ThrustMaster     | ProEX Controller for Xbox 360        | 2     | xpad       | [2D3CCCC2D0](<Notebook/Lenovo/ThinkPad/ThinkPad T420 4236AK9/DE6E554BB543/UBUNTU-21.04/5.11.0-37-GENERIC/X86_64/2D3CCCC2D0>) |
+| 0428:4001 | Advanced Grav... | GamePad Pro                          | 1     | usbhid     | [B33486C990](<Notebook/Dell/Inspiron/Inspiron 5575/B71EFDEA2D0B/UBUNTU-19.10/5.3.0-51-GENERIC/X86_64/B33486C990>) |
+| 044f:b687 | ThrustMaster     | TWCS Throttle                        | 1     | usbhid     | [7A92310417](<Notebook/Hewlett-Packard/OMEN/OMEN by HP Laptop/E0EF6947C853/MANJARO-20.1/5.7.17-2-MANJARO/X86_64/7A92310417>) |
+| 044f:d007 | ThrustMaster     | T Mini Wireless                      | 1     | usbhid     | [276BA45744](<Notebook/Lenovo/IdeaPad/IdeaPad Y700-15ISK 80NV/0AD732BDE9C7/OPENSUSE-LEAP-15.1/4.12.14-LP151.28.91-DEFAULT/X86_64/276BA45744>) |
+| 045e:000e | Microsoft        | SideWinder?� Freestyle Pro           | 1     | usbhid     | [29CD216C62](<Notebook/Toshiba/Satellite/Satellite C650/320D9F9D1BCC/ARCH/5.8.10-ARCH1-1/X86_64/29CD216C62>) |
+| 046d:c262 | Logitech         | G920 Driving Force Racing Wheel      | 1     | usbhid     | [502CFA6428](<Notebook/Dell/Inspiron/Inspiron 3493/AF9E0FCD1797/ENDEAVOUROS/5.9.0-ARCH1-1/X86_64/502CFA6428>) |
+| 068e:00f2 | CH Products      | Flight Sim Pedals                    | 1     | usbhid     | [4A961CB5C6](<Notebook/MSI/GE62/GE62 2QF/226182A653D0/POP!_OS-21.10/5.15.8-76051508-GENERIC/X86_64/4A961CB5C6>) |
+| 07b5:0317 | Mega World In... | USB Game Controllers                 | 1     | usbhid     | [E03A8C0C89](<Notebook/Dell/Inspiron/Inspiron N5110/68BEB3484D45/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-X86_64/X86_64/E03A8C0C89>) |
+| 0866:0100 | WWW.TUACT.COM... | VENOM-X_MOUSE                        | 1     | usbhid     | [90249388FF](<Notebook/Apple/MacBookPro9/MacBookPro9,2/44F3A85545C8/POP!_OS-20.10/5.8.0-7642-GENERIC/X86_64/90249388FF>) |
+| 099a:7010 | Zippy Technology | Gaming Keyboard                      | 1     | usbhid     | [BCACEFE427](<Notebook/Dell/Latitude/Latitude E6400/822A42E7F792/XUBUNTU-16.04/4.15.0-169-GENERIC/X86_64/BCACEFE427>) |
+| 0e6f:0119 | Logic3           | wireless controller for PS3          | 1     | usbhid     | [2933DDC278](<Notebook/Acer/Aspire/Aspire VN7-791G/23DD8D7C7540/ARCH/5.2.0-RC5-AMD-GIT/X86_64/2933DDC278>) |
+| 0e6f:02a4 | Logic3           | PDP Wired Controller for Xbox One... | 1     | xpad       | [DA5BC73D38](<Notebook/ASUSTek Computer/K55/K55VD/0F8FA0CDBCDF/XUBUNTU-18.04/5.3.0-46-GENERIC/X86_64/DA5BC73D38>) |
+| 0e6f:02b8 | Logic3           | Afterglow Wired Controller for Xb... | 1     |            | [F5C89C2B75](<Notebook/Lenovo/ThinkPad/ThinkPad X230 2325L19/4DCB572171D0/UBUNTU-20.04/5.4.0-66-GENERIC/X86_64/F5C89C2B75>) |
+| 0f0d:0138 | Hori             | PCEngine PAD                         | 1     | usbhid     | [B950D195CE](<Notebook/Lenovo/IdeaPad/IdeaPad 330S-15ARR 81FB/E10C1473180B/ELEMENTARY-6.1/5.13.0-30-GENERIC/X86_64/B950D195CE>) |
+| 11ff:001b |                  | LS PC Controller                     | 1     | usbhid     | [B52E5BED36](<Notebook/Dell/Inspiron/Inspiron 13-5378/979FFC27BB65/UBUNTU-20.04/5.4.0-48-GENERIC/X86_64/B52E5BED36>) |
+| 12ba:0100 | Licensed by S... | RedOctane Guitar for PlayStation 3   | 1     | usbhid     | [3B3E1A7730](<Notebook/Avell High Performance/B.ON/B.ON/FF6E44588A75/FEDORA-35/5.16.9-200.FC35.X86_64/X86_64/3B3E1A7730>) |
+| 145f:01bb | Trust            | Gamepad                              | 1     | usbhid     | [708CD13E0A](<Notebook/Hewlett-Packard/530/530 Notebook PC/37DB3B0CECB5/LINUXMINT-18.3/4.15.0-43-GENERIC/I686/708CD13E0A>) |
+| 1532:0705 | Razer USA        | Raiju Mobile Wired                   | 1     | usbhid     | [21184F9BA8](<Notebook/Acer/Predator/Predator PH317-53/BCFE33396BC7/KDE-NEON-20.04/5.4.0-51-GENERIC/X86_64/21184F9BA8>) |
+| 20bc:5500 | ShenZhen Shan... | Frostbite controller                 | 1     | usbhid     | [A611E12778](<Notebook/Dell/Inspiron/Inspiron 3542/105B2B38387D/ENDEAVOUROS-ROLLING/5.15.12-ZEN1-1-ZEN/X86_64/A611E12778>) |
+| 231d:0121 | www.vkb-sim.p... | VKBsim Gladiator                     | 1     | usbhid     | [0E3F208B3C](<Notebook/EUROCOM/Sky/Sky X4E2G/72EFEE2D2851/UBUNTU-MATE-18.04/4.13.0-16-GENERIC/X86_64/0E3F208B3C>) |
+| 24c6:542a | ThrustMaster     | Spectra for Xbox One                 | 1     | xpad       | [34A482168B](<Notebook/Hewlett-Packard/Others/Others/F0D03C1BA974/UBUNTU-MATE-18.04/5.4.0-65-GENERIC/X86_64/34A482168B>) |
+| 24c6:543a | ThrustMaster     | PowerA Wired Controller for Xbox One | 1     | xpad       | [8F0EB971EC](<Notebook/Dell/Inspiron/Inspiron 5577/DFB5462F6EC9/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/8F0EB971EC>) |
+| 28de:1102 | Valve Software   | Wired Controller                     | 1     | usbhid     | [1769F91F11](<Notebook/Apple/MacBookPro9/MacBookPro9,1/449E803C56C3/MANJARO/5.8.18-1-MANJARO/X86_64/1769F91F11>) |
+| 2f24:0053 |                  | Canyon controller GPW3               | 1     |            | [C35CACB0A2](<Notebook/Acer/Aspire/Aspire V3-571G/BBE78423BE46/KUBUNTU-20.10/5.8.0-44-GENERIC/X86_64/C35CACB0A2>) |
 
 ### Mfp (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 03f0:222a | Hewlett... | LaserJet Pro MFP M125nw      | 10    | usblp      | B661AA21F1 |
-| 03f0:bf2a | Hewlett... | LaserJet MFP M28-M31         | 7     | usbfs      | 77C3BBC977 |
-| 03f0:042a | Hewlett... | LaserJet M1132 MFP           | 6     | usblp      | F4702E95B4 |
-| 0924:42af | Xerox      | WorkCentre 3045B             | 6     | usblp      | 989A2EAABB |
-| 03f0:052a | Hewlett... | LaserJet M1212nf MFP         | 5     | usblp      | 5B4619D24C |
-| 03f0:3b17 | Hewlett... | LaserJet M1005 MFP           | 5     | usblp      | B79DCDB648 |
-| 0482:0495 | Kyocera    | FS-1020MFP                   | 4     | usblp      | DCFF794CD3 |
-| 04b8:082f | Seiko E... | PX-A620 [Stylus CX3900/DX... | 4     | usblp      | BC0BFCD534 |
-| 03f0:622a | Hewlett... | LaserJet MFP M129-M134       | 3     | usblp      | 214D892F21 |
-| 03f0:242a | Hewlett... | Color LaserJet Pro MFP M176n | 2     | usblp      | 84E202DB45 |
-| 03f0:3b2a | Hewlett... | Color LaserJet MFP M277dw    | 2     | usblp      | A781661029 |
-| 03f0:932a | Hewlett... | LaserJet Pro MFP M26a        | 2     | usblp      | 71A5232043 |
-| 03f0:f22a | Hewlett... | Laser MFP 135w               | 2     | usbfs      | B26C826616 |
-| 04b8:083f | Seiko E... | Stylus CX4300/CX4400/CX55... | 2     | usblp      | 47661B90C1 |
-| 04b8:084d | Seiko E... | PX-402A [Stylus SX115/Sty... | 2     | usblp      | 6131A1471A |
-| 0924:42c4 | Xerox      | WorkCentre 3615              | 2     | usblp      | 0BF7A6E91D |
-| 0924:42da | Xerox      | WorkCentre 3025              | 2     | usblp      | D23574ECF1 |
-| 0924:42db | Xerox      | WorkCentre 3215              | 2     | usblp      | 0F22425E10 |
-| 03f0:012a | Hewlett... | LaserJet M1536dnf MFP        | 1     | usblp      | 55EB8D252D |
-| 03f0:0e2a | Hewlett... | Smart Install                | 1     |            | 7D49EBAD11 |
-| 03f0:1d2a | Hewlett... | Color LaserJet flow MFP M880 | 1     | usblp      | 9F2622FF85 |
-| 03f0:252a | Hewlett... | LaserJet 500 colorMFP M570dw | 1     | usblp      | 8EA70251FB |
-| 03f0:2d2a | Hewlett... | LaserJet Pro MFP M225dn      | 1     | usblp      | 589D629D00 |
-| 03f0:2e2a | Hewlett... | LaserJet Pro MFP M435nw      | 1     | usblp      | A457D54FAD |
-| 03f0:322a | Hewlett... | LaserJet Pro MFP M127fn      | 1     | usblp      | 35F08E0E86 |
-| 03f0:362a | Hewlett... | Officejet Color FlowMFP X585 | 1     | usblp      | 4966DF06F4 |
-| 03f0:442a | Hewlett... | Color LaserJet Flow MFP M680 | 1     | usblp      | BF4C79032E |
-| 03f0:642a | Hewlett... | LaserJet MFP M227-M231       | 1     | usblp      | 7621EB165A |
-| 03f0:9e17 | Hewlett... | LaserJet 500 MFP M525        | 1     | usblp      | 80E0F6373A |
-| 03f0:9f17 | Hewlett... | LaserJet 500 color MFP M575  | 1     | usblp      | A043EA04EA |
-| 04b8:0818 | Seiko E... | Stylus CX3700/CX3800/DX3800  | 1     | usblp      | D4567C6F8A |
-| 04b8:0841 | Seiko E... | PX-401A [ME 300/Stylus NX... | 1     | usblp      | 20788C640E |
-| 0924:3d6b | Xerox      | WorkCentre 6505DN            | 1     | usblp      | 66BC368A83 |
-| 0924:3d6f | Xerox      | Phaser 6020                  | 1     | usblp      | E45A12C489 |
-| 0924:42d4 | Xerox      | WorkCentre 6027              | 1     | usblp      | E363684B4B |
-| 413c:5406 | Dell       | 1355cnw Color MFP            | 1     | usbfs      | EF4245C8A3 |
-| 413c:564e | Dell       | C2665dnf Color MFP           | 1     | usblp      | 70493B615B |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 03f0:222a | Hewlett-Packard  | LaserJet Pro MFP M125nw              | 11    | usblp      | [706587B8F3](<Notebook/Apple/MacBookPro5/MacBookPro5,5/17902C43591C/DEBIAN-11/5.10.0-9-AMD64/X86_64/706587B8F3>) |
+| 03f0:bf2a | Hewlett-Packard  | LaserJet MFP M28-M31                 | 10    | usblp      | [FB281E6C00](<Notebook/Packard Bell/EasyNote/EasyNote ENLG81BA/35289DA085B9/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/FB281E6C00>) |
+| 03f0:042a | Hewlett-Packard  | LaserJet M1132 MFP                   | 7     | usblp      | [5EC7CEE601](<Notebook/Dell/Vostro/Vostro 3500/D88B9BAA2F5F/UBUNTU-20.04/5.10.0-1052-OEM/X86_64/5EC7CEE601>) |
+| 0924:42af | Xerox            | WorkCentre 3045B                     | 6     | usblp      | [989A2EAABB](<Notebook/eMachines/eME/eME732/0C7DCAFE269A/ROSA-2016.1/4.15.0-DESKTOP-122.124.1ROSA-X86_64/X86_64/989A2EAABB>) |
+| 03f0:052a | Hewlett-Packard  | LaserJet M1212nf MFP                 | 5     | usblp      | [5B4619D24C](<Notebook/Acer/Extensa/Extensa 2540/73DD249CF2CD/ENDLESS-3.9.3/5.8.0-14-GENERIC/X86_64/5B4619D24C>) |
+| 03f0:3b17 | Hewlett-Packard  | LaserJet M1005 MFP                   | 5     | usblp      | [B79DCDB648](<Notebook/Lenovo/ThinkPad/ThinkPad Edge E530 3259CEG/9954A743C4BF/UBUNTU-20.04/5.4.0-42-GENERIC/X86_64/B79DCDB648>) |
+| 03f0:622a | Hewlett-Packard  | LaserJet MFP M129-M134               | 5     | usblp      | [E2A6EF3266](<Notebook/Dell/Latitude/Latitude 3590/D10A9696B4DB/ALT-5.0.0/5.4.171-STD-DEF-ALT1/X86_64/E2A6EF3266>) |
+| 04b8:082f | Seiko Epson      | PX-A620 [Stylus CX3900/DX4000/DX4... | 5     | usblp      | [1D46CCED08](<Notebook/Dell/Precision/Precision 5510/5341F73E3874/FEDORA-35/5.14.17-301.FC35.X86_64/X86_64/1D46CCED08>) |
+| 0482:0495 | Kyocera          | FS-1020MFP                           | 4     | usblp      | [DCFF794CD3](<Notebook/Lenovo/V580c/V580c 20160/84CCE51F99AD/ROSA-2014.1/4.9.95-NRJ-DESKTOP-2ROSA-X86_64/X86_64/DCFF794CD3>) |
+| 04b8:084d | Seiko Epson      | PX-402A [Stylus SX115/Stylus NX11... | 3     | usblp      | [65ABCAB999](<Notebook/Lenovo/V145-15AST/V145-15AST 81MT/17B12DCC804E/LINUXMINT-19.3/5.4.0-91-GENERIC/X86_64/65ABCAB999>) |
+| 03f0:242a | Hewlett-Packard  | Color LaserJet Pro MFP M176n         | 2     | usblp      | [84E202DB45](<Notebook/Dell/Inspiron/Inspiron 5570/BAFCD307FCA0/LINUXMINT-19.2/4.15.0-66-GENERIC/X86_64/84E202DB45>) |
+| 03f0:3b2a | Hewlett-Packard  | Color LaserJet MFP M277dw            | 2     | usblp      | [A781661029](<Notebook/Dell/Latitude/Latitude 5591/322999CBB2B2/MANJARO-20.0.1/5.4.40-1-MANJARO/X86_64/A781661029>) |
+| 03f0:932a | Hewlett-Packard  | LaserJet Pro MFP M26a                | 2     | usblp      | [87BD7D315F](<Notebook/Lenovo/IdeaPad/IdeaPad 320-15IAP 80XR/3B9F2B4ADC4D/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/87BD7D315F>) |
+| 03f0:f22a | Hewlett-Packard  | Laser MFP 135a                       | 2     | usbfs      | [B26C826616](<Notebook/Acer/Aspire/Aspire E1-531/1F9166BECA0C/UBUNTU-20.04/5.11.0-25-GENERIC/X86_64/B26C826616>) |
+| 04b8:083f | Seiko Epson      | Stylus CX4300/CX4400/CX5500/CX560... | 2     | usblp      | [47661B90C1](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/5C492D09766A/UBUNTU-18.04/5.2.0-050200-GENERIC/X86_64/47661B90C1>) |
+| 0924:42c4 | Xerox            | WorkCentre 3615                      | 2     | usblp      | [0BF7A6E91D](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8740w/C619FE23190E/ROSA-2014.1/4.0.4-NRJ-DESKTOP-1ROSA-X86_64/X86_64/0BF7A6E91D>) |
+| 0924:42da | Xerox            | WorkCentre 3025                      | 2     | usblp      | [D23574ECF1](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8770w/13AF7B1DCD1D/UBUNTU-20.04/5.11.0-37-GENERIC/X86_64/D23574ECF1>) |
+| 0924:42db | Xerox            | WorkCentre 3215                      | 2     | usblp      | [0F22425E10](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G1/44EFF2E7D2F9/UBUNTU-18.04/4.15.0-118-GENERIC/X86_64/0F22425E10>) |
+| 03f0:012a | Hewlett-Packard  | LaserJet M1536dnf MFP                | 1     | usblp      | [55EB8D252D](<Notebook/Lenovo/IdeaPad/IdeaPad L340-17IWL 81M0/4B1F5F113B97/XUBUNTU-18.04/5.3.0-42-GENERIC/X86_64/55EB8D252D>) |
+| 03f0:0e2a | Hewlett-Packard  | Smart Install                        | 1     |            | [7D49EBAD11](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/09CB669B0940/LINUXMINT-19.3/5.0.0-32-GENERIC/X86_64/7D49EBAD11>) |
+| 03f0:1d2a | Hewlett-Packard  | Color LaserJet flow MFP M880         | 1     | usblp      | [9F2622FF85](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/9F2622FF85>) |
+| 03f0:252a | Hewlett-Packard  | LaserJet 500 colorMFP M570dw         | 1     | usblp      | [8EA70251FB](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/8EA70251FB>) |
+| 03f0:2d2a | Hewlett-Packard  | LaserJet Pro MFP M225dn              | 1     | usblp      | [589D629D00](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/589D629D00>) |
+| 03f0:2e2a | Hewlett-Packard  | LaserJet Pro MFP M435nw              | 1     | usblp      | [A457D54FAD](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/A457D54FAD>) |
+| 03f0:322a | Hewlett-Packard  | LaserJet Pro MFP M127fw              | 1     | usblp      | [35F08E0E86](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/35F08E0E86>) |
+| 03f0:362a | Hewlett-Packard  | Officejet Color FlowMFP X585         | 1     | usblp      | [4966DF06F4](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/4966DF06F4>) |
+| 03f0:442a | Hewlett-Packard  | Color LaserJet Flow MFP M680         | 1     | usblp      | [BF4C79032E](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/BF4C79032E>) |
+| 03f0:642a | Hewlett-Packard  | LaserJet MFP M227-M231               | 1     | usblp      | [7621EB165A](<Notebook/Hewlett-Packard/ProBook/ProBook 6570b/D0A579C1EB74/LINUXMINT-20.1/5.4.0-66-GENERIC/X86_64/7621EB165A>) |
+| 03f0:9e17 | Hewlett-Packard  | LaserJet 500 MFP M525                | 1     | usblp      | [80E0F6373A](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/80E0F6373A>) |
+| 03f0:9f17 | Hewlett-Packard  | LaserJet 500 color MFP M575          | 1     | usblp      | [A043EA04EA](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/A043EA04EA>) |
+| 03f0:af2a | Hewlett-Packard  | ColorLaserJet MFP M178-M181          | 1     | usblp      | [7B9F86430D](<Notebook/Lenovo/ThinkPad/ThinkPad X13 Gen 2i 20WK00AJGE/F5EC0165A139/LINUXMINT-20.2/5.10.0-1051-OEM/X86_64/7B9F86430D>) |
+| 04b8:0818 | Seiko Epson      | Stylus CX3700/CX3800/DX3800          | 1     | usblp      | [D4567C6F8A](<Notebook/ASUSTek Computer/K55/K55VD/A104E9D59AE9/UBUNTU-20.10/5.8.0-29-GENERIC/X86_64/D4567C6F8A>) |
+| 04b8:0841 | Seiko Epson      | PX-401A [ME 300/Stylus NX100]        | 1     | usblp      | [20788C640E](<Notebook/Dell/Vostro/Vostro 1310/83982FE64588/LINUXMINT-19.2/4.15.0-55-GENERIC/X86_64/20788C640E>) |
+| 0924:3d6b | Xerox            | WorkCentre 6505DN                    | 1     | usblp      | [66BC368A83](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/66BC368A83>) |
+| 0924:3d6f | Xerox            | Phaser 6020                          | 1     | usblp      | [E45A12C489](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/E45A12C489>) |
+| 0924:42d4 | Xerox            | WorkCentre 6027                      | 1     | usblp      | [E363684B4B](<Notebook/Lenovo/G570/G570 20079/92B1F90D7EAE/ROSA-2014.1/3.14.39-NRJ-DESKTOP-4ROSA-X86_64/X86_64/E363684B4B>) |
+| 413c:5406 | Dell             | 1355cnw Color MFP                    | 1     | usbfs      | [EF4245C8A3](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G2/86CFE098115B/GENERIC-32/5.11.11-100.FC32.X86_64/X86_64/EF4245C8A3>) |
+| 413c:564e | Dell             | C2665dnf Color MFP                   | 1     | usblp      | [70493B615B](<Notebook/Lenovo/ThinkPad/ThinkPad T430 2349QM6/D0055C2E01AE/LINUXMINT-19/4.15.0-66-GENERIC/X86_64/70493B615B>) |
 
 ### Miscellaneous (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 2d95:600a | vivo       | V2027                        | 5     | rndis_host | C28788427E |
-| 2e04:c008 | HMD Global | Tethering Network Interface  | 3     | rndis_host | 77EE42E92E |
-| 0bb4:0b0c | HTC (Hi... | Elf / Touch / P3450 / T-M... | 1     | rndis_w... | 5E75A35A7D |
-| 1390:5a01 | TOMTOM     | GO Professional 6250         | 1     | rndis_host | BE27200090 |
-| 1410:b022 | Novatel... | MiFi 7000                    | 1     | rndis_h... | 9F5C7C160A |
-| 1e10:4000 | Point G... | U3V camera                   | 1     |            | 2BC5FA3C88 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 2d95:600a | vivo             | 1907                                 | 6     | rndis_host | [12C90ED760](<Notebook/Hewlett-Packard/Pavilion/Pavilion Gaming Laptop 15-ec2xxx/54742165F121/UBUNTU-20.04/5.11.0-43-GENERIC/X86_64/12C90ED760>) |
+| 2e04:c008 | HMD Global       | Tethering Network Interface          | 3     | rndis_host | [77EE42E92E](<Notebook/Acer/Aspire/Aspire ES1-571/E50173E24235/UBUNTU-20.04/5.4.0-29-GENERIC/X86_64/77EE42E92E>) |
+| 0bb4:0b0c | HTC (High Tec... | Elf / Touch / P3450 / T-Mobile MD... | 1     | rndis_w... | [5E75A35A7D](<Notebook/Hewlett-Packard/Pavilion/Pavilion zx5000/5ED9898B7A22/LUBUNTU-18.04/4.15.0-20-GENERIC/I686/5E75A35A7D>) |
+| 1390:5a01 | TOMTOM           | GO Professional 6250                 | 1     | rndis_host | [BE27200090](<Notebook/Lenovo/V145-15AST/V145-15AST 81MT/83C010F69464/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/BE27200090>) |
+| 1410:b022 | Novatel Wireless | MiFi 7000                            | 1     | rndis_h... | [9F5C7C160A](<Notebook/Sony/VPCF136/VPCF136FM/C939FAAB434A/OPENSUSE-20200528/5.6.14-1-DEFAULT/X86_64/9F5C7C160A>) |
+| 1e10:4000 | Point Grey Re... | U3V camera                           | 1     |            | [2BC5FA3C88](<Notebook/ASUSTek Computer/X555/X555LJ/19545E88E836/UBUNTU-20.04/5.4.0-29-GENERIC/X86_64/2BC5FA3C88>) |
+| 2676:ba02 | Basler           | ace                                  | 1     |            | [F65C6B2C80](<Notebook/Dell/XPS/XPS 15 9570/56E85BDE9BD2/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/F65C6B2C80>) |
 
 ### Modem (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 27c6:5395 | Shenzhe... | Fingerprint Reader           | 300   | cdc_acm    | 58E43F0514 |
-| 27c6:5301 | Shenzhe... | Fingerprint Reader           | 229   | cdc_acm    | 8F25043C64 |
-| 12d1:1506 | Huawei ... | Modem/Networkcard            | 195   | uas, us... | B238D33CB9 |
-| 27c6:5385 | Shenzhe... | Fingerprint Reader           | 163   | cdc_acm    | 8956FEE2F3 |
-| 0bdb:1911 | Ericsso... | F5521gw                      | 126   | cdc_acm    | 90895AAB86 |
-| 0bdb:1926 | Ericsso... | H5321 gw Mobile Broadband... | 115   | cdc_acm    | B868085BFC |
-| 0bdb:193e | Ericsso... | N5321 gw                     | 71    | cdc_acm    | C8F2959FDC |
-| 413c:818d | Dell       | DW5550                       | 60    | cdc_acm    | A1027F938F |
-| 0bdb:1900 | Ericsso... | F3507g Mobile Broadband M... | 54    | cdc_acm... | C3769F3B77 |
-| 03f0:3d1d | Hewlett... | hs2350 HSPA+ MobileBroadband | 51    | cdc_acm    | F66BA65DC8 |
-| 03f0:3a1d | Hewlett... | hs2340 HSPA+ mobile broad... | 46    | cdc_acm    | 0B1F6A34CE |
-| 413c:818e | Dell       | DW5560 miniPCIe HSPA+ Mob... | 40    | cdc_acm    | A377D34C0D |
-| 27c6:5381 | Shenzhe... | Fingerprint Reader           | 35    | cdc_acm    | AF1479F2FE |
-| 413c:8147 | Dell       | F3507g Mobile Broadband M... | 33    | cdc_ether  | 843B7BD830 |
-| 413c:8184 | Dell       | F3607gw v2 Mobile Broadba... | 33    | cdc_acm    | 56AEC59FBB |
-| 12d1:1436 | Huawei ... | Broadband stick              | 26    | usb_sto... | BA9A8E1D7A |
-| 2341:0043 | Arduino SA | Uno R3 (CDC ACM)             | 26    | cdc_acm    | A0197C30DB |
-| 12d1:1001 | Huawei ... | E161/E169/E620/E800 HSDPA... | 19    | usb_sto... | D507F88A47 |
-| 12d1:1003 | Huawei ... | E220 HSDPA Modem / E230/E... | 15    | usb_sto... | 10ACFF551D |
-| 04e8:6872 | Samsung... | Kiera                        | 14    | cdc_acm    | 200275BBD6 |
-| 12d1:1570 | Huawei ... | MOBILE                       | 14    | option     | C31DC1892D |
-| 12d1:1404 | Huawei ... | EM770W miniPCI WCDMA Modem   | 12    | usb_sto... | 89B02002A5 |
-| 12d1:140c | Huawei ... | E180v                        | 10    | usb_sto... | 37EFD6FC5E |
-| 1546:01a7 | U-Blox     | [u-blox 7]                   | 7     | cdc_acm    | 0888414318 |
-| 1546:01a8 | U-Blox     | [u-blox 8]                   | 7     | cdc_acm    | D4DB86E4AC |
-| 0930:1319 | Toshiba    | H5321gw                      | 6     | cdc_acm    | 9816B952D7 |
-| 0bdb:190a | Ericsso... | F3307 Mobile Broadband Mo... | 6     | cdc_acm    | 8D386EA5A9 |
-| 0e8d:0003 | MediaTek   | MT6227 phone                 | 6     | cdc_acm... | 687AED65CF |
-| 0603:4001 | Novatek... | NVT-FPR                      | 5     | usbhid     | BB04E3D7E3 |
-| 0930:1314 | Toshiba    | F5521gw                      | 5     | cdc_acm    | 6378D53C40 |
-| 1366:0105 | SEGGER     | J-Link                       | 5     | cdc_acm    | 2AD271E81F |
-| 19d2:1515 | ZTE WCD... | MF195                        | 5     | cdc_acm    | 3954E61E9A |
-| 0483:5740 | STMicro... | Virtual COM Port             | 4     | cdc_acm    | 357842822A |
-| 04e8:6773 | Samsung... | HSPA Modem                   | 4     | cdc_acm    | 2CFD6DD7EE |
-| 0bdb:190d | Ericsso... | F5521gw                      | 4     | cdc_acm    | 09CFE58582 |
-| 0bdb:1936 | Ericsso... | C5621 gw                     | 4     | cdc_acm    | 06EE7D4C06 |
-| 12d1:14ac | Huawei ... | E815                         | 4     | option     | 167B3FD913 |
-| 1546:01a5 | U-Blox     | [u-blox 5]                   | 4     | cdc_acm    | C2D9EFD034 |
-| 1edf:6004 | Select ... | MCD-640S-1EDF-6004           | 4     | cdc_acm    | F9D3A09989 |
-| 2341:0042 | Arduino SA | Mega 2560 R3 (CDC ACM)       | 4     | cdc_acm    | 24FAB4AA05 |
-| 8087:0ab6 | Intel      | UDOO X86                     | 4     | cdc_acm    | 62AE920D77 |
-| 03f0:2f1d | Hewlett... | lc2010 Mobile Broadband M... | 3     | cdc_acm    | ADF2557C53 |
-| 0451:16a8 | Texas I... | CC2531 ZigBee                | 3     | cdc_acm    | 271E56E195 |
-| 0bdb:1902 | Ericsso... | F3507g v2 Mobile Broadban... | 3     | cdc_acm    | 349C20610A |
-| 1004:6169 | LG Elec... | LGE Modem                    | 3     | cdc_ether  | 626D49A6A9 |
-| 12d1:1573 | Huawei ... | Mobile                       | 3     | option     | 4120FA5430 |
-| 1519:0020 | Comneon    | HSIC Device                  | 3     | cdc_acm    | E277646CEF |
-| 0421:0524 | Nokia M... | Nokia 300                    | 2     | cdc_acm    | 9C1238B041 |
-| 0658:0200 | Sigma D... | Aeotec Z-Stick Gen5 (ZW09... | 2     | cdc_acm    | A58C2624F5 |
-| 1004:6000 | LG Elec... | Various Mobile Phones        | 2     | cdc_acm    | 0519B9A79C |
-| 18d1:d001 | Google     | Nexus 4 (fastboot)           | 2     | usb_sto... | 2B14368AED |
-| 2e8a:0005 | MicroPy... | Board in FS mode             | 2     | cdc_acm    | 1B488DE7B9 |
-| 8087:095a | Intel      | MODEM + 2 CDC-ACM + 3 CDC... | 2     | cdc_ncm    | 7154F86BD2 |
-| 03eb:6124 | Atmel      | at91sam SAMBA bootloader     | 1     | cdc_acm    | 2BF3A4DEF3 |
-| 0421:01d0 | Nokia M... | E52                          | 1     | cdc_acm    | D649B2DEB3 |
-| 0421:0223 | Nokia M... | E72-1                        | 1     | cdc_acm    | A913DFEFEE |
-| 0421:0302 | Nokia M... | N8-00                        | 1     | cdc_acm    | A8AF42D6E7 |
-| 0421:0348 | Nokia M... | Nokia 5228                   | 1     | cdc_acm    | 4F7EEE94F1 |
-| 0421:0360 | Nokia M... | C1-01 Ovi Suite Mode         | 1     | cdc_acm    | 9C2894BEA0 |
-| 0421:05fd | Nokia M... | 202                          | 1     | cdc_acm    | 1A8A955A5B |
-| 0421:0623 | Nokia M... | Nokia Datacard               | 1     | cdc_acm    | F35C4CAA2B |
-| 0421:0638 | Nokia M... | Nokia USB Modem              | 1     | cdc_acm    | 2D146B746C |
-| 0461:0033 | Primax ... | USB_Focus                    | 1     | cdc_acm    | 5278A91530 |
-| 04cb:5019 | Fuji Ph... | instax mini Link1            | 1     | cdc_acm    | 6A4EBAC3CA |
-| 04d8:fb00 | Microch... | Dangerous Prototypes BusP... | 1     | cdc_acm    | D3E271DF9F |
-| 04e2:1411 | Exar       | XR21B1411                    | 1     | cdc_xr_... | FFC2D5A399 |
-| 04e8:6601 | Samsung... | Mobile Phone                 | 1     | visor, ... | 25239307A1 |
-| 04e8:6843 | Samsung... | E2530 Phone (Samsung Kies... | 1     | cdc_acm    | 55075885CA |
-| 04e8:6862 | Samsung... | Android                      | 1     | cdc_acm    | 0E1F45AE13 |
-| 0572:1328 | Conexan... | TrendNet TFM-561 modem       | 1     | cdc_acm    | 678C383DB7 |
-| 0572:1329 | Conexan... | USB Modem                    | 1     | cdc_acm    | 7A44DA1E2F |
-| 0572:1340 | Conexan... | USB Modem                    | 1     | cdc_acm    | 8739FEA3EF |
-| 0572:cb16 | Conexan... | USB-ADSL Modem               | 1     |            | 07217A2477 |
-| 05a7:40fc | Bose       | Sport Earbuds                | 1     | usbhid     | 2D741353C3 |
-| 0bdb:1905 | Ericsso... | F3607gw v2 Mobile Broadba... | 1     | cdc_acm    | 42884278C4 |
-| 0bdb:1907 | Ericsso... | F3607gw                      | 1     | cdc_acm    | 642FA35FEC |
-| 0da4:0014 | Polar E... | Polar Vantage V              | 1     | cdc_acm    | 7D916FB4BD |
-| 0e8d:3329 | MediaTek   | Qstarz BT-Q1000XT            | 1     | cdc_acm    | 052B95BA1D |
-| 106c:3714 | Curitel... | PANTECH USB MODEM [UM175]    | 1     | cdc_acm    | F4807D695F |
-| 12d1:143f | Huawei ... | Mobile                       | 1     | usb_sto... | 5185B46ABC |
-| 12d1:1446 | Huawei ... | HSPA modem                   | 1     | usb_sto... | B07887ACC1 |
-| 12d1:1465 | Huawei ... | K3765 HSPA                   | 1     | option     | 346F4EA91D |
-| 12d1:1566 | Huawei ... | HUAWEI_MOBILE                | 1     | option     | B07034F89E |
-| 12d1:1c1e | Huawei ... | Mass Storage                 | 1     | uas, us... | C05B8DEF55 |
-| 12d1:1f09 | Huawei ... | Mass Storage                 | 1     | uas, us... | 12DAF0C779 |
-| 1366:1015 | SEGGER     | J-Link                       | 1     | uas, us... | 6BE76778AE |
-| 1519:f000 | Comneon    | 1 CDC                        | 1     | cdc_acm    | 7B4D4BF272 |
-| 1546:01a6 | U-Blox     | [u-blox 6]                   | 1     | cdc_acm    | 74D6F0A5E2 |
-| 16c0:0483 | Van Ooi... | Teensyduino Serial           | 1     | cdc_acm    | 58616F66EA |
-| 16c0:048c | Van Ooi... | CMSIS-DAP                    | 1     | cdc_acm    | 9A35D7C261 |
-| 16c0:092e | Van Ooi... | Modem                        | 1     | cdc_acm    | 760357A889 |
-| 16c0:27dd | Van Ooi... | CDC-ACM class devices (mo... | 1     | cdc_acm    | CFD6C8DCC4 |
-| 19d2:0579 | ZTE WCD... | ZXIC Mobile Boardband        | 1     | rndis_host | F00E135A18 |
-| 1b4f:9206 | SparkFun   | Pro Micro                    | 1     | cdc_acm    | C6B33CF692 |
-| 1b4f:9208 | SparkFun   | LilyPad USB                  | 1     | cdc_acm    | 251B23F141 |
-| 1bbb:2011 | T & A M... | Alcatel_5002R                | 1     | cdc_acm    | 03EBD4DBF1 |
-| 1cbe:00fd | Luminar... | In-Circuit Debug Interface   | 1     | cdc_acm    | 363320D61E |
-| 1cf1:0030 | Dresden... | ZigBee gateway [ConBee II]   | 1     | cdc_acm    | A58C2624F5 |
-| 1eaf:0004 | Leaflabs   | Maple serial interface       | 1     | cdc_acm    | B322F04446 |
-| 1f33:0001 | GrupoPI... | HardLock USB CDC             | 1     | cdc_acm    | F8123B4683 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 27c6:5395 | Shenzhen Good... | Fingerprint Reader                   | 336   | cdc_acm    | [3F8FE40793](<Notebook/Dell/XPS/XPS 15 9570/FFC4E3644992/UBUNTUSTUDIO-21.10/5.13.0-30-GENERIC/X86_64/3F8FE40793>) |
+| 27c6:5301 | Shenzhen Good... | Fingerprint Reader                   | 258   | cdc_acm    | [8248B17F01](<Notebook/Dell/Vostro/Vostro 5471/BF689F2C5926/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/8248B17F01>) |
+| 12d1:1506 | Huawei Techno... | Modem/Networkcard                    | 200   | uas, us... | [DAE40DBA1F](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G6/5104B6E882AF/FEDORA-35/5.16.5-200.FC35.X86_64/X86_64/DAE40DBA1F>) |
+| 27c6:5385 | Shenzhen Good... | Fingerprint Reader                   | 184   | cdc_acm    | [EFC6123D49](<Notebook/Dell/XPS/XPS 13 9380/AD3D35DC38DC/SOLUS-4.3/5.14.21-210.CURRENT/X86_64/EFC6123D49>) |
+| 0bdb:1911 | Ericsson Busi... | F5521gw                              | 139   | cdc_acm    | [508A68F09E](<Notebook/Lenovo/ThinkPad/ThinkPad X220 4290EC5/45C5B8282921/KUBUNTU-18.04/4.15.0-169-GENERIC/X86_64/508A68F09E>) |
+| 0bdb:1926 | Ericsson Busi... | H5321 gw Mobile Broadband Driver     | 130   | cdc_acm    | [CEEC77F198](<Notebook/Lenovo/ThinkPad/ThinkPad T530 2359CTO/2A7FFCF59535/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/CEEC77F198>) |
+| 0bdb:193e | Ericsson Busi... | N5321 gw                             | 84    | cdc_acm    | [6D0CD0F4B9](<Notebook/Lenovo/ThinkPad/ThinkPad T540p 20BE005YMH/B6072358711D/NIXOS-22.05/5.15.26/X86_64/6D0CD0F4B9>) |
+| 413c:818d | Dell             | DW5550                               | 70    | cdc_acm    | [05D9080C0C](<Notebook/Dell/Latitude/Latitude E6230/03403DA90720/FEDORA-35/5.15.18-200.FC35.X86_64/X86_64/05D9080C0C>) |
+| 0bdb:1900 | Ericsson Busi... | F3507g Mobile Broadband Module       | 60    | cdc_acm... | [6A5D0584BD](<Notebook/Lenovo/ThinkPad/ThinkPad T400s 2808D9G/071BA4158C4D/ELEMENTARY-6.1/5.13.0-30-GENERIC/X86_64/6A5D0584BD>) |
+| 03f0:3d1d | Hewlett-Packard  | hs2350 HSPA+ MobileBroadband         | 57    | cdc_acm    | [C757E559B0](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2570p/6D941852B098/UBUNTU-20.04/5.11.0-44-GENERIC/X86_64/C757E559B0>) |
+| 03f0:3a1d | Hewlett-Packard  | hs2340 HSPA+ mobile broadband        | 51    | cdc_acm    | [6644889929](<Notebook/Hewlett-Packard/ProBook/ProBook 6560b/5843CB495648/UBUNTU-20.04/5.4.0-96-GENERIC/X86_64/6644889929>) |
+| 413c:818e | Dell             | DW5560 miniPCIe HSPA+ Mobile Broa... | 44    | cdc_acm    | [E32F5B40A1](<Notebook/Dell/Latitude/Latitude E6430/CF0301C655CD/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/E32F5B40A1>) |
+| 413c:8184 | Dell             | F3607gw v2 Mobile Broadband Module   | 43    | cdc_acm    | [D4FA7879A4](<Notebook/Dell/Latitude/Latitude E6410/6BC9157A0724/UBUNTU-18.04/4.15.0-171-GENERIC/I686/D4FA7879A4>) |
+| 413c:8147 | Dell             | F3507g Mobile Broadband Module       | 40    | cdc_ether  | [3EFD166E47](<Notebook/Dell/Latitude/Latitude E4300/0CBECFA2694E/UBUNTU-20.04/5.11.0-44-GENERIC/X86_64/3EFD166E47>) |
+| 27c6:5381 | Shenzhen Good... | Fingerprint Reader                   | 36    | cdc_acm    | [33819E0316](<Notebook/Dell/G5/G5 5587/C490686C7FE3/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/33819E0316>) |
+| 2341:0043 | Arduino SA       | Uno R3 (CDC ACM)                     | 30    | cdc_acm    | [BE3640DAF0](<Notebook/Lenovo/ThinkPad/ThinkPad T420 4180F65/EA063E8B0186/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/BE3640DAF0>) |
+| 12d1:1436 | Huawei Techno... | Broadband stick                      | 27    | usb_sto... | [9F4F77F51D](<Notebook/Apple/MacBook7/MacBook7,1/7DBA8502BAB7/PARROT-5.0/5.14.0-9PARROT1-AMD64/X86_64/9F4F77F51D>) |
+| 12d1:1001 | Huawei Techno... | E161/E169/E620/E800 HSDPA Modem      | 20    | usb_sto... | [B673072FBB](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK A3510/F0BA03F18441/XUBUNTU-21.10/5.13.0-23-GENERIC/X86_64/B673072FBB>) |
+| 04e8:6872 | Samsung Elect... | Kiera                                | 16    | cdc_acm    | [A593B663F7](<Notebook/Samsung Electronics/NC210/NC210-NC110/8309E1560AC2/LINUXMINT-19.1/4.15.0-169-GENERIC/X86_64/A593B663F7>) |
+| 12d1:1570 | Huawei Techno... | Mobile Broadband Module              | 16    | option     | [EE9E63AB7C](<Notebook/Sony/SVD1321/SVD13213SGW/5BAC9DD4DC6F/KUBUNTU-11/5.13.0-27-GENERIC/X86_64/EE9E63AB7C>) |
+| 12d1:1003 | Huawei Techno... | E220 HSDPA Modem / E230/E270/E870... | 15    | usb_sto... | [10ACFF551D](<Notebook/Hewlett-Packard/Presario/Presario CQ56/25C7CF1173E5/LINUXMINT-20.2/5.11.0-38-GENERIC/X86_64/10ACFF551D>) |
+| 12d1:1404 | Huawei Techno... | EM770W miniPCI WCDMA Modem           | 12    | usb_sto... | [89B02002A5](<Notebook/Lenovo/G460e/G460e 1049/BFAE0055F4C6/ENDLESS-3.9.5/5.8.0-14-GENERIC/X86_64/89B02002A5>) |
+| 12d1:140c | Huawei Techno... | E180v                                | 10    | usb_sto... | [37EFD6FC5E](<Notebook/ASUSTek Computer/X205/X205TA/5ED1180BCDB4/DEBIAN-10/5.10.0-8-AMD64/X86_64/37EFD6FC5E>) |
+| 1546:01a7 | U-Blox           | [u-blox 7]                           | 9     | cdc_acm    | [6CEC0DB416](<Notebook/Dell/Inspiron/Inspiron N5110/2B4CE78E3ACA/DEBIAN-11/4.19.0-6-AMD64/X86_64/6CEC0DB416>) |
+| 1546:01a8 | U-Blox           | [u-blox 8]                           | 9     | cdc_acm    | [64EF1D30C3](<Notebook/Dell/Latitude/Latitude 7424 Rugged Extreme/8E222DD36428/DEBIAN-TESTING/5.15.0-3-AMD64/X86_64/64EF1D30C3>) |
+| 0930:1314 | Toshiba          | F5521gw                              | 6     | cdc_acm    | [CD13F4B4AB](<Notebook/Toshiba/TECRA/TECRA R850/B8DA5C76BE1A/WINDOWSFX-11/5.11.0-46-GENERIC/X86_64/CD13F4B4AB>) |
+| 0930:1319 | Toshiba          | H5321gw                              | 6     | cdc_acm    | [9816B952D7](<Notebook/Toshiba/PORTEGE/PORTEGE Z830/2160F388A770/LINUXMINT-20.1/5.4.0-67-GENERIC/X86_64/9816B952D7>) |
+| 0bdb:190a | Ericsson Busi... | F3307 Mobile Broadband Module        | 6     | cdc_acm    | [D706658FF8](<Notebook/Acer/TravelMate/TravelMate 6594/B227FF345066/UBUNTU-20.04/5.4.0-65-GENERIC/X86_64/D706658FF8>) |
+| 0e8d:0003 | MediaTek         | MT6227 phone                         | 6     | cdc_acm... | [687AED65CF](<Notebook/Hewlett-Packard/ProBook/ProBook 6470b/13EB438D60D8/UBUNTU-20.04/5.8.0-45-GENERIC/X86_64/687AED65CF>) |
+| 1366:0105 | SEGGER           | J-Link                               | 6     | cdc_acm    | [B0CF9AA220](<Notebook/Hewlett-Packard/Pavilion/Pavilion Gaming Notebook/0C8B2E15DFD2/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/B0CF9AA220>) |
+| 04e8:6773 | Samsung Elect... | HSPA Modem                           | 5     | cdc_acm    | [1A88380AF6](<Notebook/Samsung Electronics/N/N130/D8A313DD4B42/TRISQUEL-9.0/4.15.0-161-GENERIC/I686/1A88380AF6>) |
+| 0603:4001 | Novatek Micro... | NVT-FPR                              | 5     | usbhid     | [BB04E3D7E3](<Notebook/TUXEDO/Others/Others/7D83F5EE11A1/XUBUNTU-20.04/5.4.0-74-GENERIC/X86_64/BB04E3D7E3>) |
+| 19d2:1515 | ZTE WCDMA Tec... | MF195                                | 5     | cdc_acm    | [3954E61E9A](<Notebook/Lenovo/G505s/G505s 20255/D4F5F16D51F5/UBUNTU-20.04/5.8.0-48-GENERIC/X86_64/3954E61E9A>) |
+| 2341:0042 | Arduino SA       | Mega 2560 R3 (CDC ACM)               | 5     | cdc_acm    | [C06C350DC3](<Notebook/Dell/Inspiron/Inspiron 3180/84F1EF9AF83E/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/C06C350DC3>) |
+| 0483:5740 | STMicroelectr... | Virtual COM Port                     | 4     | cdc_acm    | [357842822A](<Notebook/AMI/Cherry/Cherry Trail CR/24855083282A/UBUNTU-18.04/5.4.0-81-GENERIC/X86_64/357842822A>) |
+| 0bdb:190d | Ericsson Busi... | F5521gw                              | 4     | cdc_acm    | [09CFE58582](<Notebook/Panasonic/CF-53/CF-53SGV2QMG/DEE06CE990DF/UBUNTU-20.10/5.8.0-55-GENERIC/X86_64/09CFE58582>) |
+| 0bdb:1936 | Ericsson Busi... | C5621 gw                             | 4     | cdc_acm    | [06EE7D4C06](<Notebook/Lenovo/ThinkPad/ThinkPad Helix 36986CG/EC509E61466B/UBUNTU-20.04/5.11.0-27-GENERIC/X86_64/06EE7D4C06>) |
+| 12d1:14ac | Huawei Techno... | E815                                 | 4     | option     | [167B3FD913](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv7/4262CD66FFAC/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-X86_64/X86_64/167B3FD913>) |
+| 1546:01a5 | U-Blox           | [u-blox 5]                           | 4     | cdc_acm    | [C2D9EFD034](<Notebook/Others/Others/Others/486EECFE685E/UBUNTU-16.04/4.15.0-45-GENERIC/I686/C2D9EFD034>) |
+| 1edf:6004 | Select & iobi... | MCD-640S-1EDF-6004                   | 4     | cdc_acm    | [F9D3A09989](<Notebook/Dell/Latitude/Latitude E6530/8B5EC6878A4B/ROSA-2014.1/3.14.25-NRJ-DESKTOP-1ROSA/X86_64/F9D3A09989>) |
+| 8087:0ab6 | Intel            | UDOO X86                             | 4     | cdc_acm    | [62AE920D77](<Notebook/SECO/UDOO/UDOO x86/22784385830B/GENTOO-2.6/5.4.0-RC1-BERYLLIUM4-00133-G4EA655343CE4/X86_64/62AE920D77>) |
+| 03f0:2f1d | Hewlett-Packard  | lc2010 Mobile Broadband Module       | 3     | cdc_acm    | [ADF2557C53](<Notebook/Hewlett-Packard/Mini/Mini 110-3500/57BB317D2930/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/ADF2557C53>) |
+| 0451:16a8 | Texas Instrum... | CC2531 ZigBee                        | 3     | cdc_acm    | [271E56E195](<Notebook/Apple/MacBookPro12/MacBookPro12,1/A236F4DD9072/UBUNTU-21.10/5.13.0-20-LOWLATENCY/X86_64/271E56E195>) |
+| 0bdb:1902 | Ericsson Busi... | F3507g v2 Mobile Broadband Module    | 3     | cdc_acm    | [349C20610A](<Notebook/LG Electronics/X120/X120-G.C7VPG/D53BDBA6BE20/LMDE-4/4.19.0-14-686-PAE/I686/349C20610A>) |
+| 1004:6169 | LG Electronics   | LGE Modem                            | 3     | cdc_ether  | [337924A30C](<Notebook/LG Electronics/X140/X140-G.BG12P1/17B686D3C3C1/BLACKARCH/5.15.2-ARCH1-1/X86_64/337924A30C>) |
+| 12d1:1573 | Huawei Techno... | Mobile                               | 3     | option     | [4120FA5430](<Notebook/ASUSTek Computer/BU201/BU201LA/5343314C44E6/UBUNTU-20.10/5.8.0-31-GENERIC/X86_64/4120FA5430>) |
+| 1519:0020 | Comneon          | HSIC Device                          | 3     | cdc_acm    | [E277646CEF](<Notebook/ilife/S/S806/6B80D4383768/ROSA-2016.1/4.13.0-TABLET-16.2ROSA-X86_64/X86_64/E277646CEF>) |
+| 0421:0524 | Nokia Mobile ... | Nokia 300                            | 2     | cdc_acm    | [9C1238B041](<Notebook/Lenovo/IdeaPad/IdeaPad 100-15IBD 80QQ/F2E62EE3435B/UBUNTU-18.04/5.3.0-42-GENERIC/X86_64/9C1238B041>) |
+| 05a7:40fc | Bose             | Noise Cancelling Headphones 700      | 2     | usbhid     | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0658:0200 | Sigma Designs    | Aeotec Z-Stick Gen5 (ZW090) - UZB    | 2     | cdc_acm    | [A58C2624F5](<Notebook/Hewlett-Packard/Pavilion/Pavilion 13 x360 PC/CAF2AA4A02CC/UBUNTU-20.04/5.8.0-63-GENERIC/X86_64/A58C2624F5>) |
 
 ### Monitor (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 17e9:4107 | Display... | e1649Fwu                     | 2     | usbhid     | 760CFAA3C0 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 17e9:4107 | DisplayLink      | e1649Fwu                             | 2     | usbhid     | [760CFAA3C0](<Notebook/Dell/G3/G3 3590/4B52C6214D6A/MANJARO-20.1/5.7.15-1-MANJARO/X86_64/760CFAA3C0>) |
 
 ### Net/ethernet (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 03f0:911d | Hewlett... | lt4211 Gobi 4G Module        | 7     | cdc_ether  | 0AD916110D |
-| 0fe6:9900 | ICS Advent | 10/100M LAN                  | 7     | cdc_ether  | 0C261084DB |
-| 17e9:436c | Display... | Dell D1000 USB3.0 Dock       | 3     | cdc_ncm    | 1E6CBEB181 |
-| 17ef:721e | Lenovo     | Powered Hub                  | 3     | r8152      | F4F26A9357 |
-| 0424:9500 | Microch... | LAN9500/LAN9500i             | 2     | smsc95xx   | 2F9F2D0497 |
-| 0bda:8156 | Realtek... | USB 10/100/1G/2.5G LAN       | 2     | cdc_ncm    | A81A047059 |
-| 17e9:430a | Display... | HP Port Replicator (Compo... | 2     | cdc_ncm... | 1A353B9226 |
-| 17e9:431f | Display... | ThinkPad Basic USB 3.0 Dock  | 2     | cdc_ncm... | C9837EF0C1 |
-| 17e9:4340 | Display... | ThinkPad USB 3.0 Ultra Dock  | 2     | snd_usb... | 04852A18CB |
-| 03f0:0547 | Hewlett... | L2311c LAN7500 Ethernet      | 1     |            | EBB304F58E |
-| 03f0:0857 | Hewlett... | lt4220 Snapdragon X12 LTE    | 1     | cdc_ether  | 54BAAAD690 |
-| 0424:9e00 | Microch... | LAN9500A/LAN9500Ai           | 1     | smsc95xx   | 09CFE58582 |
-| 0df6:0072 | Sitecom... | AX88179 Gigabit Ethernet ... | 1     | ax88179... | 85C6FB8933 |
-| 17e9:433e | Display... | dynadock 4K                  | 1     | cdc_ncm    | FDC926F819 |
-| 17ef:3098 | Lenovo     | Mini Dock                    | 1     | cdc_ether  | 534A4C683F |
-| 1c04:0015 | QNAP Sy... | QNAP QNA-UC5G1T USB to 5G... | 1     | aqc111     | 183CF86941 |
-| 2001:b301 | D-Link     | DUBE250 2.5GbE Adapter       | 1     | cdc_ncm    | 4DC4A0EFE0 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0fe6:9900 | ICS Advent       | 10/100M LAN                          | 12    | cdc_ether  | [ECCFE5B35C](<Notebook/Lenovo/ThinkPad/ThinkPad E14 Gen 3 20YDS00G00/AB2C6D7EBED9/DEBIAN-11/5.16.0-3-AMD64/X86_64/ECCFE5B35C>) |
+| 03f0:911d | Hewlett-Packard  | lt4211 Gobi 4G Module                | 7     | cdc_ether  | [0AD916110D](<Notebook/Hewlett-Packard/EliteBook/EliteBook Revolve 810 G3/29EE6BCF3B2A/KDE-NEON-20.04/5.11.0-38-GENERIC/X86_64/0AD916110D>) |
+| 0bda:8156 | Realtek Semic... | USB 10/100/1G/2.5G LAN               | 6     | cdc_ncm    | [B99A5F9B59](<Notebook/Apple/MacBookPro8/MacBookPro8,1/BC51BF35860F/KUBUNTU-22.04/5.15.0-18-GENERIC/X86_64/B99A5F9B59>) |
+| 17e9:436c | DisplayLink      | Dell D1000 USB3.0 Dock               | 4     | cdc_ncm    | [13C53062B6](<Notebook/Dell/Latitude/Latitude 5320/2BFC68DC749F/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/13C53062B6>) |
+| 17e9:4340 | DisplayLink      | ThinkPad USB 3.0 Ultra Dock          | 3     | cdc_ncm... | [4365BDF905](<Notebook/Lenovo/ThinkPad/ThinkPad P15 Gen 1 20SUS26R00/98F6F4311C87/UBUNTU-20.04/5.14.0-1024-OEM/X86_64/4365BDF905>) |
+| 17ef:721e | Lenovo           | Powered Hub                          | 3     | r8152      | [F4F26A9357](<Notebook/Lenovo/ThinkPad/ThinkPad T490 20N3S27C00/4FABB701A0A0/UBUNTU-20.04/5.8.0-63-GENERIC/X86_64/F4F26A9357>) |
+| 0424:9500 | Microchip Tec... | LAN9500/LAN9500i                     | 2     | smsc95xx   | [2F9F2D0497](<Notebook/Panasonic/CF-53/CF-53JWX1CFG/02DE21A6B399/UBUNTU-20.04/5.8.0-50-GENERIC/X86_64/2F9F2D0497>) |
+| 050d:0128 | Belkin Compon... | Belkin USB 3.0 Hub                   | 2     | ax88179... | [DB38480B2F](<Notebook/Dell/Inspiron/Inspiron 5570/385FEAFE3C7C/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/DB38480B2F>) |
+| 17e9:430a | DisplayLink      | HP Port Replicator (Composite Dev... | 2     | cdc_ncm... | [1A353B9226](<Notebook/Lenovo/Yoga/Yoga 700-11ISK 80QE/C1E7C9DCEDD6/UBUNTU-20.10/5.8.0-32-GENERIC/X86_64/1A353B9226>) |
+| 17e9:430f | DisplayLink      | Kensington Dock (Composite Device)   | 2     | cdc_ncm    | [CE3EBEF6DC](<Notebook/Lenovo/ThinkPad/ThinkPad E550 20DF0040US/9298126B5153/ZORIN-15/5.3.0-28-GENERIC/X86_64/CE3EBEF6DC>) |
+| 17e9:431f | DisplayLink      | ThinkPad Basic USB 3.0 Dock          | 2     | cdc_ncm... | [C9837EF0C1](<Notebook/Lenovo/ThinkPad/ThinkPad P50 20EQA0GSLM/A3D5663CE0B5/UBUNTU-20.04/5.8.0-50-GENERIC/X86_64/C9837EF0C1>) |
+| 17e9:4351 | DisplayLink      | HP USB Dock                          | 2     | cdc_ncm    | [C400D6B3F2](<Notebook/Lenovo/IdeaPad/IdeaPad 330S-14IKB 81JM/43E0AB99DD44/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/C400D6B3F2>) |
+| 17ef:3098 | Lenovo           | Mini Dock                            | 2     | cdc_ether  | [78CB2CA751](<Notebook/Lenovo/ThinkPad/ThinkPad T495 20NJ0010BM/8B539696F948/UBUNTU-20.04/5.4.0-59-GENERIC/X86_64/78CB2CA751>) |
+| 03f0:0547 | Hewlett-Packard  | L2311c LAN7500 Ethernet              | 1     |            | [EBB304F58E](<Notebook/Dell/Precision/Precision 5520/CC4D70FDB6F0/UBUNTU-19.04/5.0.0-27-GENERIC/X86_64/EBB304F58E>) |
+| 03f0:0857 | Hewlett-Packard  | lt4220 Snapdragon X12 LTE            | 1     | cdc_ether  | [54BAAAD690](<Notebook/Dell/Precision/Precision 7730/42E975357450/UBUNTU-20.04/5.8.0-53-GENERIC/X86_64/54BAAAD690>) |
+| 0424:9e00 | Microchip Tec... | LAN9500A/LAN9500Ai                   | 1     | smsc95xx   | [09CFE58582](<Notebook/Panasonic/CF-53/CF-53SGV2QMG/DEE06CE990DF/UBUNTU-20.10/5.8.0-55-GENERIC/X86_64/09CFE58582>) |
+| 0df6:0072 | Sitecom Europe   | AX88179 Gigabit Ethernet [Sitecom]   | 1     | ax88179... | [85C6FB8933](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X512DA_F512DA/39BB7F1EFA33/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/85C6FB8933>) |
+| 17e9:433e | DisplayLink      | dynadock 4K                          | 1     | cdc_ncm    | [FDC926F819](<Notebook/Lenovo/ThinkPad/ThinkPad T460s 20FAS2G303/5386512A6B05/LINUXMINT-20.1/5.8.0-48-GENERIC/X86_64/FDC926F819>) |
+| 17e9:6004 | DisplayLink      | Targus USB3 DV4K DOCK w PD60W        | 1     | snd_usb... | [409E3B530B](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 6th 20KHCTO1WW/DB2D249E94BF/MANJARO/5.9.16-1-MANJARO/X86_64/409E3B530B>) |
+| 17e9:6011 | DisplayLink      | Plugable UD-6950 Docking Station     | 1     | cdc_ncm... | [F69FADFB4B](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus M16 GU603HM_GU603HM/89BB5FCE2323/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/F69FADFB4B>) |
+| 1c04:0015 | QNAP System      | QNAP QNA-UC5G1T USB to 5GbE Adapter  | 1     | aqc111     | [183CF86941](<Notebook/Eluktronics/THINN/THINN-15/40F3FD6BD10A/ARCH-ROLLING/5.8.9-ZEN2-1-ZENCJK/X86_64/183CF86941>) |
+| 2001:b301 | D-Link           | DUBE250 2.5GbE Adapter               | 1     | cdc_ncm    | [4DC4A0EFE0](<Notebook/Lenovo/ThinkPad/ThinkPad T14s Gen 1 20UHCTO1WW/F34F31471099/FEDORA-34/5.13.8-200.FC34.X86_64/X86_64/4DC4A0EFE0>) |
 
 ### Net/wimax (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 8086:0186 | Intel      | WiMAX Connection 2400m       | 56    | i2400m_usb | 2D0B219A36 |
-| 8086:0180 | Intel      | WiMAX Connection 2400m       | 55    | i2400m_usb | FFB279A366 |
-| 8086:1406 | Intel      | WiMAX Connection 2400m       | 44    | i2400m_usb | 787FE33124 |
-| 8087:07d6 | Intel      | Centrino Wireless-N + WiM... | 44    | i2400m_usb | A610876405 |
-| 8086:0188 | Intel      | WiMAX Connection 2400m       | 19    | i2400m_usb | 2495309045 |
-| 8086:0187 | Intel      | Centrino Advanced-N + WiM... | 14    | i2400m_usb | 33137C7C23 |
-| 8086:0182 | Intel      | WiMAX Connection 2400m       | 2     | i2400m_usb | 01517BE2D7 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 8086:0186 | Intel            | WiMAX Connection 2400m               | 61    | i2400m_usb | [D547C2E9D6](<Notebook/ASUSTek Computer/U43/U43F/12B28C98AD17/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/D547C2E9D6>) |
+| 8086:0180 | Intel            | WiMAX Connection 2400m               | 56    | i2400m_usb | [A933B77B15](<Notebook/ASUSTek Computer/N61/N61Vn/2976011E8405/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/A933B77B15>) |
+| 8087:07d6 | Intel            | Centrino Wireless-N + WiMAX 6150     | 47    | i2400m_usb | [08BF40800A](<Notebook/Sony/VPCF236/VPCF236FM/048DA2EA9551/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/08BF40800A>) |
+| 8086:1406 | Intel            | WiMAX Connection 2400m               | 44    | i2400m_usb | [35FFCAED33](<Notebook/Lenovo/IdeaPad/IdeaPad S10-2 20027/E23D1264EBC6/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-I586/I686/35FFCAED33>) |
+| 8086:0188 | Intel            | WiMAX Connection 2400m               | 21    | i2400m_usb | [E9737D434F](<Notebook/Dell/Precision/Precision M6600/8FB5BEAE810F/UBUNTU-20.04/5.13.0-28-GENERIC/X86_64/E9737D434F>) |
+| 8086:0187 | Intel            | Centrino Advanced-N + WiMAX 6250     | 16    | i2400m_usb | [8910DE29BC](<Notebook/Lenovo/ThinkPad/ThinkPad X201 3323LWA/73B8CF069195/ARCO-ROLLING/5.10.79-1-LTS/X86_64/8910DE29BC>) |
+| 8086:0182 | Intel            | WiMAX Connection 2400m               | 2     | i2400m_usb | [01517BE2D7](<Notebook/Dell/Inspiron/Inspiron 1110/AAEB47BE7B9E/ZORIN-15/5.4.0-47-GENERIC/X86_64/01517BE2D7>) |
 
 ### Net/wireless (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0bda:8179 | Realtek... | RTL8188EUS 802.11n Wirele... | 274   | r8188eu    | 67A9BA5988 |
-| 148f:7601 | Ralink ... | MT7601U Wireless Adapter     | 205   | mt7601u    | 8A74691BA9 |
-| 0bda:8189 | Realtek... | RTL8187B Wireless 802.11g... | 168   | rtl8187    | C0FAA178A2 |
-| 0cf3:9271 | Qualcom... | AR9271 802.11n               | 156   | ath9k_htc  | B9B0C35DB8 |
-| 148f:3070 | Ralink ... | RT2870/RT3070 Wireless Ad... | 119   | rt2800usb  | DA9ECB71EA |
-| 0bda:b812 | Realtek... | RTL88x2bu [AC1200 Techkey]   | 113   | 88x2bu     | 9ED49AE55E |
-| 0bda:c811 | Realtek... | 802.11ac NIC                 | 107   | 8821cu     | 870A2260FF |
-| 148f:5370 | Ralink ... | RT5370 Wireless Adapter      | 103   | rt2800usb  | CFA7B4AF8F |
-| 413c:81b6 | Dell       | DW5811e Snapdragonâ¢ ... | 86    | qcseria... | E7A049A026 |
-| 2357:0109 | TP-Link    | TL-WN823N v2/v3 [Realtek ... | 75    | rtl8xxxu   | 823C6074D8 |
-| 1199:9079 | Sierra ... | EM7455                       | 73    | qcseria... | 8A52B831D7 |
-| 2357:011e | TP-Link    | AC600 wireless Realtek RT... | 70    | 88XXau     | 8FA08D58EF |
-| 0bda:8197 | Realtek... | RTL8187B Wireless Adapter    | 67    | rtl8187    | 9881895B74 |
-| 0bda:8178 | Realtek... | RTL8192CU 802.11n WLAN Ad... | 66    | rtl8192... | EBD0874D7C |
-| 0bda:8176 | Realtek... | RTL8188CUS 802.11n WLAN A... | 63    | rtl8192... | 441840F603 |
-| 2357:010c | TP-Link    | TL-WN722N v2/v3 [Realtek ... | 60    | r8188eu    | BEA39BA8BE |
-| 0bda:8812 | Realtek... | RTL8812AU 802.11a/b/g/n/a... | 52    | 8812au     | B9B0C35DB8 |
-| 413c:81a3 | Dell       | Hub of E-Port Replicator     | 49    | qcserial   | CFE53904BC |
-| 03f0:581d | Hewlett... | lt4112 Gobi 4G Module Net... | 48    | qcserial   | FFB40F821B |
-| 0bda:f179 | Realtek... | RTL8188FTV 802.11b/g/n 1T... | 48    | rtl8188fu  | 7901CD9339 |
-| 03f0:9d1d | Hewlett... | lt4120 Snapdragon X5 LTE     | 46    | cdc_ether  | 71F0D8F5BB |
-| 1199:9041 | Sierra ... | EM7305 Modem                 | 46    | qcseria... | 6F921AA428 |
-| 0bda:8187 | Realtek... | RTL8187 Wireless Adapter     | 43    | rtl8187    | 966B07A428 |
-| 1199:9011 | Sierra ... | MC8305 Modem                 | 43    | qcseria... | 7FAB4F85E2 |
-| 7392:7811 | Edimax ... | EW-7811Un 802.11n Wireles... | 41    | rtl8192... | 31AC5CDF6E |
-| 0bda:818b | Realtek... | RTL8192EU 802.11b/g/n WLA... | 37    | rtl8xxxu   | D82C04D026 |
-| 413c:81b1 | Dell       | Wireless 5809e Gobiâ¢... | 33    | qcserial   | 793091AC6A |
-| 148f:5572 | Ralink ... | RT5572 Wireless Adapter      | 31    | rt2800usb  | ECC4515014 |
-| 0bda:a811 | Realtek... | RTL8811AU 802.11a/b/g/n/a... | 30    | 88XXau     | FE1E002CB0 |
-| 0b05:184c | ASUSTek... | 802.11ac NIC                 | 28    | 88x2bu     | 6027A620DD |
-| 0bda:0811 | Realtek... | Realtek 8812AU/8821AU 802... | 27    | rtl8812au  | 406FCB6975 |
-| 2357:012d | TP-Link    | Archer T3U [Realtek RTL88... | 25    | 88x2bu     | 0F2394B49D |
-| 148f:761a | Ralink ... | MT7610U ("Archer T2U" 2.4... | 24    | mt76x0u    | ADFE19C61C |
-| 0b05:17ba | ASUSTek... | N10 Nano 802.11n Network ... | 23    | rtl8192cu  | 3D1ADE180E |
-| 148f:2573 | Ralink ... | RT2501/RT2573 Wireless Ad... | 23    | rt73usb    | 0BFCBEEAB5 |
-| 12d1:15bb | Huawei ... | ME936 LTE/HSDPA+ 4G modem    | 22    | option     | 33D9922DDC |
-| 2357:0115 | TP-Link    | Archer T4U ver.3             | 22    | rtl88x2bu  | A23B230AD9 |
-| 148f:5372 | Ralink ... | RT5372 Wireless Adapter      | 21    | rt2800usb  | 44E9CE800D |
-| 413c:8194 | Dell       | Wireless 5630 (EVDO-HSPA)... | 20    | qcserial   | E307CD98F8 |
-| 0bda:8198 | Realtek... | RTL8187B Wireless Adapter    | 19    | rtl8187    | 9FB462D9F5 |
-| 8087:07d7 | Intel      | Centrino Wireless-N + WiM... | 19    | i2400m_usb | 2630072DDE |
-| 0846:9052 | NetGear    | A6100 AC600 DB Wireless A... | 18    | 8821au,... | D0898BDE70 |
-| 0bda:8171 | Realtek... | RTL8188SU 802.11n WLAN Ad... | 18    | r8712u     | 3FF4BE2B55 |
-| 0db0:6877 | Micro S... | RT2573                       | 18    | rt73usb    | 104090904D |
-| 1199:68a2 | Sierra ... | MC7710                       | 18    | qcserial   | 4732ADA902 |
-| 2357:011f | TP-Link    | 802.11ac WLAN Adapter        | 18    | 88XXau     | D932AC65A5 |
-| 0846:9053 | NetGear    | A6210                        | 17    | mt76x2u    | D1B1F5EEB4 |
-| 0b05:17d1 | ASUSTek... | AC51 802.11a/b/g/n/ac Wir... | 16    | mt76x0u    | A67BC74BFD |
-| 2357:0120 | TP-Link    | Archer T2U PLUS [RTL8821AU]  | 16    | 88XXau     | A23B230AD9 |
-| 0bda:8172 | Realtek... | RTL8191SU 802.11n WLAN Ad... | 15    | r8712u     | 152DD3680D |
-| 2357:0108 | TP-Link    | TL-WN822N Version 4 RTL81... | 15    | rtl8xxxu   | 0B2123C367 |
-| 2357:0138 | TP-Link    | 802.11ac NIC                 | 14    | 88x2bu     | 1310B8ABF4 |
-| 045e:02f9 | Microsoft  | Xbox Embedded Wireless       | 12    |            | 47AEE6E67E |
-| 045e:0719 | Microsoft  | Xbox 360 Wireless Adapter    | 12    | xpad       | 547EE4E1EA |
-| 07d1:3c0a | D-Link ... | DWA-140 RangeBooster N Ad... | 12    | rt2800usb  | 1161032A20 |
-| 0846:9030 | NetGear    | WNA1100 Wireless-N 150 [A... | 12    | ath9k_htc  | 191B8606BA |
-| 0bda:8813 | Realtek... | RTL8814AU 802.11a/b/g/n/a... | 12    | 8814au     | F6865A8228 |
-| 0e8d:7610 | MediaTek   | WiFi                         | 12    | mt76x0u    | 1F91E82C9F |
-| 1199:9063 | Sierra ... | EM7305                       | 12    | qcseria... | 13B9CE0773 |
-| 148f:2070 | Ralink ... | RT2070 Wireless Adapter      | 12    | rt2800usb  | 5153E99CCE |
-| 2357:0107 | TP-Link    | TL-WN821N v5/v6 [RTL8192EU]  | 12    | rtl8xxxu   | CCEE8AFB23 |
-| 0ace:1215 | ZyDAS      | ZD1211B 802.11g              | 11    | zd1211rw   | E8BA4FAFA0 |
-| 0b05:17ab | ASUSTek... | USB-N13 802.11n Network A... | 11    | rtl8192... | FC9C85E537 |
-| 2001:3319 | D-Link     | DWA-131 Wireless N Nano A... | 11    | rtl8xxxu   | 9F323164CD |
-| 07d1:3c03 | D-Link ... | AirPlus G DWL-G122 Wirele... | 10    | rt73usb    | B411603809 |
-| 0cf3:7015 | Qualcom... | TP-Link TL-WN821N v3 / TL... | 10    | ath9k_htc  | 30C73729A4 |
-| 148f:3072 | Ralink ... | RT3072 Wireless Adapter      | 10    | rt2800usb  | 368421D531 |
-| 148f:3572 | Ralink ... | RT3572 Wireless Adapter      | 10    | rt2800usb  | FAFC84EBC8 |
-| 2357:0105 | TP-Link    | Archer T1U 802.11a/n/ac W... | 10    | mt76x0u    | C42D20565C |
-| 0e8d:7612 | MediaTek   | MT7612U 802.11a/b/g/n/ac ... | 9     | mt76x2u    | BDBFF8ABC8 |
-| 12d1:14f1 | Huawei ... | Gobi 3000 HSPA+ Modem        | 9     | qcseria... | F0E8428FC2 |
-| 13b1:0042 | Linksys    | WUSB6100M 802.11a/b/g/n/a... | 9     | ath10k_usb | C7BE2FF77E |
-| 07d1:3c0d | D-Link ... | DWA-125 Wireless N 150 Ad... | 8     | rt2800usb  | DC7A02C862 |
-| 0846:9055 | NetGear    | A6150                        | 8     | 88x2bu     | C8FE2CC15E |
-| 0b05:1786 | ASUSTek... | USB-N10 802.11n Network A... | 8     | r8712u     | 02E1096135 |
-| 0bda:0179 | Realtek... | RTL8188ETV Wireless LAN 8... | 8     | r8188eu    | E2F47DDF56 |
-| 0bf8:100f | Fujitsu... | miniCard D2301 802.11bg W... | 8     |            | 20512BBBE4 |
-| 0cf3:1006 | Qualcom... | TP-Link TL-WN322G v3 / TL... | 8     | ath9k_htc  | 310DDB721F |
-| 2001:331d | D-Link     | DWA-171                      | 8     | 8821cu     | 9043957B5B |
-| 2001:331e | D-Link     | 802.11ac NIC                 | 8     | 88x2bu     | D4351AE10E |
-| 2357:010d | TP-Link    | 802.11n NIC                  | 8     | 8812au     | 6C2C32A145 |
-| 413c:81a9 | Dell       | Wireless 5808e Gobiâ¢... | 8     | qcseria... | 782A17C042 |
-| 7392:a812 | Edimax ... | AC600 USB                    | 8     | 88XXau     | 70EB81E641 |
-| 050d:705a | Belkin ... | F5D7050 Wireless G Adapte... | 7     | rt73usb    | 1380638BB1 |
-| 050d:845a | Belkin ... | F7D2101 802.11n Surf & Sh... | 7     | r8712u     | 09E0E6DEA3 |
-| 05c6:9205 | Qualcomm   | Gobi 2000                    | 7     | qcserial   | 32C38164AA |
-| 0846:9054 | NetGear    | Nighthawk A7000 802.11ac ... | 7     | 8814au     | 79E12D69EC |
-| 0b05:17d2 | ASUSTek... | USB-AC56 802.11a/b/g/n/ac... | 7     | 8812au     | 1473B3D2CA |
-| 2001:3315 | D-Link     | DWA-182 Wireless AC Dualb... | 7     | 8812au     | FC440EEE50 |
-| 2001:3c15 | D-Link     | DWA-140 RangeBooster N Ad... | 7     | rt2800usb  | B61E9946E0 |
-| 2717:4106 | Xiaomi     | MediaTek MT7601U [MI WiFi]   | 7     | mt7601u    | 101371762B |
-| 413c:81a4 | Dell       | Wireless 5570e HSPA+ (42M... | 7     | qcseria... | FD3AEFD54A |
-| 03f0:4e1d | Hewlett... | lt4111 LTE/EV-DO/HSPA+ Go... | 6     | qcserial   | 170DD8B241 |
-| 050d:945a | Belkin ... | F7D1101 v1 Basic Wireless... | 6     | r8712u     | 67A9610B67 |
-| 07d1:3c07 | D-Link ... | DWA-110 Wireless G Adapte... | 6     | rt73usb    | 84B1C46F3C |
-| 0846:4260 | NetGear    | WG111v3 54 Mbps Wireless ... | 6     | rtl8187    | 71A5232043 |
-| 13b1:003f | Linksys    | WUSB6300 802.11a/b/g/n/ac... | 6     | 8812au     | 5856D93198 |
-| 1737:0079 | 802.11g... | WUSB600N v2 Dual-Band Wir... | 6     | rt2800usb  | 51B5746D72 |
-| 2001:3308 | D-Link     | DWA-121 802.11n Wireless ... | 6     | rtl8192... | 03EC6B77AE |
-| 2001:330f | D-Link     | DWA-125 11n Adapter          | 6     | r8188eu    | C4119CC89A |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0bda:8179 | Realtek Semic... | RTL8188EUS 802.11n Wireless Netwo... | 298   | r8188eu    | [0BDEEA54A6](<Notebook/Fujitsu Siemens/AMILO/AMILO Li 2732/72DEA04CA4E4/KDE-NEON-20.04/5.11.0-41-GENERIC/X86_64/0BDEEA54A6>) |
+| 148f:7601 | Ralink Techno... | MT7601U Wireless Adapter             | 247   | mt7601u    | [83A319F258](<Notebook/Dell/Inspiron/Inspiron 1525/E3C6D99D7C40/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/83A319F258>) |
+| 0bda:8189 | Realtek Semic... | RTL8187B Wireless 802.11g 54Mbps ... | 184   | rtl8187    | [463CA7F3A3](<Notebook/Quanta/TW8/TW8-SW8-DW8/073CF94DED83/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/463CA7F3A3>) |
+| 0cf3:9271 | Qualcomm Athe... | AR9271 802.11n                       | 168   | ath9k_htc  | [C31B5D363F](<Notebook/Dell/Inspiron/Inspiron 15-5578/3139F7166296/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/C31B5D363F>) |
+| 0bda:b812 | Realtek Semic... | RTL88x2bu [AC1200 Techkey]           | 150   | 88x2bu     | [10C87BED94](<Notebook/Packard Bell/EasyNote/EasyNote TM85/FE9D28710D40/XUBUNTU-21.10/5.13.0-30-GENERIC/X86_64/10C87BED94>) |
+| 148f:3070 | Ralink Techno... | RT2870/RT3070 Wireless Adapter       | 137   | rt2800usb  | [5850A8DD22](<Notebook/ASUSTek Computer/K54/K54L/20010974C27A/ARCO-ROLLING/5.16.10-ARCH1-1/X86_64/5850A8DD22>) |
+| 0bda:c811 | Realtek Semic... | 802.11ac NIC                         | 125   | 8821cu     | [69CE23B9F3](<Notebook/System76/Lemur/Lemur Pro/00BA6B809DED/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/69CE23B9F3>) |
+| 148f:5370 | Ralink Techno... | RT5370 Wireless Adapter              | 121   | rt2800usb  | [CE6005769A](<Notebook/Medion/WIM/WIM2140/EDECB8B33C5A/UBUNTU-20.04/5.4.0-100-GENERIC/X86_64/CE6005769A>) |
+| 413c:81b6 | Dell             | DW5811e Snapdragon�?� X7 LTE         | 108   | qcseria... | [1EF8A55EDE](<Notebook/Dell/Latitude/Latitude E5470/9C8C05DE5674/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/1EF8A55EDE>) |
+| 1199:9079 | Sierra Wireless  | EM7455                               | 94    | qcseria... | [D5E5A6FD60](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 4th 20FCS12V06/02C322415C07/UBUNTU-20.04/5.0.0-27-GENERIC/X86_64/D5E5A6FD60>) |
+| 2357:0109 | TP-Link          | TL-WN823N v2/v3 [Realtek RTL8192EU]  | 88    | rtl8xxxu   | [9390BEF13C](<Notebook/Intel/Others/Others/87AC8F40732F/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/9390BEF13C>) |
+| 2357:011e | TP-Link          | 802.11ac WLAN Adapter                | 87    | 88XXau     | [75CA7615AC](<Notebook/Others/Others/Others/EA1AC3A6D868/UBUNTU-21.10/5.13.0-32-GENERIC/X86_64/75CA7615AC>) |
+| 0bda:8178 | Realtek Semic... | RTL8192CU 802.11n WLAN Adapter       | 74    | rtl8192... | [BEB58A9384](<Notebook/Lenovo/ThinkPad/ThinkPad L420 7829W8S/98BE45047BCF/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/BEB58A9384>) |
+| 0bda:8176 | Realtek Semic... | RTL8188CUS 802.11n WLAN Adapter      | 72    | rtl8192... | [0687A8A072](<Notebook/Packard Bell/EasyNote_MX/EasyNote_MX67/90D17E56798B/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/0687A8A072>) |
+| 0bda:8197 | Realtek Semic... | RTL8187B Wireless Adapter            | 72    | rtl8187    | [9E9C1B741B](<Notebook/Toshiba/Satellite/Satellite L350D/430E5424D73B/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/9E9C1B741B>) |
+| 2357:010c | TP-Link          | TL-WN722N v2/v3 [Realtek RTL8188EUS] | 72    | r8188eu    | [019EEB069D](<Notebook/ASUSTek Computer/UX303/UX303LAB/E19561E45808/LINUXMINT-20.2/5.4.0-94-GENERIC/X86_64/019EEB069D>) |
+| 0bda:8812 | Realtek Semic... | RTL8812AU 802.11a/b/g/n/ac 2T2R D... | 64    | 88XXau     | [E77116D171](<Notebook/Dell/Inspiron/Inspiron 5570/4B0C3FEB14BF/PARROT-5.0/5.15.0-15PARROT1-AMD64/X86_64/E77116D171>) |
+| 03f0:581d | Hewlett-Packard  | lt4112 Gobi 4G Module Network Device | 60    | qcserial   | [ECB1064B14](<Notebook/Hewlett-Packard/EliteBook/EliteBook 820 G2/20A1597C4E96/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/ECB1064B14>) |
+| 0bda:f179 | Realtek Semic... | RTL8188FTV 802.11b/g/n 1T1R 2.4G ... | 58    | rtl8188fu  | [7F0F38DC4D](<Notebook/Hewlett-Packard/15/15/877B5258AEB7/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/7F0F38DC4D>) |
+| 413c:81a3 | Dell             | Hub of E-Port Replicator             | 58    | qcserial   | [7004AC549B](<Notebook/Dell/Latitude/Latitude E7240/6731CDAE176D/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/7004AC549B>) |
+| 03f0:9d1d | Hewlett-Packard  | lt4120 Snapdragon X5 LTE             | 55    | cdc_ether  | [C6FA3E547D](<Notebook/Hewlett-Packard/EliteBook/EliteBook 820 G3/05112EB756D8/CLEAR-LINUX-OS-35970/5.10.103-54.LTS2020/X86_64/C6FA3E547D>) |
+| 1199:9041 | Sierra Wireless  | EM7305 Modem                         | 52    | qcserial   | [B5DA44235A](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK E736/2B012C7B67C5/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B5DA44235A>) |
+| 1199:9011 | Sierra Wireless  | MC8305                               | 50    | qcserial   | [ABB12ADCCC](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK S752/B7A7FF3F3DCB/UBUNTU-MATE-20.04/5.13.0-30-GENERIC/X86_64/ABB12ADCCC>) |
+| 7392:7811 | Edimax Techno... | EW-7811Un 802.11n Wireless Adapte... | 49    | rtl8192... | [E224468100](<Notebook/Hewlett-Packard/Stream/Stream Laptop 11-ah0XX/E2C0FC798366/ZORIN-16/5.13.0-30-GENERIC/X86_64/E224468100>) |
+| 0bda:8187 | Realtek Semic... | RTL8187 Wireless Adapter             | 47    | rtl8187    | [762406B308](<Notebook/Positivo/Mobile/Mobile/AF7F08E9B58F/LINUXMINT-20.3/5.4.0-97-GENERIC/X86_64/762406B308>) |
+| 0bda:818b | Realtek Semic... | RTL8192EU 802.11b/g/n WLAN Adapter   | 41    | rtl8xxxu   | [D2B007CB44](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2522W6G/DF037A621E83/XUBUNTU-20.04/5.13.0-28-GENERIC/X86_64/D2B007CB44>) |
+| 148f:5572 | Ralink Techno... | RT5572 Wireless Adapter              | 37    | rt2800usb  | [73526F92AC](<Notebook/Dell/XPS/XPS 15 7590/77162A4B48CB/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/73526F92AC>) |
+| 413c:81b1 | Dell             | Wireless 5809e Gobi�?� 4G LTE Mob... | 36    | qcserial   | [C15BA7893E](<Notebook/Dell/Latitude/Latitude 14 Rugged/B2F1D4BCE7F8/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/C15BA7893E>) |
+| 148f:761a | Ralink Techno... | MT7610U ("Archer T2U" 2.4G+5G WLA... | 33    | mt76x0u    | [4E3450D009](<Notebook/Jumper/EZbook/EZbook/DD86E9497CFB/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/4E3450D009>) |
+| 0bda:a811 | Realtek Semic... | RTL8811AU 802.11a/b/g/n/ac WLAN A... | 32    | 88XXau     | [1D8F5BE27C](<Notebook/ASUSTek Computer/GR/GR8/67E3798CCDF3/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/1D8F5BE27C>) |
+| 0b05:184c | ASUSTek Computer | 802.11ac NIC                         | 30    | 88x2bu     | [1575F2F0BE](<Notebook/Sony/SVE14/SVE14A2V2ES/F3A92336CE08/PARDUS-19.5/4.19.0-19-AMD64/X86_64/1575F2F0BE>) |
+| 0bda:0811 | Realtek Semic... | Realtek 8812AU/8821AU 802.11ac WL... | 30    | rtl8812au  | [F132300275](<Notebook/Dell/Latitude/Latitude E5570/FC038E0CD80F/KUBUNTU-20.04/5.13.0-30-GENERIC/X86_64/F132300275>) |
+| 2357:012d | TP-Link          | Archer T3U [Realtek RTL8812BU]       | 30    | 88x2bu     | [6B892C83FF](<Notebook/Dell/Inspiron/Inspiron 5437/3C8520C8399B/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/6B892C83FF>) |
+| 2357:011f | TP-Link          | 802.11ac WLAN Adapter                | 28    | 88XXau     | [066FECF595](<Notebook/Acer/Aspire/Aspire 5750G/168C1610F4AF/KUBUNTU-21.10/5.13.0-30-GENERIC/X86_64/066FECF595>) |
+| 2357:0115 | TP-Link          | Archer T4U ver.3                     | 27    | rtl88x2bu  | [45ABB29457](<Notebook/Dell/Inspiron/Inspiron 5547/8B1D61AE8AE5/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/45ABB29457>) |
+| 0b05:17ba | ASUSTek Computer | N10 Nano 802.11n Network Adapter ... | 25    | rtl8192... | [5D3D7C5340](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop M3500QA_D3500QA/01760F4C2219/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/5D3D7C5340>) |
+| 148f:2573 | Ralink Techno... | RT2501/RT2573 Wireless Adapter       | 25    | rt73usb    | [E6C48CF2F4](<Notebook/Hewlett-Packard/550/550/C76A5CC9ABCD/LINUXMINT-20.3/5.4.0-91-GENERIC/X86_64/E6C48CF2F4>) |
+| 148f:5372 | Ralink Techno... | RT5372 Wireless Adapter              | 25    | rt2800usb  | [601FB323DC](<Notebook/Apple/MacBookPro9/MacBookPro9,2/EB277B24C2BC/KALI-2021.4/5.15.0-KALI2-AMD64/X86_64/601FB323DC>) |
+| 12d1:15bb | Huawei Techno... | ME936 LTE/HSDPA+ 4G modem            | 24    | option     | [20764E8EDE](<Notebook/ASUSTek Computer/BU203/BU203UA/FD4661A696AE/DEBIAN-11/5.10.0-9-AMD64/X86_64/20764E8EDE>) |
+| 0bda:8171 | Realtek Semic... | RTL8188SU 802.11n WLAN Adapter       | 22    | r8712u     | [62E512AD37](<Notebook/Lenovo/IdeaPad/IdeaPad 330-15IGM 81D1/4A58A7B1854B/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/62E512AD37>) |
+| 0bda:8198 | Realtek Semic... | RTL8187B Wireless Adapter            | 22    | rtl8187    | [8023F07E6C](<Notebook/Toshiba/Satellite/Satellite L350D/8D3893A85567/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/8023F07E6C>) |
+| 2357:0120 | TP-Link          | Archer T2U PLUS [RTL8821AU]          | 22    | 88XXau     | [4425801F5C](<Notebook/Toshiba/Satellite/Satellite L10W-B-101/D8FCAC83307E/MANJARO/5.15.25-1-MANJARO/X86_64/4425801F5C>) |
+| 1199:68a2 | Sierra Wireless  | MC7700                               | 21    | qcserial   | [488B80A942](<Notebook/Panasonic/CF-31/CF-31SBLJGDM/3523B29A349F/ELEMENTARY-5.1.7/5.4.0-97-GENERIC/X86_64/488B80A942>) |
+| 0846:9053 | NetGear          | A6210                                | 20    | mt76x2u    | [862A31FA80](<Notebook/Dell/Inspiron/Inspiron 5548/B32A4E77F99D/MANJARO/5.15.21-1-MANJARO/X86_64/862A31FA80>) |
+| 413c:8194 | Dell             | Wireless 5630 (EVDO-HSPA) Mobile ... | 20    | qcserial   | [D630AE711A](<Notebook/Dell/Latitude/Latitude E6420/A68B0251A29E/POP!_OS-21.10/5.15.8-76051508-GENERIC/X86_64/D630AE711A>) |
+| 8087:07d7 | Intel            | Centrino Wireless-N + WiMAX 6150     | 20    | i2400m_usb | [FFB36AAC10](<Notebook/Lenovo/V570/V570 1066AJU/67C9AB945859/UBUNTU-20.04/5.11.0-38-GENERIC/X86_64/FFB36AAC10>) |
+| 2357:0138 | TP-Link          | 802.11ac NIC                         | 19    | 88x2bu     | [65F7DE0F15](<Notebook/Dell/Inspiron/Inspiron 14 5410/7AD42302FB84/PREDATOR-OS-2.0/5.16.10-051610-GENERIC/X86_64/65F7DE0F15>) |
+| 0846:9052 | NetGear          | A6100 AC600 DB Wireless Adapter [... | 18    | 8821au,... | [D0898BDE70](<Notebook/Toshiba/Satellite/Satellite L740/F91EFCBE3D87/KDE-NEON-20.04/5.8.0-63-GENERIC/X86_64/D0898BDE70>) |
+| 0bda:8813 | Realtek Semic... | RTL8814AU 802.11a/b/g/n/ac Wirele... | 18    | 8814au     | [29F68FD73C](<Notebook/Toshiba/Satellite/Satellite L775D/E00B759CD18B/DEBIAN-11/5.10.0-11-AMD64/X86_64/29F68FD73C>) |
+| 0db0:6877 | Micro Star In... | RT2573                               | 18    | rt73usb    | [104090904D](<Notebook/Dixonsxp/F71/F71IX1/EC1B9A94E6F9/UBUNTU-20.04/5.8.0-38-GENERIC/X86_64/104090904D>) |
 
 ### Network (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0bda:8153 | Realtek... | RTL8153 Gigabit Ethernet ... | 1256  | r8152      | 89135238FE |
-| 04e8:6863 | Samsung... | Galaxy series, misc. (tet... | 243   | rndis_host | 02BA908575 |
-| 0b95:1790 | ASIX El... | AX88179 Gigabit Ethernet     | 193   | ax88179... | F55CA527BE |
-| 2717:ff80 | Xiaomi     | Mi/Redmi series (RNDIS)      | 175   | rndis_host | 65C122FE69 |
-| 0bda:8152 | Realtek... | RTL8152 Fast Ethernet Ada... | 154   | r8152      | 8A52B831D7 |
-| 0bda:b720 | Realtek... | RTL8723BU 802.11b/g/n WLA... | 137   | rtl8xxxu   | FD406382B2 |
-| 12d1:108a | Huawei ... | ANE-LX1                      | 128   | rndis_host | 9231EABDB2 |
-| 04e8:6864 | Samsung... | GT-I9070 (network tetheri... | 104   | rndis_host | 905FCE5118 |
-| 1199:a001 | Sierra ... | EM7345 4G LTE                | 82    | cdc_mbim   | DF466B506D |
-| 12d1:14db | Huawei ... | E353/E3131                   | 80    | cdc_ether  | 90BE7D16BE |
-| 2357:0601 | TP-Link    | UE300 10/100/1000 LAN (et... | 76    | r8152      | 4F39E11826 |
-| 2cb7:0210 | Fibocom    | L830-EB-00 LTE WWAN Modem    | 73    | cdc_acm    | 91FC910CF6 |
-| 0e8d:2004 | MediaTek   | CUBOT J3 PRO                 | 63    | rndis_host | 0BA26CCC72 |
-| 22b8:2e24 | Motorol... | moto g stylus                | 56    | rndis_host | 93116D84F3 |
-| 17ef:3082 | Lenovo     | ThinkPad TBT 3 Dock          | 54    | r8152      | C625F457A9 |
-| 19d2:1405 | ZTE WCD... | ZTE Mobile Broadband Station | 54    | cdc_ether  | C9D1B330A2 |
-| 17ef:a387 | Lenovo     | USB-C Dock Ethernet          | 52    | r8152      | 3FC424B8C6 |
-| 17e9:6006 | Display... | Dell Universal Dock D6000    | 51    | cdc_ncm    | BC0BFCD534 |
-| 03f0:371d | Hewlett... | un2430 Mobile Broadband M... | 39    | qcserial   | 18F27D1F5C |
-| 0b95:772b | ASIX El... | AX88772B                     | 38    | asix       | BDBFF8ABC8 |
-| 17e9:4307 | Display... | LAPDOCK                      | 38    | cdc_ncm    | 3F5D6AAAB8 |
-| 05c6:f00e | Qualcomm   | SDM632-MTP _SN:756EE0DB      | 36    | rndis_host | B8ED23FD23 |
-| 0fe6:9700 | ICS Advent | DM9601 Fast Ethernet Adapter | 31    | dm9601,... | 97B4291E10 |
-| 18d1:4ee3 | Google     | Nexus/Pixel Device (tether)  | 29    | rndis_host | 370B129F3F |
-| 17ef:a359 | Lenovo     | ThinkPad Lan                 | 28    | cdc_ether  | E16A18BC8B |
-| 22d9:276a | OPPO El... | SDM450-MTP _SN:C4014000      | 28    | rndis_host | 03367E80DF |
-| 17e9:6000 | Display... | USB 3.0 Dual 4K Dock         | 27    | snd_usb... | 50385DDE8B |
-| 0bda:c820 | Realtek... | 802.11ac NIC                 | 26    | btusb      | 033FE23DF1 |
-| 17ef:3069 | Lenovo     | ThinkPad TBT3 LAN            | 26    | r8152      | AA67AEB304 |
-| 17e9:436e | Display... | Dell D3100 Docking Station   | 23    | cdc_ncm    | 946790A20E |
-| 0bda:1724 | Realtek... | RTL8723AU 802.11n WLAN Ad... | 22    | rtl8xxxu   | F5565DFB2A |
-| 15a9:002d | Gemtek     | WLTUBA-107 [Yota 4G LTE]     | 22    | cdc_ether  | 10CA362CF0 |
-| 17ef:3062 | Lenovo     | ThinkPad Dock Ethernet [R... | 22    | r8152      | E18202A558 |
-| 2a70:f00e | OnePlus... | AC2003                       | 22    | rndis_host | 44537C7FBA |
-| 0b95:7720 | ASIX El... | AX88772                      | 20    | asix       | B8DBB2F250 |
-| 0b95:7e2b | ASIX El... | AX88772B Fast Ethernet Co... | 19    | asix       | 18263076EA |
-| 05ac:12ab | Apple      | iPad 4/Mini1                 | 18    | ipheth     | 13D7AD71C7 |
-| 05ac:1402 | Apple      | Ethernet Adapter [A1277]     | 18    | asix       | 619A3816EB |
-| 8087:0911 | Intel      | PRODUCT_MODEM                | 18    | cdc_mbim   | B95391E679 |
-| 2e04:c022 | HMD Global | Nokia 3.1                    | 17    | rndis_host | EF2DA9ECCA |
-| 1bbb:0174 | T & A M... | Alcatel 1S                   | 16    | rndis_host | 9D0531FFE0 |
-| 05ac:8233 | Apple      | T2 Controller                | 15    | cdc_ncm    | 7B3CDDA6E2 |
-| 05c6:9024 | Qualcomm   | SM8250-APOLLO _SN:B760817D   | 15    | rndis_host | A49A61FB7D |
-| 0e8d:2005 | MediaTek   | WP5                          | 15    | rndis_host | 3BBEC8B8FD |
-| 0b95:772a | ASIX El... | AX88772A Fast Ethernet       | 14    | asix       | E7E870C6CC |
-| 0bb4:0003 | HTC (Hi... | MT65xx Android Phone         | 14    | rndis_host | 0E99848A09 |
-| 19d2:1365 | ZTE WCD... | Z6201V                       | 14    | rndis_host | 0E84E432D9 |
-| 1004:6344 | LG Elec... | LM-X420xxx/G2 Android Pho... | 13    | rndis_h... | 6C15236BA3 |
-| 216f:0043 | NTmore     | JMR814                       | 13    | cdc_ether  | 32F81DC962 |
-| 2357:0602 | TP-Link    | USB 10/100 LAN               | 12    | cdc_ether  | D6E67470FF |
-| 04b4:3610 | Cypress... | K38231_03                    | 11    | ax88179... | 711E2E3960 |
-| 1376:4e61 | Vimtron... | Mobile Composite Device Bus  | 11    | rndis_host | 5E8534FC80 |
-| 0846:6a00 | NetGear    | WG111v2 54 Mbps Wireless ... | 10    | rtl8187    | 96DA43B986 |
-| 17e9:4306 | Display... | Targus USB3.0 DV2K Dock w... | 10    | cdc_ncm    | BB62C2B79E |
-| 17e9:4323 | Display... | Plugable UD-3900             | 10    | cdc_ncm... | B4171E377E |
-| 17ef:304f | Lenovo     | RTL8153 Gigabit Ethernet ... | 10    | r8152      | 1E1E40CE8B |
-| 13b1:0041 | Linksys    | Gigabit Ethernet Adapter     | 9     | r8152      | 0F6D7BCF66 |
-| 17e9:4302 | Display... | ThinkPad USB 3.0 Dock        | 9     | cdc_ncm    | 10C9991F0B |
-| 2001:1a02 | D-Link     | DUB-E100 Fast Ethernet Ad... | 9     | asix       | BC4F8ACAF2 |
-| 2001:4a00 | D-Link     | DUB-1312 Gigabit Ethernet... | 9     | ax88179... | 2872BD6B13 |
-| 03f0:026a | Hewlett... | L830-EB                      | 8     | cdc_acm    | 8ECD82AC84 |
-| 0bda:d723 | Realtek... | 802.11n WLAN Adapter         | 8     | btusb      | E5E22DF913 |
-| 1782:5d20 | Spreadt... | Unisoc Phone                 | 8     | rndis_host | 4FAEB04124 |
-| 17ef:720c | Lenovo     | USB-C to LAN                 | 8     | r8152      | 3047B3EC7C |
-| 0a46:1269 | Davicom... | DM9621A USB To FastEther     | 7     | dm9601     | 8774B51F01 |
-| 1004:61da | LG Elec... | G2 Android Phone [tetheri... | 7     | rndis_host | F91A752D4D |
-| 1076:8002 | GCT Sem... | LU150 LTE Modem [Yota LU150] | 7     | rndis_host | F72210300B |
-| 17e9:4305 | Display... | dynadock U3.0                | 7     | cdc_ncm... | F91B1F41FC |
-| 17ef:7205 | Lenovo     | Thinkpad USB LAN             | 7     | r8152      | 0F8A8671F2 |
-| 2cb7:0002 | Fibocom    | L831-EAU                     | 7     | cdc_acm    | 6738439DE9 |
-| 0489:c022 | Foxconn... | Nokia 7 plus                 | 6     | rndis_host | 68D0129E2D |
-| 0bb4:0ffe | HTC (Hi... | Desire HD (modem mode)       | 6     | rndis_host | 035B3CDC60 |
-| 12d1:260d | Huawei ... | TIT-L01                      | 5     | rndis_host | 85F0F44820 |
-| 17ef:7436 | Lenovo     | Android Phone                | 5     | rndis_host | 3412BF6285 |
-| 056a:0084 | Wacom      | ACK-40401 [Wireless Acces... | 4     | usbhid     | FAEA47290A |
-| 0846:68e1 | NetGear    | LB1120-100NAS                | 4     | rndis_host | F6856776E4 |
-| 0bb4:0004 | HTC (Hi... | 779                          | 4     | rndis_host | 5B701C891F |
-| 0bda:b82c | Realtek... | 802.11ac NIC                 | 4     | btusb      | 2ABA1A12DD |
-| 0fca:8017 | Researc... | BlackBerry                   | 4     | cdc_ncm    | BC53AD8072 |
-| 15a9:003e | Gemtek     | Yota Many                    | 4     | rndis_host | 0341BE76C2 |
-| 17e9:4318 | Display... | Dell USB 3.0 Dock            | 4     | cdc_ncm    | 8F1F4A2C99 |
-| 17e9:436f | Display... | Dell 4-in-1 Adapter          | 4     | cdc_ncm    | DB7C1566DB |
-| 17ef:7214 | Lenovo     | USB-C Hub                    | 4     | r8152      | 4322CD9ADF |
-| 1bbb:0173 | T & A M... | Alcatel_5002R                | 4     | rndis_host | 6F17F5D2C0 |
-| 1bbb:f00e | T & A M... | QM215-QRD _SN:6B7D8716       | 4     | rndis_host | 99898B4C58 |
-| 413c:81c2 | Dell       | DW5811e Snapdragonâ¢ ... | 4     | cdc_mbim   | 17D97E59DE |
-| 413c:81d9 | Dell       | DW5820e L850-GL              | 4     | cdc_acm    | B42321B1C2 |
-| 9710:7830 | MosChip... | MCS7830 10/100 Mbps Ether... | 4     | mcs7830    | E26F3C0F44 |
-| 03f0:541d | Hewlett... | hs3114 HSPA+ Mobile Broad... | 3     |            | 4D8CCEE335 |
-| 0424:7500 | Microch... | LAN7500 Ethernet 10/100/1... | 3     | smsc75xx   | B60E24C725 |
-| 0424:ec00 | Standar... | SMSC9512/9514 Fast Ethern... | 3     | smsc95xx   | 212A084B93 |
-| 05c6:9057 | Qualcomm   | Android                      | 3     | rndis_host | E99E0681D1 |
-| 0bda:8050 | Realtek... | USB 10/100 LAN               | 3     | r8152      | C04C98C26F |
-| 0bda:8150 | Realtek... | RTL8150 Fast Ethernet Ada... | 3     | rtl8150    | AF7D2D4EB5 |
-| 12d1:1050 | Huawei ... | Android Phone                | 3     | rndis_host | DC67A0DEAA |
-| 15a9:002b | Gemtek     | Yota Many                    | 3     | rndis_host | 94A0B982A5 |
-| 17ef:7203 | Lenovo     | Ethernet adapter [U2L 100... | 3     | asix       | 4322CD9ADF |
-| 17ef:7500 | Lenovo     | VIBEUI                       | 3     | rndis_host | 302B62A5C7 |
-| 1bbb:2026 | T & A M... | ALCATEL ONE TOUCH POP C1     | 3     | cdc_eem    | 0E00B75FEA |
-| 2001:3c05 | D-Link     | DUB-E100 Fast Ethernet Ad... | 3     | asix       | 1C4FF3EC3C |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0bda:8153 | Realtek Semic... | RTL8153 Gigabit Ethernet Adapter     | 1618  | r8152      | [7D27557EBE](<Notebook/Dell/XPS/XPS 15 9500/3F35783A65E6/UBUNTU-21.10/5.13.0-27-GENERIC/X86_64/7D27557EBE>) |
+| 04e8:6863 | Samsung Elect... | Galaxy series, misc. (tethering m... | 298   | rndis_host | [62F3B41D12](<Notebook/ASUSTek Computer/UX31/UX31E/22CCF8FF6593/OPENMANDRIVA-4.50/5.14.7-DESKTOP-1OMV4050/X86_64/62F3B41D12>) |
+| 0b95:1790 | ASIX Electronics | AX88179 Gigabit Ethernet             | 253   | ax88179... | [589486D805](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/26E6E3C2710A/UBUNTU-21.10/5.15.27-051527-GENERIC/X86_64/589486D805>) |
+| 2717:ff80 | Xiaomi           | Mi/Redmi series (RNDIS)              | 208   | rndis_host | [291341394C](<Notebook/Acer/Aspire/Aspire 4752/F6D37DE2EA11/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/291341394C>) |
+| 0bda:8152 | Realtek Semic... | RTL8152 Fast Ethernet Adapter        | 191   | r8152      | [698AF00B9C](<Notebook/MSI/Modern/Modern 14 B4MW/6E9EA3CA6611/ARCH-ROLLING/5.16.13-ARCH1-1/X86_64/698AF00B9C>) |
+| 0bda:b720 | Realtek Semic... | 802.11n WLAN Adapter                 | 167   | rtl8xxxu   | [674A4FBEDE](<Notebook/Chuwi/HeroBook/HeroBook Air/96A0EC35E00A/ZORIN-16/5.11.0-38-GENERIC/X86_64/674A4FBEDE>) |
+| 12d1:108a | Huawei Techno... | ELS-NX9                              | 141   | rndis_host | [BB9DAA5AB1](<Notebook/Dell/Inspiron/Inspiron 1545/3BE885BACF91/OPENMANDRIVA-4.2/5.11.12-DESKTOP-1OMV4002/X86_64/BB9DAA5AB1>) |
+| 04e8:6864 | Samsung Elect... | GT-I9070 (network tethering, USB ... | 125   | rndis_host | [2693582A54](<Notebook/Hewlett-Packard/Laptop/Laptop 15-da2xxx/548E7C53EBB9/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/2693582A54>) |
+| 12d1:14db | Huawei Techno... | E353/E3131                           | 97    | cdc_ether  | [2DC30249B7](<Notebook/Fujitsu/FMVA33/FMVA33LB2/6669A168BD57/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/2DC30249B7>) |
+| 1199:a001 | Sierra Wireless  | EM7345 4G LTE                        | 94    | cdc_mbim   | [3667F5B9E9](<Notebook/Lenovo/ThinkPad/ThinkPad X250 20CM001XMC/63B862C115F0/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/3667F5B9E9>) |
+| 2357:0601 | TP-Link          | UE300 10/100/1000 LAN (ethernet m... | 94    | r8152      | [D3AD998DFA](<Notebook/HONOR/BMH-WCX/BMH-WCX9/19886291EEA7/DEBIAN-11/5.15.0-2-AMD64/X86_64/D3AD998DFA>) |
+| 2cb7:0210 | Fibocom          | L830-EB-00 LTE WWAN Modem            | 82    | cdc_acm    | [4766FE6362](<Notebook/Lenovo/ThinkPad/ThinkPad T490 20N2000KRT/974FF46B3D36/ARCH-ROLLING/5.16.13-ARCH1-1/X86_64/4766FE6362>) |
+| 0e8d:2004 | MediaTek         | TECNO SPARK 7                        | 74    | rndis_host | [EE905A56C9](<Notebook/ASUSTek Computer/ROG/ROG Strix G513IC_G513IC/204816B28F08/ARCO-ROLLING/5.16.11-ARCH1-1/X86_64/EE905A56C9>) |
+| 17ef:3082 | Lenovo           | ThinkPad TBT 3 Dock                  | 72    | r8152      | [48C1285EEC](<Notebook/Lenovo/ThinkPad/ThinkPad P53 20QN0011IV/90C24C7500E3/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/48C1285EEC>) |
+| 22b8:2e24 | Motorola PCS     | motorola edge                        | 67    | rndis_host | [B7250E82A1](<Notebook/ASUSTek Computer/N551/N551VW/ED4708B95D9A/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/B7250E82A1>) |
+| 17ef:a387 | Lenovo           | USB-C Dock Ethernet                  | 64    | r8152      | [B48A6240BF](<Notebook/Lenovo/ThinkPad/ThinkPad E15 20RD0016GE/4F4BEFFC091C/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/B48A6240BF>) |
+| 17e9:6006 | DisplayLink      | Dell Universal Dock D6000            | 62    | cdc_ncm    | [9BB17A1C87](<Notebook/Lenovo/ThinkPad/ThinkPad T15 Gen 2i 20W4000NRT/A8DFB379DA21/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/9BB17A1C87>) |
+| 19d2:1405 | ZTE WCDMA Tec... | ZTE Mobile Broadband Station         | 57    | cdc_ether  | [9FBDF4DFC2](<Notebook/ASUSTek Computer/X555/X555LJ/9BAD90DC2F5F/DEVUAN-4/5.10.0-9-AMD64/X86_64/9FBDF4DFC2>) |
+| 0b95:772b | ASIX Electronics | AX88772B                             | 46    | asix       | [4A49294D21](<Notebook/Multilaser/DS/DS133/5A1E6E974FF3/ZORIN-16/5.13.0-30-GENERIC/X86_64/4A49294D21>) |
+| 17e9:4307 | DisplayLink      | usb_device                           | 46    | cdc_ncm    | [D4B09F8302](<Notebook/Hewlett-Packard/ProBook/ProBook 450 G8 Notebook PC/E81CDA8D4E9C/UBUNTU-20.04/5.13.0-28-GENERIC/X86_64/D4B09F8302>) |
+| 03f0:371d | Hewlett-Packard  | un2430 Mobile Broadband Module       | 45    | qcserial   | [C6A3599160](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2560p/CE037D037263/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/C6A3599160>) |
+| 05c6:f00e | Qualcomm         | Mobile Router                        | 44    | rndis_host | [AEF8901D13](<Notebook/ASUSTek Computer/X541/X541UV/6D894B1F1576/POP!_OS-20.04/5.15.15-76051515-GENERIC/X86_64/AEF8901D13>) |
+| 0bda:c820 | Realtek Semic... | 802.11ac NIC                         | 38    | btusb      | [129C8A24D9](<Notebook/Others/Others/Others/6FADBFBB8B49/DEBIAN-11/5.10.0-11-AMD64/X86_64/129C8A24D9>) |
+| 0fe6:9700 | ICS Advent       | DM9601 Fast Ethernet Adapter         | 38    | dm9601,... | [CFDEE7D88E](<Notebook/Hewlett-Packard/Laptop/Laptop 17-cn0xxx/BA73388E911A/UBUNTU-21.10/5.15.13-051513-GENERIC/X86_64/CFDEE7D88E>) |
+| 17ef:a359 | Lenovo           | ThinkPad Lan                         | 37    | cdc_ether  | [33CE116B8A](<Notebook/Lenovo/ThinkBook/ThinkBook 16p Gen 2 20YM/4DAF13AEA8CC/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/33CE116B8A>) |
+| 22d9:276a | oneplus          | Nord 2 5G                            | 36    | rndis_host | [14237B32D9](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop M3500QA_M3500QA/701977B77E24/ZORIN-16/5.13.0-35-GENERIC/X86_64/14237B32D9>) |
+| 18d1:4ee3 | Google           | Nexus/Pixel Device (tether)          | 34    | rndis_host | [04D70DFE98](<Notebook/Dell/XPS/XPS 15 9510/264AB01B6EF7/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/04D70DFE98>) |
+| 0bda:d723 | Realtek Semic... | 802.11n WLAN Adapter                 | 33    | btusb      | [C166EC8175](<Notebook/Noblex/N14/N14WD21/5082BCE4838F/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/C166EC8175>) |
+| 17e9:6000 | DisplayLink      | Universal Dual 4K Video Dock         | 32    | cdc_ncm    | [4F65353F3E](<Notebook/Lenovo/ThinkPad/ThinkPad T14s Gen 1 20T1S8E400/DFC9BE7636A6/XUBUNTU-20.04/5.13.0-35-GENERIC/X86_64/4F65353F3E>) |
+| 17ef:3069 | Lenovo           | ThinkPad TBT3 LAN                    | 31    | r8152      | [FDA7557AA0](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L60033MX/18E95B12F364/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/FDA7557AA0>) |
+| 17e9:436e | DisplayLink      | Dell D3100 Docking Station           | 29    | cdc_ncm    | [0E9A8AA6CC](<Notebook/Dell/Latitude/Latitude E6430/7311D9CF307A/KALI-2022.1/5.15.0-KALI3-AMD64/X86_64/0E9A8AA6CC>) |
+| 2a70:f00e | OnePlus          | OnePlus                              | 28    | rndis_host | [EA12D27CF9](<Notebook/ASUSTek Computer/ASUS/ASUS TUF Gaming A15 FA506IC_FA566IC/18C77343A370/LINUXMINT-20.3/5.4.0-91-GENERIC/X86_64/EA12D27CF9>) |
+| 0bda:1724 | Realtek Semic... | RTL8723AU 802.11n WLAN Adapter       | 27    | rtl8xxxu   | [347317645D](<Notebook/Lenovo/IdeaPad/IdeaPad Yoga 13 20175/57CB55619157/XUBUNTU-21.10/5.13.0-25-GENERIC/X86_64/347317645D>) |
+| 0b95:7720 | ASIX Electronics | AX88772                              | 23    | asix       | [1A8B02FE5E](<Notebook/Others/Others/Others/7503F5C8DFAB/UBUNTU-21.10/5.13.0-32-GENERIC/X86_64/1A8B02FE5E>) |
+| 17ef:3062 | Lenovo           | USB-C Dock Ethernet                  | 23    | r8152      | [95FF70277E](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/4E4A8BB16FF0/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/95FF70277E>) |
+| 15a9:002d | Gemtek           | WLTUBA-107 [Yota 4G LTE]             | 22    | cdc_ether  | [10CA362CF0](<Notebook/ASUSTek Computer/VivoBook/VivoBook 15_ASUS Laptop X540BA/3F89C084CAA9/LMDE-4/4.19.0-17-AMD64/X86_64/10CA362CF0>) |
+| 0b95:7e2b | ASIX Electronics | AX88772B Fast Ethernet Controller    | 21    | asix       | [5C8D71134E](<Notebook/HUAWEI/HLYL-WXX/HLYL-WXX9/8422430190DF/ENDEAVOUROS/5.16.9-ARCH1-1/X86_64/5C8D71134E>) |
+| 05ac:12ab | Apple            | iPad 4/Mini1                         | 20    | ipheth     | [C4651BDBC6](<Notebook/Samsung Electronics/RC530/RC530-RC730/AE11140B6A56/GENTOO-2.7/5.10.61-GENTOO/X86_64/C4651BDBC6>) |
+| 05ac:8233 | Apple            | T2 Controller                        | 20    | cdc_ncm    | [3E35C49D6C](<Notebook/Apple/MacBookPro16/MacBookPro16,1/C0EB43C4249B/UBUNTU-20.04/5.4.0-99-GENERIC/X86_64/3E35C49D6C>) |
+| 05c6:9024 | Qualcomm         | FP3                                  | 20    | rndis_host | [393E833123](<Notebook/Lenovo/ThinkPad/ThinkPad P1 Gen 3 20TJS2KM00/A298F1ED5E8C/ARCH-ROLLING/5.15.24-2-LTS/X86_64/393E833123>) |
+| 2e04:c022 | HMD Global       | SDM439-QRD _SN:13A316C0              | 19    | rndis_host | [8A245360D3](<Notebook/Acer/Swift/Swift SF114-34/F052535BF303/LINUXMINT-20.2/5.4.0-91-GENERIC/X86_64/8A245360D3>) |
+| 8087:0911 | Intel            | PRODUCT_MODEM                        | 19    | cdc_mbim   | [7FF8A61256](<Notebook/Micromax/Canvas/Canvas Laptab LT777/B50A81E56837/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/7FF8A61256>) |
+| 05ac:1402 | Apple            | Ethernet Adapter [A1277]             | 18    | asix       | [619A3816EB](<Notebook/Apple/MacBookPro11/MacBookPro11,3/406CB65FC827/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/619A3816EB>) |
+| 0e8d:2005 | MediaTek         | moto g(8) power lite                 | 18    | rndis_host | [C40A0C5222](<Notebook/Lenovo/ThinkPad/ThinkPad E495 20NES01600/B3AE3A54FFB2/MANJARO/5.15.19-1-MANJARO/X86_64/C40A0C5222>) |
+| 1bbb:0174 | T & A Mobile ... | Alcatel 3X                           | 16    | rndis_host | [9D0531FFE0](<Notebook/Lenovo/B590/B590 37613VG/4B8ADC219F28/LINUXMINT-20.1/5.4.0-70-GENERIC/X86_64/9D0531FFE0>) |
+| 0b95:772a | ASIX Electronics | AX88772A Fast Ethernet               | 15    | asix       | [1AA2CD2E8F](<Notebook/Apple/MacBookPro10/MacBookPro10,1/50E644288744/LUBUNTU-21.10/5.13.0-19-GENERIC/X86_64/1AA2CD2E8F>) |
+| 1004:6344 | LG Electronics   | LM-X420xxx/G2 Android Phone (USB ... | 15    | rndis_h... | [C3A95BEF82](<Notebook/Toshiba/Satellite/Satellite A215/1553956409BD/UBUNTU-20.10/5.8.0-43-GENERIC/X86_64/C3A95BEF82>) |
+| 2357:0602 | TP-Link          | USB 10/100 LAN                       | 15    | cdc_ether  | [3A32B98A30](<Notebook/HUAWEI/KLVL-WXXW/KLVL-WXXW/B298A8714AD9/KDE-NEON-20.04/5.13.0-28-GENERIC/X86_64/3A32B98A30>) |
+| 04b4:3610 | Cypress Semic... | K38231_03                            | 14    | ax88179... | [450F779085](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U6S1JD00/E7077B6DA568/OPENSUSE-20220218/5.16.8-1-DEFAULT/X86_64/450F779085>) |
+| 0bb4:0003 | HTC (High Tec... | WEXLER.ZEN 4.7                       | 14    | rndis_host | [A6A5772C7F](<Notebook/ASUSTek Computer/K42/K42Jc/DB7C142319CB/ROSA-2016.1/4.15.0-DESKTOP-122.124.1ROSA-X86_64/X86_64/A6A5772C7F>) |
 
 ### Phone (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0e8d:2008 | MediaTek   | Cyrus Technology CS 24       | 50    | usbfs      | 178E06B47B |
-| 18d1:4ee1 | Google     | Nexus/Pixel Device (MTP)     | 39    | usbfs      | B6966EBC42 |
-| 1004:631c | LG Elec... | LM-X420xxx/G2/Optimus And... | 21    | usbfs      | EC8AF5F350 |
-| 2717:ff48 | Xiaomi     | Mi/Redmi series (MTP + ADB)  | 20    | usbfs      | 4FE54B07A9 |
-| 0e8d:201d | MediaTek   | CUBOT CHEETAH 2              | 14    | usbfs      | E6E8DA123E |
-| 1bbb:0168 | T & A M... | Alcatel 1X                   | 11    | usbfs      | A6732AB721 |
-| 04e8:685d | Samsung... | GT-I9100 Phone [Galaxy S ... | 8     | cdc_acm    | D2D1C6E65E |
-| 04e8:685c | Samsung... | GT-I9250 Phone [Galaxy Ne... | 3     | usbfs      | D9976E30E3 |
-| 05c6:f003 | Qualcomm   | Nokia 8110 4G                | 3     | usbfs      | 2158B6DF09 |
-| 0bb4:0f0b | HTC (Hi... | U12+                         | 3     | usbhid     | ED4126EB39 |
-| 0bb4:2008 | HTC (Hi... | Android Phone via MTP [Wi... | 3     |            | 52ECA6CE50 |
-| 1004:6300 | LG Elec... | G2/Optimus Android Phone ... | 3     | usbhid     | 61310B6409 |
-| 18d1:4ee8 | Google     | Nexus/Pixel Device (MIDI)    | 3     | snd_usb... | E9F2B0CEDA |
-| 19d2:0306 | ZTE WCD... | ZTE USB Device               | 3     | usbfs      | D95EE27C85 |
-| 19d2:0307 | ZTE WCD... | Platy                        | 3     | usbfs      | FA18FC0356 |
-| 1bbb:0167 | T & A M... | Alcatel 5X                   | 3     | usbfs      | 27828E1DFB |
-| 05c6:9092 | Qualcomm   | Android                      | 2     |            | 0458C5593D |
-| 0bb4:0c01 | HTC (Hi... | Dream / ADP1 / G1 / Magic... | 2     |            | CB71A2D937 |
-| 0bb4:0c02 | HTC (Hi... | Dream / ADP1 / G1 / Magic... | 2     | uas, us... | 73EAA82EFF |
-| 0bb4:0f87 | HTC (Hi... | Android Phone                | 2     | usbfs      | 541E753F9D |
-| 0fce:019b | Sony Er... | Android                      | 2     |            | 49389100FC |
-| 1782:4001 | Spreadt... | Android                      | 2     | usbfs      | 1695DC11BA |
-| 1782:4012 | Spreadt... | RIO_ZAM                      | 2     |            | 83DBEAD899 |
-| 17ef:7497 | Lenovo     | A789 (MTP mode)              | 2     |            | B60CD6FFC3 |
-| 1bbb:2008 | T & A M... | MT65xx Android Phone         | 2     | usbfs      | E48E425669 |
-| 2717:1240 | Xiaomi     | HM1 Android Phone            | 2     |            | 01AA74496F |
-| 2916:f003 | Android    | Android                      | 2     |            | E591D8BDD0 |
-| 045e:04ec | Microsoft  | Windows Phone (Zune)         | 1     |            | A8E7938691 |
-| 0471:2008 | Philips... | W732                         | 1     |            | 2DBB267463 |
-| 0bb4:0df8 | HTC (Hi... | Android Phone                | 1     |            | F4F1952C9C |
-| 0bb4:f006 | HTC (Hi... | Android Phone                | 1     | usbhid     | 39061A0026 |
-| 0fce:0189 | Sony Er... | C6503                        | 1     |            | 97D00825B7 |
-| 0fce:0197 | Sony Er... | C5502                        | 1     |            | 9C65E049FE |
-| 0fce:01c4 | Sony Er... | Android                      | 1     |            | FD936C6C93 |
-| 0fce:51ad | Sony Er... | Android                      | 1     |            | E6AB329109 |
-| 1004:61fc | LG Elec... | Optimus 3                    | 1     | cdc_acm... | 1EBB6C2E61 |
-| 1004:633a | LG Elec... | Ultimate 2 Android Phone ... | 1     | cdc_acm    | 9F3D5A596E |
-| 1532:9051 | Razer USA  | Razer Phone 2                | 1     |            | 46CD15B9A7 |
-| 1532:9052 | Razer USA  | Razer Phone 2                | 1     | usbfs      | F0B799EFBB |
-| 17ef:74f8 | Lenovo     | MT65xx Android Phone         | 1     |            | B89D04A41B |
-| 19d2:0343 | ZTE WCD... | V985                         | 1     |            | 4215162CA5 |
-| 22b8:2e71 | Motorol... | Motorola Phone               | 1     | usbhid     | B8DA2787DA |
-| 2a45:0c02 | Meizu      | MX Phone (MTP & ADB)         | 1     | usbfs      | 5B337FDB0A |
-| 2a45:2008 | Meizu      | MX Phone (MTP)               | 1     |            | 88C466E27F |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0e8d:2008 | MediaTek         | Cyrus Technology CS 24               | 61    | usbfs      | [3327E56999](<Notebook/MSI/GF63/GF63 Thin 9SC/40BAF5C8DEF5/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/3327E56999>) |
+| 18d1:4ee1 | Google           | Nexus/Pixel Device (MTP)             | 46    | usbfs      | [311C6DA8E0](<Notebook/Hewlett-Packard/ProBook/ProBook 455 G7/656F39058145/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/311C6DA8E0>) |
+| 1004:631c | LG Electronics   | LM-X420xxx/G2/Optimus Android Pho... | 22    | usbfs      | [B5F78F62D1](<Notebook/Dell/G5/G5 5590/07DF1DBBC8E8/POP!_OS-21.04/5.13.0-7620-GENERIC/X86_64/B5F78F62D1>) |
+| 2717:ff48 | Xiaomi           | Mi/Redmi series (MTP + ADB)          | 22    | usbfs      | [134D1CF65B](<Notebook/Hewlett-Packard/Pavilion/Pavilion Laptop 14-ce0xxx/13B56A2CF8AB/FEDORA-35/5.16.12-250.VANILLA.1.FC35.X86_64/X86_64/134D1CF65B>) |
+| 0e8d:201d | MediaTek         | M5s                                  | 14    | usbfs      | [E6E8DA123E](<Notebook/Sony/SVE1512/SVE1512C6EB/2E80812DC61A/XUBUNTU-21.04/5.11.0-25-LOWLATENCY/X86_64/E6E8DA123E>) |
+| 1bbb:0168 | T & A Mobile ... | Alcatel 1X                           | 11    | usbfs      | [A6732AB721](<Notebook/Clevo/W54/W54xEU/EB4306F65FAD/UBUNTU-20.04/5.11.0-37-GENERIC/X86_64/A6732AB721>) |
+| 04e8:685d | Samsung Elect... | GT-I9100 Phone [Galaxy S II] (Dow... | 10    | cdc_acm    | [CEC2A1A3E3](<Notebook/Hewlett-Packard/EliteBook/EliteBook 820 G1/355A9FEC09A4/KALI-2021.4/5.14.0-KALI4-AMD64/X86_64/CEC2A1A3E3>) |
+| 18d1:4ee8 | Google           | Nexus/Pixel Device (MIDI)            | 5     | snd_usb... | [1E57C317B4](<Notebook/Hewlett-Packard/Notebook/Notebook/D61A76DDA959/MANJARO/5.16.7-1-MANJARO/X86_64/1E57C317B4>) |
+| 19d2:0306 | ZTE WCDMA Tec... | ZTE USB Device                       | 4     | usbfs      | [FDFD650FCC](<Notebook/Sony/SVF1421/SVF14211CLB/4D841A70D8D6/ZORIN-16/5.11.0-40-GENERIC/X86_64/FDFD650FCC>) |
+| 19d2:0307 | ZTE WCDMA Tec... | Spreadtrum Phone                     | 4     | usbfs      | [382BA35DE6](<Notebook/Samsung Electronics/300E4/300E4C-300E5C-300E7C/95F8660E660D/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/382BA35DE6>) |
+| 04e8:685c | Samsung Elect... | GT-I9250 Phone [Galaxy Nexus] (Ma... | 3     | usbfs      | [D9976E30E3](<Notebook/ASUSTek Computer/K75/K75VM/E4A852A4AEF1/KDE-NEON-20.04/5.11.0-37-GENERIC/X86_64/D9976E30E3>) |
+| 05c6:f003 | Qualcomm         | Nokia 8110 4G                        | 3     | usbfs      | [2158B6DF09](<Notebook/ASUSTek Computer/X451/X451CAP/2FDD68A7BB53/LINUXMINT-20.2/5.4.0-80-GENERIC/X86_64/2158B6DF09>) |
+| 0bb4:0f0b | HTC (High Tec... | U12+                                 | 3     | usbhid     | [ED4126EB39](<Notebook/Lenovo/ThinkPad/ThinkPad X131e 3371A13/DC660CE27773/POP!_OS-20.04/5.4.0-7626-GENERIC/X86_64/ED4126EB39>) |
+| 0bb4:2008 | HTC (High Tec... | Android Phone via MTP [Wiko Cink ... | 3     |            | [52ECA6CE50](<Notebook/Lenovo/G570/G570 20079/FA239870D40A/ROSA-2016.1/4.15.0-DESKTOP-68.5ROSA-X86_64/X86_64/52ECA6CE50>) |
+| 1004:6300 | LG Electronics   | G2/Optimus Android Phone [Charge ... | 3     | usbhid     | [61310B6409](<Notebook/Razer/Blade/Blade/D8D1A2770430/UBUNTU-18.04/5.0.0-37-GENERIC/X86_64/61310B6409>) |
+| 1bbb:0167 | T & A Mobile ... | Alcatel 5X                           | 3     | usbfs      | [27828E1DFB](<Notebook/Sony/Serie/Serie VJC14/BF8332F0A46F/ELEMENTARY-6/5.11.0-27-GENERIC/X86_64/27828E1DFB>) |
+| 05c6:9092 | Qualcomm         | Android                              | 2     |            | [0458C5593D](<Notebook/Dell/XPS/XPS 15 9570/8684231DDBCC/FEDORA-31/5.3.11-300.FC31.X86_64/X86_64/0458C5593D>) |
+| 0bb4:0c01 | HTC (High Tec... | Dream / ADP1 / G1 / Magic / Tatto... | 2     |            | [CB71A2D937](<Notebook/Lenovo/IdeaPad/IdeaPad 3 14IML05 81WA/AFCEC909C039/MANJARO/5.10.42-1-MANJARO/X86_64/CB71A2D937>) |
+| 0bb4:0c02 | HTC (High Tec... | Dream / ADP1 / G1 / Magic / Tatto... | 2     | uas, us... | [73EAA82EFF](<Notebook/ASUSTek Computer/X55/X55C/D0D172296EB8/ROSA-2014.1/4.1.19-NRJ-DESKTOP-3ROSA-X86_64/X86_64/73EAA82EFF>) |
+| 0bb4:0f87 | HTC (High Tec... | m8                                   | 2     | usbfs      | [541E753F9D](<Notebook/Dell/Inspiron/Inspiron 7572/7B86D1D73680/UBUNTU-20.04/5.4.0-47-GENERIC/X86_64/541E753F9D>) |
+| 0fce:019b | Sony Ericsson... | Android                              | 2     |            | [49389100FC](<Notebook/Dell/Inspiron/Inspiron 7560/929244539C9A/ROSA-2014.1/4.1.25-NRJ-DESKTOP-1ROSA-X86_64/X86_64/49389100FC>) |
+| 1782:4001 | Spreadtrum Co... | Android                              | 2     | usbfs      | [1695DC11BA](<Notebook/ASUSTek Computer/1225/1225B/566D82FA174D/ROSA-2016.1/4.15.0-DESKTOP-68.5ROSA-X86_64/X86_64/1695DC11BA>) |
+| 1782:4012 | Spreadtrum Co... | RIO_ZAM                              | 2     |            | [83DBEAD899](<Notebook/Dell/Inspiron/Inspiron 1545/5C2EB2F16053/UBUNTU-18.04/5.4.0-65-GENERIC/X86_64/83DBEAD899>) |
+| 17ef:7497 | Lenovo           | A789 (MTP mode)                      | 2     |            | [B60CD6FFC3](<Notebook/Acer/Aspire/Aspire E1-571G/4D6A7182CE38/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-X86_64/X86_64/B60CD6FFC3>) |
+| 1bbb:2008 | T & A Mobile ... | MT65xx Android Phone                 | 2     | usbfs      | [E48E425669](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2540p/B6A3A2A1396F/LINUXMINT-20.1/5.4.0-70-GENERIC/X86_64/E48E425669>) |
+| 2717:1240 | Xiaomi           | HM1 Android Phone                    | 2     |            | [01AA74496F](<Notebook/Samsung Electronics/530U3/530U3C-530U4C/6A47299A5F26/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-X86_64/X86_64/01AA74496F>) |
+| 2916:f003 | Android          | Android                              | 2     |            | [E591D8BDD0](<Notebook/ASUSTek Computer/A6/A6J/5640E9C5D483/ROSA-2016.1/4.9.20-NRJ-DESKTOP-1ROSA-I586/I686/E591D8BDD0>) |
+| 045e:04ec | Microsoft        | Windows Phone (Zune)                 | 1     |            | [A8E7938691](<Notebook/Samsung Electronics/R425/R425D-R525D/BC005708CA78/ROSA-2014.1/3.14.44-NRJ-DESKTOP-2ROSA-X86_64/X86_64/A8E7938691>) |
+| 0471:2008 | Philips (or NXP) | W732                                 | 1     |            | [2DBB267463](<Notebook/Acer/Aspire/Aspire E1-531/BD650973F363/ROSA-2014.1/3.14.44-NRJ-DESKTOP-2ROSA-X86_64/X86_64/2DBB267463>) |
+| 0bb4:0df8 | HTC (High Tec... | Android Phone                        | 1     |            | [F4F1952C9C](<Notebook/Acer/Aspire/Aspire 5680/0D01F3F28AFD/ROSA-2014.1/4.9.9-NRJ-DESKTOP-1ROSA-X86_64/X86_64/F4F1952C9C>) |
+| 0bb4:f006 | HTC (High Tec... | Android Phone                        | 1     | usbhid     | [39061A0026](<Notebook/Acer/Aspire/Aspire V3-571G/B017A9184647/ROSA-2014.1/4.1.33-NRJ-DESKTOP-1ROSA-X86_64/X86_64/39061A0026>) |
+| 0fce:0189 | Sony Ericsson... | C6503                                | 1     |            | [97D00825B7](<Notebook/Hewlett-Packard/Pavilion/Pavilion g7/841C91D45F4A/ROSA-2014.1/3.14.44-NRJ-DESKTOP-2ROSA-X86_64/X86_64/97D00825B7>) |
+| 0fce:0197 | Sony Ericsson... | C5502                                | 1     |            | [9C65E049FE](<Notebook/ASUSTek Computer/X555/X555LF/504A83CAF593/ROSA-2014.1/4.0.8-NRJ-DESKTOP-1ROSA-X86_64/X86_64/9C65E049FE>) |
+| 0fce:01c4 | Sony Ericsson... | Android                              | 1     |            | [FD936C6C93](<Notebook/Samsung Electronics/300E4/300E4C-300E5C-300E7C/363E387665DF/ROSA-2014.1/4.6.7-NRJ-LAPTOP-1ROSA-X86_64/X86_64/FD936C6C93>) |
+| 0fce:51ad | Sony Ericsson... | Android                              | 1     |            | [E6AB329109](<Notebook/Packard Bell/EasyNote/EasyNote ENLG71BM/82FF7D89D3DE/ROSA-2014.1/4.1.10-NRJ-DESKTOP-2ROSA-X86_64/X86_64/E6AB329109>) |
+| 1004:61fc | LG Electronics   | Optimus 3                            | 1     | cdc_acm... | [1EBB6C2E61](<Notebook/Samsung Electronics/R519/R519-R719/F28CF5443841/ROSA-2016.1/4.9.20-NRJ-DESKTOP-1ROSA-X86_64/X86_64/1EBB6C2E61>) |
+| 1004:633a | LG Electronics   | Ultimate 2 Android Phone L41C        | 1     | cdc_acm    | [9F3D5A596E](<Notebook/Lenovo/IdeaPad/IdeaPad 3 15IIL05 81WE/7CE95E781937/OPENSUSE-TUMBLEWEED-20210504/5.12.0-2-DEFAULT/X86_64/9F3D5A596E>) |
+| 1532:9051 | Razer USA        | Razer Phone 2                        | 1     |            | [46CD15B9A7](<Notebook/Hewlett-Packard/Notebook/Notebook/A8C61D889E99/UBUNTU-20.04/5.4.0-44-GENERIC/X86_64/46CD15B9A7>) |
+| 1532:9052 | Razer USA        | Razer Phone 2                        | 1     | usbfs      | [F0B799EFBB](<Notebook/Lenovo/ThinkPad/ThinkPad W520 4270CTO/A54DE4BF9430/UBUNTU-20.04/5.8.0-59-GENERIC/X86_64/F0B799EFBB>) |
+| 17ef:74f8 | Lenovo           | MT65xx Android Phone                 | 1     |            | [B89D04A41B](<Notebook/Dell/Inspiron/Inspiron 7720/277F63301B21/ROSA-2016.1/4.9.124-NRJ-DESKTOP-1ROSA-X86_64/X86_64/B89D04A41B>) |
+| 19d2:0343 | ZTE WCDMA Tec... | V985                                 | 1     |            | [4215162CA5](<Notebook/Fujitsu Siemens/AMILO/AMILO Pro Edition V3505/B2894725F462/ROSA-2014.1/3.14.44-NRJ-DESKTOP-2ROSA-X86_64/X86_64/4215162CA5>) |
+| 22b8:2e71 | Motorola PCS     | Motorola Phone                       | 1     | usbhid     | [B8DA2787DA](<Notebook/Acer/Aspire/Aspire M5-481PT/BD7A21FF636F/UBUNTU-20.10/5.8.0-50-GENERIC/X86_64/B8DA2787DA>) |
+| 2a45:0c02 | Meizu            | MX Phone (MTP & ADB)                 | 1     | usbfs      | [5B337FDB0A](<Notebook/Apple/MacBookPro8/MacBookPro8,1/35BAC947BDBB/UBUNTU-21.10/5.13.0-16-GENERIC/X86_64/5B337FDB0A>) |
+| 2a45:2008 | Meizu            | MX Phone (MTP)                       | 1     |            | [88C466E27F](<Notebook/Clevo/P170/P170EM/35817A6DB1D6/ROSA-2014.1/4.1.19-NRJ-DESKTOP-2ROSA-X86_64/X86_64/88C466E27F>) |
 
 ### Printer (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 03f0:2b17 | Hewlett... | LaserJet 1020                | 24    | usblp      | A955D2E293 |
-| 03f0:4117 | Hewlett... | LaserJet 1018                | 18    | usblp      | 1A39F562B3 |
-| 04a9:176d | Canon      | PIXMA MG2500 Series          | 15    | usblp      | 6CAAB74A48 |
-| 067b:2305 | Prolifi... | PL2305 Parallel Port         | 15    | usblp      | 44D0412DD3 |
-| 03f0:002a | Hewlett... | LaserJet P1102               | 14    | usblp      | 8F0E9DF209 |
-| 04e8:3321 | Samsung... | M2020 Series                 | 14    | usblp      | FD8AFA6F02 |
-| 03f0:e111 | Hewlett... | DeskJet 2130 series          | 13    | usblp      | F053EED9E5 |
-| 04e8:341b | Samsung... | SCX-4200 series              | 12    | usblp      | 2992DD1DF0 |
-| 03f0:3217 | Hewlett... | LaserJet 3050                | 11    | usblp      | 56D3E12A31 |
-| 04e8:3469 | Samsung... | M2070 Series                 | 11    | usblp      | 352B2B53B8 |
-| 04b8:1143 | Seiko E... | L3150 Series                 | 10    | usblp      | F44D1FB51F |
-| 03f0:032a | Hewlett... | LaserJet Professional P1102w | 9     | usblp      | 925EB309A3 |
-| 03f0:d711 | Hewlett... | ENVY 4520 series             | 9     | usbfs      | 51B5E6CB3F |
-| 04e8:3441 | Samsung... | SCX-3200 Series              | 9     | usblp      | 4A54197130 |
-| 04f9:0054 | Brother... | HL-1110 series               | 9     | usblp      | 9F433657F2 |
-| 04da:0f0b | Panason... | KX-MB1500CX                  | 8     | usblp      | EEC5F2D00E |
-| 03f0:c211 | Hewlett... | Deskjet 2540 series          | 7     | usbfs      | F52230DF09 |
-| 04a9:2676 | Canon      | LBP2900                      | 7     | usblp      | 17EC413352 |
-| 04b8:08a1 | Seiko E... | L210 Series                  | 7     | usblp      | 3574E8459F |
-| 04b8:08d1 | Seiko E... | L222 Series                  | 7     | usblp      | 46B6080608 |
-| 04f9:0027 | Brother... | HL-2030 Laser Printer        | 7     | usblp      | 87723D3644 |
-| 03f0:0053 | Hewlett... | DeskJet 2620 All-in-One P... | 6     | usbfs      | 22977AA779 |
-| 03f0:0317 | Hewlett... | LaserJet 1200                | 6     | usblp      | D74C10F41F |
-| 03f0:8711 | Hewlett... | Deskjet 2050 J510            | 6     | usblp      | D79188A009 |
-| 0483:5750 | STMicro... | LED badge -- mini LED dis... | 6     | usbhid     | 11FD4B082E |
-| 04a9:271a | Canon      | LBP6000                      | 6     | usblp      | AE3EABE5FA |
-| 04a9:2771 | Canon      | LBP6020                      | 6     | usblp      | A31437072C |
-| 04b8:1122 | Seiko E... | L395 Series                  | 6     | usblp      | 022685129B |
-| 04e8:344f | Samsung... | SCX-3400 Series              | 6     | usblp      | 542F46849C |
-| 03f0:0c17 | Hewlett... | LaserJet 1010                | 5     | usblp      | 45DCAA268C |
-| 03f0:1853 | Hewlett... | DeskJet 2700 series          | 5     | usblp      | CF720E50DB |
-| 03f0:3d17 | Hewlett... | LaserJet P1005               | 5     | usblp      | F529CFC4CD |
-| 03f0:8c11 | Hewlett... | Deskjet F4500 series         | 5     | usblp      | 801C1D8AF3 |
-| 03f0:e311 | Hewlett... | DeskJet 3630 series          | 5     | usblp      | 9FD6FA6AB2 |
-| 03f0:e511 | Hewlett... | OfficeJet 3830 series        | 5     | usblp      | B1AA92AFEA |
-| 04a9:10d3 | Canon      | iP2700 series                | 5     | usblp      | 5856720999 |
-| 04a9:10dc | Canon      | iP7200 series                | 5     | usblp      | 6916C1087B |
-| 04a9:176b | Canon      | PIXMA MX920 Series           | 5     | usblp      | 5026826DBE |
-| 04e8:3292 | Samsung... | ML-1640 Series Laser Printer | 5     | usblp      | 843C7A8519 |
-| 04e8:3419 | Samsung... | Composite Device             | 5     | usblp      | AC37B3FD23 |
-| 04f9:0434 | Brother... | MFC-L2710DW series           | 5     | usbfs      | F7D150A85C |
-| 1a86:7584 | QinHeng... | CH340S                       | 5     | usblp      | 787CCD1876 |
-| 03f0:102a | Hewlett... | LaserJet Professional P 1... | 4     | usblp      | F5FDB45E75 |
-| 03f0:3654 | Hewlett... | DeskJet 2300 series          | 4     | usblp      | C81DEF3B2E |
-| 03f0:8911 | Hewlett... | Deskjet 1050 J410            | 4     | usblp      | 0AF8FFF870 |
-| 03f0:9311 | Hewlett... | Deskjet 3050 J610 series     | 4     | usblp      | 687B919F28 |
-| 03f0:b011 | Hewlett... | Deskjet 3520 series          | 4     | usblp      | 7677E0C128 |
-| 03f0:c111 | Hewlett... | Deskjet 1510                 | 4     | usblp      | CEE12C5D76 |
-| 04a9:173a | Canon      | PIXMA MP250                  | 4     | usblp      | 7404CA8168 |
-| 04a9:26da | Canon      | LBP3010B printer             | 4     | usblp      | BF7B9902DA |
-| 04a9:2737 | Canon      | MF4410                       | 4     | usblp      | E0E9A2E532 |
-| 04a9:2759 | Canon      | MF3010                       | 4     | usblp      | FCBB29A9CF |
-| 04b8:08d2 | Seiko E... | L365 Series                  | 4     | usblp      | 126C75190E |
-| 04b8:1142 | Seiko E... | L3110 Series                 | 4     | usblp      | E988105956 |
-| 04e8:330c | Samsung... | ML-1865                      | 4     | usblp      | 0D9041893C |
-| 04e8:342e | Samsung... | SCX-4300 Series              | 4     | usblp      | 657C6D539F |
-| 04e8:3434 | Samsung... | SCX-4623 Series              | 4     | usblp      | 31BAA47389 |
-| 0924:3cf7 | Xerox      | Phaser 3010                  | 4     | usblp      | F0E52BDB36 |
-| 0924:3cf9 | Xerox      | Phaser 3040                  | 4     | usblp      | 6E25B0216F |
-| 03f0:1353 | Hewlett... | Ink Tank Wireless 410 series | 3     | usbfs      | 9CFDE72E18 |
-| 03f0:1d17 | Hewlett... | LaserJet 1320                | 3     | usblp      | 0032B94E02 |
-| 03f0:2404 | Hewlett... | Deskjet F2280 series         | 3     | usblp      | 9881895B74 |
-| 03f0:2504 | Hewlett... | DeskJet F4200 series         | 3     | usblp      | F973E0A683 |
-| 03f0:2d12 | Hewlett... | Officejet 4500 G510g-m       | 3     | usblp      | 7CCF096E4A |
-| 03f0:5d17 | Hewlett... | LaserJet P2035n              | 3     | usblp      | FD336FE502 |
-| 03f0:7611 | Hewlett... | DeskJet F2492 All-in-One     | 3     | usblp      | 98257DE332 |
-| 03f0:a011 | Hewlett... | Deskjet 3050A                | 3     | usblp      | B44F7A5CDB |
-| 03f0:df11 | Hewlett... | DeskJet 1110 series          | 3     | usblp      | 99F556E12C |
-| 03f0:e82a | Hewlett... | Laser 107a                   | 3     | usblp      | 58363BD623 |
-| 04a9:1746 | Canon      | PIXMA MP280                  | 3     | usblp      | EAE14F5A68 |
-| 04a9:1747 | Canon      | PIXMA MP495                  | 3     | usblp      | EAE26ABFA5 |
-| 04a9:176c | Canon      | MG2400 series                | 3     | usblp      | 621F2DC7D1 |
-| 04a9:1780 | Canon      | PIXMA MG2900 Series          | 3     | usblp      | 41F3D4C0A1 |
-| 04a9:178a | Canon      | PIXMA MG3600 Series          | 3     | usblp      | 9BFB12D72A |
-| 04a9:1796 | Canon      | G1000 series                 | 3     | usblp      | 85B9604A5F |
-| 04a9:1913 | Canon      | LiDE 300                     | 3     | usbfs      | E609104D2C |
-| 04a9:262b | Canon      | LaserShot LBP-1120 Printer   | 3     | usblp      | 0705CFCBA0 |
-| 04a9:2684 | Canon      | MF3200 series                | 3     | usblp      | C901CB9ABB |
-| 04a9:26b4 | Canon      | MF4010 series                | 3     | usblp      | E7304A0193 |
-| 04a9:271c | Canon      | CAPT USB Device              | 3     | usblp      | 25E73FCC4B |
-| 04b8:0005 | Seiko E... | Printer                      | 3     | usblp      | E48457CBEE |
-| 04b8:0007 | Seiko E... | Printer                      | 3     | usblp      | 4DB0CEAE52 |
-| 04b8:0873 | Seiko E... | L200 Series                  | 3     | usblp      | 3997387140 |
-| 04b8:0896 | Seiko E... | XP-202 203 206 Series        | 3     | usblp      | 6607D7BFD4 |
-| 04b8:08a8 | Seiko E... | L355 Series                  | 3     | usblp      | 5E97B4ABA2 |
-| 04da:0f07 | Panason... | KX-MB2030 Multifunction L... | 3     | usblp      | 58AC07D2AC |
-| 04e8:300c | Samsung... | ML-1210 Printer              | 3     | usblp      | A8699BE8C7 |
-| 04e8:325b | Samsung... | Xerox Phaser 3117 Laser P... | 3     | usblp      | BC382DFB5A |
-| 04e8:3456 | Samsung... | CLX-3300 Series              | 3     | usblp      | B0D6C6721D |
-| 04f9:0051 | Brother... | HL-3140CW series             | 3     | usblp      | 5C69886F68 |
-| 04f9:006a | Brother... | HL-1210W series              | 3     | usblp      | CD8CE3BE30 |
-| 04f9:0074 | Brother... | HL-1200 series               | 3     | usblp      | 669E53F097 |
-| 04f9:0248 | Brother... | DCP-7055 scanner/printer     | 3     | usblp      | 0AF5F89B23 |
-| 04f9:02d0 | Brother... | DCP-1510                     | 3     | usblp      | 0071FAABAC |
-| 04f9:035b | Brother... | DCP-1610W                    | 3     | usblp      | DC3A057A95 |
-| 04f9:0393 | Brother... | DCP-T300                     | 3     | usblp      | 7CA3035A20 |
-| 0924:42d5 | Xerox      | Phaser 3020                  | 3     | usblp      | 927AB05A65 |
-| 03f0:0853 | Hewlett... | ENVY 5000 series             | 2     | usblp      | 96DF5858EA |
-| 03f0:0904 | Hewlett... | DeskJet 845c                 | 2     | usblp      | 7A7E2DFCEE |
-| 03f0:0c2a | Hewlett... | LaserJet 200 colorMFP M275nw | 2     | usblp      | 3A5F91A211 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 03f0:2b17 | Hewlett-Packard  | LaserJet 1020                        | 24    | usblp      | [A955D2E293](<Notebook/Toshiba/Satellite/Satellite A505/1785D3013178/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/A955D2E293>) |
+| 03f0:4117 | Hewlett-Packard  | LaserJet 1018                        | 18    | usblp      | [1A39F562B3](<Notebook/Dell/Inspiron/Inspiron 7577/7553AA5CB2AC/UBUNTU-16.04/4.4.0-166-GENERIC/X86_64/1A39F562B3>) |
+| 04a9:176d | Canon            | PIXMA MG2500 Series                  | 16    | usblp      | [09D45F017D](<Notebook/Dell/Inspiron/Inspiron 5555/3F890D0212D7/ELEMENTARY-6.1/5.11.0-43-GENERIC/X86_64/09D45F017D>) |
+| 04e8:3321 | Samsung Elect... | M2020 Series                         | 16    | usblp      | [83DC415E28](<Notebook/Lenovo/IdeaPad/IdeaPad S340-15API 81NC/7BD961757C59/ELEMENTARY-6.1/5.13.0-30-GENERIC/X86_64/83DC415E28>) |
+| 03f0:002a | Hewlett-Packard  | LaserJet P1102                       | 15    | usblp      | [5974840AA7](<Notebook/Toshiba/Satellite/Satellite C855-27U/4FCAA3E696F1/OPENMANDRIVA-4.50/5.12.4-DESKTOP-1OMV4050/X86_64/5974840AA7>) |
+| 067b:2305 | Prolific Tech... | PL2305 Parallel Port                 | 15    | usblp      | [0523A58E8A](<Notebook/Hewlett-Packard/15/15 Notebook PC/C096905A9B6D/FEDORA-35/5.15.6-200.FC35.X86_64/X86_64/0523A58E8A>) |
+| 03f0:e111 | Hewlett-Packard  | DeskJet 2130 series                  | 13    | usblp      | [87BD7D315F](<Notebook/Lenovo/IdeaPad/IdeaPad 320-15IAP 80XR/3B9F2B4ADC4D/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/87BD7D315F>) |
+| 04e8:3469 | Samsung Elect... | M2070 Series                         | 13    | usblp      | [8F42776E23](<Notebook/Sony/VPCEH2/VPCEH2E0E/B4548B05B1AA/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/8F42776E23>) |
+| 04e8:341b | Samsung Elect... | SCX-4200 series                      | 12    | usblp      | [2992DD1DF0](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv6/5E81CE725C35/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-X86_64/X86_64/2992DD1DF0>) |
+| 03f0:3217 | Hewlett-Packard  | LaserJet 3050                        | 11    | usblp      | [56D3E12A31](<Notebook/Hewlett-Packard/Presario/Presario CQ57/28A6A0B4503B/UBUNTU-20.04/5.4.0-42-GENERIC/X86_64/56D3E12A31>) |
+| 04b8:1143 | Seiko Epson      | ET-2710 Series                       | 11    | usblp      | [457A2FF293](<Notebook/Acer/Nitro/Nitro AN515-43/9026D9AF8BF1/ENDLESS-3.9.5/5.8.0-14-GENERIC/X86_64/457A2FF293>) |
+| 04e8:3441 | Samsung Elect... | SCX-3200 Series                      | 10    | usblp      | [44E656894A](<Notebook/Lenovo/B590/B590 20208/2484ED42F546/KUBUNTU-21.10/5.13.0-25-GENERIC/X86_64/44E656894A>) |
+| 04f9:0054 | Brother Indus... | HL-1110 series                       | 10    | usblp      | [75D88EF705](<Notebook/Packard Bell/EasyNote/EasyNote TE11HC/90246F98E027/ROSA-2016.1/4.9.155-NRJ-DESKTOP-1ROSA-X86_64/X86_64/75D88EF705>) |
+| 03f0:032a | Hewlett-Packard  | LaserJet Professional P1102w         | 9     | usblp      | [925EB309A3](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/5DA4B3C781AD/ROSA-2016.1/4.15.0-DESKTOP-45.1ROSA-X86_64/X86_64/925EB309A3>) |
+| 03f0:d711 | Hewlett-Packard  | ENVY 4520 series                     | 9     | usbfs      | [51B5E6CB3F](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X512JA_X512JA/1E2564CB6E6C/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/51B5E6CB3F>) |
+| 03f0:0053 | Hewlett-Packard  | DeskJet 2620 All-in-One Printer      | 8     | usbfs      | [69071DA574](<Notebook/Hewlett-Packard/Notebook/Notebook/D846D6761EE6/UBUNTU-MATE-21.10/5.13.0-28-GENERIC/X86_64/69071DA574>) |
+| 03f0:1853 | Hewlett-Packard  | DeskJet 2700 series                  | 8     | usblp      | [C6D08BA1CD](<Notebook/Medion/Akoya/Akoya E6412T/D13E72A10D6F/LINUXMINT-20.2/5.4.0-94-GENERIC/X86_64/C6D08BA1CD>) |
+| 04da:0f0b | Panasonic (Ma... | KX-MB1500RU                          | 8     | usblp      | [EEC5F2D00E](<Notebook/ASUSTek Computer/U24/U24E/9AFC2F21A57A/ROSA-2016.1/4.15.0-DESKTOP-45.1ROSA-X86_64/X86_64/EEC5F2D00E>) |
+| 03f0:0317 | Hewlett-Packard  | LaserJet 1200                        | 7     | usblp      | [82C3A0EA01](<Notebook/Lenovo/ThinkPad/ThinkPad X201 Tablet 3113WLL/446A02A90C76/ZORIN-16/5.11.0-43-GENERIC/X86_64/82C3A0EA01>) |
+| 03f0:c211 | Hewlett-Packard  | Deskjet 2540 series                  | 7     | usbfs      | [F52230DF09](<Notebook/Hewlett-Packard/ProBook/ProBook 4740s/19DD15F23AC1/LINUXMINT-20.2/5.4.0-88-GENERIC/X86_64/F52230DF09>) |
+| 04a9:2676 | Canon            | LBP2900                              | 7     | usblp      | [17EC413352](<Notebook/Dell/Latitude/Latitude E5570/81A7EB8EC1CA/LINUXMINT-20.1/5.4.0-72-GENERIC/X86_64/17EC413352>) |
+| 04b8:08a1 | Seiko Epson      | L210 Series                          | 7     | usblp      | [3574E8459F](<Notebook/ASUSTek Computer/X441/X441UA/813737988302/ENDLESS-3.9.4/5.8.0-14-GENERIC/X86_64/3574E8459F>) |
+| 04b8:08d1 | Seiko Epson      | L222 Series                          | 7     | usblp      | [46B6080608](<Notebook/Acer/TravelMate/TravelMate B115-M/97E87F9D8D16/UBUNTU-18.04/5.4.0-58-GENERIC/X86_64/46B6080608>) |
+| 04e8:344f | Samsung Elect... | SCX-3400 Series                      | 7     | usblp      | [77D8F165C0](<Notebook/Hewlett-Packard/G/G7000/7C15ACB35402/ROSA-2016.1/5.4.32-GENERIC-2ROSA-I586/I686/77D8F165C0>) |
+| 04f9:0027 | Brother Indus... | HL-2030 Laser Printer                | 7     | usblp      | [87723D3644](<Notebook/Dell/Latitude/Latitude E6420/870C8BF5AF12/UBUNTU-20.04/5.11.0-25-GENERIC/X86_64/87723D3644>) |
+| 03f0:8711 | Hewlett-Packard  | Deskjet 2050 J510                    | 6     | usblp      | [D79188A009](<Notebook/Acer/Aspire/Aspire A315-51/80AA8332900C/ENDLESS-3.9.5/5.8.0-14-GENERIC/X86_64/D79188A009>) |
+| 03f0:8911 | Hewlett-Packard  | Deskjet 1050 J410                    | 6     | usblp      | [0171FA003C](<Notebook/Hewlett-Packard/255/255 G7 Notebook PC/1045F9222C2A/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/0171FA003C>) |
+| 03f0:e311 | Hewlett-Packard  | DeskJet 3630 series                  | 6     | usblp      | [BDDA853706](<Notebook/ASUSTek Computer/X555/X555LD/DE36039535CA/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/BDDA853706>) |
+| 03f0:e511 | Hewlett-Packard  | OfficeJet 3830 series                | 6     | usblp      | [1C7889CEC5](<Notebook/Hewlett-Packard/Pavilion/Pavilion Notebook/0DE77AA49DE0/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/1C7889CEC5>) |
+| 0483:5750 | STMicroelectr... | LED badge -- mini LED display -- ... | 6     | usbhid     | [11FD4B082E](<Notebook/Dell/G7/G7 7700/68ACFBDD4FC6/UBUNTU-20.04/5.8.0-59-GENERIC/X86_64/11FD4B082E>) |
+| 04a9:271a | Canon            | LBP6000                              | 6     | usblp      | [AE3EABE5FA](<Notebook/Acer/Aspire/Aspire 7750G/4E532D8415EF/ROSA-2016.1/4.15.0-DESKTOP-122.124.1ROSA-X86_64/X86_64/AE3EABE5FA>) |
+| 04a9:2771 | Canon            | LBP6020                              | 6     | usblp      | [A31437072C](<Notebook/Lenovo/G560/G560 20042/A588DEC91589/LINUXMINT-20.1/5.4.0-80-GENERIC/X86_64/A31437072C>) |
+| 04b8:1122 | Seiko Epson      | L395 Series                          | 6     | usblp      | [022685129B](<Notebook/Samsung Electronics/RV411/RV411-RV511-E3511-S3511-RV711/B49A50A79D16/LINUXMINT-20.2/5.4.0-80-GENERIC/X86_64/022685129B>) |
+| 04e8:3292 | Samsung Elect... | ML-1640 Series Laser Printer         | 6     | usblp      | [0043180375](<Notebook/Lenovo/ThinkPad/ThinkPad P50 20EN0005PG/E2E5A9232A5F/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/0043180375>) |
+| 04f9:0434 | Brother Indus... | MFC-L2710DW series                   | 6     | usbfs      | [CAAE85EBA1](<Notebook/Lenovo/ThinkPad/ThinkPad E15 20RD001CGE/5AB5383D35A0/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/CAAE85EBA1>) |
+| 1a86:7584 | QinHeng Elect... | CH340S                               | 6     | usblp      | [0F6B738EB8](<Notebook/Toshiba/Satellite/Satellite C855-139/30FECEC735AF/UBUNTU-20.04/5.4.0-99-GENERIC/X86_64/0F6B738EB8>) |
+| 03f0:0c17 | Hewlett-Packard  | LaserJet 1010                        | 5     | usblp      | [92068CB097](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2537W2L/A03F866A969E/UBUNTU-21.10/5.13.0-22-GENERIC/X86_64/92068CB097>) |
+| 03f0:3d17 | Hewlett-Packard  | LaserJet P1005                       | 5     | usblp      | [F529CFC4CD](<Notebook/Lenovo/ThinkPad/ThinkPad T400 7434A32/F4E7BA339F2E/UBUNTU-20.04/5.8.0-48-GENERIC/X86_64/F529CFC4CD>) |
+| 03f0:8c11 | Hewlett-Packard  | Deskjet F4500 series                 | 5     | usblp      | [801C1D8AF3](<Notebook/Lenovo/ThinkPad/ThinkPad X230 23259L3/C0E7008DBD6D/ELEMENTARY-6/5.11.0-37-GENERIC/X86_64/801C1D8AF3>) |
+| 04a9:10d3 | Canon            | iP2700 series                        | 5     | usblp      | [5856720999](<Notebook/Hewlett-Packard/Laptop/Laptop 14-bw0xx/75F61808E93D/KDE-NEON-20.04/5.11.0-37-GENERIC/X86_64/5856720999>) |
+| 04a9:10dc | Canon            | iP7200 series                        | 5     | usblp      | [6916C1087B](<Notebook/Dell/Inspiron/Inspiron 3582/832645823EA4/UBUNTU-18.04/4.15.0-1066-OEM/X86_64/6916C1087B>) |
+| 04a9:173a | Canon            | PIXMA MP250                          | 5     | usblp      | [DF5A829402](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8570w/2844F2F4C9E1/KUBUNTU-18.04/5.4.0-99-GENERIC/X86_64/DF5A829402>) |
+| 04a9:176b | Canon            | PIXMA MX920 Series                   | 5     | usblp      | [5026826DBE](<Notebook/Lenovo/ThinkPad/ThinkPad T540p 20BFS05B0Q/2B1BB0EB938C/DEBIAN-11/5.10.0-9-AMD64/X86_64/5026826DBE>) |
+| 04a9:26da | Canon            | LBP3010/LBP3018/LBP3050              | 5     | usblp      | [2A55FC3B23](<Notebook/MSI/GP72M/GP72M 7RDX/DF7323F070A3/DEBIAN-11/5.10.0-10-AMD64/X86_64/2A55FC3B23>) |
+| 04e8:3419 | Samsung Elect... | Composite Device                     | 5     | usblp      | [AC37B3FD23](<Notebook/Lenovo/ThinkPad/ThinkPad L440 20ASS3A300/1A3CAA841164/UBUNTU-20.04/5.11.0-38-GENERIC/X86_64/AC37B3FD23>) |
+| 03f0:102a | Hewlett-Packard  | LaserJet Professional P 1102w        | 4     | usblp      | [F5FDB45E75](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv9000/561AF91E9624/ROSA-2016.1/5.4.83-GENERIC-2ROSA-I586/I686/F5FDB45E75>) |
+| 03f0:3654 | Hewlett-Packard  | DeskJet 2300 series                  | 4     | usblp      | [C81DEF3B2E](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X570DD_X570DD/4D1131A25520/LINUXMINT-20.2/5.11.0-37-GENERIC/X86_64/C81DEF3B2E>) |
+| 03f0:5d17 | Hewlett-Packard  | LaserJet P2035                       | 4     | usblp      | [A520593D47](<Notebook/On by NetOnNet/LT1.1/LT1.1 BRZ/82BDDE8AE7D9/LINUXMINT-20.2/5.4.0-89-GENERIC/X86_64/A520593D47>) |
+| 03f0:9311 | Hewlett-Packard  | Deskjet 3050 J610 series             | 4     | usblp      | [687B919F28](<Notebook/Sony/VPCEH32/VPCEH32FX/352BD0342819/POP!_OS-20.10/5.8.0-7630-GENERIC/X86_64/687B919F28>) |
+| 03f0:a011 | Hewlett-Packard  | Deskjet 3050A                        | 4     | usblp      | [7855A0A207](<Notebook/Hewlett-Packard/255/255 G7 Notebook PC/CDC55F0FBC27/UBUNTU-20.04/5.11.0-46-GENERIC/X86_64/7855A0A207>) |
 
 ### Scanner (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 04a9:1909 | Canon      | CanoScan LiDE 110            | 14    |            | 2DEB6BE269 |
-| 04a9:220d | Canon      | CanoScan N670U/N676U/LiDE 20 | 10    |            | C33EBD46CC |
-| 04a9:190f | Canon      | CanoScan LiDE 220            | 8     | usbfs      | A8699BE8C7 |
-| 04a9:2220 | Canon      | CanoScan LIDE 25             | 7     | usbfs      | 3A06ECCCAA |
-| 04b8:0142 | Seiko E... | GT-F730 [GT-S630/Perfecti... | 6     |            | 6909C8B17F |
-| 03f0:0a01 | Hewlett... | ScanJet 2400c                | 5     |            | 68D91A6F59 |
-| 04a9:190a | Canon      | CanoScan LiDE 210            | 5     |            | A95920AF0B |
-| 03f0:1c05 | Hewlett... | Scanjet 200                  | 4     |            | F4E5B1F3AF |
-| 04a9:2228 | Canon      | CanoScan 4400F               | 4     |            | 109188CC8F |
-| 04b8:0121 | Seiko E... | GT-F500/GT-F550 [Perfecti... | 4     |            | E1DAAA37F5 |
-| 04b8:012d | Seiko E... | GT-F650 [GT-S600/Perfecti... | 4     |            | 957F8EDD8B |
-| 055f:021c | Mustek ... | BearPaw 1200 CU Plus         | 4     | usbfs      | 65D50C61EB |
-| 04a9:1904 | Canon      | CanoScan LiDE 100            | 3     |            | A7CDCB696B |
-| 04a9:190e | Canon      | CanoScan LiDE 120            | 3     |            | 0225C17D79 |
-| 04a9:2206 | Canon      | CanoScan N650U/N656U         | 3     |            | 981243E1FE |
-| 04a9:220e | Canon      | CanoScan N1240U/LiDE 30      | 3     |            | B08AC328D1 |
-| 055f:021f | Mustek ... | SNAPSCAN e22                 | 3     |            | 6E6B64D799 |
-| 05d8:4002 | Ultima ... | Artec Ultima 2000 (GT6801... | 3     |            | 287BAA6FF0 |
-| 03f0:1705 | Hewlett... | ScanJet 5590                 | 2     |            | D1ECE8006F |
-| 03f0:2005 | Hewlett... | ScanJet 3570c                | 2     |            | 587B440CE4 |
-| 03f0:2505 | Hewlett... | ScanJet 3770                 | 2     |            | 87E50471AE |
-| 04a5:2137 | Acer Pe... | Benq 5150/5250               | 2     |            | 2D25B17958 |
-| 04a9:221b | Canon      | CanoScan 4200F               | 2     |            | 3D606B3078 |
-| 04a9:221c | Canon      | CanoScan LiDE 60             | 2     |            | 38846E233B |
-| 04a9:221f | Canon      | CanoScan LiDE 500F           | 2     |            | 18E30A3F69 |
-| 04a9:2224 | Canon      | CanoScan LiDE 600F           | 2     |            | 2ED92032E0 |
-| 04a9:2225 | Canon      | CanoScan LiDE 70             | 2     |            | 6F69A0AC2C |
-| 04b8:011b | Seiko E... | GT-9300UF [Perfection 240... | 2     |            | 842C53B8E2 |
-| 04b8:011d | Seiko E... | GT-7300U [Perfection 1260... | 2     |            | 7725DDAF99 |
-| 04b8:0122 | Seiko E... | GT-F520/GT-F570 [Perfecti... | 2     |            | B91B3063A8 |
-| 04b8:012c | Seiko E... | GT-X900 [Perfection V700/... | 2     |            | B6F9682F0B |
-| 04b8:012e | Seiko E... | GT-F670 [Perfection V200 ... | 2     |            | CA5588BC3D |
-| 04b8:0130 | Seiko E... | GT-X770 [Perfection V500]    | 2     |            | 53BD733FFA |
-| 04b8:0131 | Seiko E... | GT-F720 [GT-S620/Perfecti... | 2     |            | 5B401043FD |
-| 04b8:013a | Seiko E... | GT-X820 [Perfection V600 ... | 2     |            | C4F732FEF3 |
-| 055f:021e | Mustek ... | BearPaw 1200 TA/CS           | 2     |            | 7FC17D0078 |
-| 07b3:0413 | Plustek    | OpticSlim 1200 Scanner       | 2     |            | 852B8BC6A4 |
-| 03f0:0305 | Hewlett... | ScanJet 4300c                | 1     |            | B5398AB6F2 |
-| 03f0:0405 | Hewlett... | ScanJet 3400cse              | 1     |            | 856D5A57FF |
-| 03f0:0701 | Hewlett... | ScanJet 5300c/5370c          | 1     |            | DBC27D6E03 |
-| 03f0:0805 | Hewlett... | HP4470C                      | 1     |            | DAD27CC510 |
-| 03f0:2205 | Hewlett... | ScanJet 3500c                | 1     |            | B855712EEF |
-| 03f0:2805 | Hewlett... | Scanjet G2710                | 1     |            | D6B3AEBB34 |
-| 03f0:3905 | Hewlett... | scanjet 8270                 | 1     |            | 08F0761A98 |
-| 03f0:4505 | Hewlett... | ScanJet G4010                | 1     |            | 5D369BF902 |
-| 0458:2014 | KYE Sys... | ColorPage-Vivid4             | 1     |            | DD360E1D5E |
-| 0458:201f | KYE Sys... | ColorPage-Vivid 1200 XE      | 1     |            | C676410AA7 |
-| 04a5:20b0 | Acer Pe... | S2W 3300U/4300U              | 1     |            | 1A3A0269DD |
-| 04a5:20f8 | Acer Pe... | Benq 5000                    | 1     |            | 78F2C3136C |
-| 04a7:0477 | Visioneer  | DM 152                       | 1     |            | DE18CDDB21 |
-| 04a9:1905 | Canon      | CanoScan LiDE 200            | 1     |            | E0E81BB9CB |
-| 04a9:1906 | Canon      | CanoScan 5600F               | 1     |            | D14CE30BB6 |
-| 04a9:1907 | Canon      | CanoScan LiDE 700F           | 1     |            | 06C93EC404 |
-| 04a9:1908 | Canon      | CanoScan                     | 1     |            | 1A2050B00F |
-| 04a9:2207 | Canon      | CanoScan 1220U               | 1     |            | 289EF53C29 |
-| 04a9:2213 | Canon      | CanoScan LiDE 50/LiDE 35/... | 1     |            | 6F0FD29DD6 |
-| 04a9:2216 | Canon      | CanoScan 3200F               | 1     |            | 5C81348F84 |
-| 04b8:010a | Seiko E... | GT-8700/GT-8700F [Perfect... | 1     |            | D819B1CC24 |
-| 04b8:010b | Seiko E... | GT-7700U [Perfection 1240U]  | 1     |            | 75A9AA20F2 |
-| 04b8:0110 | Seiko E... | GT-8200U/GT-8200UF [Perfe... | 1     |            | 3796A94A31 |
-| 04b8:011c | Seiko E... | GT-9800F [Perfection 3200]   | 1     |            | 86869022FA |
-| 04b8:011f | Seiko E... | GT-8400UF [Perfection 167... | 1     |            | EABDFA2312 |
-| 04b8:0120 | Seiko E... | GT-7400U [Perfection 1270]   | 1     |            | 21F455B486 |
-| 04b8:0126 | Seiko E... | ES-7000H [GT-15000]          | 1     |            | F6CC7FBA3A |
-| 04b8:012a | Seiko E... | GT-X800 [Perfection 4990 ... | 1     |            | EF74EB0B9B |
-| 04b8:0136 | Seiko E... | ES-D400 [GT-S80]             | 1     |            | BD4A713D8D |
-| 04b8:013b | Seiko E... | Scanner                      | 1     |            | 5CC0241841 |
-| 04b8:0802 | Seiko E... | CC-570L [Stylus CX3100/CX... | 1     | usblp      | 44AA7D667E |
-| 04c5:1041 | Fujitsu    | fi-4120c Scanner             | 1     |            | 7593BA7D90 |
-| 055f:0219 | Mustek ... | BearPaw 2400 TA Plus         | 1     |            | 49BA2B0298 |
-| 055f:021b | Mustek ... | BearPaw 1200 CU Plus         | 1     |            | A1913AAB0F |
-| 055f:021d | Mustek ... | BearPaw 2400 CU Plus         | 1     |            | 3572002C76 |
-| 055f:0408 | Mustek ... | BearPaw 2448 CU Pro          | 1     |            | D29669E299 |
-| 055f:0409 | Mustek ... | BearPaw 2448 TA Pro          | 1     |            | 8913A41223 |
-| 05d8:4001 | Ultima ... | Artec Ultima 2000            | 1     |            | 944D9E820D |
-| 05da:00a3 | Microte... | ScanMaker V6USL              | 1     | microtek   | F30CF40A02 |
-| 05da:30d4 | Microte... | USB1200 Scanner              | 1     | usbfs      | A8D389D086 |
-| 0681:0005 | Siemens... | ID-Mouse with Fingerprint... | 1     | idmouse    | F6FA4AEB51 |
-| 07b3:0017 | Plustek    | OpticPro UT12/16/24 Scanner  | 1     |            | 5A320C9A63 |
-| 23de:f808 | Papillo... | Scanner DS45USB              | 1     | ds45_usb   | 0A99E4D896 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 04a9:1909 | Canon            | CanoScan LiDE 110                    | 17    |            | [951C8C3FFC](<Notebook/ASUSTek Computer/All/All Series/210E79941327/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/951C8C3FFC>) |
+| 04a9:220d | Canon            | CanoScan N670U/N676U/LiDE 20         | 14    |            | [C2F6FAF193](<Notebook/Acer/Aspire/Aspire E5-571/17BC4634E0B7/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/C2F6FAF193>) |
+| 04a9:190f | Canon            | CanoScan LiDE 220                    | 11    | usbfs      | [AD6823C08E](<Notebook/Samsung Electronics/750/750XDA/7EAFD985038F/FEDORA-35/5.16.9-200.FC35.X86_64/X86_64/AD6823C08E>) |
+| 04a9:2220 | Canon            | CanoScan LIDE 25                     | 7     | usbfs      | [D1E3997BC0](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/902635B5C7F4/UBUNTU-20.04/5.11.0-43-GENERIC/X86_64/D1E3997BC0>) |
+| 04b8:0142 | Seiko Epson      | GT-F730 [GT-S630/Perfection V33/V... | 7     |            | [3AB4EBDBFD](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv7/CE519D9CC12C/UBUNTU-20.04/5.11.0-43-GENERIC/X86_64/3AB4EBDBFD>) |
+| 03f0:0a01 | Hewlett-Packard  | ScanJet 2400c                        | 5     |            | [68D91A6F59](<Notebook/Dell/Inspiron/Inspiron 5537/359EC3AAE31D/LINUXMINT-20/5.4.0-56-GENERIC/X86_64/68D91A6F59>) |
+| 04a9:190a | Canon            | CanoScan LiDE 210                    | 5     |            | [A95920AF0B](<Notebook/Lenovo/IdeaPad/IdeaPad 700-15ISK 80RU/85D77B893A64/UBUNTU-20.04/5.8.0-48-GENERIC/X86_64/A95920AF0B>) |
+| 04b8:0121 | Seiko Epson      | GT-F500/GT-F550 [Perfection 2480/... | 5     |            | [736A64DF69](<Notebook/Others/Others/Others/CD6E6E07013C/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/736A64DF69>) |
+| 03f0:1c05 | Hewlett-Packard  | Scanjet 200                          | 4     |            | [F4E5B1F3AF](<Notebook/Lenovo/IdeaPad/IdeaPad S145-15API 81V7/09A081625102/DEBIAN-TESTING/5.5.10-20.03.19.AMDGPU/X86_64/F4E5B1F3AF>) |
+| 04a9:1904 | Canon            | CanoScan LiDE 100                    | 4     |            | [191EB6224A](<Notebook/Acer/Aspire/Aspire 5100/C8BDE15DE55F/XUBUNTU-18.04/5.4.0-97-GENERIC/I686/191EB6224A>) |
+| 04a9:190e | Canon            | CanoScan LiDE 120                    | 4     |            | [A9203B72BB](<Notebook/Hewlett-Packard/Presario/Presario CQ56/A82FD37AA135/DEBIAN-11/5.10.0-9-686-PAE/I686/A9203B72BB>) |
+| 04a9:2228 | Canon            | CanoScan 4400F                       | 4     |            | [109188CC8F](<Notebook/Hewlett-Packard/EliteBook/EliteBook 2570p/B6CD9B26F3B1/LINUXMINT-19/4.15.0-158-GENERIC/X86_64/109188CC8F>) |
+| 04b8:012d | Seiko Epson      | GT-F650 [GT-S600/Perfection V10/V... | 4     |            | [957F8EDD8B](<Notebook/ASUSTek Computer/N61/N61Vg/A13472497051/ROSA-2016.1/4.15.0-DESKTOP-122.124.1ROSA-I586/I686/957F8EDD8B>) |
+| 055f:021c | Mustek Systems   | BearPaw 1200 CU Plus                 | 4     | usbfs      | [65D50C61EB](<Notebook/Lenovo/ThinkPad/ThinkPad T420 4236Q23/9AE461B58FE5/UBUNTU-18.04/5.3.0-28-GENERIC/X86_64/65D50C61EB>) |
+| 04a9:2206 | Canon            | CanoScan N650U/N656U                 | 3     |            | [981243E1FE](<Notebook/Dell/Vostro/Vostro 1510/946E2333389A/XUBUNTU-18.04/5.4.0-47-GENERIC/I686/981243E1FE>) |
+| 04a9:220e | Canon            | CanoScan N1240U/LiDE 30              | 3     |            | [8E19EFFEC8](<Notebook/Acer/TravelMate/TravelMate 5720/5E21F650B980/PARROT-5.0/5.14.0-9PARROT1-AMD64/X86_64/8E19EFFEC8>) |
+| 04a9:221f | Canon            | CanoScan LiDE 500F                   | 3     |            | [86D1CDAE24](<Notebook/Dell/Studio/Studio 1735/2BC071C85299/LINUXMINT-20.2/5.4.0-91-GENERIC/X86_64/86D1CDAE24>) |
+| 04a9:2224 | Canon            | CanoScan LiDE 600F                   | 3     |            | [E83C271E2E](<Notebook/Samsung Electronics/750/750XDA/9EA80D93B036/LINUXMINT-20.3/5.4.0-96-GENERIC/X86_64/E83C271E2E>) |
+| 055f:021f | Mustek Systems   | SNAPSCAN e22                         | 3     |            | [6E6B64D799](<Notebook/Dell/Latitude/Latitude E5520/712E4CA0EF18/DEBIAN-10/5.2.0-3-AMD64/X86_64/6E6B64D799>) |
+| 05d8:4002 | Ultima Electr... | Artec Ultima 2000 (GT6801 based)/... | 3     |            | [287BAA6FF0](<Notebook/Dell/Inspiron/Inspiron 1521/31EAA1233487/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-X86_64/X86_64/287BAA6FF0>) |
+| 03f0:1705 | Hewlett-Packard  | ScanJet 5590                         | 2     |            | [D1ECE8006F](<Notebook/Dell/Vostro/Vostro 3700/CCE06CD81EB7/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/D1ECE8006F>) |
+| 03f0:2005 | Hewlett-Packard  | ScanJet 3570c                        | 2     |            | [587B440CE4](<Notebook/Hewlett-Packard/Compaq/Compaq 6730s/18DFC6C256D6/XUBUNTU-20.04/5.11.0-38-GENERIC/X86_64/587B440CE4>) |
+| 03f0:2505 | Hewlett-Packard  | ScanJet 3770                         | 2     |            | [87E50471AE](<Notebook/ASUSTek Computer/N61/N61Jv/73CBF21C67C7/ROSA-2016.1/4.15.0-DESKTOP-122.124.1ROSA-X86_64/X86_64/87E50471AE>) |
+| 04a5:2137 | Acer Peripher... | Benq 5150/5250                       | 2     |            | [2D25B17958](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK S792/85248B91C23E/ROSA-2016.1/4.9.20-NRJ-DESKTOP-1ROSA-I586/I686/2D25B17958>) |
+| 04a9:2216 | Canon            | CanoScan 3200F                       | 2     |            | [213079780B](<Notebook/ASUSTek Computer/ZenBook/ZenBook UX425UA_UM425UA/C70168C3DFC7/LINUXMINT-20.3/5.4.0-97-GENERIC/X86_64/213079780B>) |
+| 04a9:221b | Canon            | CanoScan 4200F                       | 2     |            | [3D606B3078](<Notebook/Dell/Latitude/Latitude E6530/AF0655667AFD/XUBUNTU-20.04/5.4.0-52-LOWLATENCY/X86_64/3D606B3078>) |
+| 04a9:221c | Canon            | CanoScan LiDE 60                     | 2     |            | [38846E233B](<Notebook/Lenovo/IdeaPad/IdeaPad 3 15ADA05 81W1/3F8E094A7954/UBUNTU-20.10/5.8.0-25-GENERIC/X86_64/38846E233B>) |
+| 04a9:2225 | Canon            | CanoScan LiDE 70                     | 2     |            | [6F69A0AC2C](<Notebook/Acer/Aspire/Aspire S3-391/21EB174D69BE/ROSA-2016.1/4.15.0-DESKTOP-45.1ROSA-X86_64/X86_64/6F69A0AC2C>) |
+| 04b8:011b | Seiko Epson      | GT-9300UF [Perfection 2400 PHOTO]    | 2     |            | [842C53B8E2](<Notebook/Lenovo/ThinkPad/ThinkPad X270 W10DG 20K5S41E00/14889CC0A2CC/DEBIAN-11/5.10.0-6-RT-AMD64/X86_64/842C53B8E2>) |
+| 04b8:011d | Seiko Epson      | GT-7300U [Perfection 1260/1260 PH... | 2     |            | [7725DDAF99](<Notebook/ASUSTek Computer/K52/K52JT/B6E3332B9D4A/DEBIAN-TESTING/5.4.0-3-AMD64/X86_64/7725DDAF99>) |
+| 04b8:0122 | Seiko Epson      | GT-F520/GT-F570 [Perfection 3590 ... | 2     |            | [B91B3063A8](<Notebook/Lenovo/Z50-70/Z50-70 20354/8DB8AAF8AD82/ROSA-2016.1/4.9.20-NRJ-DESKTOP-1ROSA-X86_64/X86_64/B91B3063A8>) |
+| 04b8:012c | Seiko Epson      | GT-X900 [Perfection V700/V750 Photo] | 2     |            | [B6F9682F0B](<Notebook/Lenovo/ThinkPad/ThinkPad T490 20N3CTO1WW/DF4D4A047F48/UBUNTU-MATE-20.04/5.4.0-40-GENERIC/X86_64/B6F9682F0B>) |
+| 04b8:012e | Seiko Epson      | GT-F670 [Perfection V200 Photo]      | 2     |            | [CA5588BC3D](<Notebook/ASUSTek Computer/VivoBook/VivoBook 15_ASUS Laptop X540MA_A540MA/738DF265244B/ENDLESS-3.5.9/4.18.0-15-GENERIC/X86_64/CA5588BC3D>) |
+| 04b8:0130 | Seiko Epson      | GT-X770 [Perfection V500]            | 2     |            | [53BD733FFA](<Notebook/Apple/MacBookAir1/MacBookAir1,1/12A59235DB9F/UBUNTU-21.04/5.11.0-26-GENERIC/X86_64/53BD733FFA>) |
+| 04b8:0131 | Seiko Epson      | GT-F720 [GT-S620/Perfection V30/V... | 2     |            | [5B401043FD](<Notebook/Lenovo/ThinkPad/ThinkPad T430s 2356AB2/656F6E030476/UBUNTU-20.04/5.4.0-52-GENERIC/X86_64/5B401043FD>) |
+| 04b8:013a | Seiko Epson      | GT-X820 [Perfection V600 Photo]      | 2     |            | [C4F732FEF3](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/65B77263667C/LINUXMINT-20.1/5.4.0-73-GENERIC/X86_64/C4F732FEF3>) |
+| 04b8:013b | Seiko Epson      | Scanner                              | 2     |            | [6E5A2E29F4](<Notebook/Packard Bell/EasyNote/EasyNote TE11HC/FFDFCA409720/UBUNTU-20.04/5.11.0-46-GENERIC/X86_64/6E5A2E29F4>) |
+| 055f:021e | Mustek Systems   | BearPaw 1200 TA/CS                   | 2     |            | [7FC17D0078](<Notebook/Hewlett-Packard/Mini/Mini 110-3100/29019DF1B604/ROSA-2016.1/4.15.0-DESKTOP-60.7ROSA-I586/I686/7FC17D0078>) |
+| 07b3:0413 | Plustek          | OpticSlim 1200 Scanner               | 2     |            | [852B8BC6A4](<Notebook/Lenovo/B51-80/B51-80 80LM/1F47725FB000/KDE-NEON-18.04/5.0.0-32-GENERIC/X86_64/852B8BC6A4>) |
+| 03f0:0305 | Hewlett-Packard  | ScanJet 4300c                        | 1     |            | [B5398AB6F2](<Notebook/Acer/Nitro/Nitro AN515-43/36356B77B07F/UBUNTU-20.10/5.8.0-32-GENERIC/X86_64/B5398AB6F2>) |
+| 03f0:0405 | Hewlett-Packard  | ScanJet 3400cse                      | 1     |            | [856D5A57FF](<Notebook/Lenovo/IdeaPad/IdeaPad Y450/4E4D01D60C14/ROSA-2014.1/4.1.33-NRJ-DESKTOP-1ROSA-X86_64/X86_64/856D5A57FF>) |
+| 03f0:0605 | Hewlett-Packard  | ScanJet 2200c                        | 1     |            | [A520593D47](<Notebook/On by NetOnNet/LT1.1/LT1.1 BRZ/82BDDE8AE7D9/LINUXMINT-20.2/5.4.0-89-GENERIC/X86_64/A520593D47>) |
+| 03f0:0701 | Hewlett-Packard  | ScanJet 5300c/5370c                  | 1     |            | [DBC27D6E03](<Notebook/Dell/Latitude/Latitude E6420/72A598ACEE4E/LINUXMINT-20/5.4.0-26-GENERIC/X86_64/DBC27D6E03>) |
+| 03f0:0805 | Hewlett-Packard  | HP4470C                              | 1     |            | [DAD27CC510](<Notebook/Medion/P/P7815/99F2C64D02A2/UBUNTU-20.04/5.4.0-33-GENERIC/X86_64/DAD27CC510>) |
+| 03f0:2205 | Hewlett-Packard  | ScanJet 3500c                        | 1     |            | [B855712EEF](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv4000/904D2F3A45B8/ROSA-2014.1/4.1.16-NRJ-DESKTOP-1ROSA-I586/I686/B855712EEF>) |
+| 03f0:2805 | Hewlett-Packard  | Scanjet G2710                        | 1     |            | [D6B3AEBB34](<Notebook/Hewlett-Packard/250/250 G4 Notebook PC/AEE5D65577F6/UBUNTU-20.04/5.4.0-40-GENERIC/X86_64/D6B3AEBB34>) |
+| 03f0:3905 | Hewlett-Packard  | scanjet 8270                         | 1     |            | [08F0761A98](<Notebook/Lenovo/ThinkPad/ThinkPad T520 4243AP1/0886CE1D1A8A/UBUNTU-20.04/5.4.0-66-GENERIC/X86_64/08F0761A98>) |
+| 03f0:4505 | Hewlett-Packard  | ScanJet G4010                        | 1     |            | [5D369BF902](<Notebook/Hewlett-Packard/Laptop/Laptop 15-bw0xx/5164B02660E1/ROSA-2016.1/4.15.0-DESKTOP-51.4ROSA-X86_64/X86_64/5D369BF902>) |
+| 0458:2014 | KYE Systems (... | ColorPage-Vivid4                     | 1     |            | [DD360E1D5E](<Notebook/eMachines/E/E625/3D19A3B63950/ROSA-2016.1/4.9.76-NRJ-DESKTOP-1ROSA-I586/I686/DD360E1D5E>) |
+| 0458:201f | KYE Systems (... | ColorPage-Vivid 1200 XE              | 1     |            | [C676410AA7](<Notebook/ASUSTek Computer/K501/K501LB/5898868C0E21/ROSA-2016.1/4.9.111-NRJ-DESKTOP-2ROSA-X86_64/X86_64/C676410AA7>) |
 
 ### Serial controller (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 1a86:7523 | QinHeng... | CH340 serial converter       | 101   | ch341      | F1770353A3 |
-| 05c6:9204 | Qualcomm   | Gobi 2000                    | 90    | qcserial   | 5DA95784CA |
-| 0403:6001 | Future ... | FT232 Serial (UART) IC       | 88    | ftdi_sio   | 8A52B831D7 |
-| 067b:2303 | Prolifi... | PL2303 Serial Port / Mobi... | 72    | pl2303     | C6E3125E49 |
-| 03f0:521d | Hewlett... | hs3110 HSPA+ Mobile Broad... | 62    | option     | 1069B24865 |
-| 03f0:241d | Hewlett... | Gobi 2000 Wireless Modem ... | 45    | qcserial   | 1408D15ECE |
-| 10c4:ea60 | Silicon... | CP210x UART Bridge           | 44    | cp210x     | 2AD271E81F |
-| 1199:9013 | Sierra ... | Sierra Wireless Gobi 3000... | 39    | qcserial   | 525CE59581 |
-| 1199:9000 | Sierra ... | Gobi 2000 Wireless Modem ... | 20    | qcserial   | 4D6A940F2A |
-| 12d1:15c1 | Huawei ... | ME906s LTE M.2 Module        | 18    | option     | 44D0412DD3 |
-| 03f0:201d | Hewlett... | un2400 Gobi Wireless Mode... | 17    | qcserial   | 9028097D4D |
-| 03f0:a31d | Hewlett... | lt4132 LTE/HSPA+ 4G Module   | 15    | option     | A5331A4D5E |
-| 413c:8185 | Dell       | Gobi 2000 Wireless Modem ... | 15    | qcserial   | 4370197A2D |
-| 0403:6015 | Future ... | Bridge(I2C/SPI/UART/FIFO)    | 11    | ftdi_sio   | E85198489E |
-| 05c6:9224 | Qualcomm   | Sony Gobi 2000 Wireless M... | 11    | qcserial   | 2D1739DC58 |
-| 0451:3410 | Texas I... | TUSB3410 Microcontroller     | 10    | ti_usb_... | 4698844EC0 |
-| 0af0:6901 | Option     | Globetrotter HSDPA Modem     | 10    | option     | EE6FDF4608 |
-| 1199:683c | Sierra ... | Mobile Broadband 3G/UMTS ... | 9     | sierra     | B26E82328A |
-| 03f0:1e1d | Hewlett... | hs2300 HSDPA Broadband Wi... | 8     | sierra     | 1F3C069A21 |
-| 0fcf:1008 | Dynastr... | ANTUSB2 Stick                | 8     | usb_ser... | F3E5EBA0C2 |
-| 0403:6010 | Future ... | FT2232C/D/H Dual UART/FIF... | 7     | ftdi_sio   | E68DFE0824 |
-| 1199:6832 | Sierra ... | MC8780 Device                | 7     | sierra     | 3B7266D323 |
-| 19d2:2003 | ZTE WCD... | ZTE WCDMA Technologies MSM   | 6     | option     | 1476158702 |
-| 413c:8133 | Dell       | Wireless 5720 VZW Mobile ... | 6     | option     | 5F6EC9333E |
-| 0403:6014 | Future ... | FT232H Single HS USB-UART... | 5     | ftdi_sio   | 79FA3F7509 |
-| 1199:6813 | Sierra ... | Mini Card                    | 5     | sierra     | 56D9CF2086 |
-| 1410:2420 | Novatel... | Expedite EU850D/EU860D/EU... | 5     | option     | 99920AD031 |
-| 04da:250c | Panason... | Gobi Wireless Modem (QDL ... | 4     | qcserial   | 29EEE33555 |
-| 0557:2008 | ATEN In... | UC-232A Serial Port [pl2303] | 4     | pl2303     | 7FC8B0D291 |
-| 05c6:9221 | Qualcomm   | Gobi Wireless Modem (QDL ... | 4     | qcserial   | 950506FE40 |
-| 10c4:ea70 | Silicon... | CP2105 Dual UART Bridge      | 4     | cp210x     | 90CBD6D0A7 |
-| 19d2:0016 | ZTE WCD... | ZTE WCDMA Technologies MSM   | 4     | option     | F4021DEE94 |
-| 2c7c:0125 | Quectel... | EC25 LTE modem               | 4     | qmi_wwa... | 89BBAFA02E |
-| 413c:819b | Dell       | Novatel Wireless HSPA        | 4     | cdc_eth... | FD1375D5F1 |
-| 0403:6011 | Future ... | FT4232H Quad HS USB-UART/... | 3     | ftdi_sio   | B364724E53 |
-| 05c6:9008 | Qualcomm   | Gobi Wireless Modem (QDL ... | 3     | qcserial   | 77972D0737 |
-| 0f3d:68aa | Airprim... | AirCard 320U                 | 3     | sierra     | 1473909011 |
-| 1199:68c0 | Sierra ... | MC7304                       | 3     | qcserial   | 11C9D92E85 |
-| 1bbb:022c | T & A M... | HSPA+ USB Modem              | 3     | usbseri... | A348E53594 |
-| 03f0:1f1d | Hewlett... | un2400 Gobi Wireless Modem   | 2     | qcserial   | 1BEB03698D |
-| 045e:00ce | Microsoft  | Generic PPC Flash device     | 2     | ipaq       | D61BE7331F |
-| 057c:6201 | AVM        | AVM Fritz!WLAN v1.1 [Texa... | 2     | option     | A31771AC70 |
-| 091e:0003 | Garmin ... | GPS (various models)         | 2     | garmin_gps | 037CAC7A3D |
-| 0af0:6501 | Option     | GlobeTrotter 3G+ Module      | 2     | option     | 7024487BCD |
-| 10c4:ea71 | Silicon... | CP2108 Quad UART Bridge      | 2     | cp210x     | CE3945EA8E |
-| 1199:0218 | Sierra ... | MC5720 Wireless Modem        | 2     | sierra     | E5C5CE1445 |
-| 1199:68a3 | Sierra ... | MC8700 Modem                 | 2     | sierra     | B11B688D14 |
-| 1bbb:00b7 | T & A M... | 3G Wireless Router           | 2     | option     | E6C9D1B45A |
-| 2020:2060 | Qualcom... | CDMA Technologies MSM        | 2     | option     | C24817EE80 |
-| 413c:8171 | Dell       | Gobi Wireless Modem (QDL ... | 2     | qcserial   | CB6D9E241E |
-| 413c:81d7 | Dell       | DW5821e Snapdragon X20 LTE   | 2     | option     | 93FAE8CDD3 |
-| 0408:ea06 | Quanta     | CDMA Technologies MSM        | 1     | option     | 97C6728357 |
-| 0483:3747 | STMicro... | ST Micro Connect Lite        | 1     | ftdi_sio   | A56D8D1C28 |
-| 04b4:5500 | Cypress... | HID->COM RS232 Adapter       | 1     | cypress_m8 | 92BCBB0842 |
-| 05c6:9225 | Qualcomm   | Sony Gobi 2000 Wireless M... | 1     | qcserial   | 3631A4D89D |
-| 067b:aaa0 | Prolifi... | Prolific Pharos              | 1     | pl2303     | 25A1DC80F1 |
-| 06cd:0121 | Keyspan    | USA-19hs serial adapter      | 1     | keyspan    | FB2C692CC5 |
-| 0930:1302 | Toshiba    | Wireless Broadband (3G HS... | 1     | option     | 6F67780462 |
-| 0d9f:0002 | Powercom   | Black Knight PRO / WOW Un... | 1     | cypress... | 1749B0B757 |
-| 0df7:0620 | Mobile ... | MA-620 Infrared Adapter      | 1     | pl2303     | 467812DB7D |
-| 0fcf:1009 | Dynastr... | ANTUSB-m Stick               | 1     | usb_ser... | C96EB40E5F |
-| 10c4:8470 | Cygnal ... | Juniper Networks BX Serie... | 1     | cp210x     | 06DECE3B2A |
-| 10c4:8a2a | Silicon... | HubZ Smart Home Controller   | 1     | cp210x     | C9DA6A52CB |
-| 114f:68a2 | Wavecom    | MC7750                       | 1     | qcserial   | 33AF47893A |
-| 1199:0020 | Sierra ... | MC5725 Modem                 | 1     | sierra     | D2C42C6C14 |
-| 1199:6802 | Sierra ... | MC8755 Device                | 1     | sierra     | 69A21019E7 |
-| 1199:6804 | Sierra ... | MC8755 Device                | 1     | sierra     | DB650F6297 |
-| 1199:6812 | Sierra ... | MC8775 Device                | 1     | sierra     | 7D9E4527B1 |
-| 1199:6856 | Sierra ... | ATT "USB Connect 881"        | 1     | sierra     | 5A1CA7D377 |
-| 1199:6890 | Sierra ... | AC504                        | 1     | sierra     | 83B675C99C |
-| 1199:9070 | Sierra ... | EM7455 Qualcomm              | 1     | qcserial   | 032B587C4F |
-| 12d1:1569 | Huawei ... | EM680 w/Gobi Technology      | 1     | option     | F05FDF7D0F |
-| 1410:2110 | Novatel... | Ovation U720/MCD3000         | 1     | option     | 441D60EA88 |
-| 1410:2410 | Novatel... | Expedite EU740               | 1     | option     | 4938E3EC42 |
-| 1410:9010 | Novatel... | Expedite E362                | 1     | option     | B242556157 |
-| 15ba:002b | Olimex     | ARM-USB-OCD-H JTAG+RS232     | 1     | ftdi_sio   | FFD6111CE0 |
-| 19d2:0117 | ZTE WCD... | USB SCSI CD-ROM              | 1     | option     | 432E535ED8 |
-| 19d2:0189 | ZTE WCD... | ZTE LTE Technologies MSM     | 1     | option     | EA30F4CBE1 |
-| 1e0e:9001 | Qualcom... | SimTech, Incorporated        | 1     | option     | 43B5196D13 |
-| 413c:8116 | Dell       | Wireless 5505 Mobile Broa... | 1     | option     | 6296C79EF5 |
-| 413c:8138 | Dell       | Wireless 5520 Voda I Mobi... | 1     | option     | F88C2A43B9 |
-| 413c:81a6 | Dell       | Wireless 5570 HSPA+ (42Mb... | 1     | qcserial   | AC369113B5 |
-| 413c:81e0 | Dell       | DW5821e-eSIM Snapdragon X... | 1     | option     | 4B2C0DDDEB |
-| 6547:0232 | Arkmicr... | ARK3116 Serial               | 1     | ark3116    | B43383EB91 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 1a86:7523 | QinHeng Elect... | CH340 serial converter               | 129   | ch341      | [C39FE1A3E3](<Notebook/Dell/XPS/XPS 15 9550/0E22532FC18F/ARCH/5.16.11-ARCH1-2/X86_64/C39FE1A3E3>) |
+| 05c6:9204 | Qualcomm         | Gobi 2000                            | 100   | qcserial   | [4601C3AA77](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2537VGY/60E94FBE6817/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/4601C3AA77>) |
+| 0403:6001 | Future Techno... | FT232 Serial (UART) IC               | 99    | ftdi_sio   | [BFA3FA7218](<Notebook/Dell/Latitude/Latitude E4300/9B0B27A28A67/DEBIAN-11/5.10.0-11-AMD64/X86_64/BFA3FA7218>) |
+| 067b:2303 | Prolific Tech... | PL2303 Serial Port / Mobile Actio... | 80    | pl2303     | [64F0D004CE](<Notebook/Dell/Latitude/Latitude 7490/D7234C6171D8/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/64F0D004CE>) |
+| 03f0:521d | Hewlett-Packard  | HP hs3110 HSPA+ Mobile Broadband ... | 74    | option     | [B2AEEA55E5](<Notebook/Hewlett-Packard/EliteBook/EliteBook 850 G1/54841F6E7861/MANJARO/5.16.11-2-MANJARO/X86_64/B2AEEA55E5>) |
+| 10c4:ea60 | Silicon Labs     | CP210x UART Bridge                   | 54    | cp210x     | [2AB16BFCEE](<Notebook/Apple/MacBookPro9/MacBookPro9,2/69963227A53F/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/2AB16BFCEE>) |
+| 03f0:241d | Hewlett-Packard  | Gobi 2000 Wireless Modem (QDL mode)  | 51    | qcserial   | [02D7F3125E](<Notebook/Hewlett-Packard/ProBook/ProBook 6550b/CA13DC5FE278/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/02D7F3125E>) |
+| 1199:9013 | Sierra Wireless  | Sierra Wireless Gobi 3000 Modem d... | 42    | qcserial   | [0E2BB9A59F](<Notebook/Lenovo/ThinkPad/ThinkPad T420 423664U/4B32022D42B9/ARCH-ROLLING/5.16.1-ARCH1-1/X86_64/0E2BB9A59F>) |
+| 12d1:15c1 | Huawei Techno... | ME906s LTE M.2 Module                | 25    | option     | [0F20B300EC](<Notebook/Lenovo/ThinkPad/ThinkPad X260 20F5S1MN00/2A128D05FB1C/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/0F20B300EC>) |
+| 1199:9000 | Sierra Wireless  | Gobi 2000 Wireless Modem (QDL mode)  | 22    | qcserial   | [396C65C24C](<Notebook/Getac/V100/V100-X/3FABEFD5B35A/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/396C65C24C>) |
+| 03f0:201d | Hewlett-Packard  | un2400 Gobi Wireless Modem (QDL m... | 19    | qcserial   | [82000C3346](<Notebook/Hewlett-Packard/EliteBook/EliteBook 6930p/9043BC01FF36/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/82000C3346>) |
+| 03f0:a31d | Hewlett-Packard  | lt4132 LTE/HSPA+ 4G Module           | 17    | option     | [2D4387B0F4](<Notebook/Hewlett-Packard/EliteBook/EliteBook 820 G4/CD00B25F25F0/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/2D4387B0F4>) |
+| 413c:8185 | Dell             | Gobi 2000 Wireless Modem (QDL mode)  | 17    | qcserial   | [FF6A48346F](<Notebook/Dell/Latitude/Latitude XT2/876C72737DC9/PARROT-5.0/5.15.0-15PARROT1-AMD64/X86_64/FF6A48346F>) |
+| 05c6:9224 | Qualcomm         | Sony Gobi 2000 Wireless Modem (QD... | 15    | qcserial   | [41F76E701C](<Notebook/Sony/VPCZ11/VPCZ11X9E/C671B6A03CAD/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/41F76E701C>) |
+| 0451:3410 | Texas Instrum... | TUSB3410 Microcontroller             | 14    | ti_usb_... | [C447074D2B](<Notebook/Others/Others/Others/11A6F365658A/LINUXMINT-19.3/5.4.0-99-GENERIC/X86_64/C447074D2B>) |
+| 0403:6015 | Future Techno... | Bridge(I2C/SPI/UART/FIFO)            | 13    | ftdi_sio   | [6875BD20AB](<Notebook/ASUSTek Computer/ASUS/ASUS EXPERTBOOK P2451FA_P2451FA/6F1C15E5B6A8/LINUXMINT-20.3/5.4.0-91-GENERIC/X86_64/6875BD20AB>) |
+| 0af0:6901 | Option           | Globetrotter HSDPA Modem             | 10    | option     | [EE6FDF4608](<Notebook/Fujitsu Siemens/ESPRIMO/ESPRIMO Mobile D9500/DF33913DD5B2/MX-21/5.10.0-8-AMD64/X86_64/EE6FDF4608>) |
+| 0fcf:1008 | Dynastream In... | ANTUSB2 Stick                        | 10    | usb_ser... | [5E7B7A63A9](<Notebook/ASUSTek Computer/GL552/GL552VW/138484BF59CB/ZORIN-16/5.13.0-27-GENERIC/X86_64/5E7B7A63A9>) |
+| 1199:683c | Sierra Wireless  | Mobile Broadband 3G/UMTS (MC8790 ... | 10    | sierra     | [019B0AEEEA](<Notebook/Dell/Latitude/Latitude E6420/0530629A75F0/ARCH-ROLLING/5.16.5-ARCH1-1/X86_64/019B0AEEEA>) |
+| 03f0:1e1d | Hewlett-Packard  | hs2300 HSDPA Broadband Wireless M... | 9     | sierra     | [677180A63E](<Notebook/Hewlett-Packard/Compaq/Compaq 6910p/D384BC4BEB35/BLACKARCH/5.13.10-ARCH1-1/X86_64/677180A63E>) |
+| 0403:6010 | Future Techno... | FT2232C/D/H Dual UART/FIFO IC        | 8     | ftdi_sio   | [8CF015E233](<Notebook/Dell/Precision/Precision 3530/D27865B8B747/ARCH/5.16.10-ARCH1-1/X86_64/8CF015E233>) |
+| 05c6:9221 | Qualcomm         | Gobi Wireless Modem (QDL mode)       | 7     | qcserial   | [D3465ABE44](<Notebook/Sony/VGN-Z690/VGN-Z690N/C7EACBA309C4/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/D3465ABE44>) |
+| 1199:6832 | Sierra Wireless  | MC8780 Device                        | 7     | sierra     | [3B7266D323](<Notebook/Fujitsu Siemens/LIFEBOOK/LIFEBOOK S6410/66E7AC9B5367/OPENMANDRIVA-4.50/5.12.4-DESKTOP-1OMV4050/X86_64/3B7266D323>) |
+| 2c7c:0125 | Quectel Wirel... | EC25 LTE modem                       | 7     | qmi_wwa... | [B048E096B2](<Notebook/Others/Others/Others/F34AA99056AB/LINUXMINT-20.2/5.4.0-100-GENERIC/X86_64/B048E096B2>) |
+| 413c:8133 | Dell             | Wireless 5720 VZW Mobile Broadban... | 7     | option     | [712B22AD9B](<Notebook/Dell/Latitude/Latitude D630/1F554D557F80/UBUNTU-20.04/5.11.0-46-GENERIC/X86_64/712B22AD9B>) |
+| 05c6:9008 | Qualcomm         | Gobi Wireless Modem (QDL mode)       | 6     | qcserial   | [1AA838368F](<Notebook/Hewlett-Packard/EliteBook/EliteBook Folio 9470m/527B27C7CA82/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/1AA838368F>) |
+| 19d2:2003 | ZTE WCDMA Tec... | ZTE WCDMA Technologies MSM           | 6     | option     | [1476158702](<Notebook/ASUSTek Computer/X55/X55A/59FBFE7764FE/ROSA-2016.1/4.15.0-DESKTOP-47.2ROSA-X86_64/X86_64/1476158702>) |
+| 0403:6011 | Future Techno... | FT4232H Quad HS USB-UART/FIFO IC     | 5     | ftdi_sio   | [41AC7EFFBE](<Notebook/Hewlett-Packard/ZBook/ZBook 15 G6/10E50F1DF495/UBUNTU-18.04/5.4.0-104-GENERIC/X86_64/41AC7EFFBE>) |
+| 0403:6014 | Future Techno... | FT232H Single HS USB-UART/FIFO IC    | 5     | ftdi_sio   | [79FA3F7509](<Notebook/Lenovo/ThinkPad/ThinkPad P15v Gen 1 20TQ004JAU/244A0ACE6641/UBUNTU-20.04/5.8.0-53-GENERIC/X86_64/79FA3F7509>) |
+| 0557:2008 | ATEN Internat... | UC-232A Serial Port [pl2303]         | 5     | pl2303     | [1C6A5C6E55](<Notebook/Hewlett-Packard/ProBook/ProBook 655 G1/BE21EEFA85AF/XUBUNTU-16.04/4.4.0-210-GENERIC/X86_64/1C6A5C6E55>) |
+| 10c4:ea70 | Cygnal Integr... | CP210x UART Bridge                   | 5     | cp210x     | [033354EE53](<Notebook/Others/Others/Others/7F9C346D2FA8/FEDORA-36/5.16.0-0.RC7.20211231GIT4F3D93C6EAFF.52.VANILLA.1.FC36.X86_64/X86_64/033354EE53>) |
+| 1199:6813 | Sierra Wireless  | Mini Card                            | 5     | sierra     | [56D9CF2086](<Notebook/Lenovo/ThinkPad/ThinkPad X300 40521TG/3A897A884F5E/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/56D9CF2086>) |
+| 1410:2420 | Novatel Wireless | Expedite EU850D/EU860D/EU870D        | 5     | option     | [99920AD031](<Notebook/Panasonic/CF-19/CF-19KDR80SH/1EDE63316A37/BLACKPANTHER-OS-18.1/5.6.14-DESKTOP-2BP/X86_64/99920AD031>) |
+| 413c:819b | Dell             | Novatel Wireless HSPA                | 5     | option     | [FE6DBDEF48](<Notebook/Dell/Latitude/Latitude E6530/4D2A9830B4C8/ZORIN-16/5.11.0-40-GENERIC/X86_64/FE6DBDEF48>) |
+| 04da:250c | Panasonic (Ma... | Gobi Wireless Modem (QDL mode)       | 4     | qcserial   | [29EEE33555](<Notebook/Panasonic/CF-19/CF-19KDR78CE/D497CC204F4F/UBUNTU-21.04/5.11.0-25-GENERIC/X86_64/29EEE33555>) |
+| 19d2:0016 | ZTE WCDMA Tec... | ZTE WCDMA Technologies MSM           | 4     | option     | [F4021DEE94](<Notebook/ASUSTek Computer/900/900/676BBE9C4107/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-I586/I686/F4021DEE94>) |
+| 413c:81d7 | Dell             | DW5821e Snapdragon X20 LTE           | 4     | option     | [64EF1D30C3](<Notebook/Dell/Latitude/Latitude 7424 Rugged Extreme/8E222DD36428/DEBIAN-TESTING/5.15.0-3-AMD64/X86_64/64EF1D30C3>) |
+| 0f3d:68aa | Airprime, Inc... | AirCard 320U                         | 3     | sierra     | [1473909011](<Notebook/Apple/MacBook3/MacBook3,1/6E18E43E0A90/ZORIN-16/5.11.0-27-GENERIC/X86_64/1473909011>) |
+| 1199:68c0 | Sierra Wireless  | MC7304                               | 3     | qcserial   | [11C9D92E85](<Notebook/Toshiba/PORTEGE/PORTEGE R700/6CADEC424C3E/FEDORA-33/5.10.22-200.FC33.X86_64/X86_64/11C9D92E85>) |
+| 1bbb:022c | T & A Mobile ... | HSPA+ USB Modem                      | 3     | usbseri... | [A348E53594](<Notebook/ASUSTek Computer/X502/X502CA/E9240330976A/ROSA-2014.1/4.1.25-NRJ-DESKTOP-1ROSA-X86_64/X86_64/A348E53594>) |
+| 03f0:1f1d | Hewlett-Packard  | un2400 Gobi Wireless Modem           | 2     | qcserial   | [1BEB03698D](<Notebook/Hewlett-Packard/EliteBook/EliteBook 6930p/15298DCF561A/XUBUNTU-20.04/5.4.0-31-GENERIC/X86_64/1BEB03698D>) |
+| 045e:00ce | Microsoft        | Generic PPC Flash device             | 2     | ipaq       | [D61BE7331F](<Notebook/Dell/Inspiron/Inspiron 1545/B85F14225CD3/UBUNTU-18.04/4.15.0-151-GENERIC/X86_64/D61BE7331F>) |
+| 057c:6201 | AVM              | AVM Fritz!WLAN v1.1 [Texas Instru... | 2     | option     | [A31771AC70](<Notebook/Medion/P/P6613/9AB3A1998B90/UBUNTU-20.04/5.4.0-42-GENERIC/X86_64/A31771AC70>) |
+| 091e:0003 | Garmin Intern... | GPS (various models)                 | 2     | garmin_gps | [037CAC7A3D](<Notebook/Lenovo/ThinkPad/ThinkPad T61 6464Y2R/4A5C69324576/LINUXMINT-19.1/4.15.0-54-GENERIC/X86_64/037CAC7A3D>) |
+| 0af0:6501 | Option           | GlobeTrotter 3G+ Module              | 2     | option     | [7024487BCD](<Notebook/Matsushita Electric Industrial/CF-19/CF-19CHB23BE/1E06ED097186/ZORIN-15/5.4.0-87-GENERIC/I686/7024487BCD>) |
+| 0fcf:1009 | Dynastream In... | ANTUSB-m Stick                       | 2     | usb_ser... | [DC41D8A6AD](<Notebook/Medion/E7419/E7419 MD60025/8D8AA73E9981/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/DC41D8A6AD>) |
+| 10c4:ea71 | Silicon Labs     | CP2108 Quad UART Bridge              | 2     | cp210x     | [CE3945EA8E](<Notebook/TQ-Group/TQMxE39/TQMxE39S/5FC90CEA47A4/LINUXMINT-20.1/5.4.0-72-GENERIC/X86_64/CE3945EA8E>) |
+| 1199:0218 | Sierra Wireless  | MC5720 Wireless Modem                | 2     | sierra     | [E5C5CE1445](<Notebook/Lenovo/ThinkPad/ThinkPad Z61m 945038U/04D82838A92D/GENTOO-2.6/4.19.97-GENTOO/I686/E5C5CE1445>) |
+| 1199:68a3 | Sierra Wireless  | MC8700 Modem                         | 2     | sierra     | [5AAEBFBF19](<Notebook/Panasonic/CF-19/CF-19RDRAMGA/2BC03EA72AB6/UBUNTU-21.10/5.13.0-22-GENERIC/X86_64/5AAEBFBF19>) |
+| 1bbb:00b7 | T & A Mobile ... | 3G Wireless Router                   | 2     | option     | [E6C9D1B45A](<Notebook/Toshiba/Satellite/Satellite L500/1295855209A6/ROSA-2016.1/4.15.0-DESKTOP-47.2ROSA-X86_64/X86_64/E6C9D1B45A>) |
 
 ### Smartcard reader (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 072f:2100 | Advance... | ACR128U                      | 1     |            | DC6D6E889A |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 072f:2100 | Advanced Card... | ACR128U                              | 1     |            | [DC6D6E889A](<Notebook/Lenovo/ThinkPad/ThinkPad X120e 0611AN2/34B59E64FBB8/ROSA-2016.1/4.9.111-NRJ-DESKTOP-2ROSA-X86_64/X86_64/DC6D6E889A>) |
 
 ### Sound (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0bda:4014 | Realtek... | USB Audio                    | 137   | snd_usb... | 83DF635945 |
-| 0bda:402e | Realtek... | USB Audio                    | 106   | snd_usb... | 8A880E6565 |
-| 0d8c:0014 | C-Media... | Audio Adapter (Unitek Y-2... | 103   | snd_usb... | 3D0FD285B6 |
-| 1b3f:2008 | General... | USB Audio Device             | 72    | snd_usb... | 8264430178 |
-| 0d8c:013c | C-Media... | CM108 Audio Controller       | 62    | snd_usb... | 633E0959BC |
-| 17ef:3083 | Lenovo     | ThinkPad Thunderbolt 3 Do... | 56    | snd_usb... | C625F457A9 |
-| 0d8c:0012 | C-Media... | 7.1ch Surround Audio Device  | 55    | snd_usb... | E97A52D3D9 |
-| 17ef:a396 | Lenovo     | ThinkPad USB-C Dock Gen2 ... | 54    | snd_usb... | 3FC424B8C6 |
-| 0c76:161f | JMTek      | USB PnP Audio Device         | 47    | snd_usb... | 4E5DA9E4D3 |
-| 08bb:2902 | Texas I... | PCM2902 Audio Codec          | 42    | snd_usb... | 435743B201 |
-| 17ef:306f | Lenovo     | ThinkPad Dock USB Audio      | 40    | snd_usb... | E9A8FB1275 |
-| 046d:0a44 | Logitech   | Headset H390                 | 37    | snd_usb... | DA01AE06A6 |
-| 0951:16a4 | Kingsto... | HyperX 7.1 Audio             | 37    | snd_usb... | F8024B89D4 |
-| 8086:0808 | Intel      | USB PnP Sound Device         | 36    | snd_usb... | 903DC4EF05 |
-| 046d:0a8f | Logitech   | H390 headset with microphone | 35    | snd_usb... | D27165285A |
-| 03f0:056b | Hewlett... | USB Audio                    | 33    | snd_usb... | F8024B89D4 |
-| 17ef:306a | Lenovo     | ThinkPad Thunderbolt 3 Do... | 26    | snd_usb... | AA67AEB304 |
-| 046d:0a29 | Logitech   | H600 [Wireless Headset]      | 24    | snd_usb... | 56FE4AB8A1 |
-| 0d8c:000c | C-Media... | Audio Adapter                | 23    | snd_usb... | CAB086BA87 |
-| 413c:a503 | Dell       | AC511 Sound Bar              | 23    | snd_usb... | B8973B3B0A |
-| 08bb:2912 | Texas I... | PCM2912A Audio Codec         | 22    | snd_usb... | 711E2E3960 |
-| 17ef:3063 | Lenovo     | ThinkPad Dock Audio          | 22    | snd_usb... | E18202A558 |
-| 045e:070f | Microsoft  | LifeChat LX-3000 Headset     | 21    | snd_usb... | 834C40E64F |
-| 0d8c:0005 | C-Media... | Blue Snowball                | 21    | snd_usb... | 35A01BE443 |
-| 0b0e:245e | GN Netcom  | Jabra Link 370               | 20    | snd_usb... | 696A85E281 |
-| 1130:1620 | Tenx Te... | USB AUDIO                    | 19    | snd_usb... | B4CD0BDE35 |
-| 1852:7022 | GYROCOM... | Fiio E10                     | 19    | snd_usb... | 7E2F0E6A10 |
-| 046d:0a38 | Logitech   | Headset H340                 | 18    | snd_usb... | CF720E50DB |
-| 0d8c:0102 | C-Media... | CM106 Like Sound Device      | 18    | snd_usb... | 19C0E274E8 |
-| 1395:0025 | Sennhei... | Headset [PC 8]               | 18    | snd_usb... | 8275D5FA0B |
-| b58e:9e84 | Blue Mi... | Yeti Stereo Microphone       | 18    | snd_usb... | 92FB8505AA |
-| 03f0:0269 | Hewlett... | USB Audio                    | 17    | snd_usb... | 532CB2DFC8 |
-| 2188:6533 | No brand   | Thunderbolt 3 Audio          | 17    | snd_usb... | 20EED1CD12 |
-| 0b0e:245d | GN Netcom  | Jabra Link 370               | 16    | snd_usb... | 8E04250418 |
-| 0d8c:0103 | C-Media... | CM102-A+/102S+ Audio Cont... | 16    | snd_usb... | 28A5B48A05 |
-| 1038:12ad | SteelSe... | SteelSeries Arctis 7         | 16    | snd_usb... | 15A0F61F84 |
-| 046d:0a45 | Logitech   | 960 Headset                  | 15    | snd_usb... | BFB75EF441 |
-| 046d:0a4d | Logitech   | G430 Surround Sound Gamin... | 15    | snd_usb... | 4C5DB870D5 |
-| 047f:02ee | Plantro... | BT600                        | 15    | snd_usb... | FB94B38F6D |
-| 041e:324d | Creativ... | Sound Blaster Play! 3        | 14    | snd_usb... | 280B8AF5CC |
-| 054c:09cc | Sony       | DualShock 4 [CUH-ZCT2x]      | 14    | snd_usb... | 1BE6C8DC87 |
-| 0b0e:0305 | GN Netcom  | Jabra EVOLVE Link MS         | 14    | snd_usb... | 1BF61C0698 |
-| 047f:02f7 | Plantro... | BT600                        | 13    | snd_usb... | A3F162170C |
-| 047f:c025 | Plantro... | C320-M                       | 12    | snd_usb... | A2F441222A |
-| 047f:c056 | Plantro... | Blackwire 3220 Series        | 12    | snd_usb... | B09D2E37D7 |
-| 0b0e:0306 | GN Netcom  | Jabra EVOLVE LINK            | 12    | snd_usb... | 0CFA6348DB |
-| 0bda:482a | Realtek... | USB Audio                    | 12    | snd_usb... | F7FAEC22BF |
-| 0d8c:0134 | C-Media... | TONOR TC-777 Audio Device    | 12    | snd_usb... | 6AE3033841 |
-| 047f:c058 | Plantro... | Blackwire 3225 Series        | 11    | snd_usb... | DA71BB02C1 |
-| 0b0e:0300 | GN Netcom  | Jabra EVOLVE 20 MS           | 11    | snd_usb... | 532CB2DFC8 |
-| 0c76:1607 | JMTek      | audio controller             | 11    | snd_usb... | BA51FC9216 |
-| 0c76:161e | JMTek      | USB PnP Audio Device         | 11    | snd_usb... | 2FDC29F9CB |
-| 2000:dd00 | CMX Sys... | USB PnP Audio Device         | 11    | snd_usb... | F4B1EFA60F |
-| 041e:3237 | Creativ... | SB X-Fi Surround 5.1 Pro     | 10    | snd_usb... | 2713972F14 |
-| 047f:c053 | Plantro... | Blackwire 5220 Series        | 10    | snd_usb... | 603CCDFB84 |
-| 04e8:a051 | Samsung... | USBC Headset                 | 10    | snd_usb... | F19AD7CBA2 |
-| 0b0e:0412 | GN Netcom  | Jabra SPEAK 410 USB          | 10    | snd_usb... | E9FBC2C540 |
-| 0b0e:0420 | GN Netcom  | Jabra SPEAK 510              | 10    | snd_usb... | E16A18BC8B |
-| 0d8c:0105 | C-Media... | CM108 Audio Controller       | 10    | snd_usb... | EEE4E7256B |
-| 046d:0a5b | Logitech   | G933 Wireless Headset Dongle | 9     | snd_usb... | 8CB18A4F6C |
-| 046d:0a66 | Logitech   | [G533 Wireless Headset Do... | 9     | snd_usb... | 104BD9A2A0 |
-| 08bb:2704 | Texas I... | PCM2704 16-bit stereo aud... | 9     | snd_usb... | 48B31D6713 |
-| 17a0:0310 | Samson ... | Meteor condenser microphone  | 9     | snd_usb... | BC90A54EBF |
-| 17ef:304e | Lenovo     | ThinkPad OneLink Pro Dock... | 9     | snd_usb... | DB3E0C8073 |
-| 0b0e:0301 | GN Netcom  | Jabra EVOLVE 20              | 8     | snd_usb... | 28857899A2 |
-| 0d8c:0126 | C-Media... | USB Audio Device             | 8     | snd_usb... | 78B2FAB1E0 |
-| 1b1c:0a4f | Corsair    | HS70 Pro Wireless Gaming ... | 8     | snd_usb... | 10F8E5F5CF |
-| 041e:30df | Creativ... | SB X-Fi Surround 5.1 Pro     | 7     | snd_usb... | 2ED92032E0 |
-| 047f:c012 | Plantro... | Audio 628 USB                | 7     | snd_usb... | F111C70B66 |
-| 08bb:2900 | Texas I... | PCM2900 Audio Codec          | 7     | snd_usb... | 439FB8F524 |
-| 0a12:1243 | Cambrid... | Audioengine HD3              | 7     | snd_usb... | 6C9599CCF7 |
-| 0d8c:016c | C-Media... | USB Advanced Audio Device    | 7     | snd_usb... | 3E08FF658B |
-| 12d1:3a07 | Huawei ... | USB-C HEADSET                | 7     | snd_usb... | CC5FD0194E |
-| 17a0:0305 | Samson ... | GoMic compact condenser mic  | 7     | snd_usb... | BEE34D8394 |
-| 18d1:5033 | Google     | Pixel earbuds                | 7     | snd_usb... | A667466F62 |
-| 19f7:0003 | RODE Mi... | RODE NT-USB                  | 7     | snd_usb... | B85AD62146 |
-| 041e:3040 | Creativ... | SoundBlaster Live! 24-bit... | 6     | snd_usb... | 235E8C9537 |
-| 046d:0a37 | Logitech   | USB Headset H540             | 6     | snd_usb... | F91A0F1380 |
-| 046d:0aaa | Logitech   | PRO X                        | 6     | snd_usb... | A4A1A56132 |
-| 0944:0117 | KORG       | nanoKONTROL2 MIDI Controller | 6     | snd_usb... | 7B3CDDA6E2 |
-| 0951:16df | Kingsto... | HyperX QuadCast              | 6     | snd_usb... | 409ED1F8A4 |
-| 0b0e:030c | GN Netcom  | Jabra EVOLVE 65              | 6     | snd_usb... | E52CCCE52E |
-| 0d8c:000e | C-Media... | Audio Adapter (Planet UP-... | 6     | snd_usb... | EDD8CF99A2 |
-| 1038:12aa | SteelSe... | SteelSeries Arctis 5         | 6     | snd_usb... | B8DBB2F250 |
-| 1038:12b3 | SteelSe... | SteelSeries Arctis 1 Wire... | 6     | snd_usb... | 6C9599CCF7 |
-| 1532:0520 | Razer USA  | Kraken Tournament Edition    | 6     | snd_usb... | 8461B48819 |
-| 18c3:6255 | Elite S... | USB Audio Device             | 6     | snd_usb... | 4B809A53D4 |
-| 2011:0715 | AKAI       | MPKmini2                     | 6     | snd_usb... | 7B3CDDA6E2 |
-| 041e:30dd | Creativ... | Sound Blaster X-Fi Go! Pro   | 5     | snd_usb... | 68DF4CB542 |
-| 046d:0a01 | Logitech   | USB Headset                  | 5     | snd_usb... | B2115B09E3 |
-| 046d:0a04 | Logitech   | V20 portable speakers (US... | 5     | snd_usb... | 67449A33DC |
-| 046d:0a1a | Logitech   | Speaker Lapdesk N700         | 5     | snd_usb... | 663B4E4994 |
-| 046d:0a1f | Logitech   | G930                         | 5     | snd_usb... | 908638C5F1 |
-| 047f:c010 | Plantro... | GameCom 780/788              | 5     | snd_usb... | 7CA0DE35B4 |
-| 047f:c011 | Plantro... | Audio 478 USB                | 5     | snd_usb... | 30BB8F3ECF |
-| 047f:c03a | Plantro... | Blackwire 325.1              | 5     | snd_usb... | B1A527ACDC |
-| 047f:c03b | Plantro... | HD1                          | 5     | snd_usb... | 90F97500B8 |
-| 04c5:1570 | Fujitsu    | USB Audio                    | 5     | snd_usb... | ACD19E81C0 |
-| 0572:1804 | Conexan... | HP Dock Audio                | 5     | snd_usb... | A5331A4D5E |
-| 0b0e:0349 | GN Netcom  | Jabra UC VOICE 550a          | 5     | snd_usb... | A121AC5AB3 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0bda:4014 | Realtek Semic... | USB Audio                            | 159   | snd_usb... | [311C6DA8E0](<Notebook/Hewlett-Packard/ProBook/ProBook 455 G7/656F39058145/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/311C6DA8E0>) |
+| 0bda:402e | Realtek Semic... | USB Audio                            | 142   | snd_usb... | [E7C5306C00](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc0xxx/1020FE6EFFAE/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/E7C5306C00>) |
+| 0d8c:0014 | C-Media Elect... | Audio Adapter (Unitek Y-247A)        | 121   | snd_usb... | [89FF3431E1](<Notebook/Positivo/S14/S14CT01/B717D1200791/LINUXMINT-20.3/5.13.0-30-GENERIC/X86_64/89FF3431E1>) |
+| 1b3f:2008 | Generalplus T... | USB Audio Device                     | 88    | snd_usb... | [7F0F38DC4D](<Notebook/Hewlett-Packard/15/15/877B5258AEB7/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/7F0F38DC4D>) |
+| 17ef:3083 | Lenovo           | ThinkPad Thunderbolt 3 Dock USB A... | 74    | snd_usb... | [48C1285EEC](<Notebook/Lenovo/ThinkPad/ThinkPad P53 20QN0011IV/90C24C7500E3/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/48C1285EEC>) |
+| 0d8c:013c | C-Media Elect... | CM108 Audio Controller               | 66    | snd_usb... | [5F4AE11597](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/058A260E3742/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/5F4AE11597>) |
+| 17ef:a396 | Lenovo           | ThinkPad USB-C Dock Gen2 USB Audio   | 66    | snd_usb... | [B48A6240BF](<Notebook/Lenovo/ThinkPad/ThinkPad E15 20RD0016GE/4F4BEFFC091C/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/B48A6240BF>) |
+| 0d8c:0012 | C-Media Elect... | USB Audio Device                     | 61    | snd_usb... | [6A4971B810](<Notebook/Notebook/W517/W517GU1/FD1193B1C6DF/ROSA-12.2/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/6A4971B810>) |
+| 0c76:161f | JMTek            | USB PnP Audio Device                 | 59    | snd_usb... | [C2D198AB83](<Notebook/ASUSTek Computer/X751/X751LD/915032EF5E9C/ARCH/5.16.11-ZEN1-1-ZEN/X86_64/C2D198AB83>) |
+| 08bb:2902 | Texas Instrum... | PCM2902 Audio Codec                  | 53    | snd_usb... | [046572A251](<Notebook/Hewlett-Packard/ProBook/ProBook 650 G1/41CAFF8AA906/KALI-2022.1/5.16.0-KALI3-AMD64/X86_64/046572A251>) |
+| 17ef:306f | Lenovo           | ThinkPad Dock USB Audio              | 49    | snd_usb... | [ABED4A5863](<Notebook/Lenovo/ThinkPad/ThinkPad T14 Gen 2i 20W0000FRT/03B6D51ED61F/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/ABED4A5863>) |
+| 0951:16a4 | Kingston Tech... | HyperX 7.1 Audio                     | 48    | snd_usb... | [FDA7557AA0](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L60033MX/18E95B12F364/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/FDA7557AA0>) |
+| 03f0:056b | Hewlett-Packard  | USB Audio                            | 44    | snd_usb... | [30565CB2F9](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G7 Notebook PC/F50B1CFDFE6F/UBUNTU-20.04/5.14.0-1024-OEM/X86_64/30565CB2F9>) |
+| 046d:0a8f | Logitech         | H390 headset with microphone         | 44    | snd_usb... | [7280C9C630](<Notebook/Dell/Inspiron/Inspiron 3583/1A2FDF4BA7DD/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/7280C9C630>) |
+| 8086:0808 | Intel            | USB PnP Sound Device                 | 41    | snd_usb... | [95FF70277E](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/4E4A8BB16FF0/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/95FF70277E>) |
+| 046d:0a44 | Logitech         | Headset H390                         | 40    | snd_usb... | [C9D0F6D5A3](<Notebook/MOTILE/M/M142/277AB9FFA0AA/UBUNTU-20.04/5.4.0-94-GENERIC/X86_64/C9D0F6D5A3>) |
+| 17ef:306a | Lenovo           | ThinkPad Thunderbolt 3 Dock USB A... | 31    | snd_usb... | [FDA7557AA0](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L60033MX/18E95B12F364/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/FDA7557AA0>) |
+| 046d:0a29 | Logitech         | H600 [Wireless Headset]              | 29    | snd_usb... | [380CB3E46B](<Notebook/Dell/Latitude/Latitude 5510/ABCF5A527AAE/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/380CB3E46B>) |
+| 08bb:2912 | Texas Instrum... | PCM2912A Audio Codec                 | 29    | snd_usb... | [450F779085](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U6S1JD00/E7077B6DA568/OPENSUSE-20220218/5.16.8-1-DEFAULT/X86_64/450F779085>) |
+| 0d8c:0005 | C-Media Elect... | Blue Snowball                        | 29    | snd_usb... | [A6FA73EC8D](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G6/7359B0EE6E8C/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/A6FA73EC8D>) |
+| 0d8c:000c | C-Media Elect... | Audio Adapter                        | 29    | snd_usb... | [2EC2B8BF53](<Notebook/Acer/Aspire/Aspire E1-532G/994988BAB7F5/FEDORA-35/5.16.7-200.FC35.X86_64/X86_64/2EC2B8BF53>) |
+| 413c:a503 | Dell             | AC511 USB SoundBar                   | 26    | snd_usb... | [EB700A432B](<Notebook/Dell/Precision/Precision M6600/2AF2AB2E9277/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/EB700A432B>) |
+| 045e:070f | Microsoft        | LifeChat LX-3000 Headset             | 24    | snd_usb... | [BD8DB07A0A](<Notebook/Hewlett-Packard/ENVY/ENVY 17/380AB84155E1/UBUNTU-21.10/5.13.0-23-GENERIC/X86_64/BD8DB07A0A>) |
+| 047f:02ee | Plantronics      | BT600                                | 24    | snd_usb... | [D899CE769F](<Notebook/Lenovo/ThinkPad/ThinkPad E15 Gen 2 20TES01200/C784E563443A/LINUXMINT-20.3/5.4.0-96-GENERIC/X86_64/D899CE769F>) |
+| 0b0e:245e | GN Netcom        | Jabra Link 370                       | 23    | snd_usb... | [3C5CF0B4E7](<Notebook/Dell/Latitude/Latitude 5420/9308C94427E2/LINUXMINT-20.3/5.14.0-1020-OEM/X86_64/3C5CF0B4E7>) |
+| 17ef:3063 | Lenovo           | ThinkPad USB-C Dock Audio            | 23    | snd_usb... | [95FF70277E](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/4E4A8BB16FF0/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/95FF70277E>) |
+| b58e:9e84 | Blue Microphones | Yeti Stereo Microphone               | 23    | snd_usb... | [3F58A0F2A4](<Notebook/Lenovo/Legion/Legion Y530-15ICH 81FV/A4B769895625/GENTOO-2.6/5.15.23-GENTOO/X86_64/3F58A0F2A4>) |
+| 046d:0a38 | Logitech         | Headset H340                         | 22    | snd_usb... | [28F40DF81D](<Notebook/Lenovo/G40-45/G40-45 80E1/83207915DF9E/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/28F40DF81D>) |
+| 046d:0a45 | Logitech         | 960 Headset                          | 22    | snd_usb... | [DA29C6F100](<Notebook/Dell/Latitude/Latitude E6330/70432BCBFC5B/DEBIAN-11/5.15.0-13.1-LIQUORIX-AMD64/X86_64/DA29C6F100>) |
+| 0d8c:0102 | C-Media Elect... | CM106 Like Sound Device              | 22    | snd_usb... | [F181193143](<Notebook/Lenovo/G40-45/G40-45 80E1/1810DA19FA66/UBUNTU-20.04/5.13.0-28-GENERIC/X86_64/F181193143>) |
+| 0b0e:245d | GN Netcom        | Jabra Link 370                       | 21    | snd_usb... | [4210FAF0D2](<Notebook/Hewlett-Packard/ZBook/ZBook 17 G2/667EE509130B/FEDORA-35/5.15.16-200.FC35.X86_64/X86_64/4210FAF0D2>) |
+| 1395:0025 | Sennheiser Co... | Headset [PC 8]                       | 21    | snd_usb... | [020DF21E37](<Notebook/ASUSTek Computer/X553/X553MA/7DB5A5D477E5/FEDORA-35/5.16.9-200.FC35.X86_64/X86_64/020DF21E37>) |
+| 1852:7022 | GYROCOM C&C      | Fiio E10                             | 21    | snd_usb... | [3BB85A7897](<Notebook/Dell/Precision/Precision 5530/00B8943F1610/FEDORA-35/5.15.16-200.FC35.X86_64/X86_64/3BB85A7897>) |
+| 2188:6533 | No brand         | CalDigit Thunderbolt 3 Audio         | 21    | snd_usb... | [8337EDFC91](<Notebook/TUXEDO/Stellaris/Stellaris Intel Gen3/0F864DFB4CBF/OPENSUSE-20220204/5.16.4-1-DEFAULT/X86_64/8337EDFC91>) |
+| 1038:12ad | SteelSeries ApS  | SteelSeries Arctis 7                 | 20    | snd_usb... | [CB956B7E97](<Notebook/Lenovo/ThinkPad/ThinkPad E580 20KSS00W00/BC728C3FBF0A/UBUNTU-20.04/5.13.0-27-GENERIC/X86_64/CB956B7E97>) |
+| 1130:1620 | Tenx Technology  | USB AUDIO                            | 20    | snd_usb... | [E45CB4E8ED](<Notebook/Acer/Aspire/Aspire ES1-512/5872458326D7/UBUNTU-20.04/5.13.0-28-GENERIC/X86_64/E45CB4E8ED>) |
+| 03f0:0269 | Hewlett-Packard  | USB Audio                            | 19    | snd_usb... | [41AC7EFFBE](<Notebook/Hewlett-Packard/ZBook/ZBook 15 G6/10E50F1DF495/UBUNTU-18.04/5.4.0-104-GENERIC/X86_64/41AC7EFFBE>) |
+| 046d:0a4d | Logitech         | G430 Surround Sound Gaming Headset   | 18    | snd_usb... | [E72B93AADF](<Notebook/Hewlett-Packard/ProBook/ProBook 440 G8 Notebook PC/F9CE94130923/UBUNTU-20.04/5.14.0-1024-OEM/X86_64/E72B93AADF>) |
+| 0c76:161e | JMTek            | USB PnP Audio Device                 | 18    | snd_usb... | [C447074D2B](<Notebook/Others/Others/Others/11A6F365658A/LINUXMINT-19.3/5.4.0-99-GENERIC/X86_64/C447074D2B>) |
+| 0d8c:0103 | C-Media Elect... | CM102-A+/102S+ Audio Controller      | 17    | snd_usb... | [02481EBFAA](<Notebook/Dell/Inspiron/Inspiron 5758/FE4665EAA2D6/UBUNTU-20.04/5.11.0-44-GENERIC/X86_64/02481EBFAA>) |
+| 041e:324d | Creative Tech... | Sound Blaster Play! 3                | 16    | snd_usb... | [AA5E521C49](<Notebook/Hewlett-Packard/Pavilion/Pavilion ZV6100/2756A8EF2E18/GENTOO-2.7/5.15.23-GENTOO/X86_64/AA5E521C49>) |
+| 054c:09cc | Sony             | DualShock 4 [CUH-ZCT2x]              | 15    | snd_usb... | [25D1FE252C](<Notebook/MSI/GL63/GL63 8SE/4942366C33EB/POP!_OS-21.04/5.13.0-7620-GENERIC/X86_64/25D1FE252C>) |
+| 0b0e:0305 | GN Netcom        | Jabra EVOLVE LINK MS                 | 15    | snd_usb... | [AA3DBDC6BB](<Notebook/Dell/Precision/Precision 5560/525715715263/UBUNTU-MATE-20.04/5.11.0-40-GENERIC/X86_64/AA3DBDC6BB>) |
+| 047f:02f7 | Plantronics      | BT600                                | 14    | snd_usb... | [7B3834FB55](<Notebook/ASUSTek Computer/X751/X751YI/E07831549C1E/POP!_OS-21.10/5.15.11-76051511-GENERIC/X86_64/7B3834FB55>) |
+| 047f:c056 | Plantronics      | Blackwire 3220 Series                | 14    | snd_usb... | [F3EE6F9DBB](<Notebook/Hewlett-Packard/Laptop/Laptop 17-ca0xxx/B10B91A6708A/POP!_OS-21.04/5.15.11-76051511-GENERIC/X86_64/F3EE6F9DBB>) |
+| 04e8:a051 | Samsung Elect... | USBC Headset                         | 14    | snd_usb... | [A9BCAE50D2](<Notebook/ASUSTek Computer/VivoBook_ASUSLaptop/VivoBook_ASUSLaptop X509DA_D509DA/F50BB8181F14/ARCO-ROLLING/5.16.11-ZEN1-1-ZEN/X86_64/A9BCAE50D2>) |
+| 0b0e:0300 | GN Netcom        | Jabra EVOLVE 20 SE MS                | 14    | snd_usb... | [A7D1F29451](<Notebook/Lenovo/ThinkPad/ThinkPad E15 Gen 2 20TD004NMH/72B24393D08A/POP!_OS-21.10/5.15.11-76051511-GENERIC/X86_64/A7D1F29451>) |
+| 0b0e:0306 | GN Netcom        | Jabra EVOLVE LINK                    | 14    | snd_usb... | [AF5F1055FE](<Notebook/Dell/Latitude/Latitude 7420/D4B737010908/ORACLESERVER-8.5/4.18.0-348.12.2.EL8_5.X86_64/X86_64/AF5F1055FE>) |
+| 046d:0a66 | Logitech         | [G533 Wireless Headset Dongle]       | 13    | snd_usb... | [D774F42123](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/EA655C63FE41/UBUNTU-20.04/5.15.5-051505-GENERIC/X86_64/D774F42123>) |
+| 047f:c025 | Plantronics      | C320-M                               | 13    | snd_usb... | [6B866B7C2F](<Notebook/Dell/Precision/Precision 5550/6B3B5C37F0BD/UBUNTU-20.04/5.11.0-46-GENERIC/X86_64/6B866B7C2F>) |
 
 ### Touchpad (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 06cb:2970 | Synaptics  | touchpad                     | 74    | usbhid     | 0B2EC748F2 |
-| 044e:120d | Alps El... | Touchpad                     | 12    | usbhid     | 89E5AB8846 |
-| 044e:1218 | Alps El... | Touchpad                     | 8     | usbhid     | 67C03244DC |
-| 06cb:5710 | Synaptics  | SynapticsTouch Pad V 1.03U3  | 4     | usbhid     | 5834B6321D |
-| 06cb:7af9 | Synaptics  | HIDUSB TouchPad V07          | 3     | usbhid     | D20C059F3D |
-| 044e:120f | Alps El... | Touchpad                     | 2     | usbhid     | BF9CC483F0 |
-| 06cb:0009 | Synaptics  | Composite TouchPad and Tr... | 2     | synapti... | B8973B3B0A |
-| 17ef:6046 | Lenovo     | Wireless Touchpad K5923      | 2     | usbhid     | F600127AB1 |
-| 06cb:0001 | Synaptics  | TouchPad                     | 1     | synapti... | 7023DC94DA |
-| 06cb:5711 | Synaptics  | Touch Pad V 103u9            | 1     | usbhid     | 2D9527DBD4 |
-| 06cb:7d29 | Synaptics  | HIDUSB TouchPad V03          | 1     | usbhid     | 49A6D8DEC1 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 06cb:2970 | Synaptics        | touchpad                             | 82    | usbhid     | [18BC15734F](<Notebook/Acer/Aspire/Aspire E5-551G/6BB43312BFD1/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/18BC15734F>) |
+| 044e:120d | Alps Electric    | Touchpad                             | 15    | usbhid     | [13B478195A](<Notebook/Hewlett-Packard/Elite/Elite x2 1012 G1/F896D0AE278D/ELEMENTARY-6.1/5.11.0-43-GENERIC/X86_64/13B478195A>) |
+| 044e:1218 | Alps Electric    | Touchpad                             | 10    | usbhid     | [8D3FE46D72](<Notebook/Dell/Latitude/Latitude 7285/525207B060B2/FEDORA-35/5.14.10-300.FC35.X86_64/X86_64/8D3FE46D72>) |
+| 06cb:5710 | Synaptics        | SynapticsTouch Pad V 1.03U3          | 4     | usbhid     | [5834B6321D](<Notebook/Hewlett-Packard/Split/Split 13 x2 PC/CB63276D4C2A/DEBIAN-11/5.10.0-6-AMD64/X86_64/5834B6321D>) |
+| 06cb:7af9 | Synaptics        | HIDUSB TouchPad V07                  | 4     | usbhid     | [5A65F95AC7](<Notebook/Hewlett-Packard/Spectre/Spectre x2 Detachable/4A7FC502BC99/UBUNTU-20.04/5.11.0-38-GENERIC/X86_64/5A65F95AC7>) |
+| 044e:120f | Alps Electric    | Touchpad                             | 3     | usbhid     | [BF808D506C](<Notebook/Dell/Latitude/Latitude 7275/0100DBA1C24D/ZORIN-16/5.11.0-40-GENERIC/X86_64/BF808D506C>) |
+| 06cb:5711 | Synaptics        | Touch Pad V 103u9                    | 3     | usbhid     | [ED95E4C1C7](<Notebook/Hewlett-Packard/Spectre/Spectre 13 x2 PC/A094F6311BEA/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/ED95E4C1C7>) |
+| 06cb:0009 | Synaptics        | Composite TouchPad and TrackPoint    | 2     | synapti... | [B8973B3B0A](<Notebook/Lenovo/ThinkPad/ThinkPad W530 24475HU/04E9DA930B1D/OPENSUSE-20210928/5.14.6-1-DEFAULT/X86_64/B8973B3B0A>) |
+| 17ef:6046 | Lenovo           | Wireless Touchpad K5923              | 2     | usbhid     | [F600127AB1](<Notebook/Dell/Latitude/Latitude E7450/3E297704FAAA/LINUXMINT-20.2/5.4.0-86-GENERIC/X86_64/F600127AB1>) |
+| 044e:1210 | Alps Electric    | Touchpad                             | 1     | usbhid     | [B28766ADD3](<Notebook/Dell/Latitude/Latitude 5179/F5A7E3B48342/ZORIN-16/5.13.0-30-GENERIC/X86_64/B28766ADD3>) |
+| 06cb:0001 | Synaptics        | TouchPad                             | 1     | synapti... | [7023DC94DA](<Notebook/Packard Bell/EasyNote/EasyNote ME69BMP/C61580A9F1CA/UBUNTU-MATE-20.04/5.4.0-31-GENERIC/X86_64/7023DC94DA>) |
+| 06cb:7d29 | Synaptics        | HIDUSB TouchPad V03                  | 1     | usbhid     | [49A6D8DEC1](<Notebook/Hewlett-Packard/Pavilion/Pavilion x2 Detachable/EFCCF32E3904/MANJARO-21.0.5/5.10.36-2-MANJARO/X86_64/49A6D8DEC1>) |
 
 ### Touchscreen (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 04f3:20d0 | Elan Mi... | Touchscreen                  | 54    | usbhid     | DDE814D7CA |
-| 04f3:250e | Elan Mi... | Touchscreen                  | 38    | usbhid     | C7BE2FF77E |
-| 04f3:2494 | Elan Mi... | Touchscreen                  | 36    | usbhid     | 5575068859 |
-| 0eef:0001 | D-WAV S... | Titan6001 Surface Acousti... | 27    | usbhid     | 78B2FAB1E0 |
-| 04f3:012d | Elan Mi... | Touchscreen                  | 22    | usbhid     | 5CD5DD7086 |
-| 04f3:24a0 | Elan Mi... | Touchscreen                  | 22    | usbhid     | 69938C221E |
-| 04f3:0254 | Elan Mi... | Touchscreen                  | 21    | usbhid     | 9FACBD3D72 |
-| 04f3:2234 | Elan Mi... | Touchscreen                  | 21    | usbhid     | 8BB0307157 |
-| 04f3:24a1 | Elan Mi... | Touchscreen                  | 21    | usbhid     | B33AF6D329 |
-| 04f3:2acc | Elan Mi... | Touchscreen                  | 20    | usbhid     | 10C9991F0B |
-| 04f3:016f | Elan Mi... | Touchscreen                  | 19    | usbhid     | D07052119D |
-| 04f3:21d5 | Elan Mi... | Touchscreen                  | 19    | usbhid     | 32EC7FD885 |
-| 04f3:2013 | Elan Mi... | Touchscreen                  | 17    | usbhid     | 11BEA838AA |
-| 04f3:010c | Elan Mi... | Touchscreen                  | 16    | usbhid     | F56A2BD3FA |
-| 04f3:000a | Elan Mi... | Touchscreen                  | 14    | usbhid     | F5565DFB2A |
-| 04f3:0224 | Elan Mi... | Touchscreen                  | 14    | usbhid     | B64657DAFD |
-| 04f3:0042 | Elan Mi... | Touchscreen                  | 13    | usbhid     | 5EBA5CDCBF |
-| 04f3:034e | Elan Mi... | Touchscreen                  | 13    | usbhid     | 102ED51ABD |
-| 04f3:2337 | Elan Mi... | Touchscreen                  | 13    | usbhid     | 67552D79AC |
-| 04f3:0085 | Elan Mi... | Touchscreen                  | 12    | usbhid     | 8AEC766EA6 |
-| 04f3:2398 | Elan Mi... | Touchscreen                  | 12    | usbhid     | 5C87BCB1DC |
-| 04f3:289b | Elan Mi... | Touchscreen                  | 12    | usbhid     | 2D3F367FA7 |
-| 04f3:036e | Elan Mi... | Touchscreen                  | 11    | usbhid     | 5900E800AA |
-| 04f3:2012 | Elan Mi... | Touchscreen                  | 11    | usbhid     | 8FA08D58EF |
-| 04f3:22c3 | Elan Mi... | Touchscreen                  | 11    | usbhid     | 86719BBD60 |
-| 04f3:2753 | Elan Mi... | Touchscreen                  | 11    | usbhid     | 728E0FACD6 |
-| 04f3:0023 | Elan Mi... | Touchscreen                  | 10    | usbhid     | 7302DC6BE1 |
-| 04f3:002a | Elan Mi... | Touchscreen                  | 10    | usbhid     | B977195EB4 |
-| 04f3:0034 | Elan Mi... | Touchscreen                  | 10    | usbhid     | CAC5BCFFE9 |
-| 04f3:24e1 | Elan Mi... | Touchscreen                  | 10    | usbhid     | 6C65C257C6 |
-| 04f3:0206 | Elan Mi... | Touchscreen                  | 9     | usbhid     | 1493A2EAE1 |
-| 04f3:0389 | Elan Mi... | Touchscreen                  | 9     | usbhid     | 3EECFD13AD |
-| 04f3:2083 | Elan Mi... | Touchscreen                  | 9     | usbhid     | 70496150EB |
-| 04f3:2793 | Elan Mi... | Touchscreen                  | 9     | usbhid     | E2A4A5E396 |
-| 04f3:0135 | Elan Mi... | Touchscreen                  | 8     | usbhid     | 0AD6768049 |
-| 04f3:0301 | Elan Mi... | Touchscreen                  | 8     | usbhid     | 2F6B8A2BD6 |
-| 04f3:0303 | Elan Mi... | Touchscreen                  | 8     | usbhid     | 7FBD3218A8 |
-| 04f3:2033 | Elan Mi... | Touchscreen                  | 8     | usbhid     | D0D5054FE1 |
-| 04f3:24dd | Elan Mi... | Touchscreen                  | 8     | usbhid     | 03B08007CD |
-| 04f3:2884 | Elan Mi... | Touchscreen                  | 8     | usbhid     | F7309EF31A |
-| 04f3:034f | Elan Mi... | Touchscreen                  | 7     | usbhid     | DCA302A80B |
-| 04f3:0436 | Elan Mi... | Touchscreen                  | 7     | usbhid     | 15E92E7427 |
-| 04f3:0439 | Elan Mi... | Touchscreen                  | 7     | usbhid     | 7A0695E6BB |
-| 04f3:2089 | Elan Mi... | Touchscreen                  | 7     | usbhid     | E2DB581D0B |
-| 04f3:20d6 | Elan Mi... | Touchscreen                  | 7     | usbhid     | 8D16328DFD |
-| 04f3:228a | Elan Mi... | Touchscreen                  | 7     | usbhid     | 0D1A190DED |
-| 04f3:245a | Elan Mi... | Touchscreen                  | 7     | usbhid     | ED461C00CA |
-| 04f3:2497 | Elan Mi... | Touchscreen                  | 7     | usbhid     | 2713F21DD7 |
-| 04f3:003d | Elan Mi... | Touchscreen                  | 6     | usbhid     | D70E2B74D0 |
-| 04f3:009d | Elan Mi... | Touchscreen                  | 6     | usbhid     | 14086A6760 |
-| 04f3:0111 | Elan Mi... | Touchscreen                  | 6     | usbhid     | E4D6F94CCB |
-| 04f3:024b | Elan Mi... | Touchscreen                  | 6     | usbhid     | D96AEA9F90 |
-| 04f3:0363 | Elan Mi... | Touchscreen                  | 6     | usbhid     | 6F1CA4C9FD |
-| 04f3:0428 | Elan Mi... | Touchscreen                  | 6     | usbhid     | 2A367A6EE4 |
-| 04f3:2044 | Elan Mi... | Touchscreen                  | 6     | usbhid     | 3871A3C4FC |
-| 04f3:206f | Elan Mi... | Touchscreen                  | 6     | usbhid     | CBBC9C0451 |
-| 04f3:228b | Elan Mi... | Touchscreen                  | 6     | usbhid     | 243BB6524D |
-| 04f3:2313 | Elan Mi... | Touchscreen                  | 6     | usbhid     | CF08166AE9 |
-| 04f3:0089 | Elan Mi... | Touchscreen                  | 5     | usbhid     | D63ABB12EE |
-| 04f3:009c | Elan Mi... | Touchscreen                  | 5     | usbhid     | 229728B316 |
-| 04f3:0201 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 02548CA78D |
-| 04f3:0261 | Elan Mi... | Touchscreen                  | 5     | usbhid     | B6B916AFD7 |
-| 04f3:0268 | Elan Mi... | Touchscreen                  | 5     | usbhid     | D5EDE165EC |
-| 04f3:031a | Elan Mi... | Touchscreen                  | 5     | usbhid     | F67C2F8D32 |
-| 04f3:034a | Elan Mi... | Touchscreen                  | 5     | usbhid     | 6690081521 |
-| 04f3:038a | Elan Mi... | Touchscreen                  | 5     | usbhid     | AAF45F99A4 |
-| 04f3:0396 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 366DCDAD53 |
-| 04f3:0418 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 3C7ED2F9B7 |
-| 04f3:2020 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 0A7B01F59F |
-| 04f3:2039 | Elan Mi... | Touchscreen                  | 5     | usbhid     | E3ACA6B408 |
-| 04f3:2085 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 871B9656F1 |
-| 04f3:21b4 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 4C55449378 |
-| 04f3:21c3 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 801535D049 |
-| 04f3:21d4 | Elan Mi... | Touchscreen                  | 5     | usbhid     | D403FA5702 |
-| 04f3:2252 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 00123E7E27 |
-| 04f3:2266 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 15B5A3DEAE |
-| 04f3:228e | Elan Mi... | Touchscreen                  | 5     | usbhid     | 89CCCAF8CF |
-| 04f3:2379 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 82E8AEFE39 |
-| 04f3:254f | Elan Mi... | Touchscreen                  | 5     | usbhid     | 92DCB677F7 |
-| 04f3:2754 | Elan Mi... | Touchscreen                  | 5     | usbhid     | 74D1170C9D |
-| 04f3:000c | Elan Mi... | Touchscreen                  | 4     | usbhid     | B00AE19B84 |
-| 04f3:0011 | Elan Mi... | Touchscreen                  | 4     | usbhid     | C37F160F69 |
-| 04f3:0018 | Elan Mi... | Touchscreen                  | 4     | usbhid     | C082C9DE56 |
-| 04f3:0021 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 831F0DF544 |
-| 04f3:0022 | Elan Mi... | Touchscreen                  | 4     | usbhid     | E6FB44B84D |
-| 04f3:005a | Elan Mi... | Touchscreen                  | 4     | usbhid     | F34A20ACA3 |
-| 04f3:0074 | Elan Mi... | Touchscreen                  | 4     | usbhid     | D3F7B62A42 |
-| 04f3:0117 | Elan Mi... | Touchscreen                  | 4     | usbhid     | CD2D5D3F77 |
-| 04f3:0140 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 5DC10377AB |
-| 04f3:0154 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 26C91D93DB |
-| 04f3:020b | Elan Mi... | Touchscreen                  | 4     | usbhid     | 5B544A78F4 |
-| 04f3:020d | Elan Mi... | Touchscreen                  | 4     | usbhid     | ED5C16C955 |
-| 04f3:040d | Elan Mi... | Touchscreen                  | 4     | usbhid     | 57E753215C |
-| 04f3:0417 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 3BCC5591B8 |
-| 04f3:2093 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 7FFF1E0B4E |
-| 04f3:20ba | Elan Mi... | Touchscreen                  | 4     | usbhid     | 08D4C126FA |
-| 04f3:20cd | Elan Mi... | Touchscreen                  | 4     | usbhid     | 4C64FDE9DC |
-| 04f3:20d8 | Elan Mi... | Touchscreen                  | 4     | usbhid     | D6D7EA6858 |
-| 04f3:20f0 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 272D237DEF |
-| 04f3:21d0 | Elan Mi... | Touchscreen                  | 4     | usbhid     | 52A2E0D342 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 04f3:20d0 | Elan Microele... | Touchscreen                          | 60    | usbhid     | [CE5FD5227F](<Notebook/Dell/XPS/XPS 13 9350/7D9567596332/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/CE5FD5227F>) |
+| 04f3:250e | Elan Microele... | Touchscreen                          | 42    | usbhid     | [6765F9623B](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/371B96DEA22E/DEBIAN-11/5.10.0-11-AMD64/X86_64/6765F9623B>) |
+| 04f3:2494 | Elan Microele... | Touchscreen                          | 39    | usbhid     | [8D019441D1](<Notebook/Dell/Inspiron/Inspiron 13-5378/C3F7123D8735/ZORIN-16/5.11.0-43-GENERIC/X86_64/8D019441D1>) |
+| 0eef:0001 | D-WAV Scientific | Titan6001 Surface Acoustic Wave T... | 30    | usbhid     | [D782BEA38A](<Notebook/Getac/B300/B300G5/D37A392C328B/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/D782BEA38A>) |
+| 04f3:2234 | Elan Microele... | Touchscreen                          | 25    | usbhid     | [0370593223](<Notebook/Dell/XPS/XPS 13 9360/FA69684711C5/ARCH/5.16.1-ARCH1-1/X86_64/0370593223>) |
+| 04f3:24a0 | Elan Microele... | Touchscreen                          | 25    | usbhid     | [2A3B959F49](<Notebook/Dell/XPS/XPS 15 9560/F6FCA5ABEA41/DEBIAN-11/5.15.17-XANMOD2-TT/X86_64/2A3B959F49>) |
+| 04f3:21d5 | Elan Microele... | Touchscreen                          | 24    | usbhid     | [F4A068F57C](<Notebook/Dell/XPS/XPS 15 9550/A808E86B953A/OPENSUSE-20220226/5.16.11-1-DEFAULT/X86_64/F4A068F57C>) |
+| 04f3:016f | Elan Microele... | Touchscreen                          | 23    | usbhid     | [DDA75E3BA9](<Notebook/Lenovo/Yoga/Yoga 2 Pro 20266/26A04B698FE7/ZORIN-16/5.11.0-38-GENERIC/X86_64/DDA75E3BA9>) |
+| 04f3:0254 | Elan Microele... | Touchscreen                          | 23    | usbhid     | [14748BA63B](<Notebook/Lenovo/ThinkPad/ThinkPad S1 Yoga 20CD0035GE/453290E4E122/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/14748BA63B>) |
+| 04f3:24a1 | Elan Microele... | Touchscreen                          | 23    | usbhid     | [CD1A178797](<Notebook/Dell/Precision/Precision 5520/39459C2F4995/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/CD1A178797>) |
+| 04f3:012d | Elan Microele... | Touchscreen                          | 22    | usbhid     | [5CD5DD7086](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon 3rd 20BTS11W00/216D2E46205E/XUBUNTU-21.04/5.11.0-25-GENERIC/X86_64/5CD5DD7086>) |
+| 04f3:2acc | Elan Microele... | Touchscreen                          | 20    | usbhid     | [10C9991F0B](<Notebook/Lenovo/ThinkPad/ThinkPad P14s Gen 1 20Y10004CK/DA3873D84740/DEBIAN-11/5.10.0-8-AMD64/X86_64/10C9991F0B>) |
+| 04f3:2013 | Elan Microele... | Touchscreen                          | 19    | usbhid     | [862A31FA80](<Notebook/Dell/Inspiron/Inspiron 5548/B32A4E77F99D/MANJARO/5.15.21-1-MANJARO/X86_64/862A31FA80>) |
+| 04f3:000a | Elan Microele... | Touchscreen                          | 18    | usbhid     | [347317645D](<Notebook/Lenovo/IdeaPad/IdeaPad Yoga 13 20175/57CB55619157/XUBUNTU-21.10/5.13.0-25-GENERIC/X86_64/347317645D>) |
+| 04f3:010c | Elan Microele... | Touchscreen                          | 17    | usbhid     | [BF2F9B2C1D](<Notebook/ASUSTek Computer/Q501/Q501LA/E3FF080C61AE/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/BF2F9B2C1D>) |
+| 04f3:289b | Elan Microele... | Touchscreen                          | 17    | usbhid     | [D8002E9EAE](<Notebook/Lenovo/ThinkPad/ThinkPad T495 20NJ0004US/8D43652EF1E4/FEDORA-35/5.14.10-300.FC35.X86_64/X86_64/D8002E9EAE>) |
+| 04f3:0042 | Elan Microele... | Touchscreen                          | 15    | usbhid     | [72D6263861](<Notebook/Dell/Inspiron/Inspiron 5537/1C3EEF77A4AB/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/72D6263861>) |
+| 04f3:0085 | Elan Microele... | Touchscreen                          | 15    | usbhid     | [B821AEBA3B](<Notebook/Acer/Aspire/Aspire M5-583P/EBD19CDDB07D/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/B821AEBA3B>) |
+| 04f3:0224 | Elan Microele... | Touchscreen                          | 15    | usbhid     | [AB6C683160](<Notebook/Lenovo/ThinkPad/ThinkPad T440s 20ARS0LU00/26A02EFA467D/ENDEAVOUROS-ROLLING/5.10.68-1-LTS/X86_64/AB6C683160>) |
+| 04f3:034e | Elan Microele... | Touchscreen                          | 14    | usbhid     | [EFD2DC8D13](<Notebook/Dell/Inspiron/Inspiron 3541/EFA5976E2DE2/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/EFD2DC8D13>) |
+| 04f3:2398 | Elan Microele... | Touchscreen                          | 14    | usbhid     | [1DF9DBEFA1](<Notebook/Lenovo/ThinkPad/ThinkPad A485 20MVS0FH00/63A3D35F3615/ARCH/5.16.2-ARCH1-1/X86_64/1DF9DBEFA1>) |
+| 04f3:2012 | Elan Microele... | Touchscreen                          | 13    | usbhid     | [AC9CA4D83B](<Notebook/Dell/Inspiron/Inspiron 3541/AEC22D0C049A/KDE-NEON-20.04/5.13.0-28-GENERIC/X86_64/AC9CA4D83B>) |
+| 04f3:2337 | Elan Microele... | Touchscreen                          | 13    | usbhid     | [67552D79AC](<Notebook/Dell/Inspiron/Inspiron 11-3168/1907869CF06E/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/67552D79AC>) |
+| 04f3:0034 | Elan Microele... | Touchscreen                          | 12    | usbhid     | [F4878864EC](<Notebook/Dell/Inspiron/Inspiron 5537/E37D8F64A166/POP!_OS-21.10/5.15.8-76051508-GENERIC/X86_64/F4878864EC>) |
+| 04f3:036e | Elan Microele... | Touchscreen                          | 12    | usbhid     | [6B1A282C17](<Notebook/Dell/Inspiron/Inspiron 11 - 3147/CACF61202444/UBUNTU-22.04/5.13.0-19-GENERIC/X86_64/6B1A282C17>) |
+| 04f3:24e1 | Elan Microele... | Touchscreen                          | 12    | usbhid     | [4F3C001854](<Notebook/Dell/Inspiron/Inspiron 13-7378/B4B1820D73E5/LINUXMINT-20.3/5.13.0-30-GENERIC/X86_64/4F3C001854>) |
+| 04f3:002a | Elan Microele... | Touchscreen                          | 11    | usbhid     | [2BF059F608](<Notebook/Dell/Inspiron/Inspiron 5421/E6409E5E959F/LINUXMINT-20.2/5.4.0-74-GENERIC/X86_64/2BF059F608>) |
+| 04f3:22c3 | Elan Microele... | Touchscreen                          | 11    | usbhid     | [CAA12C2897](<Notebook/Hewlett-Packard/Laptop/Laptop 15-db0xxx/6AAE06B7F290/UBUNTU-20.04/5.11.0-44-GENERIC/X86_64/CAA12C2897>) |
+| 04f3:2753 | Elan Microele... | Touchscreen                          | 11    | usbhid     | [728E0FACD6](<Notebook/Hewlett-Packard/Laptop/Laptop 15-dy1xxx/0FB817714484/ZORIN-16/5.11.0-34-GENERIC/X86_64/728E0FACD6>) |
+| 04f3:0023 | Elan Microele... | Touchscreen                          | 10    | usbhid     | [19C732CD05](<Notebook/Acer/Aspire/Aspire V5-571PG/724E8D6FDBAF/ZORIN-16/5.13.0-27-GENERIC/X86_64/19C732CD05>) |
+| 04f3:0303 | Elan Microele... | Touchscreen                          | 10    | usbhid     | [F73F06A58D](<Notebook/Lenovo/Yoga/Yoga 2 13 20344/88F8D4DFD573/LINUXMINT-20.1/5.4.0-96-GENERIC/X86_64/F73F06A58D>) |
+| 04f3:0389 | Elan Microele... | Touchscreen                          | 10    | usbhid     | [9E290336C1](<Notebook/Acer/Aspire/Aspire E5-571P/920F7DBDB677/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/9E290336C1>) |
+| 04f3:2033 | Elan Microele... | Touchscreen                          | 10    | usbhid     | [0565061605](<Notebook/Dell/Inspiron/Inspiron 7348/32CDF3DE371B/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/0565061605>) |
+| 04f3:2793 | Elan Microele... | Touchscreen                          | 10    | usbhid     | [1605FCCC92](<Notebook/Hewlett-Packard/Laptop/Laptop 17-ca0xxx/68E88BAD4188/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/1605FCCC92>) |
+| 04f3:0135 | Elan Microele... | Touchscreen                          | 9     | usbhid     | [5B3EC8682E](<Notebook/Lenovo/ThinkPad/ThinkPad T440 20B7S02A00/D6BFB136E4C6/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/5B3EC8682E>) |
+| 04f3:0206 | Elan Microele... | Touchscreen                          | 9     | usbhid     | [1493A2EAE1](<Notebook/Dell/Inspiron/Inspiron 7537/3070FEA40F8A/UBUNTU-20.04/5.11.0-34-GENERIC/X86_64/1493A2EAE1>) |
+| 04f3:0301 | Elan Microele... | Touchscreen                          | 9     | usbhid     | [A4DFBB6E38](<Notebook/Lenovo/ThinkPad/ThinkPad X240 20AMA34HMN/77E2C92377D2/VOID-ROLLING/5.15.6_1/X86_64/A4DFBB6E38>) |
+| 04f3:034f | Elan Microele... | Touchscreen                          | 9     | usbhid     | [45ABB29457](<Notebook/Dell/Inspiron/Inspiron 5547/8B1D61AE8AE5/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/45ABB29457>) |
+| 04f3:0439 | Elan Microele... | Touchscreen                          | 9     | usbhid     | [99645415A4](<Notebook/Hewlett-Packard/Pavilion/Pavilion 15/4B8DCF546265/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/99645415A4>) |
+| 04f3:2083 | Elan Microele... | Touchscreen                          | 9     | usbhid     | [70496150EB](<Notebook/Lenovo/Yoga/Yoga 500-14IBD 80N4/51B76D3D2D50/UBUNTU-20.04/5.4.0-77-GENERIC/X86_64/70496150EB>) |
+| 04f3:2089 | Elan Microele... | Touchscreen                          | 9     | usbhid     | [33A40B952E](<Notebook/Lenovo/Yoga/Yoga 500-15IBD 80N6/6D737B48C800/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/33A40B952E>) |
+| 04f3:24dd | Elan Microele... | Touchscreen                          | 9     | usbhid     | [A46A3A7F8D](<Notebook/Dell/Inspiron/Inspiron 15-3567/F10DA511EC6D/UBUNTU-20.04/5.13.0-27-GENERIC/X86_64/A46A3A7F8D>) |
+| 04f3:034a | Elan Microele... | Touchscreen                          | 8     | usbhid     | [2458E07E0D](<Notebook/Dell/Inspiron/Inspiron 5448/7A0B58ABD64A/ZORIN-16/5.13.0-30-GENERIC/X86_64/2458E07E0D>) |
+| 04f3:2313 | Elan Microele... | Touchscreen                          | 8     | usbhid     | [544609E7D5](<Notebook/Dell/XPS/XPS 13 9360/0AFE34B2DE55/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/544609E7D5>) |
+| 04f3:2497 | Elan Microele... | Touchscreen                          | 8     | usbhid     | [F2F40A2B71](<Notebook/Dell/Inspiron/Inspiron 7773/1E8EAF665FE2/LINUXMINT-20.1/5.4.0-99-GENERIC/X86_64/F2F40A2B71>) |
+| 04f3:2884 | Elan Microele... | Touchscreen                          | 8     | usbhid     | [738C57AE47](<Notebook/Lenovo/ThinkPad/ThinkPad T490s 20NYS1XK00/79A830F615C8/MANJARO-21.2.0/5.13.19-2-MANJARO/X86_64/738C57AE47>) |
+| 04f3:0111 | Elan Microele... | Touchscreen                          | 7     | usbhid     | [3CA26C22CC](<Notebook/Dell/Latitude/Latitude E7440/11BE872B881C/FEDORA-34/5.13.19-200.FC34.X86_64/X86_64/3CA26C22CC>) |
+| 04f3:024b | Elan Microele... | Touchscreen                          | 7     | usbhid     | [9F925455E8](<Notebook/Lenovo/IdeaPadFlex/IdeaPadFlex 10 20324/DD856BC467AB/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/9F925455E8>) |
+| 04f3:0363 | Elan Microele... | Touchscreen                          | 7     | usbhid     | [9CC401FB9E](<Notebook/Toshiba/Satellite/Satellite L55t-B/9A0D8C16C3CC/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/9CC401FB9E>) |
+| 04f3:038a | Elan Microele... | Touchscreen                          | 7     | usbhid     | [F65F0315EC](<Notebook/Hewlett-Packard/15/15 TS/33E3225BE0DC/DEBIAN-11/5.10.0-10-AMD64/X86_64/F65F0315EC>) |
 
 ### Tv card (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0402:5602 | ALi        | M5602 Video Camera Contro... | 83    | gspca_m... | B09A0D7779 |
-| 046d:0896 | Logitech   | OrbiCam                      | 37    | gspca_v... | 7E2DA6D3E9 |
-| 046d:0892 | Logitech   | C920 HD Pro Webcam           | 31    | gspca_v... | 26D1A4225D |
-| 05e1:0501 | Syntek     | DC-1125 Webcam               | 30    | stkwebcam  | AE3220A328 |
-| 174f:a311 | Syntek     | 1.3MPixel Web Cam - Asus ... | 24    | stkwebcam  | 4192E41344 |
-| 0c45:624f | Microdia   | PC Camera (SN9C201 + OV9650) | 15    | gspca_s... | D6A0692BAE |
-| 1415:2000 | Nam Tai... | Sony Playstation Eye         | 15    | gspca_o... | 9D9796386E |
-| 0ac8:c002 | Z-Star ... | Visual Communication Came... | 9     | gspca_v... | 7C1F897BC6 |
-| 045e:00f7 | Microsoft  | LifeCam VX-1000              | 8     | gspca_s... | 79641953DA |
-| 093a:2468 | Pixart ... | SoC PC-Camera                | 6     | gspca_p... | 1CAC82F558 |
-| 093a:2620 | Pixart ... | TV Card                      | 6     | gspca_p... | 4A691E902F |
-| 045e:00f5 | Microsoft  | LifeCam VX-3000              | 5     | gspca_s... | 803CBC7F2A |
-| 0c45:6260 | Microdia   | PC Camera (SN9C201 + OV76... | 5     | gspca_s... | 43B40CA9ED |
-| 046d:08d7 | Logitech   | QuickCam Communicate STX     | 4     | gspca_z... | 3FE556CDE3 |
-| 093a:2460 | Pixart ... | Q-TEC WEBCAM 100             | 4     | gspca_p... | C7C1D06954 |
-| 0ac8:0321 | Z-Star ... | Vimicro generic vc0321 Ca... | 4     | gspca_v... | 2466DF7773 |
-| 0ac8:307b | Z-Star ... | USB 1.1 Webcam               | 4     | gspca_z... | 930FBC43ED |
-| 046d:08f0 | Logitech   | QuickCam Messenger           | 3     | gspca_s... | E21583FA5C |
-| 093a:2608 | Pixart ... | PAC7311 Trust WB-3300p       | 3     | gspca_p... | A43D67CD48 |
-| 093a:2621 | Pixart ... | PAC731x Trust Webcam         | 3     | gspca_p... | 3E710C5B09 |
-| 093a:262c | Pixart ... | TV Card                      | 3     | gspca_p... | D886CD5C31 |
-| 0ac8:301b | Z-Star ... | ZC0301 Webcam                | 3     | gspca_z... | 2E8639BADA |
-| 0ac8:303b | Z-Star ... | ZC0303 Webcam                | 3     | gspca_z... | 94CFDBC88F |
-| 041e:4061 | Creativ... | Live! Cam Notebook Pro [V... | 2     | gspca_o... | AAB6789435 |
-| 045e:00f4 | Microsoft  | LifeCam VX-6000 (SN9C20x ... | 2     | gspca_s... | 535D0016E2 |
-| 046d:089d | Logitech   | QuickCam E2500 series        | 2     | gspca_z... | 41B1AE7140 |
-| 046d:08d9 | Logitech   | QuickCam IM/Connect          | 2     | gspca_z... | B907457300 |
-| 093a:2600 | Pixart ... | Typhoon Easycam USB 330K ... | 2     | gspca_p... | F32DFBFE2A |
-| 0c45:6007 | Microdia   | VideoCAM Eye                 | 2     | gspca_s... | D3F6E8B5B6 |
-| 0c45:608f | Microdia   | PC Camera (SN9C103 + OV7630) | 2     | gspca_s... | 1E0B9B751B |
-| 0c45:627b | Microdia   | PC Camera (SN9C201 + OV7660) | 2     | gspca_s... | E89B83FDD4 |
-| 041e:401f | Creativ... | Webcam Notebook [PD1171]     | 1     | gspca_z... | 9540E0D0D5 |
-| 041e:4028 | Creativ... | Vista Plus cam [VF0090]      | 1     | gspca_p... | EFA320E41A |
-| 041e:4036 | Creativ... | Webcam Live!/Live! Pro       | 1     | gspca_z... | 45C01E0ACA |
-| 041e:4052 | Creativ... | Live! Cam Vista IM           | 1     | gspca_o... | 8A90F48B68 |
-| 041e:4053 | Creativ... | Live! Cam Video IM           | 1     | gspca_z... | A747B7CAD9 |
-| 041e:405f | Creativ... | WebCam Vista (VF0330)        | 1     | gspca_o... | ECAB02A7DF |
-| 046d:0897 | Logitech   | QuickCam for Dell Notebooks  | 1     | gspca_v... | 6F7197B7AE |
-| 046d:08ae | Logitech   | QuickCam for Notebooks       | 1     | gspca_z... | F7FB11C89F |
-| 046d:08af | Logitech   | QuickCam Easy/Cool           | 1     | gspca_z... | CAB5B52CA0 |
-| 046d:08da | Logitech   | QuickCam Messanger           | 1     | gspca_z... | 6AA0BE51C6 |
-| 046d:0928 | Logitech   | QuickCam Express             | 1     | gspca_s... | 1604193C0F |
-| 046d:092c | Logitech   | QuickCam Chat                | 1     | gspca_s... | A28C9EF432 |
-| 046d:092d | Logitech   | QuickCam Express / Go        | 1     | gspca_s... | EB0F31AF69 |
-| 0471:0329 | Philips... | SPC 900NC PC Camera / ORI... | 1     | pwc, sn... | 8ED81A9451 |
-| 04fc:0561 | Sunplus... | Flexcam 100                  | 1     | gspca_s... | 6EB800A8C2 |
-| 054c:0155 | Sony       | Eyetoy Video Device          | 1     | gspca_o... | 2C2DFBF127 |
-| 05a9:8519 | OmniVis... | OV519 Webcam                 | 1     | gspca_o... | 23D31351E2 |
-| 06f8:3004 | Guillemot  | Hercules Classic Silver      | 1     | gspca_s... | E9F401F590 |
-| 07ca:0889 | AVerMed... | AVerTV Satellite 2           | 1     |            | 174EC665C6 |
-| 093a:2470 | Pixart ... | SoC PC-Camera                | 1     | gspca_p... | A28F7B2623 |
-| 093a:2472 | Pixart ... | CIF Single Chip              | 1     | gspca_p... | 060F929E11 |
-| 093a:2624 | Pixart ... | Webcam                       | 1     | gspca_p... | CB91962270 |
-| 0ac8:0301 | Z-Star ... | Web Camera                   | 1     | gspca_z... | E99842606A |
-| 0ac8:305b | Z-Star ... | ZC0305 Webcam                | 1     | gspca_z... | FDC7D23AE3 |
-| 0c45:6009 | Microdia   | VideoCAM ExpressII           | 1     | gspca_s... | 120E7702AF |
-| 0c45:600d | Microdia   | TwinkleCam USB camera        | 1     | gspca_s... | 6BEF9B4408 |
-| 0c45:6028 | Microdia   | Typhoon Easycam USB 330K ... | 1     | gspca_s... | CC9D06DBBB |
-| 0c45:6030 | Microdia   | VideoCAM ExpressII           | 1     |            | 6F28F56C47 |
-| 0c45:60af | Microdia   | VideoCAM Look                | 1     | gspca_s... | C26E330DAE |
-| 0c45:6128 | Microdia   | PC Camera (SN9C325 + OM6802) | 1     | gspca_s... | F75214C8D9 |
-| 0c45:613a | Microdia   | PC Camera (SN9C120)          | 1     | gspca_s... | 418E8D9D45 |
-| 0c45:6242 | Microdia   | PC Camera (SN9C201 + MI1310) | 1     | gspca_s... | F476459E50 |
-| 0c45:6270 | Microdia   | PC Camera (SN9C201 + MI03... | 1     | gspca_s... | CA002C53AE |
-| 0ccd:0096 | TerraTe... | Grabby                       | 1     | em28xx     | FF2A743691 |
-| 2040:7200 | Hauppauge  | WinTV HVR-950                | 1     | au0828     | 478EFE0530 |
-| 2304:021a | Pinnacl... | Dazzle DVC100 Audio Device   | 1     | em28xx,... | 8836475051 |
-| 6000:dec1 | Beholde... | TV Voyage                    | 1     | tm6000     | 39E3030E0A |
-| eb1a:2800 | eMPIA T... | Terratec Cinergy 200         | 1     | em28xx     | 48A7E1A88C |
-| eb1a:2860 | eMPIA T... | TV Card                      | 1     | em28xx     | 5764250D85 |
-| eb1a:2861 | eMPIA T... | EasyCAP DC60+ [EM2861]       | 1     | em28xx     | 247D9E9C2F |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0402:5602 | ALi              | M5602 Video Camera Controller        | 85    | gspca_m... | [930E8F9B6A](<Notebook/Itautec/Infoway/Infoway/F7E9E297B279/LINUXMINT-20.3/5.4.0-97-GENERIC/X86_64/930E8F9B6A>) |
+| 046d:0892 | Logitech         | C920 HD Pro Webcam                   | 46    | gspca_v... | [42921AEBFD](<Notebook/Hewlett-Packard/ZBook/ZBook 15u G6/A8B5AAF45EC2/UBUNTU-BUDGIE-21.10/5.13.0-35-GENERIC/X86_64/42921AEBFD>) |
+| 046d:0896 | Logitech         | OrbiCam                              | 41    | gspca_v... | [4B2259F040](<Notebook/Acer/Aspire/Aspire 5600/7C28F487841A/LINUX-LITE-3.8/4.15.0-169-GENERIC/I686/4B2259F040>) |
+| 05e1:0501 | Syntek           | DC-1125 Webcam                       | 30    | stkwebcam  | [ACDFE6952B](<Notebook/ASUSTek Computer/F5/F5VL/C5BC99C143A5/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/ACDFE6952B>) |
+| 174f:a311 | Syntek           | 1.3MPixel Web Cam - Asus A3A, A6J... | 25    | stkwebcam  | [787DFA2208](<Notebook/ASUSTek Computer/A7/A7K/E81F04A95852/LINUXMINT-20.2/5.4.0-91-GENERIC/X86_64/787DFA2208>) |
+| 1415:2000 | Nam Tai E&E P... | Sony Playstation Eye                 | 17    | gspca_o... | [E2B7B798A8](<Notebook/Dell/Inspiron/Inspiron 7559/C54386A2C02D/POP!_OS-21.04/5.13.0-7620-GENERIC/X86_64/E2B7B798A8>) |
+| 0c45:624f | Microdia         | PC Camera (SN9C201 + OV9650)         | 16    | gspca_s... | [A3A3EA2BD9](<Notebook/Lenovo/Others/Others/B6894CAF0867/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/A3A3EA2BD9>) |
+| 0ac8:c002 | Z-Star Microe... | Visual Communication Camera VGP-VCC1 | 10    | gspca_v... | [A7185CC26A](<Notebook/Sony/VGN-FE31/VGN-FE31H/A2CE0403D433/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/A7185CC26A>) |
+| 045e:00f7 | Microsoft        | LifeCam VX-1000                      | 8     | gspca_s... | [79641953DA](<Notebook/MSI/CR42/CR42 2M-GE40 2OC/E73601E7E6C9/UBUNTU-20.04/5.4.0-58-GENERIC/X86_64/79641953DA>) |
+| 093a:2620 | Pixart Imaging   | TV Card                              | 7     | gspca_p... | [B1E0EE94BA](<Notebook/Acer/Extensa/Extensa 2510/10FF52A0E74F/UBUNTU-20.04/5.11.0-40-GENERIC/X86_64/B1E0EE94BA>) |
+| 093a:2468 | Pixart Imaging   | SoC PC-Camera                        | 6     | gspca_p... | [1CAC82F558](<Notebook/Dell/Inspiron/Inspiron M5040/5E3FB1E50075/ZORIN-15/5.4.0-58-GENERIC/I686/1CAC82F558>) |
+| 045e:00f5 | Microsoft        | LifeCam VX-3000                      | 5     | gspca_s... | [803CBC7F2A](<Notebook/Dell/Precision/Precision M6500/E195E2B25309/UBUNTU-20.04/5.8.0-41-GENERIC/X86_64/803CBC7F2A>) |
+| 046d:08d7 | Logitech         | QuickCam Communicate STX             | 5     | gspca_z... | [3F39C45F19](<Notebook/Samsung Electronics/SP55/SP55S/EA98A7B336E0/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/3F39C45F19>) |
+| 0ac8:0321 | Z-Star Microe... | Vimicro generic vc0321 Camera        | 5     | gspca_v... | [3FBE9D478E](<Notebook/ASUSTek Computer/A8/A8JR/6C9EE7F04654/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/3FBE9D478E>) |
+| 0c45:6260 | Microdia         | PC Camera (SN9C201 + OV7670ISP)      | 5     | gspca_s... | [43B40CA9ED](<Notebook/Acer/Aspire/Aspire 5050/1B003D0118B4/XUBUNTU-18.04/5.4.0-60-GENERIC/I686/43B40CA9ED>) |
+| 046d:08f0 | Logitech         | QuickCam Messenger                   | 4     | gspca_s... | [485C5E0968](<Notebook/Dell/XPS/XPS 13 9350/D76A916AD957/FEDORA-35/5.15.14-200.FC35.X86_64/X86_64/485C5E0968>) |
+| 093a:2460 | Pixart Imaging   | Q-TEC WEBCAM 100                     | 4     | gspca_p... | [C7C1D06954](<Notebook/Hewlett-Packard/Compaq/Compaq Presario CQ61/40C22A9786B9/ZORIN-15/5.4.0-81-GENERIC/I686/C7C1D06954>) |
+| 093a:262c | Pixart Imaging   | TV Card                              | 4     | gspca_p... | [4F72D3DAE0](<Notebook/Dell/Latitude/Latitude E5400/BFC8637346A5/UBUNTU-MATE-20.04/5.11.0-44-GENERIC/X86_64/4F72D3DAE0>) |
+| 0ac8:303b | Z-Star Microe... | ZC0303 Webcam                        | 4     | gspca_z... | [52636906D8](<Notebook/Hewlett-Packard/Pavilion/Pavilion g6/DDDA28C4E3D6/ROSA-12.1/5.10.74-GENERIC-2ROSA2021.1-X86_64/X86_64/52636906D8>) |
+| 0ac8:307b | Z-Star Microe... | USB 1.1 Webcam                       | 4     | gspca_z... | [930FBC43ED](<Notebook/Lenovo/ThinkPad/ThinkPad X201 3249CTO/EE86EB6F6E0D/UBUNTU-20.04/5.4.0-42-GENERIC/X86_64/930FBC43ED>) |
+| 093a:2600 | Pixart Imaging   | Typhoon Easycam USB 330K (newer)/... | 3     | gspca_p... | [94526BE0DD](<Notebook/Hewlett-Packard/625/625/D2517445C217/LINUXMINT-20/5.4.0-77-GENERIC/X86_64/94526BE0DD>) |
+| 093a:2608 | Pixart Imaging   | PAC7311 Trust WB-3300p               | 3     | gspca_p... | [A43D67CD48](<Notebook/ASUSTek Computer/X542/X542URR/BCEB7B33F0D2/UBUNTU-18.04/4.15.0-96-GENERIC/X86_64/A43D67CD48>) |
+| 093a:2621 | Pixart Imaging   | PAC731x Trust Webcam                 | 3     | gspca_p... | [3E710C5B09](<Notebook/Acer/Aspire/Aspire 5310/C08CA1553E2D/UBUNTU-20.10/5.8.0-50-GENERIC/X86_64/3E710C5B09>) |
+| 0ac8:301b | Z-Star Microe... | ZC0301 Webcam                        | 3     | gspca_z... | [220050FFF2](<Notebook/Datto/1000/1000/E6ABCDC5C677/UBUNTU-20.04/5.11.0-41-GENERIC/X86_64/220050FFF2>) |
+| 0c45:6007 | Microdia         | VideoCAM Eye                         | 3     | gspca_s... | [AB5CE36275](<Notebook/Dell/Latitude/Latitude E5400/BDE40F600FE3/ARCO-ROLLING/5.4.181-1-LTS54/X86_64/AB5CE36275>) |
+| 041e:401f | Creative Tech... | Webcam Notebook [PD1171]             | 2     | gspca_z... | [88CE413793](<Notebook/ASUSTek Computer/900/900/1E6D3CCFCEEB/GENTOO-2.6/5.15.19-GENTOO-112-OVERLAYFS/I686/88CE413793>) |
+| 041e:4061 | Creative Tech... | Live! Cam Notebook Pro [VF0400]      | 2     | gspca_o... | [AAB6789435](<Notebook/ASUSTek Computer/GL552/GL552VW/0179CEEEA78C/UBUNTU-20.04/5.4.0-26-GENERIC/X86_64/AAB6789435>) |
+| 045e:00f4 | Microsoft        | LifeCam VX-6000 (SN9C20x + OV9650)   | 2     | gspca_s... | [535D0016E2](<Notebook/MSI/CX/CX700/403068992425/DEBIAN-11/5.10.0-IO7-AMD64/X86_64/535D0016E2>) |
+| 046d:089d | Logitech         | QuickCam E2500 series                | 2     | gspca_z... | [41B1AE7140](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8560w/801851AB8F6A/UBUNTU-19.04/5.0.0-13-GENERIC/X86_64/41B1AE7140>) |
+| 046d:08d9 | Logitech         | QuickCam IM/Connect                  | 2     | gspca_z... | [B907457300](<Notebook/Toshiba/Satellite/Satellite A200/39CF9AB95E9C/UBUNTU-20.10/5.8.0-29-GENERIC/X86_64/B907457300>) |
+| 046d:08da | Logitech         | QuickCam Messanger                   | 2     | gspca_z... | [E9414E6BC4](<Notebook/Star Labs/StarBook/StarBook/BCB27AC716D5/ELEMENTARY-6/5.11.0-41-GENERIC/X86_64/E9414E6BC4>) |
+| 0c45:608f | Microdia         | PC Camera (SN9C103 + OV7630)         | 2     | gspca_s... | [1E0B9B751B](<Notebook/Dell/Latitude/Latitude E6400/DB426F0C8BEC/UBUNTU-20.04/5.8.0-50-GENERIC/X86_64/1E0B9B751B>) |
+| 0c45:627b | Microdia         | PC Camera (SN9C201 + OV7660)         | 2     | gspca_s... | [E89B83FDD4](<Notebook/ASUSTek Computer/X550/X550VC/2A8484100A52/UBUNTU-18.04/5.4.0-74-GENERIC/X86_64/E89B83FDD4>) |
+| eb1a:2861 | eMPIA Technology | EasyCAP DC60+ [EM2861]               | 2     | em28xx     | [F1FA3D65B1](<Notebook/Hewlett-Packard/ProBook/ProBook 640 G4/5500E687A6B8/KUBUNTU-20.10/5.8.0-63-GENERIC/X86_64/F1FA3D65B1>) |
+| 041e:4028 | Creative Tech... | Vista Plus cam [VF0090]              | 1     | gspca_p... | [EFA320E41A](<Notebook/Hewlett-Packard/Mini/Mini 210-4000/AED744D4D422/LINUXMINT-19/4.15.0-20-GENERIC/I686/EFA320E41A>) |
+| 041e:4036 | Creative Tech... | Webcam Live!/Live! Pro               | 1     | gspca_z... | [45C01E0ACA](<Notebook/Lenovo/ThinkPad/ThinkPad T60 1953D9U/D3AB3CF7C319/ROSA-2016.1/4.9.60-NRJ-DESKTOP-1ROSA-I586/I686/45C01E0ACA>) |
+| 041e:4052 | Creative Tech... | Live! Cam Vista IM                   | 1     | gspca_o... | [6AD7A31369](<Notebook/Dell/Latitude/Latitude E5530 non-vPro/91BE6A0165CE/KUBUNTU-20.04/5.4.0-91-GENERIC/X86_64/6AD7A31369>) |
+| 041e:4053 | Creative Tech... | Live! Cam Video IM                   | 1     | gspca_z... | [A747B7CAD9](<Notebook/Dell/XPS/XPS 15 9560/7AD09AFB0597/FEDORA-32/5.11.22-100.FC32.X86_64/X86_64/A747B7CAD9>) |
+| 041e:405f | Creative Tech... | WebCam Vista (VF0330)                | 1     | gspca_o... | [ECAB02A7DF](<Notebook/Lenovo/ThinkPad/ThinkPad L530 24792C9/E4B05056D016/UBUNTU-18.04/5.4.0-60-GENERIC/X86_64/ECAB02A7DF>) |
+| 0458:7004 | KYE Systems (... | VideoCAM Express V2                  | 1     | gspca_s... | [AC9ED3224D](<Notebook/Samsung Electronics/355V4/355V4C-356V4C-3445VC-3545VC/8BD8C11DC3C9/DEBIAN-11/5.10.0-11-AMD64/X86_64/AC9ED3224D>) |
+| 046d:0870 | Logitech         | QuickCam Express                     | 1     | gspca_s... | [6F5AF5DA5C](<Notebook/Dell/Latitude/Latitude E5420m/7A8038E8535B/LINUXMINT-20.2/5.4.0-91-GENERIC/X86_64/6F5AF5DA5C>) |
+| 046d:0897 | Logitech         | QuickCam for Dell Notebooks          | 1     | gspca_v... | [6F7197B7AE](<Notebook/Dell/MXP/MXP061/EF14A774B04A/UBUNTU-20.04/5.8.0-41-GENERIC/X86_64/6F7197B7AE>) |
+| 046d:08a0 | Logitech         | QuickCam IM                          | 1     | gspca_z... | [BBF051D81A](<Notebook/MSI/MS/MS-1034/2567968FA230/XUBUNTU-18.04/4.15.0-161-GENERIC/X86_64/BBF051D81A>) |
+| 046d:08ae | Logitech         | QuickCam for Notebooks               | 1     | gspca_z... | [F7FB11C89F](<Notebook/Toshiba/Satellite/Satellite A100/570CF28C3EB9/LUBUNTU-18.04/4.15.0-76-GENERIC/X86_64/F7FB11C89F>) |
+| 046d:08af | Logitech         | QuickCam Easy/Cool                   | 1     | gspca_z... | [CAB5B52CA0](<Notebook/Hewlett-Packard/EliteBook/EliteBook 8570p/67D1106CB6DC/LINUXMINT-20.1/5.11.0-2.2-LIQUORIX-AMD64/X86_64/CAB5B52CA0>) |
+| 046d:0928 | Logitech         | QuickCam Express                     | 1     | gspca_s... | [1604193C0F](<Notebook/ASUSTek Computer/K43/K43E/03E0C5B0D4D8/LINUXMINT-19.3/5.4.0-54-GENERIC/X86_64/1604193C0F>) |
+| 046d:092c | Logitech         | QuickCam Chat                        | 1     | gspca_s... | [A28C9EF432](<Notebook/Toshiba/NB/NB505/2D896006D4AC/LUBUNTU-18.04/4.15.0-96-GENERIC/X86_64/A28C9EF432>) |
+| 046d:092d | Logitech         | QuickCam Express / Go                | 1     | gspca_s... | [EB0F31AF69](<Notebook/MSI/GX60/GX60 3CC/C63DFF19D882/LINUXMINT-19.3/5.3.0-42-GENERIC/X86_64/EB0F31AF69>) |
+| 0471:0329 | Philips (or NXP) | SPC 900NC PC Camera / ORITE CCD W... | 1     | pwc, sn... | [8ED81A9451](<Notebook/Acer/Swift/Swift SF315-52G/9FC191079236/FEDORA-34/5.12.8-300.FC34.X86_64/X86_64/8ED81A9451>) |
+| 04fc:0561 | Sunplus Techn... | Flexcam 100                          | 1     | gspca_s... | [6EB800A8C2](<Notebook/Acer/Aspire/Aspire E1-571/4C6AEE7A75DD/MANJARO-21.1.2/5.10.61-1-MANJARO/X86_64/6EB800A8C2>) |
 
 ### Ups (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 051d:0002 | America... | Uninterruptible Power Supply | 7     | usbhid     | FE77011ED7 |
-| 0463:ffff | MGE UPS... | UPS                          | 4     | usbhid     | CAE806F49D |
-| 0764:0501 | Cyber P... | CP1500 AVR UPS               | 3     | usbfs      | 76C42F7133 |
-| 051d:0003 | America... | UPS                          | 1     | usbhid     | AE0142F417 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 051d:0002 | American Powe... | Uninterruptible Power Supply         | 9     | usbhid     | [311C6DA8E0](<Notebook/Hewlett-Packard/ProBook/ProBook 455 G7/656F39058145/MANJARO-21.2.4/5.16.11-2-MANJARO/X86_64/311C6DA8E0>) |
+| 0463:ffff | MGE UPS Systems  | UPS                                  | 4     | usbhid     | [CAE806F49D](<Notebook/ASUSTek Computer/ROG/ROG Strix G533QS_G533QS/BC3D8AB48D2A/UBUNTU-21.10/5.13.0-14-GENERIC/X86_64/CAE806F49D>) |
+| 0764:0501 | Cyber Power S... | CP1500 AVR UPS                       | 3     | usbfs      | [76C42F7133](<Notebook/Lenovo/IdeaPad/IdeaPad Y470 0855/872E06BF70F9/DEBIAN-10/4.19.0-12-AMD64/X86_64/76C42F7133>) |
+| 051d:0003 | American Powe... | UPS                                  | 1     | usbhid     | [AE0142F417](<Notebook/Dell/Vostro/Vostro 3550/FCA7BFB07CA8/ROSA-2014.1/4.1.19-NRJ-DESKTOP-3ROSA-X86_64/X86_64/AE0142F417>) |
 
 ### Video (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 048d:9006 | Integra... | IT9135 BDA Afatech DVB-T ... | 2     | dvb_usb... | A40F61B08A |
-| 1b80:a41c | Afatech    | Polaris AV Capture           | 2     |            | 6DE34F58AF |
-| 04b4:00f9 | Cypress... | Ninja Dock                   | 1     | usbhid     | 79FA3F7509 |
-| 0fd9:0051 | Elgato ... | GameCapture HD               | 1     |            | 05F988930D |
-| 0fd9:0062 | Elgato ... | Cam Link                     | 1     | snd_usb... | D0234C90FB |
-| 5555:3382 | Epiphan... | VGA2USB Frame Grabber        | 1     |            | 37A831391B |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 048d:9006 | Integrated Te... | IT9135 BDA Afatech DVB-T HDTV Dongle | 5     | dvb_usb... | [23251C9E05](<Notebook/Lenovo/IdeaPad/IdeaPad 100-15IBY 80MJ/308E88555DE0/OPENMANDRIVA-4.3/5.16.7-DESKTOP-1OMV4003/X86_64/23251C9E05>) |
+| 1b80:a41c | Afatech          | Polaris AV Capture                   | 2     |            | [6DE34F58AF](<Notebook/Toshiba/PORTEGE/PORTEGE M800/79DF89B29C5F/FEDORA-33/5.9.16-200.FC33.X86_64/X86_64/6DE34F58AF>) |
+| 04b4:00f9 | Cypress Semic... | Ninja Dock                           | 1     | usbhid     | [79FA3F7509](<Notebook/Lenovo/ThinkPad/ThinkPad P15v Gen 1 20TQ004JAU/244A0ACE6641/UBUNTU-20.04/5.8.0-53-GENERIC/X86_64/79FA3F7509>) |
+| 0fd9:0051 | Elgato Systems   | GameCapture HD                       | 1     |            | [05F988930D](<Notebook/ASUSTek Computer/1015/1015PN/55D4E056C24F/ROSA-2014.1/3.14.15-NRJ-DESKTOP-1ROSA/X86_64/05F988930D>) |
+| 0fd9:0061 | Elgato Systems   | Cam Link                             | 1     | snd_usb... | [9CB7EBEA38](<Notebook/ASUSTek Computer/X580/X580VD/F521653612FB/ARCH-ROLLING/5.16.0-ARCH1-1/X86_64/9CB7EBEA38>) |
+| 0fd9:0062 | Elgato Systems   | Cam Link                             | 1     | snd_usb... | [D0234C90FB](<Notebook/Lenovo/G50-80/G50-80 80E5/2F41BB9D338F/UBUNTU-18.04/4.18.0-25-GENERIC/X86_64/D0234C90FB>) |
+| 5555:3382 | Epiphan Systems  | VGA2USB Frame Grabber                | 1     |            | [37A831391B](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv8/D8B9EB76B074/ROSA-2014.1/3.14.25-NRJ-DESKTOP-1ROSA/X86_64/37A831391B>) |
 
 ### Webcam (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 145f:013c | Trust      | Multimedia audio controller  | 1     | gspca_p... | C52868D73E |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 145f:013c | Trust            | Multimedia audio controller          | 1     | gspca_p... | [C52868D73E](<Notebook/Sony/VGN-A130/VGN-A130P/C3201DCA099B/ROSA-2014.1/3.14.44-NRJ-DESKTOP-2ROSA-I586/I686/C52868D73E>) |
 
 ### Wireless (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 2717:ff88 | Xiaomi     | Mi/Redmi series (RNDIS + ... | 44    | rndis_host | 1E3B469A11 |
-| 22b8:2e25 | Motorol... | REVVLRY                      | 23    | rndis_host | 78F1531E54 |
-| 2a70:9024 | OnePlus... | OnePlus                      | 10    | rndis_host | 2FDC29F9CB |
-| 18d1:4ee4 | Google     | Nexus/Pixel Device (tethe... | 7     | rndis_host | 4B8701A2B3 |
-| 1286:4e31 | Marvell... | Mobile Composite Device Bus  | 5     | rndis_host | 387EE22BC4 |
-| 12d1:107c | Huawei ... | Android                      | 5     | rndis_host | C1273267FF |
-| 22d9:2766 | OPPO El... | SDM720G-IDP _SN:14DFE8AD     | 4     | rndis_host | 35DB97AA9B |
-| 0b05:7775 | ASUSTek... | Zenfone GO (ZB500KL) (Deb... | 3     | rndis_host | 5DC8528948 |
-| 12d1:1039 | Huawei ... | Ideos (tethering mode)       | 3     | rndis_host | E15B3DCFA3 |
-| 0489:e0a6 | Foxconn... | Android                      | 2     | rndis_host | 46F6296844 |
-| 04b7:88d4 | Compal ... | Android                      | 2     | rndis_host | 63AC92DFF4 |
-| 0b05:7782 | ASUSTek... | Android                      | 2     | rndis_host | A56935A751 |
-| 0fce:71e8 | Sony Er... | F5321                        | 2     | rndis_host | 70D66C5819 |
-| 0fce:71fa | Sony Er... | H8216                        | 2     | rndis_host | 6BF9D537A8 |
-| 12d1:2607 | Huawei ... | HUAWEI                       | 2     | rndis_host | 5F1613820B |
-| 15a9:003a | Gemtek     | Modem YOTA 4G LTE            | 2     | rndis_host | 99F2FBC2FE |
-| 2d95:600b | Android    | Android                      | 2     | rndis_host | B6FA661FDD |
-| 2d95:6ffa | vivo       | 1819                         | 2     | rndis_host | B068BAD0BE |
-| 2d95:6ffb | vivo       | 1819                         | 2     | rndis_host | A8D131CD6A |
-| 0421:06eb | Nokia M... | Nokia_X (RM-980)             | 1     | rndis_host | E8E340D720 |
-| 04dd:97f2 | Sharp      | SH05F                        | 1     | rndis_host | B10FE6845E |
-| 05c6:902d | Qualcomm   | Android                      | 1     | rndis_host | E6C85F7E85 |
-| 05c6:90b6 | Qualcomm   | Android                      | 1     | rndis_host | DBCA41493B |
-| 05c6:f626 | Qualcomm   | MDM9607-MTP _SN:E51AF6C2     | 1     | rndis_host | 7D94C98AA7 |
-| 0b05:5603 | ASUSTek... | ASUS_Z01RD                   | 1     | rndis_host | 82B2D38326 |
-| 0bb4:0ffc | HTC (Hi... | Android Phone                | 1     | rndis_host | ACC6C85624 |
-| 0fce:71aa | Sony Er... | D2303                        | 1     | rndis_host | 0C9E0F4767 |
-| 0fce:71ba | Sony Er... | D6603                        | 1     | rndis_host | 5974A74BFD |
-| 0fce:71e7 | Sony Er... | F8331                        | 1     | rndis_host | 8AE1EA1D6B |
-| 0fce:7201 | Sony Er... | I4113                        | 1     | rndis_host | A8B162F110 |
-| 0fce:720d | Sony Er... | XQ-AS52                      | 1     | rndis_host | 560598D6FB |
-| 0fce:81e8 | Sony Er... | F5321                        | 1     | rndis_host | D1E41EC5C0 |
-| 0fce:81f9 | Sony Er... | H8324                        | 1     |            | 75C607555E |
-| 15a9:0046 | Gemtek     | 4G Modem                     | 1     | rndis_host | FBF317133B |
-| 17ef:782f | Lenovo     | Lenovo                       | 1     | rndis_host | 0504CFE362 |
-| 17ef:7be6 | Lenovo     | Android                      | 1     | rndis_host | 750413CC61 |
-| 17ef:7c4b | Lenovo     | TB-X606V                     | 1     | rndis_host | 0A0EFAE900 |
-| 19d2:1611 | ZTE WCD... | Yota Router                  | 1     | rndis_host | 452CA6FFA5 |
-| 201e:2498 | Android    | Android                      | 1     | rndis_host | 4DE0326F3B |
-| 271d:3004 | SPA Con... | Allure M1                    | 1     | rndis_host | A82ABD4F97 |
-| 271d:90b5 | Android    |                              | 1     | rndis_host | 65345FD237 |
-| 2916:f00e | Android    | Android                      | 1     | rndis_host | 79937B3042 |
-| 2970:0004 | Fly        | Evo Chic 3                   | 1     | rndis_host | A83B92D6B0 |
-| 2a45:0004 | Meizu      | m3                           | 1     | rndis_host | 0D99884DCD |
-| 2a96:2005 | MediaTek   | Plume L2 Pro                 | 1     | rndis_host | 0EB94C0487 |
-| 2ae5:9024 | Fairphone  | FP2                          | 1     | rndis_host | 8200C0DCD0 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 2717:ff88 | Xiaomi           | Mi/Redmi series (RNDIS + ADB)        | 58    | rndis_host | [BC59A5A32B](<Notebook/Hewlett-Packard/Laptop/Laptop 15-bs0xx/4C5B05E3EE0E/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/BC59A5A32B>) |
+| 22b8:2e25 | Motorola PCS     | moto g stylus                        | 25    | rndis_host | [31B6CC89DF](<Notebook/Hewlett-Packard/Pavilion/Pavilion TS 11/7FE5850371CB/LINUXMINT-20.3/5.4.0-91-GENERIC/X86_64/31B6CC89DF>) |
+| 18d1:4ee4 | Google           | Nexus/Pixel Device (tether+ debug)   | 10    | rndis_host | [74173B18DA](<Notebook/Hewlett-Packard/Laptop/Laptop 14-fq1xxx/63CE0B265668/POP!_OS-21.10/5.15.5-76051505-GENERIC/X86_64/74173B18DA>) |
+| 2a70:9024 | OnePlus Techn... | OnePlus                              | 10    | rndis_host | [2FDC29F9CB](<Notebook/Apple/MacBookPro16/MacBookPro16,2/EE5FE889947C/POP!_OS-21.04/5.13.0-7614-GENERIC/X86_64/2FDC29F9CB>) |
+| 1286:4e31 | Marvell Semic... | Mobile Composite Device Bus          | 5     | rndis_host | [387EE22BC4](<Notebook/Lenovo/ThinkPad/ThinkPad T410 2516DCU/FA1E6F775BC2/PARABOLA-ROLLING/5.10.56-GNU-1-LTS/X86_64/387EE22BC4>) |
+| 12d1:107c | Huawei Techno... | Android                              | 5     | rndis_host | [C1273267FF](<Notebook/Hewlett-Packard/Laptop/Laptop 15-da1xxx/DE7D849D0D82/UBUNTU-18.04/5.0.0-23-GENERIC/X86_64/C1273267FF>) |
+| 22d9:2766 | OPPO Electronics | SM6115-QRD _SN:D6BC0450              | 5     | rndis_host | [D8946EAF3C](<Notebook/Dell/Vostro/Vostro 3400/E0019D19621D/DEBIAN-11/5.10.0-9-AMD64/X86_64/D8946EAF3C>) |
+| 0b05:7775 | ASUSTek Computer | Zenfone GO (ZB500KL) (Debug, RNDI... | 4     | rndis_host | [29A20CFBD9](<Notebook/Dell/Inspiron/Inspiron 1428/8AC24116CB36/KDE-NEON-20.04/5.11.0-43-GENERIC/X86_64/29A20CFBD9>) |
+| 12d1:1039 | Huawei Techno... | Ideos (tethering mode)               | 3     | rndis_host | [E15B3DCFA3](<Notebook/Sony/VPCM120/VPCM120AL/BE21A0394EF6/DEBIAN-10/4.19.0-16-686-PAE/I686/E15B3DCFA3>) |
+| 0489:e0a6 | Foxconn / Hon... | Android                              | 2     | rndis_host | [46F6296844](<Notebook/Dell/Inspiron/Inspiron 3481/FEF6778F5B93/UBUNTU-20.04/5.4.0-51-GENERIC/X86_64/46F6296844>) |
+| 04b7:88d4 | Compal Electr... | Android                              | 2     | rndis_host | [63AC92DFF4](<Notebook/Lenovo/ThinkPad/ThinkPad T430 2349NY1/A211E4318AB0/KUBUNTU-18.04/5.0.0-37-GENERIC/X86_64/63AC92DFF4>) |
+| 0b05:7782 | ASUSTek Computer | Android                              | 2     | rndis_host | [A56935A751](<Notebook/Hewlett-Packard/Pavilion/Pavilion dv7/04C8222C212F/FEDORA-34/5.13.7-200.FC34.X86_64/X86_64/A56935A751>) |
+| 0fce:71e8 | Sony Ericsson... | F5321                                | 2     | rndis_host | [70D66C5819](<Notebook/Hewlett-Packard/ProBook/ProBook 450 G5/50579B71BFA3/UBUNTU-18.04/4.15.0-29-GENERIC/X86_64/70D66C5819>) |
+| 0fce:71fa | Sony Ericsson... | H8216                                | 2     | rndis_host | [6BF9D537A8](<Notebook/Lenovo/ThinkPad/ThinkPad E595 20NFCTO1WW/41CBB9C71701/PARROT-4.8/5.4.0-4PARROT1-AMD64/X86_64/6BF9D537A8>) |
+| 12d1:2607 | Huawei Techno... | HUAWEI                               | 2     | rndis_host | [5F1613820B](<Notebook/Hewlett-Packard/420/420/A849E0707304/LINUXMINT-19.3/5.4.0-77-GENERIC/I686/5F1613820B>) |
+| 15a9:003a | Gemtek           | Modem YOTA 4G LTE                    | 2     | rndis_host | [99F2FBC2FE](<Notebook/Hewlett-Packard/Pavilion/Pavilion 15/1A52BA85F4D8/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/99F2FBC2FE>) |
+| 2d95:600b | vivo             | S9                                   | 2     | rndis_host | [B6FA661FDD](<Notebook/Acer/Aspire/Aspire 4750/69C9B05966DB/UBUNTU-19.04/5.0.0-13-GENERIC/X86_64/B6FA661FDD>) |
+| 2d95:6ffa | MediaTek         | vivo                                 | 2     | rndis_host | [B068BAD0BE](<Notebook/AVITA/NS14/NS14A8/D91E6488D9FA/KALI-2021.2/5.5.0-KALI2-AMD64/X86_64/B068BAD0BE>) |
+| 2d95:6ffb | vivo             | 1819                                 | 2     | rndis_host | [A8D131CD6A](<Notebook/AVITA/NS14/NS14A8/D91E6488D9FA/KALI-2021.2/5.5.0-KALI2-AMD64/X86_64/A8D131CD6A>) |
+| 0421:06eb | Nokia Mobile ... | Nokia_X (RM-980)                     | 1     | rndis_host | [E8E340D720](<Notebook/Lenovo/B50-45/B50-45 20388/5432CBE9F415/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/E8E340D720>) |
+| 04dd:97f2 | Sharp            | SH05F                                | 1     | rndis_host | [B10FE6845E](<Notebook/Acer/Aspire/Aspire 4740/C3BF1BF6536E/UBUNTU-18.04/4.15.0-65-LOWLATENCY/X86_64/B10FE6845E>) |
+| 05c6:902d | Qualcomm         | Android                              | 1     | rndis_host | [E6C85F7E85](<Notebook/Dell/Latitude/Latitude E6510/88F57FBE8570/UBUNTU-20.04/5.4.0-42-GENERIC/X86_64/E6C85F7E85>) |
+| 05c6:90b6 | Qualcomm         | Android                              | 1     | rndis_host | [DBCA41493B](<Notebook/Lenovo/Legion/Legion Y9000X 2020 81TH/F2E03BE425DB/DEBIAN-10/5.3.0-3-AMD64/X86_64/DBCA41493B>) |
+| 05c6:f626 | Qualcomm         | MDM9607-MTP _SN:309A4CFE             | 1     | rndis_host | [7D94C98AA7](<Notebook/Hewlett-Packard/OMEN/OMEN by Laptop 15-dc1xxx/4DB573F5BC7D/LINUXMINT-20.2/5.4.0-88-GENERIC/X86_64/7D94C98AA7>) |
+| 0b05:5603 | ASUSTek Computer | ASUS_Z01RD                           | 1     | rndis_host | [82B2D38326](<Notebook/Itautec/Infoway/Infoway/E2A49DA708B2/LMDE-4/4.19.0-17-686/I686/82B2D38326>) |
+| 0bb4:0ffc | HTC (High Tec... | Android Phone                        | 1     | rndis_host | [ACC6C85624](<Notebook/Hewlett-Packard/ZBook/ZBook 15 G3/E1C27D8F48C8/OPENSUSE-20200831/5.8.4-1-DEFAULT/X86_64/ACC6C85624>) |
+| 0fce:71aa | Sony Ericsson... | D2303                                | 1     | rndis_host | [0C9E0F4767](<Notebook/Hewlett-Packard/Pavilion/Pavilion g4/CC55A1DD8225/UBUNTU-18.04/4.15.0-45-GENERIC/X86_64/0C9E0F4767>) |
+| 0fce:71ba | Sony Ericsson... | D6603                                | 1     | rndis_host | [5974A74BFD](<Notebook/Acer/Aspire/Aspire E5-575/98B127133C3F/ROSA-2014.1/4.9.9-NRJ-DESKTOP-1ROSA-X86_64/X86_64/5974A74BFD>) |
+| 0fce:71e7 | Sony Ericsson... | F8331                                | 1     | rndis_host | [8AE1EA1D6B](<Notebook/Clevo/W760/W760SUB/281C151741D1/XUBUNTU-20.04/5.11.0-34-GENERIC/X86_64/8AE1EA1D6B>) |
+| 0fce:7201 | Sony Ericsson... | I4113                                | 1     | rndis_host | [A8B162F110](<Notebook/Acer/Aspire/Aspire ES1-711/B8EA7665A1C7/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/A8B162F110>) |
+| 0fce:720d | Sony Ericsson... | XQ-AS52                              | 1     | rndis_host | [560598D6FB](<Notebook/ASUSTek Computer/ZenBook/ZenBook UX433FN_UX433FN/684DC70D2D8D/POP!_OS-21.04/5.13.0-7614-GENERIC/X86_64/560598D6FB>) |
+| 0fce:81e8 | Sony Ericsson... | F5321                                | 1     | rndis_host | [D1E41EC5C0](<Notebook/Hewlett-Packard/650/650/4E927F6DFE5C/LUBUNTU-20.10/5.8.0-26-GENERIC/X86_64/D1E41EC5C0>) |
+| 0fce:81f9 | Sony Ericsson... | H8324                                | 1     |            | [75C607555E](<Notebook/Dell/Precision/Precision 7560/AD5DD72C4D14/ARCH/5.13.12-ZEN1-1-ZEN/X86_64/75C607555E>) |
+| 0fce:820d | Sony Ericsson... | XQ-BT52                              | 1     |            | [B78E96AFF8](<Notebook/Lenovo/Others/Others/E40F13300D60/GARUDA-SOARING/5.16.2-ZEN1-1-ZEN/X86_64/B78E96AFF8>) |
+| 109b:5d20 | Hisense          | Spreadtrum Phone                     | 1     | rndis_host | [0B0D4DD23F](<Notebook/Lenovo/ThinkPad/ThinkPad T410 25376B8/485335904AC5/OPENMANDRIVA-4.2/5.10.14-DESKTOP-1OMV4002/X86_64/0B0D4DD23F>) |
+| 15a9:0046 | Gemtek           | 4G Modem                             | 1     | rndis_host | [FBF317133B](<Notebook/Hewlett-Packard/ProBook/ProBook 430 G7/0CBF57A92D3C/GENTOO-2.6/5.4.97-GENTOO/X86_64/FBF317133B>) |
+| 17ef:782f | Lenovo           | Lenovo                               | 1     | rndis_host | [0504CFE362](<Notebook/Toshiba/Satellite/Satellite L30/BA7F43548DE3/LUBUNTU-16.04/4.15.0-122-GENERIC/I686/0504CFE362>) |
+| 17ef:7be6 | Lenovo           | Android                              | 1     | rndis_host | [750413CC61](<Notebook/Hewlett-Packard/Pavilion/Pavilion Notebook/5FDE39FB664C/UBUNTU-20.10/5.8.0-38-GENERIC/X86_64/750413CC61>) |
+| 17ef:7c4b | Lenovo           | TB-X606V                             | 1     | rndis_host | [0A0EFAE900](<Notebook/Lenovo/IdeaPad/IdeaPad S130-11IGM 81J1/08CAE23D9A5F/UBUNTU-20.04/5.8.0-36-GENERIC/X86_64/0A0EFAE900>) |
+| 1949:2005 | Lab126           | KFONWI                               | 1     | rndis_host | [76A0BC48DE](<Notebook/EVOO/EV-C-116/EV-C-116-7/9247BDBA8842/POP!_OS-21.10/5.15.5-76051505-GENERIC/X86_64/76A0BC48DE>) |
+| 19d2:1611 | ZTE WCDMA Tec... | Yota Router                          | 1     | rndis_host | [452CA6FFA5](<Notebook/Lenovo/ThinkBook/ThinkBook 15-IML 20RW/6DB03E0B0BDB/KUBUNTU-18.04/5.4.0-42-GENERIC/X86_64/452CA6FFA5>) |
+| 1ecb:02e2 | AMTelecom        | JMR1140                              | 1     | rndis_host | [7F0F38DC4D](<Notebook/Hewlett-Packard/15/15/877B5258AEB7/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/7F0F38DC4D>) |
+| 201e:2498 | Android          | Android                              | 1     | rndis_host | [4DE0326F3B](<Notebook/Hewlett-Packard/14/14/750014A68789/XUBUNTU-20.04/5.4.0-37-GENERIC/X86_64/4DE0326F3B>) |
+| 271d:3004 | SPA Condor El... | Allure M1                            | 1     | rndis_host | [A82ABD4F97](<Notebook/Hewlett-Packard/ProBook/ProBook 4520s/CBBAE4D8728B/POP!_OS-20.04/5.4.0-7626-GENERIC/X86_64/A82ABD4F97>) |
+| 271d:90b5 | Android          |                                      | 1     | rndis_host | [65345FD237](<Notebook/Dell/Vostro/Vostro 3446/7DFCED0850F3/UBUNTU-18.10/4.18.0-10-GENERIC/X86_64/65345FD237>) |
+| 2916:f00e | Android          | Android                              | 1     | rndis_host | [79937B3042](<Notebook/ASUSTek Computer/K70/K70AD/97CFA934FB2D/ROSA-2014.1/4.9.20-NRJ-DESKTOP-1ROSA-X86_64/X86_64/79937B3042>) |
+| 2970:0004 | Fly              | Evo Chic 3                           | 1     | rndis_host | [A83B92D6B0](<Notebook/ASUSTek Computer/X550/X550CC/54DB25C4CC2D/UBUNTU-18.04/4.18.0-25-GENERIC/X86_64/A83B92D6B0>) |
+| 2a45:0004 | Meizu            | m3                                   | 1     | rndis_host | [0D99884DCD](<Notebook/MSI/GF63/GF63 Thin 9SCSR/22FF6191199B/UBUNTU-20.04/5.8.0-50-GENERIC/X86_64/0D99884DCD>) |
+| 2a96:2005 | MediaTek         | Plume L2 Pro                         | 1     | rndis_host | [0EB94C0487](<Notebook/Lenovo/ThinkPad/ThinkPad X201 3680AQ1/0CA2487E503C/BLACKPANTHER-OS-18.1/4.18.16-DESKTOP-1BP/X86_64/0EB94C0487>) |
+| 2ae5:9024 | Fairphone        | FP2                                  | 1     | rndis_host | [8200C0DCD0](<Notebook/Purism/Librem/Librem 15 v3/C91D57611E81/DEBIAN-10/4.19.0-6-AMD64/X86_64/8200C0DCD0>) |
 
 ### Xbox (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 0c12:880a | Zeroplus   | Pelican Eclipse PL-2023      | 1     |            | C5BABDFD30 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 0c12:880a | Zeroplus         | Pelican Eclipse PL-2023              | 1     |            | [C5BABDFD30](<Notebook/Lenovo/ThinkPad/ThinkPad T420s 4174EK3/9DE5DCA43A62/LINUXMINT-20/5.4.0-48-GENERIC/X86_64/C5BABDFD30>) |
 
 ### Others (USB)
 
-| ID        | MFG        | Name                         | Count | Driver     | Probe      |
-|-----------|------------|------------------------------|-------|------------|------------|
-| 27c6:538d | Shenzhe... | FingerPrint                  | 196   | usbfs      | DA5E2F59CC |
-| 06cb:00da | Synaptics  |                              | 131   |            | 8A34D739FD |
-| 05ac:8300 | Apple      | Built-in iSight (no firmw... | 129   | isight_... | 157AD8CCE8 |
-| 2109:0100 | VIA Labs   | USB 2.0 BILLBOARD            | 96    |            | 394501AB2E |
-| 04f3:0c00 | Elan Mi... | ELAN:ARM-M4                  | 91    |            | D49638CC86 |
-| 27c6:521d | Shenzhe... | FingerPrint                  | 90    |            | 3F7A2585FE |
-| 04f3:0c4b | Elan Mi... | ELAN:Fingerprint             | 84    |            | 04852A18CB |
-| 2109:0102 | VIA Labs   | USB 2.0 BILLBOARD            | 83    |            | 2AD271E81F |
-| 1c7a:0575 | LighTun... | EgisTec EH575                | 78    |            | 84B1C46F3C |
-| 04f3:0c4d | Elan Mi... | ELAN:Fingerprint             | 61    | usbfs      | 4826046B43 |
-| 04f3:0c4f | Elan Mi... | ELAN:Fingerprint             | 53    |            | EFDB9E6636 |
-| 06cb:00d8 | Synaptics  | Synaptics FS7604 Touch Fi... | 48    |            | 4B05A606A3 |
-| 2109:8818 | VIA Labs   | USB Billboard Device         | 42    |            | C625F457A9 |
-| 1d5c:7102 | Fresco ... | Generic Billboard Device     | 38    |            | F4B1EFA60F |
-| 2109:0103 | VIA Labs   | USB 2.0 BILLBOARD            | 38    |            | F5385D6B10 |
-| 413c:b080 | Dell       | DA20 Adapter                 | 35    |            | 27F4B2412F |
-| 03f0:046b | Hewlett... | USB-C Dock G5                | 31    | usbhid     | F8024B89D4 |
-| 22b8:2e82 | Motorol... | XT1541 [Moto G 3rd Gen]      | 31    | usbfs      | 289EF53C29 |
-| 17e9:6015 | Display... | ThinkPad Hybrid USB-C wit... | 28    | snd_usb... | E16A18BC8B |
-| 27c6:639c | Shenzhe... | Goodix USB2.0 MISC           | 27    |            | 6A3D844D87 |
-| 17ef:3074 | Lenovo     | USB Billboard                | 23    | usbhid     | E9A8FB1275 |
-| 27c6:63ac | Shenzhe... | Goodix USB2.0 MISC           | 23    |            | 27F4B2412F |
-| 04f3:0c5e | Elan Mi... | ELAN:ARM-M4                  | 22    |            | A92566EE89 |
-| 06cb:00f0 | Synaptics  |                              | 22    |            | E0D6EAFD15 |
-| 17e9:4301 | Display... | USB3.0 UHD HDMI Adapter      | 22    | snd_usb... | 0A048A009D |
-| 17ef:3060 | Lenovo     | ThinkPad Dock                | 22    | usbhid     | E18202A558 |
-| 2109:8887 | VIA Labs   | 40AN                         | 20    |            | 8E49254C26 |
-| 04f3:0c63 | Elan Mi... | ELAN:Fingerprint             | 19    |            | A3AB1B4A11 |
-| 0bda:5442 | Realtek... | Cable Matters USB-C Video... | 19    |            | C4FB03E194 |
-| 06cb:00fc | Synaptics  |                              | 18    |            | 67AB68B5F3 |
-| 03f0:0667 | Hewlett... | WinUSB                       | 17    | usbhid     | 532CB2DFC8 |
-| 2109:0101 | VIA Labs   | USB 2.0 BILLBOARD            | 17    |            | DC7E454319 |
-| 04f3:0c58 | Elan Mi... | ELAN:Fingerprint             | 16    |            | 0540C800C7 |
-| 0bda:2171 | Realtek... | BillBoard Device             | 16    |            | E40947106A |
-| 04f3:0c4c | Elan Mi... | ELAN:ARM-M4                  | 15    |            | 12EBE0B845 |
-| 05ac:1460 | Apple      | USB-C Digital AV Multipor... | 15    |            | BB1AA448FD |
-| 10a5:9200 | FPC        | Sensor Controller            | 15    |            | F5385D6B10 |
-| 04f3:0c11 | Elan Mi... | ELAN:Fingerprint             | 14    | usbfs      | 6F4B47BF70 |
-| 04b4:5217 | Cypress... | Billboard Device             | 13    | usbhid     | 711E2E3960 |
-| 054c:01bb | Sony       | FeliCa S320 [PaSoRi]         | 13    |            | D32BF9DCED |
-| 17e9:4300 | Display... | FM122 CRD                    | 13    | snd_usb... | 8A52B831D7 |
-| 22b8:2e76 | Motorol... | moto g power (2021)          | 13    | usbfs      | BB9C65380C |
-| 22b8:2e81 | Motorol... | Moto G (5) Plus              | 13    | usbfs      | DBBB8B3026 |
-| 0835:2a01 | Action ... | BILLBOARD DEVICE             | 12    |            | A5F10AE10B |
-| 0bda:5400 | Realtek... | BillBoard Device             | 12    |            | 68149F9864 |
-| 27c6:609c | Shenzhe... | Goodix USB2.0 MISC           | 12    |            | 04DB6C2222 |
-| 0451:ace1 | Texas I... | TPS65983B                    | 11    |            | 50385DDE8B |
-| 0711:5601 | Magic C... | USB Station                  | 11    |            | 80FB4514C5 |
-| 0e8d:201c | MediaTek   | TECNO SPARK 3 Pro            | 11    | usbfs      | 6C9393A9D6 |
-| 298d:2033 | Next Bi... | NB-2033-U                    | 11    |            | 54FB1101F1 |
-| 03f0:484a | Hewlett... | Elite USB-C Dock G4          | 10    | usbhid     | A5547E4146 |
-| 04f3:0c57 | Elan Mi... | ELAN:Fingerprint             | 10    |            | 41FF21E8E8 |
-| 0af0:7601 | Option     | Globetrotter MO40x 3G Mod... | 10    | hso        | F677E6E910 |
-| 0b05:7772 | ASUSTek... | Zenfone GO (ZB500KL) (MTP... | 10    | usbfs      | E184C22F47 |
-| 1d5c:5100 | Fresco ... | PD3.0 USB-C Device           | 10    |            | 2DBA12AE97 |
-| 04f3:0c02 | Elan Mi... | ELAN:Fingerprint             | 9     |            | F93DF3C890 |
-| 0bda:2172 | Realtek... | BillBoard Device             | 9     |            | 2C2443341F |
-| 0bda:5450 | Realtek... | BillBoard Device             | 9     |            | E2057E68DD |
-| 25a4:9311 | USB C      | Video Adaptor                | 9     |            | 961F066ACF |
-| 05ac:1281 | Apple      | Apple Mobile Device [Reco... | 8     | apple_m... | 5D2627B08E |
-| 17ef:3076 | Lenovo     | USB Billboard                | 8     | usbhid     | D9923E15E0 |
-| 27c6:6a94 | Shenzhe... | USB2.0 MISC                  | 8     |            | 23AA2C83AE |
-| 291a:8338 | Anker      | USB-C Hub Device             | 8     |            | AB55E1ADE6 |
-| 03f0:0867 | Hewlett... | USB-C Universal Dock         | 7     |            | 66A9B21300 |
-| 0483:3748 | STMicro... | ST-LINK/V2                   | 7     |            | C240BB52A0 |
-| 06cb:0088 | Synaptics  | Kensington Fingerprint Ke... | 7     |            | 0B2F645654 |
-| 1366:0101 | SEGGER     | J-Link PLUS                  | 7     |            | 8F4E694845 |
-| 17e9:600a | Display... | HP USB-C Universal Dock      | 7     | snd_usb... | 66A9B21300 |
-| 187f:0600 | Siano M... | MDTV Receiver                | 7     | smsusb     | 28BAC734C5 |
-| 04b4:00fa | Cypress... | USBSC MFG                    | 6     |            | 57A8F079ED |
-| 04f3:0c6e | Elan Mi... | ELAN:Fingerprint             | 6     |            | E197AB281B |
-| 04f3:0c72 | Elan Mi... | ELAN:Fingerprint             | 6     |            | BE8229729B |
-| 07ca:a301 | AVerMed... | AVerTV                       | 6     |            | 3584A13AE5 |
-| 0af0:7211 | Option     | Globetrotter HSUPA Modem     | 6     | hso        | 093806C2AA |
-| 17ef:a354 | Lenovo     | Billboard Device             | 6     | usbhid     | 3371828DB5 |
-| 1fc9:5002 | NXP Sem... | PTN5002 [Startech VGA/DVI... | 6     |            | D3DF8704C4 |
-| 2717:ff08 | Xiaomi     | Redmi Note 3 (ADB Interface) | 6     | usbfs      | BA473CD8FD |
-| 2a70:4ee7 | OnePlus... | ONEPLUS A3010 [OnePlus 3T... | 6     |            | 2EA0168954 |
-| 2f0a:0201 | Pixelauth  | Security Caliburn by         | 6     |            | 115230AA47 |
-| 0451:82ee | Texas I... |                              | 5     |            | 603CCDFB84 |
-| 0483:374b | STMicro... | ST-LINK/V2.1                 | 5     | cdc_acm    | 97A8F28916 |
-| 04f3:0c07 | Elan Mi... | ELAN:Fingerprint             | 5     |            | 4580D3FD1E |
-| 04f3:0c3d | Elan Mi... | ELAN:Fingerprint             | 5     |            | 2B4A1A20D9 |
-| 06cb:00dc | Synaptics  |                              | 5     |            | 3D398D4B58 |
-| 10a5:0007 | FPC        | Sensor Controller            | 5     |            | D77B922D69 |
-| 1164:7efd | YUAN Hi... | STK7700D                     | 5     |            | D248A5F049 |
-| 16c0:05dc | Van Ooi... | shared ID for use with li... | 5     |            | E5C076C975 |
-| 17ef:306c | Lenovo     | USB Billboard                | 5     | usbhid     | 89B0B81A64 |
-| 17ef:a360 | Lenovo     | BillBoard Device             | 5     |            | BC90A54EBF |
-| 18d1:d00d | Google     | Xiaomi Mi/Redmi 2 (fastboot) | 5     |            | EE6D9CB25F |
-| 1934:0702 | Feature... | Integrated Consumer Infra... | 5     | mceusb     | 6B1CF875FD |
-| 1b71:3002 | Fushicai   | USBTV007 Video Grabber [E... | 5     | usbtv      | 754F01B23A |
-| 291a:8352 | Anker      | Anker                        | 5     |            | 711F2B9E6D |
-| 9636:9311 | USB C      | Video Adaptor                | 5     |            | BE4FEBC53B |
-| 0424:2740 | Microch... | Hub Controller               | 4     |            | D294B3F8F1 |
-| 0451:16ae | Texas I... | CC2531 Dongle                | 4     |            | 00FB0F909E |
-| 0451:3421 | Texas I... | USB Billboard Device         | 4     | usbhid     | 3D348A9D2A |
-| 04c5:125a | Fujitsu    | PalmSecure Sensor Device ... | 4     |            | AD8FB39682 |
-| 04da:250e | Panason... | Qualcomm Gobi 2000           | 4     |            | 80CFD698D1 |
-| 050d:092a | Belkin ... | USB 2.0 BILLBOARD            | 4     |            | 08C766B957 |
+| ID        | MFG              | Name                                 | Count | Driver     | Probe |
+|-----------|------------------|--------------------------------------|-------|------------|-------|
+| 27c6:538d | Shenzhen Good... | FingerPrint                          | 243   | usbfs      | [E99C4341CA](<Notebook/Dell/Inspiron/Inspiron 5409/34EA23E7BE6D/UBUNTU-21.10/5.13.0-35-GENERIC/X86_64/E99C4341CA>) |
+| 06cb:00da | Synaptics        |                                      | 153   |            | [E60367127E](<Notebook/Lenovo/ThinkPad/ThinkPad E15 Gen 2 20TD0047TX/57ECBA36E9D1/PARDUS-21.1/5.10.0-11-AMD64/X86_64/E60367127E>) |
+| 05ac:8300 | Apple            | Built-in iSight (no firmware loaded) | 146   | isight_... | [6563E94C95](<Notebook/Apple/MacBookPro1/MacBookPro1,1/FA34E0181F6E/UBUNTU-16.04/4.4.0-210-GENERIC/I686/6563E94C95>) |
+| 04f3:0c00 | Elan Microele... | ELAN:ARM-M4                          | 144   |            | [441FEBF3E4](<Notebook/Hewlett-Packard/Pavilion/Pavilion Laptop 15-eh0xxx/1129AA12D1F6/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/441FEBF3E4>) |
+| 04f3:0c4b | Elan Microele... | ELAN:Fingerprint                     | 141   |            | [ADF7B6C95E](<Notebook/Lenovo/ThinkBook/ThinkBook 16p Gen 2 20YM/EEB2C11874B5/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/ADF7B6C95E>) |
+| 27c6:521d | Shenzhen Good... | FingerPrint                          | 129   |            | [589486D805](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/26E6E3C2710A/UBUNTU-21.10/5.15.27-051527-GENERIC/X86_64/589486D805>) |
+| 1c7a:0575 | LighTuning Te... | EgisTec EH575                        | 125   |            | [160A8DD021](<Notebook/Acer/Swift/Swift SF314-42/56AB0D1FBC59/MANJARO-21.2.4/5.15.25-1-MANJARO/X86_64/160A8DD021>) |
+| 2109:0100 | VIA Labs         | USB 2.0 BILLBOARD                    | 121   |            | [86DC3583CA](<Notebook/ASUSTek Computer/UX430/UX430UNR/F0783EEF957D/POP!_OS-21.10/5.16.11-76051611-GENERIC/X86_64/86DC3583CA>) |
+| 2109:0102 | VIA Labs         | USB 2.0 BILLBOARD                    | 119   |            | [7FB04E6C7D](<Notebook/Hewlett-Packard/ENVY/ENVY Laptop 13-ah0xxx/F04CCFFD1E74/ARCH/5.16.11-ARCH1-2/X86_64/7FB04E6C7D>) |
+| 04f3:0c4f | Elan Microele... | ELAN:Fingerprint                     | 73    |            | [F2E18241DA](<Notebook/Acer/Aspire/Aspire A515-45/C62E3C765A09/KUBUNTU-21.10/5.13.0-30-GENERIC/X86_64/F2E18241DA>) |
+| 27c6:639c | Shenzhen Good... | Goodix USB2.0 MISC                   | 71    |            | [6BB35842EB](<Notebook/Dell/Inspiron/Inspiron 5515/9CE692824631/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/6BB35842EB>) |
+| 04f3:0c4d | Elan Microele... | ELAN:Fingerprint                     | 68    | usbfs      | [F9C159A911](<Notebook/Lenovo/IdeaPad/IdeaPad 5 14ITL05 82FE/2FE5B5B1B2A5/PARROT-4.11/5.15.0-15PARROT1-AMD64/X86_64/F9C159A911>) |
+| 27c6:63ac | Shenzhen Good... | Goodix USB2.0 MISC                   | 57    |            | [7147FE2D5C](<Notebook/Dell/XPS/XPS 17 9710/61BA964399B6/MX-21/5.15.25-XANMOD1/X86_64/7147FE2D5C>) |
+| 06cb:00d8 | Synaptics        | Synaptics FS7604 Touch Fingerprin... | 55    |            | [BF3D7B3F6C](<Notebook/Hewlett-Packard/ProBook/ProBook 440 G7/A963325455B9/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/BF3D7B3F6C>) |
+| 413c:b080 | Dell             | DA20 Adapter                         | 54    |            | [851BADDE2E](<Notebook/Dell/XPS/XPS 17 9710/61BA964399B6/MX-21/5.10.0-11-AMD64/X86_64/851BADDE2E>) |
+| 2109:8818 | VIA Labs         | USB Billboard Device                 | 51    |            | [21B4F724B8](<Notebook/Lenovo/ThinkPad/ThinkPad T490s 20NYS7K91U/7B4445885F31/FEDORA-34/5.15.16-100.FC34.X86_64/X86_64/21B4F724B8>) |
+| 2109:0103 | VIA Labs         | USB 2.0 BILLBOARD                    | 50    |            | [755854F7D4](<Notebook/Lenovo/ThinkPad/ThinkPad T480 20L5A07TAU/0D8B48BD5BBE/ORACLESERVER-8.5/5.4.17-2136.304.4.3.EL8UEK.X86_64/X86_64/755854F7D4>) |
+| 1d5c:7102 | Fresco Logic     | Generic Billboard Device             | 47    |            | [C39FE1A3E3](<Notebook/Dell/XPS/XPS 15 9550/0E22532FC18F/ARCH/5.16.11-ARCH1-2/X86_64/C39FE1A3E3>) |
+| 03f0:046b | Hewlett-Packard  | USB-C Dock G5                        | 42    | usbhid     | [30565CB2F9](<Notebook/Hewlett-Packard/EliteBook/EliteBook 840 G7 Notebook PC/F50B1CFDFE6F/UBUNTU-20.04/5.14.0-1024-OEM/X86_64/30565CB2F9>) |
+| 17e9:6015 | DisplayLink      | ThinkPad Hybrid USB-C with USB-A ... | 37    | snd_usb... | [33CE116B8A](<Notebook/Lenovo/ThinkBook/ThinkBook 16p Gen 2 20YM/4DAF13AEA8CC/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/33CE116B8A>) |
+| 22b8:2e82 | Motorola PCS     | XT1541 [Moto G 3rd Gen]              | 36    | usbfs      | [6238D2D306](<Notebook/Dell/Latitude/Latitude E6520/9C8C45585CB5/KDE-NEON-20.04/5.13.0-30-GENERIC/X86_64/6238D2D306>) |
+| 27c6:609c | Shenzhen Good... | Goodix USB2.0 MISC                   | 35    |            | [8902C057FB](<Notebook/Framework/Laptop/Laptop/AE45C9A110C9/GENTOO-2.8/5.16.9-GENTOO-DIST/X86_64/8902C057FB>) |
+| 04f3:0c5e | Elan Microele... | ELAN:ARM-M4                          | 34    |            | [C4B3104959](<Notebook/Hewlett-Packard/ProBook/ProBook 450 G8 Notebook PC/3CDAF7AE76CA/LINUXMINT-20.3/5.4.0-100-GENERIC/X86_64/C4B3104959>) |
+| 2109:8887 | VIA Labs         | 40AN                                 | 30    |            | [48C1285EEC](<Notebook/Lenovo/ThinkPad/ThinkPad P53 20QN0011IV/90C24C7500E3/FEDORA-35/5.16.11-200.FC35.X86_64/X86_64/48C1285EEC>) |
+| 17ef:3074 | Lenovo           | USB Billboard                        | 28    | usbhid     | [ABED4A5863](<Notebook/Lenovo/ThinkPad/ThinkPad T14 Gen 2i 20W0000FRT/03B6D51ED61F/UBUNTU-21.10/5.13.0-30-GENERIC/X86_64/ABED4A5863>) |
+| 04f3:0c63 | Elan Microele... | ELAN:Fingerprint                     | 27    |            | [E58EB70913](<Notebook/TUXEDO/InfinityBook/InfinityBook S 15 Gen6/50A21C660953/UBUNTU-BUDGIE-20.04/5.13.0-10027-TUXEDO/X86_64/E58EB70913>) |
+| 17e9:4301 | DisplayLink      | USB3 to HDMI                         | 26    | snd_usb... | [2F136D5BF5](<Notebook/Lenovo/ThinkPad/ThinkPad E480 20KN002YPH/61077ED80EDE/UBUNTU-20.04/5.13.0-35-GENERIC/X86_64/2F136D5BF5>) |
+| 06cb:00fc | Synaptics        |                                      | 24    |            | [84689BB51A](<Notebook/Lenovo/ThinkPad/ThinkPad X1 Carbon Gen 9 20XW005GRT/EFFF06284015/FEDORA-34/5.15.12-100.FC34.X86_64/X86_64/84689BB51A>) |
+| 10a5:9200 | FPC              | Sensor Controller                    | 24    |            | [6ED1FE66DB](<Notebook/Timi/RedmiBook/RedmiBook Pro 15/676E427F5995/UBUNTU-20.04/5.13.0-27-GENERIC/X86_64/6ED1FE66DB>) |
+| 17ef:3060 | Lenovo           | Billboard Device                     | 23    | usbhid     | [95FF70277E](<Notebook/ASUSTek Computer/ROG/ROG Zephyrus G14 GA401QM_GA401QM/4E4A8BB16FF0/POP!_OS-21.10/5.15.23-76051523-GENERIC/X86_64/95FF70277E>) |
+| 04f3:0c4c | Elan Microele... | ELAN:ARM-M4                          | 22    |            | [E4D3CF0EDD](<Notebook/Hewlett-Packard/ENVY/ENVY Laptop 14-eb1xxx/763D3F558660/UBUNTU-21.10/5.13.0-28-GENERIC/X86_64/E4D3CF0EDD>) |
+| 04f3:0c58 | Elan Microele... | ELAN:Fingerprint                     | 20    |            | [DA54DF3FD4](<Notebook/Lenovo/IdeaPad/IdeaPad 5 15ARE05 81YQ/29962A14536A/ELEMENTARY-6.1/5.15.24-051524-GENERIC/X86_64/DA54DF3FD4>) |
+| 2109:0101 | VIA Labs         | USB 2.0 BILLBOARD                    | 20    |            | [32022A8232](<Notebook/Lenovo/ThinkPad/ThinkPad P15 Gen 1 20SUS04P17/D564E65E1937/FEDORA-35/5.16.7-200.FC35.X86_64/X86_64/32022A8232>) |
+| 03f0:0667 | Hewlett-Packard  | WinUSB                               | 19    | usbhid     | [41AC7EFFBE](<Notebook/Hewlett-Packard/ZBook/ZBook 15 G6/10E50F1DF495/UBUNTU-18.04/5.4.0-104-GENERIC/X86_64/41AC7EFFBE>) |
+| 0bda:2171 | Realtek Semic... | BillBoard Device                     | 19    |            | [87F30F494F](<Notebook/Acer/TravelMate/TravelMate P214-53/FF73E4AE35C9/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/87F30F494F>) |
+| 0bda:5442 | Realtek Semic... | Cable Matters USB-C Video Cable      | 19    |            | [C4FB03E194](<Notebook/Dell/XPS/XPS 15 7590/AE71CEA93F92/KDE-NEON-20.04/5.11.0-34-GENERIC/X86_64/C4FB03E194>) |
+| 04f3:0c11 | Elan Microele... | ELAN:Fingerprint                     | 18    | usbfs      | [08B488B969](<Notebook/Gigabyte Technology/AERO/AERO 17 KC/957C4D53C299/UBUNTU-21.10/5.13.0-32-GENERIC/X86_64/08B488B969>) |
+| 05ac:1460 | Apple            | USB-C Digital AV Multiport Adapter   | 18    |            | [D46FBE1D5F](<Notebook/Dell/Precision/Precision 3561/6EFCA0D45A41/XUBUNTU-20.04/5.13.0-1029-OEM/X86_64/D46FBE1D5F>) |
+| 25a4:9311 | USB C            | Video Adaptor                        | 18    |            | [5DA52FB35A](<Notebook/Dell/Inspiron/Inspiron 7501/0E5AC24FDDFB/LINUXMINT-20.3/5.13.0-30-GENERIC/X86_64/5DA52FB35A>) |
+| 27c6:6a94 | Shenzhen Good... | Goodix USB2.0 MISC                   | 18    |            | [F4B91CFB92](<Notebook/LG Electronics/16Z90/16Z90P-G.AA56C/A5A66D072F3F/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/F4B91CFB92>) |
+| 22b8:2e76 | Motorola PCS     | Moto C                               | 17    | usbfs      | [EBB68892DC](<Notebook/Acer/Swift/Swift SF314-42/094ABAA189DB/UBUNTU-20.04/5.13.0-30-GENERIC/X86_64/EBB68892DC>) |
+| 04b4:5217 | Cypress Semic... | Billboard Device                     | 16    | usbhid     | [450F779085](<Notebook/Lenovo/ThinkPad/ThinkPad L14 Gen 1 20U6S1JD00/E7077B6DA568/OPENSUSE-20220218/5.16.8-1-DEFAULT/X86_64/450F779085>) |
+| 0bda:5400 | Realtek Semic... | BillBoard Device                     | 16    |            | [95E3F94065](<Notebook/Hewlett-Packard/Pavilion/Pavilion Laptop 15-eg0xxx/D3B90A352F78/UBUNTU-20.04/5.13.0-28-GENERIC/X86_64/95E3F94065>) |
+| 04f3:0c72 | Elan Microele... | ELAN:Fingerprint                     | 15    |            | [1434453FC0](<Notebook/Acer/Swift/Swift SF314-43/59BBE1441C89/ARCH-ROLLING/5.16.10-ARCH1-1/X86_64/1434453FC0>) |
+| 1d5c:5100 | Fresco Logic     | Generic Billboard Device             | 15    |            | [1F5DD04A09](<Notebook/Acer/Aspire/Aspire A514-54/68D104A1738A/FEDORA-35/5.16.8-200.FC35.X86_64/X86_64/1F5DD04A09>) |
+| 04f3:0c6e | Elan Microele... | ELAN:Fingerprint                     | 14    |            | [C697A91A8E](<Notebook/ASUSTek Computer/ROG/ROG Flow X13 GV301QH_GV301QH/E2998FCFF3D9/MANJARO/5.16.11-MANJARO-GD428DA530032/X86_64/C697A91A8E>) |
+| 054c:01bb | Sony             | FeliCa S320 [PaSoRi]                 | 14    |            | [43435578B7](<Notebook/NEC Computers/PC-LL550/PC-LL550RG/B4098BCF730F/ZORIN-16/5.11.0-41-GENERIC/X86_64/43435578B7>) |
+| 298d:2033 | NEXT Biometrics  | NB-2033-U                            | 14    |            | [1D2114C1B6](<Notebook/Fujitsu/LIFEBOOK/LIFEBOOK E5510/3B6ED2364F73/LINUXMINT-20.3/5.4.0-99-GENERIC/X86_64/1D2114C1B6>) |
+| 0451:ace1 | Texas Instrum... | TPS65982                             | 13    |            | [3F09A29186](<Notebook/Wortmann AG/1220663/1220663_1470189/185447910D36/POP!_OS-21.10/5.15.15-76051515-GENERIC/X86_64/3F09A29186>) |
+| 04f3:0c57 | Elan Microele... | ELAN:Fingerprint                     | 13    |            | [3DF622872C](<Notebook/Lenovo/IdeaPad/IdeaPad 3 15ARE05 81W4/0016ED5979B5/KUBUNTU-20.04/5.13.0-28-GENERIC/X86_64/3DF622872C>) |
 
