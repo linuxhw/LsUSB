@@ -1,0 +1,986 @@
+
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.18
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+
+Bus 001 Device 005: ID 0c45:636b Microdia 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass          239 Miscellaneous Device
+  bDeviceSubClass         2 ?
+  bDeviceProtocol         1 Interface Association
+  bMaxPacketSize0        64
+  idVendor           0x0c45 Microdia
+  idProduct          0x636b 
+  bcdDevice            1.00
+  iManufacturer           2 
+  iProduct                1 
+  iSerial                 3 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength         1900
+    bNumInterfaces          4
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              500mA
+    Interface Association:
+      bLength                 8
+      bDescriptorType        11
+      bFirstInterface         0
+      bInterfaceCount         2
+      bFunctionClass         14 Video
+      bFunctionSubClass       3 Video Interface Collection
+      bFunctionProtocol       0 
+      iFunction               5 
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      1 Video Control
+      bInterfaceProtocol      0 
+      iInterface              5 
+      VideoControl Interface Descriptor:
+        bLength                13
+        bDescriptorType        36
+        bDescriptorSubtype      1 (HEADER)
+        bcdUVC               1.00
+        wTotalLength           77
+        dwClockFrequency       15.000000MHz
+        bInCollection           1
+        baInterfaceNr( 0)       1
+      VideoControl Interface Descriptor:
+        bLength                 9
+        bDescriptorType        36
+        bDescriptorSubtype      3 (OUTPUT_TERMINAL)
+        bTerminalID             4
+        wTerminalType      0x0101 USB Streaming
+        bAssocTerminal          0
+        bSourceID               3
+        iTerminal               0 
+      VideoControl Interface Descriptor:
+        bLength                26
+        bDescriptorType        36
+        bDescriptorSubtype      6 (EXTENSION_UNIT)
+        bUnitID                 3
+        guidExtensionCode         {7D9EEE90-4755-1BBF-954E-FF6A21E446D4}
+        bNumControl             8
+        bNrPins                 1
+        baSourceID( 0)          2
+        bControlSize            1
+        bmControls( 0)       0x9f
+        iExtension              0 
+      VideoControl Interface Descriptor:
+        bLength                18
+        bDescriptorType        36
+        bDescriptorSubtype      2 (INPUT_TERMINAL)
+        bTerminalID             1
+        wTerminalType      0x0201 Camera Sensor
+        bAssocTerminal          0
+        iTerminal               0 
+        wObjectiveFocalLengthMin      0
+        wObjectiveFocalLengthMax      0
+        wOcularFocalLength            0
+        bControlSize                  3
+        bmControls           0x000204fe
+          Auto-Exposure Mode
+          Auto-Exposure Priority
+          Exposure Time (Absolute)
+          Exposure Time (Relative)
+          Focus (Absolute)
+          Focus (Relative)
+          Iris (Absolute)
+          Zoom (Relative)
+          Focus, Auto
+      VideoControl Interface Descriptor:
+        bLength                11
+        bDescriptorType        36
+        bDescriptorSubtype      5 (PROCESSING_UNIT)
+      Warning: Descriptor too short
+        bUnitID                 2
+        bSourceID               1
+        wMaxMultiplier          0
+        bControlSize            2
+        bmControls     0x0000177f
+          Brightness
+          Contrast
+          Hue
+          Saturation
+          Sharpness
+          Gamma
+          White Balance Temperature
+          Backlight Compensation
+          Gain
+          Power Line Frequency
+          White Balance Temperature, Auto
+        iProcessing             0 
+        bmVideoStandards     0x6f
+          None
+          NTSC - 525/60
+          PAL - 625/50
+          SECAM - 625/50
+          PAL - 525/60
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0010  1x 16 bytes
+        bInterval               6
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass        14 Video
+      bInterfaceSubClass      2 Video Streaming
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x85  EP 5 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval               1
+        INTERFACE CLASS:  0f 24 01 02 67 06 85 00 04 02 01 01 01 00 00
+        INTERFACE CLASS:  0b 24 06 01 11 00 01 00 00 00 00
+        INTERFACE CLASS:  2e 24 07 01 00 80 07 38 04 00 40 e3 09 00 40 70 31 4d 4a 3f 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 02 00 00 05 d0 02 00 00 65 04 00 00 f9 15 4d 22 1c 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 03 00 c0 03 1c 02 00 d0 78 02 00 10 5c 0c 4d d4 0f 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 04 00 50 03 e0 01 00 e0 f0 01 00 60 b4 09 4d 6e 0c 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 05 00 20 03 58 02 00 f0 49 02 00 b0 71 0b 4d a8 0e 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 06 00 80 02 e0 01 00 00 77 01 00 00 53 07 4d 62 09 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 07 00 80 02 90 01 00 80 38 01 00 80 1a 06 4d d2 07 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 08 00 80 02 68 01 00 40 19 01 00 40 7e 05 4d 0a 07 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 09 00 e0 01 0e 01 00 34 9e 00 00 04 17 03 cd f6 03 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 0a 00 a8 01 f0 00 00 38 7c 00 00 18 6d 02 4d 1d 03 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 0b 00 68 01 b4 00 00 1a 4f 00 00 82 8b 01 8d fc 01 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 0c 00 60 01 20 01 00 c0 7b 00 00 c0 6a 02 4d 1a 03 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 0d 00 40 01 f0 00 00 c0 5d 00 00 c0 d4 01 4d 5a 02 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 0e 00 40 01 b4 00 00 50 46 00 00 90 5f 01 4d c4 01 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 0f 00 b0 00 90 00 00 f0 1e 00 00 b0 9a 00 4d c8 00 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 10 00 a0 00 78 00 00 70 17 00 00 30 75 00 4d 98 00 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 07 11 00 a0 00 5a 00 00 94 11 00 00 e4 57 00 cd 72 00 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  22 24 03 00 07 80 07 38 04 00 05 d0 02 20 03 58 02 80 02 e0 01 80 02 68 01 40 01 f0 00 40 01 b4 00 00
+        INTERFACE CLASS:  1b 24 04 02 11 59 55 59 32 00 00 10 00 80 00 00 aa 00 38 9b 71 10 01 00 00 00 00
+        INTERFACE CLASS:  1e 24 05 01 00 80 07 38 04 00 40 e3 09 00 40 e3 09 00 48 3f 00 80 84 1e 00 01 80 84 1e 00
+        INTERFACE CLASS:  22 24 05 02 00 00 05 d0 02 00 00 65 04 00 00 ca 08 00 20 1c 00 40 42 0f 00 02 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2a 24 05 03 00 c0 03 1c 02 00 d0 78 02 00 40 e3 09 00 d2 0f 00 20 a1 07 00 04 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 04 00 50 03 e0 01 00 e0 f0 01 00 60 b4 09 00 6c 0c 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2a 24 05 05 00 20 03 58 02 00 f0 49 02 00 c0 27 09 00 a6 0e 00 20 a1 07 00 04 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 06 00 80 02 e0 01 00 00 77 01 00 00 53 07 00 60 09 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 07 00 80 02 90 01 00 80 38 01 00 80 1a 06 00 d0 07 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 08 00 80 02 68 01 00 40 19 01 00 40 7e 05 00 08 07 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 09 00 e0 01 0e 01 00 34 9e 00 00 04 17 03 80 f4 03 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 0a 00 a8 01 f0 00 00 38 7c 00 00 18 6d 02 00 1b 03 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 0b 00 68 01 b4 00 00 1a 4f 00 00 82 8b 01 40 fa 01 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 0c 00 60 01 20 01 00 c0 7b 00 00 c0 6a 02 00 18 03 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 0d 00 40 01 f0 00 00 c0 5d 00 00 c0 d4 01 00 58 02 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 0e 00 40 01 b4 00 00 50 46 00 00 90 5f 01 00 c2 01 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 0f 00 b0 00 90 00 00 f0 1e 00 00 b0 9a 00 00 c6 00 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 10 00 a0 00 78 00 00 70 17 00 00 30 75 00 00 96 00 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  2e 24 05 11 00 a0 00 5a 00 00 94 11 00 00 e4 57 00 80 70 00 00 80 1a 06 00 05 80 1a 06 00 20 a1 07 00 2a 2c 0a 00 40 42 0f 00 80 84 1e 00
+        INTERFACE CLASS:  12 24 03 00 03 80 07 38 04 00 05 d0 02 80 02 e0 01 00
+        INTERFACE CLASS:  06 24 0d 01 01 04
+    Interface Association:
+      bLength                 8
+      bDescriptorType        11
+      bFirstInterface         2
+      bInterfaceCount         2
+      bFunctionClass          1 Audio
+      bFunctionSubClass       0 
+      bFunctionProtocol       0 
+      iFunction               4 
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        2
+      bAlternateSetting       0
+      bNumEndpoints           0
+      bInterfaceClass         1 Audio
+      bInterfaceSubClass      1 Control Device
+      bInterfaceProtocol      0 
+      iInterface              4 
+      AudioControl Interface Descriptor:
+        bLength                 9
+        bDescriptorType        36
+        bDescriptorSubtype      1 (HEADER)
+        bcdADC               1.00
+        wTotalLength           43
+        bInCollection           1
+        baInterfaceNr( 0)       3
+      AudioControl Interface Descriptor:
+        bLength                12
+        bDescriptorType        36
+        bDescriptorSubtype      2 (INPUT_TERMINAL)
+        bTerminalID             1
+        wTerminalType      0x0201 Microphone
+        bAssocTerminal          0
+        bNrChannels             2
+        wChannelConfig     0x0000
+        iChannelNames           0 
+        iTerminal               0 
+      AudioControl Interface Descriptor:
+        bLength                13
+        bDescriptorType        36
+        bDescriptorSubtype      6 (FEATURE_UNIT)
+        bUnitID                 2
+        bSourceID               1
+        bControlSize            2
+        bmaControls( 0)      0x01
+        bmaControls( 0)      0x00
+          Mute Control
+        bmaControls( 1)      0x02
+        bmaControls( 1)      0x00
+          Volume Control
+        bmaControls( 2)      0x02
+        bmaControls( 2)      0x00
+          Volume Control
+        iFeature                0 
+      AudioControl Interface Descriptor:
+        bLength                 9
+        bDescriptorType        36
+        bDescriptorSubtype      3 (OUTPUT_TERMINAL)
+        bTerminalID             3
+        wTerminalType      0x0101 USB Streaming
+        bAssocTerminal          0
+        bSourceID               2
+        iTerminal               0 
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        3
+      bAlternateSetting       0
+      bNumEndpoints           0
+      bInterfaceClass         1 Audio
+      bInterfaceSubClass      2 Streaming
+      bInterfaceProtocol      0 
+      iInterface              4 
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        3
+      bAlternateSetting       1
+      bNumEndpoints           1
+      bInterfaceClass         1 Audio
+      bInterfaceSubClass      2 Streaming
+      bInterfaceProtocol      0 
+      iInterface              4 
+      AudioStreaming Interface Descriptor:
+        bLength                 7
+        bDescriptorType        36
+        bDescriptorSubtype      1 (AS_GENERAL)
+        bTerminalLink           3
+        bDelay                  1 frames
+        wFormatTag              1 PCM
+      AudioStreaming Interface Descriptor:
+        bLength                29
+        bDescriptorType        36
+        bDescriptorSubtype      2 (FORMAT_TYPE)
+        bFormatType             1 (FORMAT_TYPE_I)
+        bNrChannels             2
+        bSubframeSize           2
+        bBitResolution         16
+        bSamFreqType            7 Discrete
+        tSamFreq[ 0]         8000
+        tSamFreq[ 1]        11025
+        tSamFreq[ 2]        16000
+        tSamFreq[ 3]        22050
+        tSamFreq[ 4]        24000
+        tSamFreq[ 5]        44100
+        tSamFreq[ 6]        48000
+      Endpoint Descriptor:
+        bLength                 9
+        bDescriptorType         5
+        bEndpointAddress     0x84  EP 4 IN
+        bmAttributes            5
+          Transfer Type            Isochronous
+          Synch Type               Asynchronous
+          Usage Type               Data
+        wMaxPacketSize     0x00c0  1x 192 bytes
+        bInterval               4
+        bRefresh                0
+        bSynchAddress           0
+        AudioControl Endpoint Descriptor:
+          bLength                 7
+          bDescriptorType        37
+          bDescriptorSubtype      1 (EP_GENERAL)
+          bmAttributes         0x01
+            Sampling Frequency
+          bLockDelayUnits         0 Undefined
+          wLockDelay              0 Undefined
+
+Bus 004 Device 002: ID 1bcf:08b8 Sunplus Innovation Technology Inc. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x1bcf Sunplus Innovation Technology Inc.
+  idProduct          0x08b8 
+  bcdDevice            1.00
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           59
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              500mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      2 Mouse
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.00
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      64
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0006  1x 6 bytes
+        bInterval               2
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 No Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.00
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     154
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval               2
+
+Bus 003 Device 002: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass          224 Wireless
+  bDeviceSubClass         1 Radio Frequency
+  bDeviceProtocol         1 Bluetooth
+  bMaxPacketSize0        64
+  idVendor           0x0a12 Cambridge Silicon Radio, Ltd
+  idProduct          0x0001 Bluetooth Dongle (HCI mode)
+  bcdDevice           88.91
+  iManufacturer           0 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength          177
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           3
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0010  1x 16 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       1
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       2
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       3
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0019  1x 25 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0019  1x 25 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       4
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0021  1x 33 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0021  1x 33 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       5
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0031  1x 49 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0031  1x 49 bytes
+        bInterval               1
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.18
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+
+Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.18
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+
+Bus 004 Device 003: ID 413c:2003 Dell Computer Corp. Keyboard SK-8115
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x413c Dell Computer Corp.
+  idProduct          0x2003 Keyboard SK-8115
+  bcdDevice            1.00
+  iManufacturer           1 
+  iProduct                2 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           59
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xa0
+      (Bus Powered)
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      1 Boot Interface Subclass
+      bInterfaceProtocol      1 Keyboard
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength      65
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 No Subclass
+      bInterfaceProtocol      0 None
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength     135
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              10
+
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.18
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
+
+Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 Unused
+  bDeviceProtocol         0 Full speed (or root) hub
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0001 1.1 root hub
+  bcdDevice            5.18
+  iManufacturer           3 
+  iProduct                2 
+  iSerial                 1 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           25
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 Unused
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0002  1x 2 bytes
+        bInterval             255
