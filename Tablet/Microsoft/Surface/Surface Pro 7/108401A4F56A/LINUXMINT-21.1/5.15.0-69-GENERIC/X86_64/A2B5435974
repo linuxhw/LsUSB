@@ -1,0 +1,841 @@
+
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0003 3.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-69-generic xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x001f
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              12
+  bDescriptorType      42
+  nNbrPorts             6
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       50 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay             0 nano seconds
+  DeviceRemovable    0x40
+ Hub Port Status:
+   Port 1: 0000.02a0 lowspeed L1
+   Port 2: 0000.02a0 lowspeed L1
+   Port 3: 0000.02a0 lowspeed L1
+   Port 4: 0000.02a0 lowspeed L1
+   Port 5: 0000.02a0 lowspeed L1
+   Port 6: 0000.02a0 lowspeed L1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x005b
+  bNumDeviceCaps          2
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x02
+      Latency Tolerance Messages (LTM) Supported
+    wSpeedsSupported   0x0008
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat          10 micro seconds
+    bU2DevExitLat         160 micro seconds
+  SuperSpeedPlus USB Device Capability:
+    bLength                76
+    bDescriptorType        16
+    bDevCapabilityType     10
+    bmAttributes         0x000000ef
+      Sublink Speed Attribute count 15
+      Sublink Speed ID count 7
+    wFunctionalitySupport   0x1106
+    bmSublinkSpeedAttr[0]   0x00050034
+      Speed Attribute ID: 4 5Gb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[1]   0x000500b4
+      Speed Attribute ID: 4 5Gb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[2]   0x000a4035
+      Speed Attribute ID: 5 10Gb/s Symmetric RX SuperSpeedPlus
+    bmSublinkSpeedAttr[3]   0x000a40b5
+      Speed Attribute ID: 5 10Gb/s Symmetric TX SuperSpeedPlus
+    bmSublinkSpeedAttr[4]   0x00e00026
+      Speed Attribute ID: 6 224Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[5]   0x00e000a6
+      Speed Attribute ID: 6 224Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[6]   0x00c00027
+      Speed Attribute ID: 7 192Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[7]   0x00c000a7
+      Speed Attribute ID: 7 192Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[8]   0x00800028
+      Speed Attribute ID: 8 128Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[9]   0x008000a8
+      Speed Attribute ID: 8 128Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[10]   0x00b10029
+      Speed Attribute ID: 9 177Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[11]   0x00b100a9
+      Speed Attribute ID: 9 177Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[12]   0x0063002a
+      Speed Attribute ID: 10 99Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[13]   0x006300aa
+      Speed Attribute ID: 10 99Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[14]   0x00c6002b
+      Speed Attribute ID: 11 198Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[15]   0x00c600ab
+      Speed Attribute ID: 11 198Mb/s Symmetric TX SuperSpeed
+Device Status:     0x0001
+  Self Powered
+
+Bus 003 Device 002: ID 045e:09c0 Microsoft Corp. Surface Type Cover
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.10
+  bDeviceClass            0 
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  idVendor           0x045e Microsoft Corp.
+  idProduct          0x09c0 Surface Type Cover
+  bcdDevice            0.07
+  iManufacturer           1 Microsoft
+  iProduct                2 Surface Type Cover
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0029
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          2 Surface Type Cover
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.11
+          bCountryCode            0 Not supported
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength    1057
+         Report Descriptors: 
+           ** UNAVAILABLE **
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x0021
+  bNumDeviceCaps          1
+  Platform Device Capability:
+    bLength                28
+    bDescriptorType        16
+    bDevCapabilityType      5
+    bReserved               0
+    PlatformCapabilityUUID    {1E003760-CFCE-A57D-6792-F65ECDE09F3D}
+    CapabilityData[0]    0x00
+    CapabilityData[1]    0x00
+    CapabilityData[2]    0x03
+    CapabilityData[3]    0x06
+    CapabilityData[4]    0x8e
+    CapabilityData[5]    0x00
+    CapabilityData[6]    0x0f
+    CapabilityData[7]    0x00
+Device Status:     0x0003
+  Self Powered
+  Remote Wakeup Enabled
+
+Bus 003 Device 004: ID 090c:1000 Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.) Flash Drive
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            0 
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  idVendor           0x090c Silicon Motion, Inc. - Taiwan (formerly Feiya Technology Corp.)
+  idProduct          0x1000 Flash Drive
+  bcdDevice           11.00
+  iManufacturer           1 General
+  iProduct                2 USB Flash Disk
+  iSerial                 3 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0020
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              300mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass         8 Mass Storage
+      bInterfaceSubClass      6 SCSI
+      bInterfaceProtocol     80 Bulk-Only
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval             255
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0200  1x 512 bytes
+        bInterval             255
+Device Qualifier (for other device speed):
+  bLength                10
+  bDescriptorType         6
+  bcdUSB               2.00
+  bDeviceClass            0 
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  bNumConfigurations      1
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 003 Device 003: ID 8087:0026 Intel Corp. AX201 Bluetooth
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.01
+  bDeviceClass          224 Wireless
+  bDeviceSubClass         1 Radio Frequency
+  bDeviceProtocol         1 Bluetooth
+  bMaxPacketSize0        64
+  idVendor           0x8087 Intel Corp.
+  idProduct          0x0026 AX201 Bluetooth
+  bcdDevice            0.02
+  iManufacturer           0 
+  iProduct                0 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x00c8
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           3
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       1
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       2
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       3
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0019  1x 25 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0019  1x 25 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       4
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0021  1x 33 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0021  1x 33 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       5
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0031  1x 49 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0031  1x 49 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       6
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x003f  1x 63 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x003f  1x 63 bytes
+        bInterval               1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x000c
+  bNumDeviceCaps          1
+  USB 2.0 Extension Device Capability:
+    bLength                 7
+    bDescriptorType        16
+    bDevCapabilityType      2
+    bmAttributes   0x0000040e
+      BESL Link Power Management (LPM) Supported
+    BESL value     1024 us 
+Device Status:     0x0001
+  Self Powered
+
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-69-generic xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength              11
+  bDescriptorType      41
+  nNbrPorts            12
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+    TT think time 8 FS bits
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00 0x00
+  PortPwrCtrlMask    0xff 0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0503 highspeed power enable connect
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+   Port 5: 0000.0100 power
+   Port 6: 0000.0100 power
+   Port 7: 0000.0100 power
+   Port 8: 0000.0103 power enable connect
+   Port 9: 0000.0100 power
+   Port 10: 0000.0103 power enable connect
+   Port 11: 0000.0100 power
+   Port 12: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0003 3.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-69-generic xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x001f
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              12
+  bDescriptorType      42
+  nNbrPorts             4
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       50 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay             0 nano seconds
+  DeviceRemovable    0x00
+ Hub Port Status:
+   Port 1: 0000.02a0 lowspeed L1
+   Port 2: 0000.02a0 lowspeed L1
+   Port 3: 0000.02a0 lowspeed L1
+   Port 4: 0000.02a0 lowspeed L1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x005b
+  bNumDeviceCaps          2
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x02
+      Latency Tolerance Messages (LTM) Supported
+    wSpeedsSupported   0x0008
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat          10 micro seconds
+    bU2DevExitLat         160 micro seconds
+  SuperSpeedPlus USB Device Capability:
+    bLength                76
+    bDescriptorType        16
+    bDevCapabilityType     10
+    bmAttributes         0x000000ef
+      Sublink Speed Attribute count 15
+      Sublink Speed ID count 7
+    wFunctionalitySupport   0x1106
+    bmSublinkSpeedAttr[0]   0x00050034
+      Speed Attribute ID: 4 5Gb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[1]   0x000500b4
+      Speed Attribute ID: 4 5Gb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[2]   0x000a4035
+      Speed Attribute ID: 5 10Gb/s Symmetric RX SuperSpeedPlus
+    bmSublinkSpeedAttr[3]   0x000a40b5
+      Speed Attribute ID: 5 10Gb/s Symmetric TX SuperSpeedPlus
+    bmSublinkSpeedAttr[4]   0x00e00026
+      Speed Attribute ID: 6 224Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[5]   0x00e000a6
+      Speed Attribute ID: 6 224Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[6]   0x00c00027
+      Speed Attribute ID: 7 192Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[7]   0x00c000a7
+      Speed Attribute ID: 7 192Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[8]   0x00800028
+      Speed Attribute ID: 8 128Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[9]   0x008000a8
+      Speed Attribute ID: 8 128Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[10]   0x00b10029
+      Speed Attribute ID: 9 177Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[11]   0x00b100a9
+      Speed Attribute ID: 9 177Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[12]   0x0063002a
+      Speed Attribute ID: 10 99Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[13]   0x006300aa
+      Speed Attribute ID: 10 99Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[14]   0x00c6002b
+      Speed Attribute ID: 11 198Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[15]   0x00c600ab
+      Speed Attribute ID: 11 198Mb/s Symmetric TX SuperSpeed
+Device Status:     0x0001
+  Self Powered
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-69-generic xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             1
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+    TT think time 8 FS bits
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
