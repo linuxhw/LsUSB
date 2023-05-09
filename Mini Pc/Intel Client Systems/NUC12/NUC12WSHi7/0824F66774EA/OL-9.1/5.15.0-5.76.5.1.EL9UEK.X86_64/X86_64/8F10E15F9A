@@ -1,0 +1,1601 @@
+
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0003 3.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-5.76.5.1.el9uek.x86_64 xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x001f
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              12
+  bDescriptorType      42
+  nNbrPorts             4
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       50 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay             0 nano seconds
+  DeviceRemovable    0x10
+ Hub Port Status:
+   Port 1: 0000.02a0 lowspeed L1
+   Port 2: 0000.02a0 lowspeed L1
+   Port 3: 0000.02a0 lowspeed L1
+   Port 4: 0000.02a0 lowspeed L1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x005b
+  bNumDeviceCaps          2
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x02
+      Latency Tolerance Messages (LTM) Supported
+    wSpeedsSupported   0x0008
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat          10 micro seconds
+    bU2DevExitLat         160 micro seconds
+  SuperSpeedPlus USB Device Capability:
+    bLength                76
+    bDescriptorType        16
+    bDevCapabilityType     10
+    bmAttributes         0x000000ef
+      Sublink Speed Attribute count 15
+      Sublink Speed ID count 7
+    wFunctionalitySupport   0x1106
+    bmSublinkSpeedAttr[0]   0x00050034
+      Speed Attribute ID: 4 5Gb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[1]   0x000500b4
+      Speed Attribute ID: 4 5Gb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[2]   0x000a4035
+      Speed Attribute ID: 5 10Gb/s Symmetric RX SuperSpeedPlus
+    bmSublinkSpeedAttr[3]   0x000a40b5
+      Speed Attribute ID: 5 10Gb/s Symmetric TX SuperSpeedPlus
+    bmSublinkSpeedAttr[4]   0x00e00026
+      Speed Attribute ID: 6 224Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[5]   0x00e000a6
+      Speed Attribute ID: 6 224Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[6]   0x00c00027
+      Speed Attribute ID: 7 192Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[7]   0x00c000a7
+      Speed Attribute ID: 7 192Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[8]   0x00800028
+      Speed Attribute ID: 8 128Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[9]   0x008000a8
+      Speed Attribute ID: 8 128Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[10]   0x00b10029
+      Speed Attribute ID: 9 177Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[11]   0x00b100a9
+      Speed Attribute ID: 9 177Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[12]   0x0063002a
+      Speed Attribute ID: 10 99Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[13]   0x006300aa
+      Speed Attribute ID: 10 99Mb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[14]   0x00c6002b
+      Speed Attribute ID: 11 198Mb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[15]   0x00c600ab
+      Speed Attribute ID: 11 198Mb/s Symmetric TX SuperSpeed
+Device Status:     0x0001
+  Self Powered
+
+Bus 003 Device 002: ID 051d:0002 American Power Conversion Uninterruptible Power Supply
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0         8
+  idVendor           0x051d American Power Conversion
+  idProduct          0x0002 Uninterruptible Power Supply
+  bcdDevice            1.06
+  iManufacturer           3 American Power Conversion
+  iProduct                1 Back-UPS XS 1400U  FW:926.T2 .I USB FW:T2 
+  iSerial                 2 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0022
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower               24mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         3 Human Interface Device
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
+          bDescriptorType        33
+          bcdHID               1.10
+          bCountryCode           33 US
+          bNumDescriptors         1
+          bDescriptorType        34 Report
+          wDescriptorLength    1028
+          Report Descriptor: (length is 1028)
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x04 ] 4
+                            UPS
+            Item(Main  ): Collection, data= [ 0x01 ] 1
+                            Application
+            Item(Local ): Usage, data= [ 0x24 ] 36
+                            Power Summary
+            Item(Main  ): Collection, data= [ 0x00 ] 0
+                            Physical
+            Item(Global): Report ID, data= [ 0x01 ] 1
+            Item(Local ): Usage, data= [ 0xfe ] 254
+                            iProduct
+            Item(Local ): String Index, data= [ 0x01 ] 1
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Report Count, data= [ 0x01 ] 1
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x02 ] 2
+            Item(Local ): Usage, data= [ 0xff ] 255
+                            iSerialNumber
+            Item(Local ): String Index, data= [ 0x02 ] 2
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x03 ] 3
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x89 ] 137
+                            iDeviceChemistry
+            Item(Local ): String Index, data= [ 0x04 ] 4
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x04 ] 4
+            Item(Local ): Usage, data= [ 0x8f ] 143
+                            iOEMInformation
+            Item(Local ): String Index, data= [ 0x03 ] 3
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x05 ] 5
+            Item(Local ): Usage, data= [ 0x8b ] 139
+                            Rechargeable
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x06 ] 6
+            Item(Local ): Usage, data= [ 0x44 ] 68
+                            Charging
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x44 ] 68
+                            Charging
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x45 ] 69
+                            Discharging
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x45 ] 69
+                            Discharging
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x60 ] 96
+                            (null)
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x60 ] 96
+                            (null)
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x07 ] 7
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x85 ] 133
+                            Manufacturer Date
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x08 ] 8
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x40 ] 64
+                            Config Voltage
+            Item(Global): Unit, data= [ 0x21 0xd1 0xf0 0x00 ] 15782177
+                            System: SI Linear, Unit: Centimeter^2*Gram*Seconds^-3*Ampere^-1
+            Item(Global): Unit Exponent, data= [ 0x05 ] 5
+                            Unit Exponent: 5
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x09 ] 9
+            Item(Local ): Usage, data= [ 0x30 ] 48
+                            Voltage
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x0a ] 10
+            Item(Local ): Usage, data= [ 0xfd ] 253
+                            iManufacturer
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Global): Unit Exponent, data= [ 0x00 ] 0
+                            Unit Exponent: 0
+            Item(Local ): String Index, data= [ 0x03 ] 3
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x0b ] 11
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x2c ] 44
+                            Capacity Mode
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x0c ] 12
+            Item(Local ): Usage, data= [ 0x66 ] 102
+                            Remaining Capacity
+            Item(Global): Logical Maximum, data= [ 0x64 ] 100
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x66 ] 102
+                            Remaining Capacity
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x68 ] 104
+                            Run Time To Empty
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Global): Unit, data= [ 0x01 0x10 ] 4097
+                            System: SI Linear, Unit: Seconds
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x68 ] 104
+                            Run Time To Empty
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x0d ] 13
+            Item(Local ): Usage, data= [ 0x83 ] 131
+                            Design Capacity
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0x64 ] 100
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x0e ] 14
+            Item(Local ): Usage, data= [ 0x67 ] 103
+                            Full Charge Capacity
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x0f ] 15
+            Item(Local ): Usage, data= [ 0x8c ] 140
+                            Warning Capacity Limit
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x10 ] 16
+            Item(Local ): Usage, data= [ 0x8e ] 142
+                            Capacity Granularity 2
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x11 ] 17
+            Item(Local ): Usage, data= [ 0x29 ] 41
+                            Remaining Capacity Limit
+            Item(Global): Logical Minimum, data= [ 0x01 ] 1
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x12 ] 18
+            Item(Local ): Usage, data= [ 0x8d ] 141
+                            Capacity Granularity 1
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x13 ] 19
+            Item(Local ): Usage, data= [ 0xd0 ] 208
+                            AC Present
+            Item(Global): Logical Maximum, data= [ 0x01 ] 1
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd0 ] 208
+                            AC Present
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x14 ] 20
+            Item(Local ): Usage, data= [ 0x42 ] 66
+                            Below Remaining Capacity Limit
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x42 ] 66
+                            Below Remaining Capacity Limit
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x69 ] 105
+                            Shutdown  Imminent
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x69 ] 105
+                            Shutdown  Imminent
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x15 ] 21
+            Item(Local ): Usage, data= [ 0x57 ] 87
+                            Delay Before Shutdown
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Minimum, data= [ 0xff 0xff ] 65535
+            Item(Global): Logical Maximum, data= [ 0xff 0x7f ] 32767
+            Item(Global): Unit, data= [ 0x01 0x10 ] 4097
+                            System: SI Linear, Unit: Seconds
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x02 ] 2
+                            Present Status
+            Item(Main  ): Collection, data= [ 0x02 ] 2
+                            Logical
+            Item(Global): Report ID, data= [ 0x16 ] 22
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Global): Report Size, data= [ 0x01 ] 1
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0x01 ] 1
+            Item(Local ): Usage, data= [ 0x44 ] 68
+                            Charging
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x44 ] 68
+                            Charging
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x45 ] 69
+                            Discharging
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x45 ] 69
+                            Discharging
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd0 ] 208
+                            AC Present
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd0 ] 208
+                            AC Present
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd1 ] 209
+                            Battery Present
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd1 ] 209
+                            Battery Present
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x42 ] 66
+                            Below Remaining Capacity Limit
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x42 ] 66
+                            Below Remaining Capacity Limit
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x69 ] 105
+                            Shutdown  Imminent
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x69 ] 105
+                            Shutdown  Imminent
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x43 ] 67
+                            Remaining Time Limit Expired
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x43 ] 67
+                            Remaining Time Limit Expired
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x73 ] 115
+                            Communication Lost
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x73 ] 115
+                            Communication Lost
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x4b ] 75
+                            Need Replacement
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x4b ] 75
+                            Need Replacement
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x65 ] 101
+                            Overload
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x65 ] 101
+                            Overload
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0xdb ] 219
+                            Voltage Not Regulated
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xdb ] 219
+                            Voltage Not Regulated
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report Count, data= [ 0x15 ] 21
+            Item(Main  ): Input, data= [ 0x01 ] 1
+                            Constant Array Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Main  ): Feature, data= [ 0x01 ] 1
+                            Constant Array Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+            Item(Global): Report ID, data= [ 0x17 ] 23
+            Item(Local ): Usage, data= [ 0x2a ] 42
+                            Remaining Time Limit
+            Item(Global): Report Count, data= [ 0x01 ] 1
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Global): Unit, data= [ 0x01 0x10 ] 4097
+                            System: SI Linear, Unit: Seconds
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x18 ] 24
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x5a ] 90
+                            Audible Alarm Control
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Minimum, data= [ 0x01 ] 1
+            Item(Global): Logical Maximum, data= [ 0x03 ] 3
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+            Item(Local ): Usage, data= [ 0x12 ] 18
+                            Battery
+            Item(Main  ): Collection, data= [ 0x00 ] 0
+                            Physical
+            Item(Global): Report ID, data= [ 0x1c ] 28
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x16 ] 22
+                            (null)
+            Item(Global): Report Size, data= [ 0x18 ] 24
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0xff 0x00 ] 16777215
+            Item(Main  ): Feature, data= [ 0xa2 0x01 ] 418
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Buffered Bytes
+            Item(Global): Report ID, data= [ 0x20 ] 32
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x85 ] 133
+                            Manufacturer Date
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x21 ] 33
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x58 ] 88
+                            Test
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0x06 ] 6
+            Item(Main  ): Input, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x58 ] 88
+                            Test
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x22 ] 34
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x66 ] 102
+                            Remaining Capacity
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Maximum, data= [ 0x64 ] 100
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x23 ] 35
+            Item(Local ): Usage, data= [ 0x68 ] 104
+                            Run Time To Empty
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Global): Unit, data= [ 0x01 0x10 ] 4097
+                            System: SI Linear, Unit: Seconds
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x24 ] 36
+            Item(Local ): Usage, data= [ 0x2a ] 42
+                            Remaining Time Limit
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x25 ] 37
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x40 ] 64
+                            Config Voltage
+            Item(Global): Unit, data= [ 0x21 0xd1 0xf0 0x00 ] 15782177
+                            System: SI Linear, Unit: Centimeter^2*Gram*Seconds^-3*Ampere^-1
+            Item(Global): Unit Exponent, data= [ 0x05 ] 5
+                            Unit Exponent: 5
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x26 ] 38
+            Item(Local ): Usage, data= [ 0x30 ] 48
+                            Voltage
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x27 ] 39
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x24 ] 36
+                            (null)
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Minimum, data= [ 0xe5 0x00 ] 229
+            Item(Global): Logical Maximum, data= [ 0xfe 0x00 ] 254
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Global): Unit Exponent, data= [ 0x00 ] 0
+                            Unit Exponent: 0
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x28 ] 40
+            Item(Local ): Usage, data= [ 0x18 ] 24
+                            (null)
+            Item(Global): Report Size, data= [ 0x20 ] 32
+            Item(Global): Logical Minimum, data= [ 0x01 0x00 0x00 0x80 ] -2147483647
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0xff 0x7f ] 2147483647
+            Item(Main  ): Feature, data= [ 0xa2 0x01 ] 418
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Buffered Bytes
+            Item(Main  ): End Collection, data=none
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x1a ] 26
+                            Input
+            Item(Main  ): Collection, data= [ 0x00 ] 0
+                            Physical
+            Item(Global): Report ID, data= [ 0x30 ] 48
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x40 ] 64
+                            Config Voltage
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Global): Unit, data= [ 0x21 0xd1 0xf0 0x00 ] 15782177
+                            System: SI Linear, Unit: Centimeter^2*Gram*Seconds^-3*Ampere^-1
+            Item(Global): Unit Exponent, data= [ 0x07 ] 7
+                            Unit Exponent: 7
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x31 ] 49
+            Item(Local ): Usage, data= [ 0x30 ] 48
+                            Voltage
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x32 ] 50
+            Item(Local ): Usage, data= [ 0x53 ] 83
+                            Low Voltage Transfer
+            Item(Global): Logical Minimum, data= [ 0x96 0x00 ] 150
+            Item(Global): Logical Maximum, data= [ 0xa0 0x00 ] 160
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x33 ] 51
+            Item(Local ): Usage, data= [ 0x54 ] 84
+                            High Voltage Transfer
+            Item(Global): Logical Minimum, data= [ 0x18 0x01 ] 280
+            Item(Global): Logical Maximum, data= [ 0x18 0x01 ] 280
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x34 ] 52
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x24 ] 36
+                            (null)
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Minimum, data= [ 0x73 ] 115
+            Item(Global): Logical Maximum, data= [ 0x8d 0x00 ] 141
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Global): Unit Exponent, data= [ 0x00 ] 0
+                            Unit Exponent: 0
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x35 ] 53
+            Item(Local ): Usage, data= [ 0x61 ] 97
+                            (null)
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0x02 ] 2
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x36 ] 54
+            Item(Local ): Usage, data= [ 0x52 ] 82
+                            (null)
+            Item(Global): Logical Maximum, data= [ 0x0d ] 13
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+            Item(Local ): Usage, data= [ 0x05 ] 5
+                            (null)
+            Item(Main  ): Collection, data= [ 0x00 ] 0
+                            Physical
+            Item(Global): Report ID, data= [ 0x40 ] 64
+            Item(Local ): Usage, data= [ 0x7c ] 124
+                            (null)
+            Item(Global): Logical Maximum, data= [ 0x01 ] 1
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x41 ] 65
+            Item(Local ): Usage, data= [ 0x7d ] 125
+                            (null)
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Minimum, data= [ 0xff 0xff ] 65535
+            Item(Global): Logical Maximum, data= [ 0xff 0x7f ] 32767
+            Item(Global): Unit, data= [ 0x01 0x10 ] 4097
+                            System: SI Linear, Unit: Seconds
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x42 ] 66
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x57 ] 87
+                            Delay Before Shutdown
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+            Item(Local ): Usage, data= [ 0x16 ] 22
+                            Power Converter
+            Item(Main  ): Collection, data= [ 0x00 ] 0
+                            Physical
+            Item(Global): Report ID, data= [ 0x50 ] 80
+            Item(Local ): Usage, data= [ 0x35 ] 53
+                            Percent Load
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0x64 ] 100
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x51 ] 81
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x24 ] 36
+                            (null)
+            Item(Global): Logical Minimum, data= [ 0x73 ] 115
+            Item(Global): Logical Maximum, data= [ 0x8d 0x00 ] 141
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Global): Unit, data= [ 0x21 0xd1 ] 53537
+                            System: SI Linear, Unit: Centimeter^2*Gram*Seconds^-3
+            Item(Global): Unit Exponent, data= [ 0x07 ] 7
+                            Unit Exponent: 7
+            Item(Global): Report ID, data= [ 0x52 ] 82
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x44 ] 68
+                            Config Active Power
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x01 ] 1
+                            (null)
+            Item(Main  ): Collection, data= [ 0x00 ] 0
+                            Physical
+            Item(Global): Report ID, data= [ 0x60 ] 96
+            Item(Local ): Usage, data= [ 0x23 ] 35
+                            (null)
+            Item(Global): Unit, data= [ 0x00 ] 0
+                            System: None, Unit: (None)
+            Item(Global): Unit Exponent, data= [ 0x00 ] 0
+                            Unit Exponent: 0
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x61 ] 97
+            Item(Local ): Usage, data= [ 0x26 ] 38
+                            (null)
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Logical Minimum, data= [ 0x92 0x00 ] 146
+            Item(Global): Logical Maximum, data= [ 0x9a 0x00 ] 154
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x62 ] 98
+            Item(Local ): Usage, data= [ 0x25 ] 37
+                            (null)
+            Item(Global): Report Size, data= [ 0x20 ] 32
+            Item(Global): Logical Minimum, data= [ 0x01 0x00 0x00 0x80 ] -2147483647
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0xff 0x7f ] 2147483647
+            Item(Main  ): Feature, data= [ 0xa2 0x01 ] 418
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Buffered Bytes
+            Item(Main  ): End Collection, data=none
+            Item(Global): Report ID, data= [ 0x7f ] 127
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0xfe ] 254
+                            iProduct
+            Item(Local ): String Index, data= [ 0x05 ] 5
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Report Count, data= [ 0x01 ] 1
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0xff 0x00 ] 255
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x7e ] 126
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x42 ] 66
+                            (null)
+            Item(Local ): String Index, data= [ 0x06 ] 6
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x7d ] 125
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0xff ] 255
+                            iSerialNumber
+            Item(Local ): String Index, data= [ 0x02 ] 2
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x7c ] 124
+            Item(Local ): Usage, data= [ 0xfd ] 253
+                            iManufacturer
+            Item(Local ): String Index, data= [ 0x03 ] 3
+            Item(Main  ): Feature, data= [ 0x22 ] 34
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x7b ] 123
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x85 ] 133
+                            Manufacturer Date
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x02 ] 2
+                            Present Status
+            Item(Main  ): Collection, data= [ 0x02 ] 2
+                            Logical
+            Item(Global): Report ID, data= [ 0x7a ] 122
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x44 ] 68
+                            Charging
+            Item(Global): Report Size, data= [ 0x01 ] 1
+            Item(Global): Logical Maximum, data= [ 0x01 ] 1
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x45 ] 69
+                            Discharging
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd0 ] 208
+                            AC Present
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0xd1 ] 209
+                            Battery Present
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Local ): Usage, data= [ 0x42 ] 66
+                            Below Remaining Capacity Limit
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x69 ] 105
+                            Shutdown  Imminent
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x43 ] 67
+                            Remaining Time Limit Expired
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x73 ] 115
+                            Communication Lost
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0x4b ] 75
+                            Need Replacement
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x65 ] 101
+                            Overload
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Usage Page, data= [ 0x85 ] 133
+                            Battery System Page
+            Item(Local ): Usage, data= [ 0xdb ] 219
+                            Voltage Not Regulated
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report Count, data= [ 0x15 ] 21
+            Item(Main  ): Feature, data= [ 0x01 ] 1
+                            Constant Array Absolute No_Wrap Linear
+                            Preferred_State No_Null_Position Non_Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+            Item(Global): Report ID, data= [ 0x79 ] 121
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x72 ] 114
+                            (null)
+            Item(Global): Report Size, data= [ 0x08 ] 8
+            Item(Global): Report Count, data= [ 0x01 ] 1
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x78 ] 120
+            Item(Global): Usage Page, data= [ 0x84 ] 132
+                            Power Device Page
+            Item(Local ): Usage, data= [ 0x5a ] 90
+                            Audible Alarm Control
+            Item(Global): Logical Minimum, data= [ 0x01 ] 1
+            Item(Global): Logical Maximum, data= [ 0x03 ] 3
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x75 ] 117
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x29 ] 41
+                            (null)
+            Item(Global): Report Size, data= [ 0x10 ] 16
+            Item(Global): Logical Minimum, data= [ 0x00 ] 0
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0x00 0x00 ] 65535
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Global): Report ID, data= [ 0x74 ] 116
+            Item(Global): Usage Page, data= [ 0x86 0xff ] 65414
+                            (null)
+            Item(Local ): Usage, data= [ 0x2a ] 42
+                            (null)
+            Item(Global): Report Size, data= [ 0x20 ] 32
+            Item(Global): Logical Minimum, data= [ 0x01 0x00 0x00 0x80 ] -2147483647
+            Item(Global): Logical Maximum, data= [ 0xff 0xff 0xff 0x7f ] 2147483647
+            Item(Main  ): Feature, data= [ 0xa2 ] 162
+                            Data Variable Absolute No_Wrap Linear
+                            No_Preferred_State No_Null_Position Volatile Bitfield
+            Item(Main  ): End Collection, data=none
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0006  1x 6 bytes
+        bInterval              10
+Device Status:     0x0000
+  (Bus Powered)
+
+Bus 003 Device 003: ID 8087:0033 Intel Corp. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.01
+  bDeviceClass          224 Wireless
+  bDeviceSubClass         1 Radio Frequency
+  bDeviceProtocol         1 Bluetooth
+  bMaxPacketSize0        64
+  idVendor           0x8087 Intel Corp.
+  idProduct          0x0033 
+  bcdDevice            0.00
+  iManufacturer           0 
+  iProduct                0 
+  iSerial                 0 
+  --
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x00c8
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower              100mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           3
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0000  1x 0 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       1
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0009  1x 9 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       2
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0011  1x 17 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       3
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0019  1x 25 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0019  1x 25 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       4
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0021  1x 33 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0021  1x 33 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       5
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0031  1x 49 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0031  1x 49 bytes
+        bInterval               1
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       6
+      bNumEndpoints           2
+      bInterfaceClass       224 Wireless
+      bInterfaceSubClass      1 Radio Frequency
+      bInterfaceProtocol      1 Bluetooth
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x03  EP 3 OUT
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x003f  1x 63 bytes
+        bInterval               1
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x83  EP 3 IN
+        bmAttributes            1
+          Transfer Type            Isochronous
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x003f  1x 63 bytes
+        bInterval               1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x000c
+  bNumDeviceCaps          1
+  USB 2.0 Extension Device Capability:
+    bLength                 7
+    bDescriptorType        16
+    bDevCapabilityType      2
+    bmAttributes   0x0000040e
+      BESL Link Power Management (LPM) Supported
+    BESL value     1024 us 
+Device Status:     0x0001
+  Self Powered
+
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-5.76.5.1.el9uek.x86_64 xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength              11
+  bDescriptorType      41
+  nNbrPorts            12
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+    TT think time 8 FS bits
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x10 0x07
+  PortPwrCtrlMask    0xff 0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+   Port 3: 0000.0303 lowspeed power enable connect
+   Port 4: 0000.0100 power
+   Port 5: 0000.0100 power
+   Port 6: 0000.0100 power
+   Port 7: 0000.0100 power
+   Port 8: 0000.0100 power
+   Port 9: 0000.0100 power
+   Port 10: 0000.0103 power enable connect
+   Port 11: 0000.0100 power
+   Port 12: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
+
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               3.10
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         3 
+  bMaxPacketSize0         9
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0003 3.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-5.76.5.1.el9uek.x86_64 xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x001f
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+        bMaxBurst               0
+Hub Descriptor:
+  bLength              12
+  bDescriptorType      42
+  nNbrPorts             3
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       50 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  bHubDecLat          0.0 micro seconds
+  wHubDelay             0 nano seconds
+  DeviceRemovable    0x00
+ Hub Port Status:
+   Port 1: 0000.02a0 lowspeed L1
+   Port 2: 0000.02a0 lowspeed L1
+   Port 3: 0000.02a0 lowspeed L1
+Binary Object Store Descriptor:
+  bLength                 5
+  bDescriptorType        15
+  wTotalLength       0x003b
+  bNumDeviceCaps          2
+  SuperSpeed USB Device Capability:
+    bLength                10
+    bDescriptorType        16
+    bDevCapabilityType      3
+    bmAttributes         0x02
+      Latency Tolerance Messages (LTM) Supported
+    wSpeedsSupported   0x0008
+      Device can operate at SuperSpeed (5Gbps)
+    bFunctionalitySupport   1
+      Lowest fully-functional device speed is Full Speed (12Mbps)
+    bU1DevExitLat           0 micro seconds
+    bU2DevExitLat         400 micro seconds
+  SuperSpeedPlus USB Device Capability:
+    bLength                44
+    bDescriptorType        16
+    bDevCapabilityType     10
+    bmAttributes         0x00000067
+      Sublink Speed Attribute count 7
+      Sublink Speed ID count 3
+    wFunctionalitySupport   0x1104
+    bmSublinkSpeedAttr[0]   0x00050034
+      Speed Attribute ID: 4 5Gb/s Symmetric RX SuperSpeed
+    bmSublinkSpeedAttr[1]   0x000500b4
+      Speed Attribute ID: 4 5Gb/s Symmetric TX SuperSpeed
+    bmSublinkSpeedAttr[2]   0x000a4035
+      Speed Attribute ID: 5 10Gb/s Symmetric RX SuperSpeedPlus
+    bmSublinkSpeedAttr[3]   0x000a40b5
+      Speed Attribute ID: 5 10Gb/s Symmetric TX SuperSpeedPlus
+    bmSublinkSpeedAttr[4]   0x00054036
+      Speed Attribute ID: 6 5Gb/s Symmetric RX SuperSpeedPlus
+    bmSublinkSpeedAttr[5]   0x000540b6
+      Speed Attribute ID: 6 5Gb/s Symmetric TX SuperSpeedPlus
+    bmSublinkSpeedAttr[6]   0x000a4037
+      Speed Attribute ID: 7 10Gb/s Symmetric RX SuperSpeedPlus
+    bmSublinkSpeedAttr[7]   0x000a40b7
+      Speed Attribute ID: 7 10Gb/s Symmetric TX SuperSpeedPlus
+Device Status:     0x0001
+  Self Powered
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass            9 Hub
+  bDeviceSubClass         0 
+  bDeviceProtocol         1 Single TT
+  bMaxPacketSize0        64
+  idVendor           0x1d6b Linux Foundation
+  idProduct          0x0002 2.0 root hub
+  bcdDevice            5.15
+  iManufacturer           3 Linux 5.15.0-5.76.5.1.el9uek.x86_64 xhci-hcd
+  iProduct                2 xHCI Host Controller
+  iSerial                 1 --
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x0019
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0xe0
+      Self Powered
+      Remote Wakeup
+    MaxPower                0mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         9 Hub
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 Full speed (or root) hub
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0004  1x 4 bytes
+        bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             1
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+    TT think time 8 FS bits
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
